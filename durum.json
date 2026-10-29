@@ -1,7 +1,7 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-29T15:15:04Z",
+  "son_calisma": "2026-10-29T15:20:13Z",
   "calisma_sayisi": 1,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
@@ -120,12 +120,12 @@
         "Türkiye'den örnekler (kamu, bankacılık, e-ticaret, tarım) — kaynaklı",
         "Haftalık görev: 'Yapay zekâ avı' yönergesi"
       ],
-      "durum": "uretiliyor",
-      "surum": 0,
-      "son_guncelleme": null,
-      "sahip": "20261029T1440Z",
-      "sahip_zamani": "2026-10-29T15:15:12Z",
-      "not": ""
+      "durum": "taslak",
+      "surum": 1,
+      "son_guncelleme": "2026-10-29T15:20:13Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 1: 12 slayt (bir günün yapay zekâ haritası SVG'si, Türkiye örnekleri, doğru/yanlış quizi, Yapay zekâ avı görevi, hafta özeti), 13 kaynaklı not. e-Devlet yapay zekâ destek sisteminin güncel durumu doğrulanamadı."
     },
     {
       "id": "h2-01",
@@ -434,6 +434,10 @@
     {
       "zaman": "2026-10-29T15:15:04Z",
       "ozet": "h1-05: Kısa tarih taslağı yayımlandı (17 arama, 19 kaynak okundu)."
+    },
+    {
+      "zaman": "2026-10-29T15:20:13Z",
+      "ozet": "h1-06: Bugün yapay zekâ nerede taslağı yayımlandı (12 arama, 14 kaynak okundu)."
     }
   ]
 }
