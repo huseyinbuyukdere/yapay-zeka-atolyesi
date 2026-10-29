@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Makineler nasıl öğrenir? · Yapay Zekâ Atölyesi</title>
+  <meta name="description" content="Veri, örüntü, tahmin döngüsü; ses mikseri benzetmesiyle yapay sinir ağı; eğitim ve kullanım farkı; üç öğrenme türü ve önyargının nasıl doğduğu.">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css">
+  <link rel="stylesheet" href="../assets/tema.css">
+  <style>
+    svg text { font-family: inherit; }
+    .ceviri { font-size: 1.15em; line-height: 1.7; }
+  </style>
+</head>
+<body>
+  <div class="altbilgi">Yapay Zekâ Atölyesi · 1. Hafta · Makineler nasıl öğrenir?</div>
+  <div class="reveal">
+    <div class="slides">
+
+      <!-- 1. KAPAK -->
+      <section class="kapak">
+        <div class="cini" aria-hidden="true"></div>
+        <span class="etiket">1. Hafta · 20 dakika</span>
+        <h1>Makineler nasıl öğrenir?</h1>
+        <p class="alt">Bir çocuğa kediyi öğretebiliyorsanız, makine öğrenmesini de anlarsınız.</p>
+        <aside class="notes">
+          Ne söyle: Bir önceki bölümde yapay zekânın çoğunun bir çırak gibi örnekten öğrendiğini söyledik. Şimdi o çırağın kafasının içine bakacağız. Söz veriyorum, tek bir formül görmeyeceksiniz. Elimizde sadece bir çocuk, bir kedi ve bir ses mikseri olacak.
+          Süre: 45 sn.
+          Dikkat: Teknik korkuyu baştan kır: "Formül yok" sözünü yüksek sesle ver.
+        </aside>
+      </section>
+
+      <!-- 2. BÜYÜK SORU -->
+      <section class="soru">
+        <span class="etiket kiremit">Bugünün sorusu</span>
+        <p class="buyuk">Üç yaşındaki bir çocuğa “kedi”yi nasıl öğretirsiniz?</p>
+        <p class="ipucu">Kuralını söyleyebilir misiniz?</p>
+        <aside class="notes">
+          Ne söyle: Bir deneme yapalım. Kediyi bana kurallarla tarif edin. Dört ayaklı... tüylü... kuyruklu... bıyıklı... Peki köpekte de bunlar yok mu? Farkı tam olarak ne? Görüyorsunuz, kuralı yazmak çok zor. Ama hepimiz çocukken kediyi öğrendik. Nasıl?
+          Süre: 1,25 dk.
+          Salona sor: "Kediyi tarif edin." Gelen her özelliğe "köpekte de var mı?" diye karşılık ver.
+          Beklenen cevap: "Göstererek öğrettik." Bu cevap gelince bir sonraki slayta geç.
+        </aside>
+      </section>
+
+      <!-- 3. BENZETME -->
+      <section>
+        <span class="etiket">Benzetme</span>
+        <h2>Kural değil, örnek</h2>
+        <div class="benzetme">
+          <span class="simge" aria-hidden="true">🐱</span>
+          <p>“Bak, kedi.” “Bu da kedi.” “Hayır, o köpek.” Yüzlerce örnek ve birkaç düzeltmeden sonra çocuk hiç görmediği kediyi de tanır.</p>
+        </div>
+        <aside class="notes">
+          Ne söyle: Çocuğa kural anlatmayız; örnek gösteririz. "Bak, kedi." "Bu da kedi." Köpeğe kedi derse "Hayır, o köpek" deriz. Bir süre sonra çocuk hiç görmediği bir kediyi de tanır. Makine öğrenmesi tam olarak budur: Örneklerden ortak işaretleri bulmak ve yeni bir şey görünce tahmin etmek.
+          Süre: 1,5 dk.
+          Dikkat (benzetmenin sınırı): Çocuk birkaç kediyle öğrenir, makine çoğu zaman binlercesini ister. Çocuk kediyi koklar, sever; makine yalnızca ona gösterilen veriyi bilir.
+        </aside>
+      </section>
+
+      <!-- 4. DÖNGÜ -->
+      <section>
+        <h2>Öğrenme döngüsü</h2>
+        <svg role="img" aria-label="Dört adımlı döngü: veri, örüntü, tahmin, geri bildirim; geri bildirimden tekrar veriye dönülür." viewBox="0 0 1000 440" width="1000" height="440">
+          <defs>
+            <marker id="ok" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="var(--murekkep-acik)"/></marker>
+          </defs>
+          <path d="M330 95 L620 95" stroke="var(--murekkep-acik)" stroke-width="5" fill="none" marker-end="url(#ok)"/>
+          <path d="M800 160 L800 270" stroke="var(--murekkep-acik)" stroke-width="5" fill="none" marker-end="url(#ok)"/>
+          <path d="M620 345 L330 345" stroke="var(--murekkep-acik)" stroke-width="5" fill="none" marker-end="url(#ok)"/>
+          <path d="M200 270 L200 160" stroke="var(--murekkep-acik)" stroke-width="5" fill="none" marker-end="url(#ok)"/>
+          <rect x="70" y="40" width="260" height="110" rx="24" fill="var(--turkuaz)"/>
+          <text x="200" y="88" text-anchor="middle" font-size="34" fill="#fff">📚 Veri</text>
+          <text x="200" y="125" text-anchor="middle" font-size="20" fill="#fff">bir sürü kedi fotoğrafı</text>
+          <g class="fragment">
+            <rect x="670" y="40" width="260" height="110" rx="24" fill="var(--altin)"/>
+            <text x="800" y="88" text-anchor="middle" font-size="34" fill="#fff">🔍 Örüntü</text>
+            <text x="800" y="125" text-anchor="middle" font-size="20" fill="#fff">ortak işaretler</text>
+          </g>
+          <g class="fragment">
+            <rect x="670" y="290" width="260" height="110" rx="24" fill="var(--kiremit)"/>
+            <text x="800" y="338" text-anchor="middle" font-size="34" fill="#fff">🔮 Tahmin</text>
+            <text x="800" y="375" text-anchor="middle" font-size="20" fill="#fff">“Bu bir kedi!”</text>
+          </g>
+          <g class="fragment">
+            <rect x="70" y="290" width="260" height="110" rx="24" fill="var(--murekkep-acik)"/>
+            <text x="200" y="338" text-anchor="middle" font-size="30" fill="#fff">✅❌ Geri bildirim</text>
+            <text x="200" y="375" text-anchor="middle" font-size="20" fill="#fff">doğru mu, yanlış mı?</text>
+          </g>
+          <text x="500" y="230" text-anchor="middle" font-size="26" fill="var(--murekkep)" class="fragment">🔁 milyonlarca kez</text>
+        </svg>
+        <aside class="notes">
+          Ne söyle: Makinenin öğrenmesi dört adımlı bir döngü. Önce veri: bir sürü örnek, mesela kedi fotoğrafları. Makine bunlarda ortak işaretleri, yani örüntüleri arar. Sonra yeni bir fotoğraf görünce tahmin yapar: "Bu bir kedi." Ardından geri bildirim gelir: doğru mu, yanlış mı? Yanlışsa kendini biraz düzeltir ve döngü yeniden başlar. Bu döngü milyonlarca kez döner.
+          Süre: 1,5 dk.
+          Dikkat: "Örüntü" kelimesini "ortak işaret" diye tekrar tekrar sadeleştir.
+        </aside>
+      </section>
+
+      <!-- 5. SES MİKSERİ -->
+      <section>
+        <span class="etiket">Benzetme</span>
+        <h2>Yapay sinir ağı: dev bir ses mikseri</h2>
+        <svg role="img" aria-label="Sürgülü düğmeleri olan bir ses mikseri çizimi; her düğme bir ayar. Altta: GPT-3'te yaklaşık 175 milyar ayar vardı." viewBox="0 0 1000 340" width="1000" height="340">
+          <rect x="40" y="20" width="920" height="240" rx="22" fill="var(--kagit-koyu)" stroke="var(--cizgi)" stroke-width="3"/>
+          <g>
+            <line x1="110" y1="50" x2="110" y2="230" stroke="var(--cizgi)" stroke-width="8" stroke-linecap="round"/><rect x="88" y="150" width="44" height="26" rx="6" fill="var(--turkuaz)"/>
+            <line x1="200" y1="50" x2="200" y2="230" stroke="var(--cizgi)" stroke-width="8" stroke-linecap="round"/><rect x="178" y="80" width="44" height="26" rx="6" fill="var(--turkuaz)"/>
+            <line x1="290" y1="50" x2="290" y2="230" stroke="var(--cizgi)" stroke-width="8" stroke-linecap="round"/><rect x="268" y="190" width="44" height="26" rx="6" fill="var(--altin)"/>
+            <line x1="380" y1="50" x2="380" y2="230" stroke="var(--cizgi)" stroke-width="8" stroke-linecap="round"/><rect x="358" y="120" width="44" height="26" rx="6" fill="var(--turkuaz)"/>
+            <line x1="470" y1="50" x2="470" y2="230" stroke="var(--cizgi)" stroke-width="8" stroke-linecap="round"/><rect x="448" y="60" width="44" height="26" rx="6" fill="var(--kiremit)"/>
+            <line x1="560" y1="50" x2="560" y2="230" stroke="var(--cizgi)" stroke-width="8" stroke-linecap="round"/><rect x="538" y="170" width="44" height="26" rx="6" fill="var(--turkuaz)"/>
+            <line x1="650" y1="50" x2="650" y2="230" stroke="var(--cizgi)" stroke-width="8" stroke-linecap="round"/><rect x="628" y="100" width="44" height="26" rx="6" fill="var(--altin)"/>
+            <line x1="740" y1="50" x2="740" y2="230" stroke="var(--cizgi)" stroke-width="8" stroke-linecap="round"/><rect x="718" y="140" width="44" height="26" rx="6" fill="var(--turkuaz)"/>
+            <line x1="830" y1="50" x2="830" y2="230" stroke="var(--cizgi)" stroke-width="8" stroke-linecap="round"/><rect x="808" y="75" width="44" height="26" rx="6" fill="var(--kiremit)"/>
+            <text x="910" y="150" text-anchor="middle" font-size="40" fill="var(--murekkep-acik)">…</text>
+          </g>
+          <text x="500" y="310" text-anchor="middle" font-size="26" fill="var(--murekkep)" class="fragment">Her düğme bir ayar · GPT-3'te (2020) yaklaşık <tspan font-weight="700">175 milyar</tspan> ayar vardı</text>
+        </svg>
+        <aside class="notes">
+          Ne söyle: Peki makine bu ortak işaretleri nerede tutuyor? Bir düğün orkestrasının ses masasını düşünün. Her düğme bir sesi biraz açar ya da kısar; doğru ayarda müzik harika çıkar. Yapay sinir ağı da böyle düğmelerden oluşan dev bir mikser. Bu düğmelere "ağırlık" ya da "ayar" diyoruz. Ne kadar çok mu? 2020'de tanıtılan GPT-3'te yaklaşık 175 milyar ayar vardı. Milyar!
+          Süre: 1,25 dk.
+          Salona sor: "Bir düğün mikserinde kaç düğme vardır sizce?" (Birkaç düzine.) "Bu modelde 175 milyar."
+          Dikkat: 175 milyar sayısı GPT-3'e ait; bugünkü modeller için şirketler çoğu zaman sayı açıklamıyor. Güncel bir model için sayı uydurma.
+        </aside>
+      </section>
+
+      <!-- 6. EĞİTİM ADIMLARI -->
+      <section>
+        <h2>Eğitim = düğmeleri azar azar çevirmek</h2>
+        <ol class="adimlar">
+          <li class="fragment">Bir fotoğraf göster, makine tahmin etsin</li>
+          <li class="fragment">Cevaba bak: Ne kadar yanıldı?</li>
+          <li class="fragment">Bütün düğmeleri <strong>biraz</strong> doğru yöne çevir</li>
+          <li class="fragment">Tekrarla, tekrarla, tekrarla… 🔁</li>
+        </ol>
+        <aside class="notes">
+          Ne söyle: Başlangıçta düğmeler rastgele durur; makine kediye "araba" diyebilir. Eğitim şöyle işler: Bir fotoğraf gösteririz, makine tahmin eder. Doğru cevaba bakarız ve ne kadar yanıldığını ölçeriz. Sonra bütün düğmeleri hatayı biraz azaltacak yönde azıcık çeviririz. Ve bunu milyonlarca kez tekrarlarız. Düğmeleri bir insan çevirmiyor; bunu otomatik bir yöntem yapıyor.
+          Süre: 1,25 dk.
+          Dikkat: "Gradyan", "geri yayılım" gibi terimleri kullanma. Soran olursa: "Bunun matematiksel bir yöntemi var; özü hatayı azaltacak yöne küçük adımlar atmak."
+        </aside>
+      </section>
+
+      <!-- 7. EĞİTİM VE KULLANIM -->
+      <section>
+        <h2>Eğitim ile kullanım farkı</h2>
+        <div class="iki-sutun">
+          <div><h3>🚗 Sürücü kursu = eğitim</h3><ul><li>Bir kez, uzun sürer</li><li>Hata yap, düzelt</li><li>Düğmeler değişir</li></ul></div>
+          <div class="fragment"><h3>🛣️ Araba kullanmak = kullanım</h3><ul><li>Her gün, saniyeler içinde</li><li>Öğrendiğini uygula</li><li>Düğmeler sabit kalır</li></ul></div>
+        </div>
+        <aside class="notes">
+          Ne söyle: Ehliyet almak için aylarca kursa gideriz; hata yaparız, hoca düzeltir. Bu eğitimdir. Ehliyeti aldıktan sonra her gün araba kullanırız ve her seferinde baştan öğrenmeyiz. Yapay zekâda da öyle: Eğitim bir kez yapılır, uzun sürer ve pahalıdır. Siz bir sohbet asistanına soru sorduğunuzda ise eğitilmiş model sadece kullanılır; teknik adı "çıkarım". Bu sırada düğmeler değişmez.
+          Süre: 1,5 dk.
+          Dikkat (benzetmenin sınırı): İnsan araba kullandıkça gelişir; çoğu yapay zekâ modeli kullanım sırasında kendi ayarlarını değiştirmez. Sohbet asistanının sohbeti "hatırlaması" başka bir özellik; 2. haftada konuşacağız.
+        </aside>
+      </section>
+
+      <!-- 8. ÜÇ ÖĞRENME TÜRÜ -->
+      <section>
+        <h2>Üç öğrenme yolu</h2>
+        <div class="kartlar">
+          <div class="kart fragment"><span class="simge" aria-hidden="true">📝</span><h3>Denetimli</h3><p>Cevap anahtarlı test: her örneğin doğrusu yazılı</p></div>
+          <div class="kart fragment turkuaz"><span class="simge" aria-hidden="true">🧦</span><h3>Denetimsiz</h3><p>Karışık çorap çekmecesi: benzerleri kendi grupla</p></div>
+          <div class="kart fragment altin"><span class="simge" aria-hidden="true">🐶</span><h3>Pekiştirmeli</h3><p>Ödülle numara öğrenen köpek: dene, kazan, öğren</p></div>
+        </div>
+        <aside class="notes">
+          Ne söyle: Makineler üç ana yoldan öğrenir. Birincisi denetimli öğrenme: cevap anahtarlı bir test kitabı gibi. Her örneğin yanında doğru cevap yazılı: "Bu spam", "Bu kedi". İkincisi denetimsiz öğrenme: karışık bir çorap çekmecesini sıralamak gibi. Kimse etiket vermez; makine benzerleri kendisi gruplar, grupları biz yorumlarız. Alışveriş sitelerindeki "birlikte sık alınanlar" bu türden. Üçüncüsü pekiştirmeli öğrenme: ödülle numara öğrenen köpek gibi. Deneme yanılma, doğruya ödül. DeepMind'ın AlphaGo Zero'su Go oyununu hiç bilmeden kendisiyle oynayarak öğrendi ve üç günde eski şampiyon sürümü 100'e 0 yendi.
+          Süre: 2 dk.
+          Dikkat: Türlerin sınırları keskin değil; bugünkü büyük modeller birkaç yolu birlikte kullanıyor.
+        </aside>
+      </section>
+
+      <!-- 9. MİNİ QUIZ -->
+      <section>
+        <span class="etiket altin">Mini quiz · parmağınızla gösterin</span>
+        <h2>Hangi öğrenme yolu? 1 · 2 · 3</h2>
+        <ul>
+          <li>🩻 Etiketli röntgenlerden hastalık tanımak <span class="fragment"><strong>→ 1 Denetimli</strong></span></li>
+          <li>🛒 Müşterileri alışverişe göre kendiliğinden gruplamak <span class="fragment"><strong>→ 2 Denetimsiz</strong></span></li>
+          <li>🎮 Oyunu kendisiyle oynayıp kazandıkça öğrenmek <span class="fragment"><strong>→ 3 Pekiştirmeli</strong></span></li>
+        </ul>
+        <aside class="notes">
+          Ne söyle: Küçük bir quiz. Ben örneği okuyacağım, siz parmağınızla gösterin: Bir parmak denetimli, iki parmak denetimsiz, üç parmak pekiştirmeli. Hazır mısınız?
+          Süre: 1,5 dk.
+          Salona sor: Her örnekten sonra "Herkes parmağını kaldırsın!" de, sonra cevabı aç.
+          Dikkat: Yanlış cevap verenleri düzeltirken benzetmeye geri dön: "Röntgenin yanında doktorun yazdığı cevap var; demek ki cevap anahtarlı test."
+        </aside>
+      </section>
+
+      <!-- 10. HUSKY Mİ KURT MU -->
+      <section>
+        <span class="etiket kiremit">Gerçek bir hikâye</span>
+        <h2>Husky mi, kurt mu?</h2>
+        <div class="benzetme">
+          <span class="simge" aria-hidden="true">🐺❄️</span>
+          <p class="fragment">Makine hayvana değil, <strong>kara</strong> bakıyordu. Eğitimdeki bütün kurt fotoğraflarında kar vardı.</p>
+        </div>
+        <aside class="notes">
+          Ne söyle: 2016'da araştırmacılar, kurtları husky köpeklerinden ayırması için bir model eğitti. Model bir husky'ye "kurt" dedi. Neden? Önce siz tahmin edin. ... Modelin neye baktığını gösteren bir araç kullandılar: Model hayvana değil, arka plandaki kara bakıyordu. Çünkü eğitimdeki bütün kurt fotoğraflarında kar vardı. Sınavda konuyu anlamadan "uzun şık genelde doğrudur" diye puan toplayan öğrenci gibi: Doğru cevabı yanlış sebeple veriyordu.
+          Süre: 2 dk.
+          Salona sor: "Sizce makine neye bakıyordu?" Cevapları dinle, sonra fragment'ı aç.
+          Dikkat: Bu, bir sonraki uygulamanın (Teachable Machine) ana dersi. "Birazdan aynısını kendi gözünüzle göreceksiniz" de.
+        </aside>
+      </section>
+
+      <!-- 11. ÖNYARGI ÖRNEKLERİ -->
+      <section>
+        <h2>Veri eksikse, makine önyargılı olur</h2>
+        <ul class="zaman">
+          <li class="fragment"><span class="yil">2014–17</span> Erkek ağırlıklı eski başvurularla eğitilen işe alım aracı kadınlara düşük puan verdi</li>
+          <li class="fragment"><span class="yil">2018</span> Yüz analizi hatası: koyu tenli kadınlarda %34,7, açık tenli erkeklerde %0,8</li>
+          <li class="fragment"><span class="yil">2021</span> Cilt kanseri modeli renkli bir etiketi “iyi huylu” işareti sandı</li>
+        </ul>
+        <aside class="notes">
+          Ne söyle: Kar hikâyesi komik ama aynı şey ciddi işlerde de oluyor. Amazon'un denediği bir işe alım aracı, çoğu erkeklerden gelen on yıllık başvurularla eğitildi ve içinde "kadın" kelimesi geçen özgeçmişlere düşük puan vermeyi öğrendi; şirket projeyi kapattı. 2018'deki bir araştırmada ticari yüz analiz sistemleri koyu tenli kadınlarda yüzde 34,7'ye varan oranda yanılırken açık tenli erkeklerde hata en fazla yüzde 0,8 idi; çünkü eğitim verilerinin çoğu açık tenli insanlardandı. 2021'de bir cilt kanseri modelinin, iyi huylu ben fotoğraflarında sık görülen renkli bir kalibrasyon etiketini "iyi huylu" işareti sandığı gösterildi.
+          Süre: 2,5 dk.
+          Dikkat: Kimseyi kötü niyetli ilan etme; mesaj "veri dünyayı eşitsizlikleriyle birlikte yansıtır". Zaman daralırsa 2021 örneğini atla.
+        </aside>
+      </section>
+
+      <!-- 12. TÜRKÇE ÖRNEK -->
+      <section>
+        <span class="etiket altin">Tahmin edin</span>
+        <h2>Türkçe'nin cinsiyetsiz “o”su</h2>
+        <p class="ceviri">🇹🇷 “O bir doktor. O bir hemşire.”</p>
+        <p class="ceviri fragment">🔁 Eski çeviri: “<strong>He</strong> is a doctor. <strong>She</strong> is a nurse.”</p>
+        <p class="fragment kucuk">2018'den beri iki seçenek gösteriliyor (Google Research)</p>
+        <aside class="notes">
+          Ne söyle: Türkçe'de "o" zamirinin cinsiyeti yok. Peki bir çeviri programı "O bir doktor. O bir hemşire." cümlelerini İngilizce'ye nasıl çevirirdi? Tahmin edin. ... Google'ın 2018'deki açıklamasına göre sistem doktoru erkek, hemşireyi kadın olarak çeviriyordu. Kimse ona böyle bir kural yazmadı; makine bunu okuduğu milyonlarca metinden öğrendi. Google bu yüzden Türkçe'den İngilizce'ye çeviride iki seçeneği birden göstermeye başladı.
+          Süre: 1,5 dk.
+          Salona sor: "Sizce çeviri ne yazdı?" Tahminleri al.
+          Dikkat: Canlı deneme yaparsan bugünkü sonuç farklı çıkabilir; slayttaki bilgi 2018 durumudur.
+        </aside>
+      </section>
+
+      <!-- 13. VURGU -->
+      <section class="vurgu">
+        <p class="buyuk">Makine, ona ne gösterirsek onu öğrenir.</p>
+        <aside class="notes">
+          Ne söyle: Bu bölümden aklınızda tek bir cümle kalsın: Makine, ona ne gösterirsek onu öğrenir. Örnekler çeşitliyse iyi öğrenir; eksik ya da tek düzeyse kar gibi saçma işaretlere tutunur, hatta önyargılı olur. Bu yüzden yapay zekânın cevabını sorgulamak bizim işimiz.
+          Süre: 1 dk.
+          Dikkat: Kısa tut; enerjiyi uygulamaya sakla.
+        </aside>
+      </section>
+
+      <!-- 14. KAYNAKLAR -->
+      <section>
+        <h3>Kaynaklar</h3>
+        <ul class="kaynaklar">
+          <li><a href="https://research.google/blog/providing-gender-specific-translations-in-google-translate/">Google Çeviri'de cinsiyete özgü çeviriler</a> — Google Research, Aralık 2018</li>
+          <li><a href="https://www.euronews.com/2018/10/10/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women">Amazon'un işe alım aracı</a> — Reuters / Euronews, Ekim 2018</li>
+          <li><a href="https://proceedings.mlr.press/v81/buolamwini18a.html">Gender Shades</a> — PMLR, 2018</li>
+          <li><a href="https://deepmind.google/discover/blog/alphago-zero-starting-from-scratch/">AlphaGo Zero</a> — DeepMind, Ekim 2017</li>
+          <li><a href="https://aws.amazon.com/tr/what-is/neural-network/">Sinir ağı nedir? (Türkçe)</a> — AWS</li>
+          <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8774502">Cilt kanseri modelinde kestirme öğrenme</a> — Diagnostics, 2021</li>
+        </ul>
+        <p class="kucuk">Ayrıntılı araştırma notu: <a href="../not.html?id=h1-03">anlatıcı notu</a> · Son güncelleme: 29 Ekim 2026</p>
+        <aside class="notes">
+          Ne söyle (köprü cümlesi): Şimdi sıra sizde. Birazdan kendi küçük modelinizi eğiteceksiniz. Önce bilerek az ve tek düze veriyle başlayacağız; makinenin nasıl "kopya çektiğini" kendi gözünüzle göreceksiniz.
+          Süre: 30 sn.
+          Dikkat: Uygulamaya geçmeden önce kameralı bilgisayarları ya da telefonları hazırlatmaya başla.
+        </aside>
+      </section>
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/notes/notes.js"></script>
+  <script>
+    Reveal.initialize({
+      hash: true, slideNumber: 'c/t', progress: true, center: true, transition: 'slide',
+      width: 1280, height: 720, margin: 0.06, plugins: [RevealNotes]
+    });
+  </script>
+</body>
+</html>

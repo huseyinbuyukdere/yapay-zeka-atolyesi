@@ -1,7 +1,7 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-29T15:00:14Z",
+  "son_calisma": "2026-10-29T15:04:49Z",
   "calisma_sayisi": 1,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
@@ -62,12 +62,12 @@
         "Denetimli öğrenme, pekiştirmeli öğrenme gibi türler tek cümlelik benzetmelerle (formülsüz)",
         "Veri kalitesi ve önyargının (bias) nasıl doğduğu; gerçek hayattan bilinen önyargı örnekleri"
       ],
-      "durum": "uretiliyor",
-      "surum": 0,
-      "son_guncelleme": null,
-      "sahip": "20261029T1440Z",
-      "sahip_zamani": "2026-10-29T15:00:23Z",
-      "not": ""
+      "durum": "taslak",
+      "surum": 1,
+      "son_guncelleme": "2026-10-29T15:04:49Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 1: 14 slayt (döngü ve ses mikseri SVG'leri, öğrenme türü quizi, Türkçe çeviri önyargısı tahmini), 12 kaynaklı not."
     },
     {
       "id": "h1-04",
@@ -422,6 +422,10 @@
     {
       "zaman": "2026-10-29T15:00:14Z",
       "ozet": "h1-02: Yapay zekâ nedir taslağı yayımlandı (14 arama, 11 kaynak okundu)."
+    },
+    {
+      "zaman": "2026-10-29T15:04:49Z",
+      "ozet": "h1-03: Makineler nasıl öğrenir taslağı yayımlandı (12 arama, 12 kaynak okundu)."
     }
   ]
 }
