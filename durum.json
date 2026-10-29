@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-29T21:18:33Z",
-  "calisma_sayisi": 19,
+  "son_calisma": "2026-10-29T22:18:40Z",
+  "calisma_sayisi": 20,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -82,12 +82,12 @@
         "Olası teknik sorunlar (kamera izni, yavaş bilgisayar) ve B planı; telefonla yapılabilir mi?",
         "Alternatif eğlenceli demo: Quick, Draw!"
       ],
-      "durum": "uretiliyor",
-      "surum": 1,
-      "son_guncelleme": "2026-10-29T15:09:22Z",
-      "sahip": "20261029T2211Z",
-      "sahip_zamani": "2026-10-29T22:11:38Z",
-      "not": "eski_durum: taslak; aşama 2 gözden geçirme sürüyor"
+      "durum": "gozden_gecirildi",
+      "surum": 2,
+      "son_guncelleme": "2026-10-29T22:18:40Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 2: 8 arama, 7 yeni kaynak okundu. Aracın Ekim 2026'da ücretsiz olduğu doğrulandı; dengesiz veri benzetmesi, Chrome/Windows-macOS önerisi, iPad sürümünün bağımsız olduğu, 5 yeni SSS, husky köprüsü eklendi. Telefon tarayıcısında eğitim hâlâ doğrulanamadı."
     },
     {
       "id": "h1-05",
@@ -510,6 +510,10 @@
     {
       "zaman": "2026-10-29T21:18:33Z",
       "ozet": "h1-03: Gözden geçirildi (13 arama, 9 kaynak okundu); husky deneyi 'bilerek kurulmuş tuzak' olarak düzeltildi, 2026 önyargı örneği ve 4 yeni SSS eklendi."
+    },
+    {
+      "zaman": "2026-10-29T22:18:40Z",
+      "ozet": "h1-04: Gözden geçirildi (8 arama, 7 kaynak okundu); dengesiz veri örneği, güncel erişilebilirlik doğrulaması ve 5 yeni SSS eklendi."
     }
   ]
 }
