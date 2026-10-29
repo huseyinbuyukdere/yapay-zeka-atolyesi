@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-29T22:18:40Z",
-  "calisma_sayisi": 20,
+  "son_calisma": "2026-10-29T23:13:21Z",
+  "calisma_sayisi": 21,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -101,12 +101,12 @@
         "Abartılı beklenti ve hayal kırıklığı döngüsünden çıkarılacak ders",
         "Ekim 2026 itibarıyla güncel tablo: büyük model aileleri ve Türkiye'den gelişmeler (TÜBİTAK Bilge, Yapay Zekâ Eylem Planı 2026-2030)"
       ],
-      "durum": "uretiliyor",
-      "surum": 1,
-      "son_guncelleme": "2026-10-29T15:15:04Z",
-      "sahip": "20261029T2310Z",
-      "sahip_zamani": "2026-10-29T23:10:50Z",
-      "not": "ESKİ DURUM: taslak | Aşama 1: 15 slayt (4 zaman çizelgesi, kışlar SVG'si, sıralama oyunu, Türkiye: Eylem Planı ve BİLGE), 19 kaynaklı not. BİLGE'nin Ekim 2026'da genel kullanıma açılıp açılmadığı doğrulanamadı; model sürüm adları bilerek 2. haftaya bırakıldı."
+      "durum": "gozden_gecirildi",
+      "surum": 2,
+      "son_guncelleme": "2026-10-29T23:13:21Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 2: 11 arama, 9 kaynak okundu. Turing testi 2025 çalışması ayrıntılandı (GPT-4.5 %73, ELIZA %23), Deep Blue'nun 1996 yenilgisi, AlphaGo 10. yıl dönümü (Mart 2026, Lee Sedol'un yapay zekâ ile ortak gösterisi), Eylem Planı'nın 5 milyon kişilik okuryazarlık hedefi eklendi; BİLGE tanıtım bağlamı düzeltildi; 4 yeni SSS. BİLGE'nin Ekim 2026'da kullanıma açıldığı hâlâ doğrulanamadı; 2026 Nobel bilgisi ikincil kaynaktan."
     },
     {
       "id": "h1-06",
@@ -514,6 +514,10 @@
     {
       "zaman": "2026-10-29T22:18:40Z",
       "ozet": "h1-04: Gözden geçirildi (8 arama, 7 kaynak okundu); dengesiz veri örneği, güncel erişilebilirlik doğrulaması ve 5 yeni SSS eklendi."
+    },
+    {
+      "zaman": "2026-10-29T23:13:21Z",
+      "ozet": "h1-05: Gözden geçirildi (11 arama, 9 kaynak okundu); Turing testi ayrıntısı, Deep Blue 1996, AlphaGo 10. yıl ve okuryazarlık hedefi eklendi, 4 yeni SSS."
     }
   ]
 }
