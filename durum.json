@@ -1,0 +1,418 @@
+{
+  "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
+  "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
+  "son_calisma": null,
+  "calisma_sayisi": 0,
+  "durum_anlamlari": {
+    "bekliyor": "Henüz başlanmadı",
+    "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
+    "taslak": "Araştırma notu ve sunum ilk kez yayımlandı",
+    "gozden_gecirildi": "İkinci geçişte doğrulandı ve iyileştirildi",
+    "cilalandi": "Üçüncü geçişte görsel ve etkileşim cilası yapıldı"
+  },
+  "konular": [
+    {
+      "id": "h1-01",
+      "hafta": 1,
+      "sira": 1,
+      "baslik": "Açılış: İnsan mı, yapay zekâ mı?",
+      "sure_dk": 15,
+      "kapsam": [
+        "Salonu ısıtan tahmin oyunu: 6 örnek (2 fotoğraf betimlemesi, 2 kısa metin, 1 ses, 1 resim) — hangisi insan, hangisi yapay zekâ?",
+        "Sunucu için oyunu nasıl hazırlayacağı (hangi araçla örnek üretilir, gerçek örnekler nereden telifsiz bulunur)",
+        "Mentimeter/Kahoot ile oylama akışı; oyun sonrası 'neden yanıldık?' sohbeti",
+        "Atölyenin 4 haftalık yol haritasının tanıtımı ve beklenti toplama"
+      ],
+      "durum": "bekliyor",
+      "surum": 0,
+      "son_guncelleme": null,
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": ""
+    },
+    {
+      "id": "h1-02",
+      "hafta": 1,
+      "sira": 2,
+      "baslik": "Yapay zekâ nedir?",
+      "sure_dk": 20,
+      "kapsam": [
+        "Basit tanım; kural yazılan bilgisayar ile örnekten öğrenen bilgisayar farkı (yemek tarifi kitabı vs usta-çırak benzetmesi)",
+        "Dar yapay zekâ ve genel yapay zekâ (AGI) tartışması, abartı ve korku arasında dengeli bakış",
+        "Yapay zekâ, makine öğrenmesi, derin öğrenme, üretken yapay zekâ ilişkisini iç içe halkalarla gösterme",
+        "Katılımcılarla kısa etkileşim: 'Bu yapay zekâ mı?' örnekleri (hesap makinesi, navigasyon, spam filtresi, termostat)"
+      ],
+      "durum": "bekliyor",
+      "surum": 0,
+      "son_guncelleme": null,
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": ""
+    },
+    {
+      "id": "h1-03",
+      "hafta": 1,
+      "sira": 3,
+      "baslik": "Makineler nasıl öğrenir?",
+      "sure_dk": 20,
+      "kapsam": [
+        "Veri → örüntü → tahmin döngüsü; 'çocuğa kediyi öğretmek' benzetmesi",
+        "Yapay sinir ağı: binlerce ayar düğmeli ses mikseri benzetmesi; eğitim = düğmeleri azar azar ayarlamak",
+        "Eğitim ile kullanım (çıkarım) farkı: sürücü kursu ve araba kullanmak",
+        "Denetimli öğrenme, pekiştirmeli öğrenme gibi türler tek cümlelik benzetmelerle (formülsüz)",
+        "Veri kalitesi ve önyargının (bias) nasıl doğduğu; gerçek hayattan bilinen önyargı örnekleri"
+      ],
+      "durum": "bekliyor",
+      "surum": 0,
+      "son_guncelleme": null,
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": ""
+    },
+    {
+      "id": "h1-04",
+      "hafta": 1,
+      "sira": 4,
+      "baslik": "Uygulama: Teachable Machine ile kendi modelini eğit",
+      "sure_dk": 20,
+      "kapsam": [
+        "teachablemachine.withgoogle.com ile adım adım uygulama yönergesi (ekran ekran, tıklama tıklama)",
+        "3 sınıf örneği (kalem, telefon, boş masa); önce az veri ve tek açıyla eğitip hatayı görmek, sonra veriyi çoğaltıp düzeltmek",
+        "Uygulamadan çıkarılacak dersler: veri miktarı, çeşitlilik, önyargı",
+        "Olası teknik sorunlar (kamera izni, yavaş bilgisayar) ve B planı; telefonla yapılabilir mi?",
+        "Alternatif eğlenceli demo: Quick, Draw!"
+      ],
+      "durum": "bekliyor",
+      "surum": 0,
+      "son_guncelleme": null,
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": ""
+    },
+    {
+      "id": "h1-05",
+      "hafta": 1,
+      "sira": 5,
+      "baslik": "75 yılda yapay zekâ: kısa tarih",
+      "sure_dk": 20,
+      "kapsam": [
+        "1950 Turing, 1956 Dartmouth, 1966 ELIZA, yapay zekâ kışları, 1997 Deep Blue, 2011 Watson ve Siri, 2012 AlexNet, 2016 AlphaGo, 2017 Transformer, 2020 AlphaFold, 2022 ChatGPT, 2024 Nobel ödülleri, 2025-2026 ajanlar dönemi",
+        "Her kilometre taşı için 'neden önemli' ve anlatılacak küçük bir hikâye/anekdot",
+        "Abartılı beklenti ve hayal kırıklığı döngüsünden çıkarılacak ders",
+        "Ekim 2026 itibarıyla güncel tablo: büyük model aileleri ve Türkiye'den gelişmeler (TÜBİTAK Bilge, Yapay Zekâ Eylem Planı 2026-2030)"
+      ],
+      "durum": "bekliyor",
+      "surum": 0,
+      "son_guncelleme": null,
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": ""
+    },
+    {
+      "id": "h1-06",
+      "hafta": 1,
+      "sira": 6,
+      "baslik": "Bugün yapay zekâ nerede?",
+      "sure_dk": 15,
+      "kapsam": [
+        "Gündelik hayat: telefon, navigasyon, öneri sistemleri, bankacılıkta dolandırıcılık tespiti, spam, çeviri",
+        "Sektörler: sağlık, tarım, sanayi, eğitim, kamu, medya — her biri için somut ve doğrulanmış güncel örnek",
+        "Türkiye'den örnekler (kamu, bankacılık, e-ticaret, tarım) — kaynaklı",
+        "Haftalık görev: 'Yapay zekâ avı' yönergesi"
+      ],
+      "durum": "bekliyor",
+      "surum": 0,
+      "son_guncelleme": null,
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": ""
+    },
+    {
+      "id": "h2-01",
+      "hafta": 2,
+      "sira": 1,
+      "baslik": "Sohbet asistanları nasıl çalışır?",
+      "sure_dk": 30,
+      "kapsam": [
+        "Açılış: canlı sesli sohbet demosu (aynı konuyu 7 yaşındaki çocuğa ve profesöre anlatma)",
+        "Büyük dil modeli: telefon klavyesindeki kelime önerisinin dev versiyonu; token kavramı benzetmeyle",
+        "Model 'bilmez', en olası devamı tahmin eder: halüsinasyonun kaynağı",
+        "Bilgi kesim tarihi, web araması, 'düşünerek cevap veren' (akıl yürüten) modeller",
+        "Ekim 2026 itibarıyla güncel asistanlar ve model aileleri (doğrulanmış)"
+      ],
+      "durum": "bekliyor",
+      "surum": 0,
+      "son_guncelleme": null,
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": ""
+    },
+    {
+      "id": "h2-02",
+      "hafta": 2,
+      "sira": 2,
+      "baslik": "ROBOT formülü ile iyi talimat (prompt) yazmak",
+      "sure_dk": 25,
+      "kapsam": [
+        "ROBOT: Rol, Ortam (bağlam), Beklenen iş, Örnek, Tarz ve biçim",
+        "Kötü ve iyi talimatın yan yana karşılaştırması; farklı mesleklerden 5 örnek",
+        "Sohbeti sürdürerek düzelttirme, asistandan soru sormasını isteme, adım adım düşündürme",
+        "Katılımcıların kendi işinden talimat yazdığı mini alıştırma"
+      ],
+      "durum": "bekliyor",
+      "surum": 0,
+      "son_guncelleme": null,
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": ""
+    },
+    {
+      "id": "h2-03",
+      "hafta": 2,
+      "sira": 3,
+      "baslik": "Aynı soru, üç asistan ve halüsinasyon avı",
+      "sure_dk": 20,
+      "kapsam": [
+        "ChatGPT, Gemini, Claude, Copilot ve Perplexity'nin güçlü/zayıf yanları (Ekim 2026, doğrulanmış)",
+        "Ekip uygulaması: aynı mesleki soruyu üç asistana sorup farkları tabloya yazma yönergesi ve tablo şablonu",
+        "Halüsinasyon avı: asistanın uydurma bilgi verdiği tipik durumlar ve kaynakla doğrulama",
+        "Doğrulama alışkanlığı kontrol listesi"
+      ],
+      "durum": "bekliyor",
+      "surum": 0,
+      "son_guncelleme": null,
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": ""
+    },
+    {
+      "id": "h2-04",
+      "hafta": 2,
+      "sira": 4,
+      "baslik": "Kendi belgenle konuş: Gemini Notebook ve derin araştırma",
+      "sure_dk": 25,
+      "kapsam": [
+        "Gemini Notebook (Temmuz 2026'ya kadar NotebookLM): ne işe yarar, ücretsiz neler yapılır (güncel özellikleri resmi kaynaktan doğrula)",
+        "Adım adım uygulama: belge yükleme, soru sorma, kaynaklı cevap, sesli/görüntülü özet",
+        "Derin araştırma (Deep Research) özellikleri: hangi asistanda nasıl, ne zaman kullanılır",
+        "Örnek belge önerileri (kişisel veri içermeyen, telif sorunu olmayan)"
+      ],
+      "durum": "bekliyor",
+      "surum": 0,
+      "son_guncelleme": null,
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": ""
+    },
+    {
+      "id": "h2-05",
+      "hafta": 2,
+      "sira": 5,
+      "baslik": "Güvenli ve gizli kullanım",
+      "sure_dk": 10,
+      "kapsam": [
+        "Asistana yazılmayacaklar: kimlik no, şifre, kart, hasta/müşteri verisi, şirket sırları",
+        "Popüler asistanlarda sohbet geçmişi ve model eğitimi için veri kullanımı ayarları (güncel menü adlarıyla, resmi kaynaktan)",
+        "KVKK açısından temel dikkat noktaları; kurum politikaları",
+        "Haftalık görev: 'Asistanla gerçek bir iş'"
+      ],
+      "durum": "bekliyor",
+      "surum": 0,
+      "son_guncelleme": null,
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": ""
+    },
+    {
+      "id": "h3-01",
+      "hafta": 3,
+      "sira": 1,
+      "baslik": "Yapay zekâ görseli, sesi ve videoyu nasıl üretir?",
+      "sure_dk": 30,
+      "kapsam": [
+        "Açılış: 60 saniyede tek cümleden görsel + müzik + slogan canlı üretimi senaryosu",
+        "Difüzyon: karlı televizyon ekranından netleşen resim; heykeltıraş benzetmesi",
+        "Metinden görsele, görselden videoya, metinden müziğe; çok modlu modeller",
+        "Görünmez filigranlar (ör. SynthID) ve içerik kimlik bilgileri (C2PA) — basit anlatım"
+      ],
+      "durum": "bekliyor",
+      "surum": 0,
+      "son_guncelleme": null,
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": ""
+    },
+    {
+      "id": "h3-02",
+      "hafta": 3,
+      "sira": 2,
+      "baslik": "Görsel istasyonu: üretme ve düzenleme",
+      "sure_dk": 25,
+      "kapsam": [
+        "Görsel talimat formülü: Konu + Ortam + Stil + Işık + Kadraj; aynı fikrin 4 stilde versiyonu",
+        "Gemini (Nano Banana), Canva AI, Adobe Firefly, Midjourney: ücretsiz kullanım ve güçlü yanlar (güncel, doğrulanmış)",
+        "Fotoğraf düzenleme: arka plan değiştirme, ışık, nesne ekleme/çıkarma",
+        "Türkçe metin yazdırma, el/yüz hataları gibi tipik kusurlar ve çözüm ipuçları"
+      ],
+      "durum": "bekliyor",
+      "surum": 0,
+      "son_guncelleme": null,
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": ""
+    },
+    {
+      "id": "h3-03",
+      "hafta": 3,
+      "sira": 3,
+      "baslik": "Müzik, ses ve video üretimi",
+      "sure_dk": 15,
+      "kapsam": [
+        "Suno ile 30 saniyelik jingle: talimat yazımı, Türkçe şarkı sözü, ücretsiz plan sınırları ve ticari kullanım",
+        "ElevenLabs ile seslendirme; ses klonlamanın etik sınırları",
+        "Video: Kling, Runway, Google Veo, Hailuo, Pika — ücretsiz kotalar ve hangi iş için hangisi (Ekim 2026, doğrulanmış)",
+        "Kısa video talimatı yazma formülü (sahne, hareket, kamera, süre)"
+      ],
+      "durum": "bekliyor",
+      "surum": 0,
+      "son_guncelleme": null,
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": ""
+    },
+    {
+      "id": "h3-04",
+      "hafta": 3,
+      "sira": 4,
+      "baslik": "Ekip görevi: Mini kampanya",
+      "sure_dk": 35,
+      "kapsam": [
+        "Görev kartı: hayali yerel işletme/etkinlik seçimi (kitap kafe, kermes, spor kulübü, kooperatif)",
+        "Roller: yönetmen, görselci, müzisyen, metin yazarı; zaman planı (35 dk)",
+        "Çıktı listesi: slogan ve tanıtım metni, afiş, 30 sn jingle, 5-8 sn video, 3 slaytlık sunum (Gamma veya Canva)",
+        "Sunum ve salon oylaması için değerlendirme ölçütleri; sunucu için sorun giderme ipuçları"
+      ],
+      "durum": "bekliyor",
+      "surum": 0,
+      "son_guncelleme": null,
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": ""
+    },
+    {
+      "id": "h3-05",
+      "hafta": 3,
+      "sira": 5,
+      "baslik": "Üretken içerikte telif, etiket ve etik",
+      "sure_dk": 5,
+      "kapsam": [
+        "Yapay zekâ ile üretilen içerik kimin? Türkiye (FSEK) ve dünyadaki güncel tartışma — hukuki tavsiye vermeden, kaynaklı",
+        "Ücretsiz planlarda ticari kullanım kısıtları",
+        "Gerçek kişileri ve markaları taklit etmemek; deepfake; etiketleme",
+        "Haftalık görev: 'Kendi vitrinin' ve final projesi için fikir"
+      ],
+      "durum": "bekliyor",
+      "surum": 0,
+      "son_guncelleme": null,
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": ""
+    },
+    {
+      "id": "h4-01",
+      "hafta": 4,
+      "sira": 1,
+      "baslik": "Ajanlar: sohbetten işe",
+      "sure_dk": 20,
+      "kapsam": [
+        "Açılış: canlı ajan demosu senaryosu (web'de araştırıp tablo hazırlama) ve B planı",
+        "Ajan nedir: hedef, plan, araç kullanımı, kontrol; 'yeni stajyer' benzetmesi",
+        "Ekim 2026 itibarıyla tüketiciye açık ajan özellikleri (ChatGPT, Gemini, Claude, Copilot) — resmi kaynaktan doğrulanmış",
+        "Ajanlarla çalışırken insan kontrolü ve güvenlik"
+      ],
+      "durum": "bekliyor",
+      "surum": 0,
+      "son_guncelleme": null,
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": ""
+    },
+    {
+      "id": "h4-02",
+      "hafta": 4,
+      "sira": 2,
+      "baslik": "Kendi asistanını kur, kodsuz uygulama yap",
+      "sure_dk": 10,
+      "kapsam": [
+        "Kişisel asistanlar: ChatGPT'de GPT'ler, Gemini'de Gem'ler, Claude'da Projeler — ücretsiz mi, nasıl kurulur (adım adım)",
+        "Kodsuz uygulama (vibe coding): Google AI Studio, Lovable, Bolt; ücretsiz kotalar",
+        "Final projesi için şablon talimatlar: hesaplayıcı, quiz, kontrol listesi, randevu listesi",
+        "2 dakikalık final sunumu formatı"
+      ],
+      "durum": "bekliyor",
+      "surum": 0,
+      "son_guncelleme": null,
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": ""
+    },
+    {
+      "id": "h4-03",
+      "hafta": 4,
+      "sira": 3,
+      "baslik": "Meslek istasyonları",
+      "sure_dk": 25,
+      "kapsam": [
+        "8 meslek grubu için görev kartları: öğretmen, sağlık, esnaf/ticaret, hukuk/muhasebe/kamu, mühendis, öğrenci, sanat/iletişim, emekli/gönüllü",
+        "Her kart için hazır başlangıç talimatı (ROBOT formülüyle) ve beklenen çıktı",
+        "Her meslek için 'yapay zekâya bırakılmayacaklar' satırı",
+        "Mesleklere göre güncel ve kaynaklı kullanım örnekleri (Türkiye'den örnekler öncelikli)"
+      ],
+      "durum": "bekliyor",
+      "surum": 0,
+      "son_guncelleme": null,
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": ""
+    },
+    {
+      "id": "h4-04",
+      "hafta": 4,
+      "sira": 4,
+      "baslik": "Sorumlu kullanım: Kırmızı çizgi oyunu",
+      "sure_dk": 20,
+      "kapsam": [
+        "7 senaryo ve her biri için 'uygun / dikkat / asla' cevabı, açıklama ve ilgili kural",
+        "Ses klonlama ve deepfake dolandırıcılıkları; aile içi parola önerisi; Türkiye'den güncel haberler (kaynaklı)",
+        "AB Yapay Zekâ Yasası: 2 Ağustos 2026 şeffaflık kuralları, Dijital Omnibus ile ertelenen yüksek risk kuralları",
+        "Türkiye: Yapay Zekâ Eylem Planı 2026-2030, TBMM'deki kanun teklifinin güncel durumu, KVKK — hukuki tavsiye vermeden"
+      ],
+      "durum": "bekliyor",
+      "surum": 0,
+      "son_guncelleme": null,
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": ""
+    },
+    {
+      "id": "h4-05",
+      "hafta": 4,
+      "sira": 5,
+      "baslik": "Final sunumları ve öğrenmeye devam",
+      "sure_dk": 35,
+      "kapsam": [
+        "Final mini projelerinin sunum akışı ve kısa geri bildirim formatı",
+        "Atölyenin özeti: 4 haftada öğrendiklerimiz",
+        "Öğrenmeye devam: YÖK Dijital Üniversite, BTK Akademi, Elements of AI ve diğer ücretsiz Türkçe kaynaklar (güncel, doğrulanmış)",
+        "'30 gün, 1 alışkanlık' görevi ve bir ay sonraki buluşma önerisi"
+      ],
+      "durum": "bekliyor",
+      "surum": 0,
+      "son_guncelleme": null,
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": ""
+    }
+  ],
+  "gunluk": []
+}

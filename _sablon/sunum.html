@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- ŞABLON: {{ID}}, {{HAFTA}}, {{BASLIK}} vb. alanları doldur. Her slaytta <aside class="notes"> zorunlu. -->
+  <title>{{BASLIK}} · Yapay Zekâ Atölyesi</title>
+  <meta name="description" content="{{KISA_ACIKLAMA}}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css">
+  <link rel="stylesheet" href="../assets/tema.css">
+</head>
+<body>
+  <div class="altbilgi">Yapay Zekâ Atölyesi · {{HAFTA}}. Hafta · {{BASLIK}}</div>
+  <div class="reveal">
+    <div class="slides">
+
+      <!-- 1. KAPAK -->
+      <section class="kapak">
+        <div class="cini" aria-hidden="true"></div>
+        <span class="etiket">{{HAFTA}}. Hafta · {{SURE_DK}} dakika</span>
+        <h1>{{BASLIK}}</h1>
+        <p class="alt">{{BIR_CUMLELIK_VAAT}}</p>
+        <aside class="notes">
+          Açılış cümlesi (kelimesi kelimesine okunabilir): ...
+          Süre: 1 dk. Salona soracağın ilk soru: ...
+        </aside>
+      </section>
+
+      <!-- 2. BÜYÜK SORU -->
+      <section class="soru">
+        <span class="etiket kiremit">Bugünün sorusu</span>
+        <p class="buyuk">{{MERAK_UYANDIRAN_SORU}}</p>
+        <p class="ipucu">El kaldırarak cevap verelim</p>
+        <aside class="notes">
+          Ne söyleyeceksin: ... Beklenen cevaplar: ... Cevaplardan sonra köprü cümlesi: ...
+        </aside>
+      </section>
+
+      <!-- 3. BENZETME -->
+      <section>
+        <span class="etiket">Benzetme</span>
+        <h2>{{KAVRAM}}</h2>
+        <div class="benzetme">
+          <span class="simge" aria-hidden="true">🧑‍🍳</span>
+          <p>{{GUNDELIK_BENZETME}}</p>
+        </div>
+        <aside class="notes">Benzetmeyi anlatırken: ... Benzetmenin sınırı (nerede yanlış olur): ...</aside>
+      </section>
+
+      <!-- 4. KARTLAR (2-4 kart; parçalar adım adım gelsin) -->
+      <section>
+        <h2>{{BASLIK}}</h2>
+        <div class="kartlar">
+          <div class="kart fragment"><span class="simge" aria-hidden="true">📱</span><h3>{{KART_1}}</h3><p>{{ACIKLAMA}}</p></div>
+          <div class="kart fragment turkuaz"><span class="simge" aria-hidden="true">🗺️</span><h3>{{KART_2}}</h3><p>{{ACIKLAMA}}</p></div>
+          <div class="kart fragment altin"><span class="simge" aria-hidden="true">🏦</span><h3>{{KART_3}}</h3><p>{{ACIKLAMA}}</p></div>
+        </div>
+        <aside class="notes">...</aside>
+      </section>
+
+      <!-- 5. İKİ SÜTUN KARŞILAŞTIRMA -->
+      <section>
+        <h2>{{A}} ile {{B}} farkı</h2>
+        <div class="iki-sutun">
+          <div><h3>{{A}}</h3><ul><li>...</li><li>...</li></ul></div>
+          <div><h3>{{B}}</h3><ul><li>...</li><li>...</li></ul></div>
+        </div>
+        <aside class="notes">...</aside>
+      </section>
+
+      <!-- 6. ZAMAN ÇİZELGESİ -->
+      <section>
+        <h2>{{BASLIK}}</h2>
+        <ul class="zaman">
+          <li class="fragment"><span class="yil">1950</span> ...</li>
+          <li class="fragment"><span class="yil">1956</span> ...</li>
+        </ul>
+        <aside class="notes">...</aside>
+      </section>
+
+      <!-- 7. UYGULAMA -->
+      <section>
+        <div class="uygulama-kutu">
+          <span class="sure">⏱ {{DAKIKA}} dk</span>
+          <h2>Uygulama: {{UYGULAMA_ADI}}</h2>
+          <ol class="adimlar">
+            <li>...</li>
+            <li>...</li>
+            <li>...</li>
+          </ol>
+        </div>
+        <aside class="notes">Masaları dolaşırken kontrol edeceklerin: ... Sık karşılaşılan sorun ve çözümü: ... B planı: ...</aside>
+      </section>
+
+      <!-- 8. OYUN / OYLAMA -->
+      <section>
+        <span class="etiket altin">Oylama</span>
+        <h2>{{SENARYO}}</h2>
+        <div class="secenekler">
+          <div class="uygun">✅ Uygun</div>
+          <div class="dikkat">⚠️ Dikkat</div>
+          <div class="asla">⛔ Asla</div>
+        </div>
+        <p class="fragment kucuk">Cevap: ...</p>
+        <aside class="notes">...</aside>
+      </section>
+
+      <!-- 9. VURGU / AKILDA KALACAK CÜMLE -->
+      <section class="vurgu">
+        <p class="buyuk">{{AKILDA_KALACAK_TEK_CUMLE}}</p>
+        <aside class="notes">...</aside>
+      </section>
+
+      <!-- 10. KAYNAKLAR (her sunumda son slayt) -->
+      <section>
+        <h3>Kaynaklar</h3>
+        <ul class="kaynaklar">
+          <li><a href="https://...">{{KAYNAK_ADI}}</a> — {{TARIH}}</li>
+        </ul>
+        <p class="kucuk">Ayrıntılı araştırma notu: <a href="../not.html?id={{ID}}">anlatıcı notu</a> · Son güncelleme: {{TARIH}}</p>
+        <aside class="notes">...</aside>
+      </section>
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/notes/notes.js"></script>
+  <script>
+    Reveal.initialize({
+      hash: true, slideNumber: 'c/t', progress: true, center: true, transition: 'slide',
+      width: 1280, height: 720, margin: 0.06, plugins: [RevealNotes]
+    });
+  </script>
+</body>
+</html>

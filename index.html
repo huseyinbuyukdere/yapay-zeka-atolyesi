@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yapay Zekâ Atölyesi</title>
+  <meta name="description" content="4 haftalık, teknik bilgi gerektirmeyen yapay zekâ atölyesi: anlatıcı sunumları ve araştırma notları.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --kagit: #fbf7f0; --kagit-koyu: #f2ead9; --murekkep: #1e2a38; --murekkep-acik: #4a5868;
+      --turkuaz: #0e7c7b; --turkuaz-acik: #d5ecea; --kiremit: #c8553d; --kiremit-acik: #f6ddd5;
+      --altin: #e0a93b; --altin-acik: #f8ebcc; --cizgi: #e4dccb; --kart: #ffffff;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --kagit: #141a21; --kagit-koyu: #1c242d; --murekkep: #ece6da; --murekkep-acik: #a9b3be;
+        --turkuaz: #4fbcb9; --turkuaz-acik: #17393a; --kiremit: #e98a73; --kiremit-acik: #3d231d;
+        --altin: #e9bb5a; --altin-acik: #3a2f17; --cizgi: #2a333d; --kart: #1a2129;
+      }
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--kagit); color: var(--murekkep); font: 16px/1.55 'Inter', system-ui, sans-serif; }
+    a { color: var(--turkuaz); }
+    .kap { max-width: 1080px; margin: 0 auto; padding: 0 16px; }
+    header { padding: 56px 0 28px; }
+    .ust { font: 600 12px/1 'Inter'; letter-spacing: .1em; text-transform: uppercase; color: var(--turkuaz); }
+    h1 { font: 700 clamp(36px, 6vw, 60px)/1.05 'Fraunces', Georgia, serif; margin: 12px 0 14px; letter-spacing: -.01em; }
+    .alt { font-size: 18px; color: var(--murekkep-acik); max-width: 640px; margin: 0; }
+    .rozetler { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+    .rozet { background: var(--kart); border: 1px solid var(--cizgi); border-radius: 999px; padding: 6px 12px; font-size: 14px; }
+    .ipucu { margin: 28px 0 8px; background: var(--kart); border: 1px solid var(--cizgi); border-left: 6px solid var(--altin); border-radius: 0 14px 14px 0; padding: 14px 16px; font-size: 14px; color: var(--murekkep-acik); }
+    .ipucu kbd { font: 600 12px 'Inter'; background: var(--kagit-koyu); border: 1px solid var(--cizgi); border-radius: 6px; padding: 1px 6px; color: var(--murekkep); }
+    .ilerleme { margin: 24px 0 8px; }
+    .cubuk { height: 10px; background: var(--kagit-koyu); border-radius: 999px; overflow: hidden; }
+    .cubuk > span { display: block; height: 100%; background: var(--turkuaz); width: 0; transition: width .6s ease; }
+    .ilerleme p { margin: 8px 0 0; font-size: 14px; color: var(--murekkep-acik); }
+    .haftalar { display: grid; gap: 18px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 480px), 1fr)); margin: 28px 0 48px; }
+    .hafta { background: var(--kart); border: 1px solid var(--cizgi); border-radius: 20px; padding: 20px; }
+    .hafta h2 { font: 700 24px/1.2 'Fraunces', Georgia, serif; margin: 0 0 4px; }
+    .hafta .tema { color: var(--murekkep-acik); font-size: 14px; margin: 0 0 14px; }
+    .konu { display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; padding: 12px 0; border-top: 1px solid var(--cizgi); }
+    .konu .ad { font-weight: 600; }
+    .konu .meta { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; font-size: 13px; color: var(--murekkep-acik); }
+    .durum { font: 600 11px/1 'Inter'; letter-spacing: .05em; text-transform: uppercase; padding: 5px 8px; border-radius: 999px; white-space: nowrap; align-self: start; }
+    .d-bekliyor { background: var(--kagit-koyu); color: var(--murekkep-acik); }
+    .d-uretiliyor { background: var(--altin-acik); color: var(--altin); }
+    .d-taslak { background: var(--turkuaz-acik); color: var(--turkuaz); }
+    .d-gozden_gecirildi, .d-cilalandi { background: var(--turkuaz); color: var(--kagit); }
+    .baglanti { font-weight: 600; text-decoration: none; }
+    .baglanti[aria-disabled="true"] { color: var(--murekkep-acik); opacity: .5; pointer-events: none; }
+    .gunluk { margin: 0 0 56px; }
+    .gunluk h2 { font: 700 22px 'Fraunces', Georgia, serif; }
+    .gunluk ol { padding-left: 18px; color: var(--murekkep-acik); font-size: 14px; }
+    footer { border-top: 1px solid var(--cizgi); padding: 20px 0 40px; font-size: 13px; color: var(--murekkep-acik); }
+    .hata { color: var(--kiremit); }
+  </style>
+</head>
+<body>
+  <div class="kap">
+    <header>
+      <div class="ust">Anlatıcı kiti</div>
+      <h1>Yapay Zekâ Atölyesi</h1>
+      <p class="alt">Farklı mesleklerden katılımcılar için teknik bilgi gerektirmeyen, uygulamalı bir yolculuk: yapay zekâ nedir, nasıl çalışır, nerelerde kullanılır ve bugünün araçlarıyla neler üretebiliriz?</p>
+      <div class="rozetler"><span class="rozet">4 hafta</span><span class="rozet">Haftada 2 saat</span><span class="rozet">%40 anlatım · %60 uygulama</span><span class="rozet">Kod yok</span></div>
+      <div class="ipucu">Sunum açıkken <kbd>S</kbd> konuşmacı notlarını ayrı pencerede açar, <kbd>F</kbd> tam ekran yapar, <kbd>Esc</kbd> tüm slaytları gösterir. PDF almak için sunum adresinin sonuna <code>?print-pdf</code> ekleyip tarayıcıdan yazdırın.</div>
+      <div class="ilerleme" aria-live="polite">
+        <div class="cubuk"><span id="cubuk"></span></div>
+        <p id="ozet">Durum yükleniyor…</p>
+      </div>
+    </header>
+
+    <main>
+      <div class="haftalar" id="haftalar"></div>
+      <section class="gunluk">
+        <h2>Son çalışmalar</h2>
+        <ol id="gunluk"><li>Henüz kayıt yok.</li></ol>
+      </section>
+    </main>
+
+    <footer>Sunumlar ve notlar her saat başı çalışan bir bulut görevi tarafından araştırılıp güncellenir. İçerikler yayın tarihinde doğrulanmıştır; araçların fiyat ve özellikleri hızla değişir, atölyeden önce kontrol edin.</footer>
+  </div>
+
+  <script>
+    const TEMALAR = {
+      1: 'Yapay zekâya merhaba: nedir, nasıl öğrenir, nerelerde kullanılır?',
+      2: 'Sohbet asistanlarıyla düşünmek: iyi talimat, doğrulama, kendi belgenle çalışmak',
+      3: 'Üretken yapay zekâ atölyesi: görsel, müzik, ses ve video',
+      4: 'Kendi işinde yapay zekâ ve sorumluluk: ajanlar, meslekler, kurallar, final'
+    };
+    const DURUM_ADI = { bekliyor: 'Bekliyor', uretiliyor: 'Hazırlanıyor', taslak: 'Taslak hazır', gozden_gecirildi: 'Gözden geçirildi', cilalandi: 'Cilalandı' };
+    const hazir = d => ['taslak', 'gozden_gecirildi', 'cilalandi'].includes(d);
+    const kacis = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
+    const tarih = s => { try { return s ? new Date(s).toLocaleString('tr-TR', { dateStyle: 'medium', timeStyle: 'short', timeZone: 'Europe/Istanbul' }) : '—'; } catch (e) { return s || '—'; } };
+
+    fetch('durum.json', { cache: 'no-store' }).then(r => r.json()).then(veri => {
+      const konular = veri.konular || [];
+      const biten = konular.filter(k => hazir(k.durum)).length;
+      document.getElementById('cubuk').style.width = (konular.length ? (100 * biten / konular.length) : 0) + '%';
+      document.getElementById('ozet').textContent = `${konular.length} konudan ${biten} tanesi hazır · Son çalışma: ${tarih(veri.son_calisma)} · Toplam çalışma: ${veri.calisma_sayisi || 0}`;
+
+      const kap = document.getElementById('haftalar');
+      [1, 2, 3, 4].forEach(h => {
+        const liste = konular.filter(k => k.hafta === h).sort((a, b) => a.sira - b.sira);
+        const toplam = liste.reduce((t, k) => t + (k.sure_dk || 0), 0);
+        const satirlar = liste.map(k => `
+          <div class="konu">
+            <div class="ad">${kacis(k.baslik)}</div>
+            <span class="durum d-${kacis(k.durum)}">${kacis(DURUM_ADI[k.durum] || k.durum)}</span>
+            <div class="meta">
+              <span>${kacis(k.id)} · ${kacis(k.sure_dk)} dk${k.surum ? ' · sürüm ' + kacis(k.surum) : ''}</span>
+              <a class="baglanti" href="sunumlar/${encodeURIComponent(k.id)}.html" aria-disabled="${!hazir(k.durum)}">Sunum →</a>
+              <a class="baglanti" href="not.html?id=${encodeURIComponent(k.id)}" aria-disabled="${!hazir(k.durum)}">Anlatıcı notu →</a>
+            </div>
+          </div>`).join('');
+        kap.insertAdjacentHTML('beforeend', `<section class="hafta"><h2>${h}. Hafta</h2><p class="tema">${kacis(TEMALAR[h])} · ${toplam} dk</p>${satirlar}</section>`);
+      });
+
+      const g = (veri.gunluk || []).slice(-8).reverse();
+      if (g.length) document.getElementById('gunluk').innerHTML = g.map(x => `<li><strong>${kacis(tarih(x.zaman))}</strong> — ${kacis(x.ozet)}</li>`).join('');
+    }).catch(() => {
+      document.getElementById('ozet').innerHTML = '<span class="hata">Durum dosyası okunamadı. Sayfayı bir sunucu üzerinden (GitHub Pages) açın.</span>';
+    });
+  </script>
+</body>
+</html>
