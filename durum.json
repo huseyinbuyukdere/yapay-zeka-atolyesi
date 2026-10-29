@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-29T15:20:13Z",
-  "calisma_sayisi": 1,
+  "son_calisma": "2026-10-29T15:48:23Z",
+  "calisma_sayisi": 2,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -140,12 +140,12 @@
         "Bilgi kesim tarihi, web araması, 'düşünerek cevap veren' (akıl yürüten) modeller",
         "Ekim 2026 itibarıyla güncel asistanlar ve model aileleri (doğrulanmış)"
       ],
-      "durum": "uretiliyor",
-      "surum": 0,
-      "son_guncelleme": null,
-      "sahip": "20261029T1538Z",
-      "sahip_zamani": "2026-10-29T15:38:20Z",
-      "not": ""
+      "durum": "taslak",
+      "surum": 1,
+      "son_guncelleme": "2026-10-29T15:48:23Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 1: 18 slayt (canlı ses demosu, olasılık çubukları ve kesim tarihi SVG'leri, token tahmini, risk oylaması, D/Y quizi, Ekim 2026 asistan tablosu), 18 kaynaklı not. Claude ücretsiz plan modeli yalnızca ikincil kaynaktan; Copilot ücretsiz kapsamı doğrulanamadı."
     },
     {
       "id": "h2-02",
@@ -438,6 +438,10 @@
     {
       "zaman": "2026-10-29T15:20:13Z",
       "ozet": "h1-06: Bugün yapay zekâ nerede taslağı yayımlandı (12 arama, 14 kaynak okundu)."
+    },
+    {
+      "zaman": "2026-10-29T15:48:23Z",
+      "ozet": "h2-01: Sohbet asistanları nasıl çalışır taslağı yayımlandı (17 arama, 19 kaynak okundu)."
     }
   ]
 }

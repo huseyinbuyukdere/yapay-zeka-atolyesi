@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sohbet asistanları nasıl çalışır? · Yapay Zekâ Atölyesi</title>
+  <meta name="description" content="Büyük dil modelleri telefon klavyesi benzetmesiyle: token, en olası devam, halüsinasyon, bilgi kesim tarihi, web araması, düşünen modeller ve Ekim 2026 güncel asistanlar.">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css">
+  <link rel="stylesheet" href="../assets/tema.css">
+  <style>
+    svg text { font-family: inherit; }
+    .parcalar { display: flex; gap: .25em; justify-content: center; flex-wrap: wrap; font-size: 1.3em; margin: .6em 0; }
+    .parcalar span { padding: .2em .45em; border-radius: .4em; color: #fff; }
+    .parcalar span:nth-child(4n+1) { background: var(--turkuaz); }
+    .parcalar span:nth-child(4n+2) { background: var(--kiremit); }
+    .parcalar span:nth-child(4n+3) { background: var(--altin); }
+    .parcalar span:nth-child(4n+4) { background: var(--murekkep-acik); }
+    .dy { font-size: .9em; text-align: left; margin: .35em auto; max-width: 900px; }
+  </style>
+</head>
+<body>
+  <div class="altbilgi">Yapay Zekâ Atölyesi · 2. Hafta · Sohbet asistanları nasıl çalışır?</div>
+  <div class="reveal">
+    <div class="slides">
+
+      <!-- 1. KAPAK -->
+      <section class="kapak">
+        <div class="cini" aria-hidden="true"></div>
+        <span class="etiket">2. Hafta · 30 dakika</span>
+        <h1>Sohbet asistanları nasıl çalışır?</h1>
+        <p class="alt">Telefon klavyenizin kelime önerisini tanıyorsanız, ChatGPT'nin sırrını da çözersiniz.</p>
+        <aside class="notes">
+          Ne söyle: Hoş geldiniz. Geçen hafta makinelerin örnekten öğrendiğini gördük. Bu hafta hepimizin cebindeki o konuşan asistanların içine bakacağız: ChatGPT, Gemini, Claude, Copilot. Size bir söz: Bu bölümün sonunda telefonunuzun klavyesine bakıp "aa, işte bu" diyeceksiniz. Formül yok, sadece kelimeler ve biraz tahmin oyunu var.
+          Süre: 1 dk.
+          Dikkat: Geçen haftanın "Yapay zekâ avı" görevine kısa bir gönderme yapabilirsin ama uzun tartışmayı sona sakla.
+        </aside>
+      </section>
+
+      <!-- 2. CANLI DEMO -->
+      <section>
+        <div class="uygulama-kutu">
+          <span class="sure">⏱ 3,5 dk</span>
+          <h2>Canlı demo: Aynı konu, iki dinleyici</h2>
+          <ol class="adimlar">
+            <li>🎙️ “Gökkuşağı nasıl oluşur? Yedi yaşındaki bir çocuğa anlat.”</li>
+            <li class="fragment">🎓 “Şimdi bir fizik profesörüne anlat.”</li>
+            <li class="fragment">✋ Araya girin: “Daha kısa olsun.”</li>
+          </ol>
+        </div>
+        <aside class="notes">
+          Ne söyle: Önce izleyelim, sonra konuşalım. Telefonumdaki asistanla sesli konuşacağım. İlk istek: Gökkuşağını yedi yaşındaki bir çocuğa anlat. (Dinlet.) Şimdi aynı konuyu bir profesöre anlatsın. (Dinlet.) Fark ettiniz mi? Bilgi aynı, dil bambaşka. Yeni ses modelleri sözünüzü kesmenize de izin veriyor; şimdi araya girip "daha kısa" diyeceğim.
+          Süre: 3,5 dk (kesinlikle aşma).
+          Salona sor: "Sizce bunu nasıl yapıyor? Bir yerden mi okuyor?" Cevapları toplama, bir sonraki slayta taşı.
+          Dikkat: Ses gecikirse yazılı sohbete geç. Kota biterse ikinci asistanı aç. O da olmazsa önceden aldığın ekran görüntüsünü göster. Asistan hata yaparsa "Harika, birazdan bunun adını koyacağız: halüsinasyon" de.
+        </aside>
+      </section>
+
+      <!-- 3. BÜYÜK SORU -->
+      <section class="soru">
+        <span class="etiket kiremit">Bugünün sorusu</span>
+        <p class="buyuk">Asistan cevabı bir yerden mi <em>okuyor</em>, yoksa o an mı <em>yazıyor</em>?</p>
+        <p class="ipucu">El kaldırarak oylayalım: 📖 okuyor · ✍️ yazıyor</p>
+        <aside class="notes">
+          Ne söyle: Şimdi bir oylama. Asistan bu cevabı hazır bir yerden, mesela bir ansiklopediden mi okuyor? Yoksa her seferinde o an mı yazıyor? Okuyor diyenler el kaldırsın. Yazıyor diyenler? Cevap: O an yazıyor. Hem de kelime kelime, daha doğrusu kelime parçası kelime parçası. Aynı soruyu iki kez sorsanız iki farklı cevap almanızın sebebi de bu.
+          Süre: 1,5 dk.
+          Salona sor: Oylamanın kendisi.
+          Dikkat: Web araması açıksa asistan sayfalara bakabilir; bunu slayt 12'de anlatacağını söyle, şimdi dağılma.
+        </aside>
+      </section>
+
+      <!-- 4. BENZETME -->
+      <section>
+        <span class="etiket">Benzetme</span>
+        <h2>Klavyenizin dev versiyonu</h2>
+        <div class="benzetme">
+          <span class="simge" aria-hidden="true">📱</span>
+          <p>“Akşam” yazınca klavye “görüşürüz · yemeğe · eve” önerir. Büyük dil modeli aynı oyunu kütüphaneler dolusu metinle ve sayfalarca bağlamla oynar.</p>
+        </div>
+        <aside class="notes">
+          Ne söyle: Telefonunuzda mesaj yazarken klavyenin üstünde üç kelime çıkar. "Akşam" yazarsınız, "görüşürüz", "yemeğe", "eve" önerir. Klavye, hangi kelimenin hangisinden sonra sık geldiğini öğrenmiştir. Sohbet asistanının kalbindeki "büyük dil modeli" de aynı oyunu oynar. Farkı şu: Kütüphaneler dolusu metin okumuştur ve yalnızca son kelimeye değil, sorunuzun tamamına, önceki mesajlara, verdiğiniz belgeye birlikte bakar.
+          Süre: 1,5 dk.
+          Salona sor: "Telefonunuzu çıkarın, 'Akşam' yazın. Size ne önerdi?"
+          Dikkat (benzetmenin sınırı): "Sadece otomatik tamamlama" deyip küçümseme. Ölçek büyüyünce özetleme, çeviri, plan yapma gibi şaşırtıcı yetenekler ortaya çıkıyor.
+        </aside>
+      </section>
+
+      <!-- 5. OLASILIK ÇİZİMİ -->
+      <section>
+        <h2>“Bugün hava çok …”</h2>
+        <svg role="img" aria-label="Temsilî çubuk grafik: Bugün hava çok cümlesinin devamı için olası kelimeler. Güzel en uzun çubuk, sonra sıcak, soğuk ve en kısa çubuk olarak mor." viewBox="0 0 1000 380" width="1000" height="380">
+          <text x="20" y="30" font-size="20" fill="var(--murekkep-acik)">Model her olası devama bir şans puanı verir (temsilî):</text>
+          <g class="fragment">
+            <text x="150" y="95" text-anchor="end" font-size="32" fill="var(--murekkep)">güzel</text>
+            <rect x="170" y="65" width="620" height="44" rx="10" fill="var(--turkuaz)"/>
+          </g>
+          <g class="fragment">
+            <text x="150" y="170" text-anchor="end" font-size="32" fill="var(--murekkep)">sıcak</text>
+            <rect x="170" y="140" width="380" height="44" rx="10" fill="var(--altin)"/>
+          </g>
+          <g class="fragment">
+            <text x="150" y="245" text-anchor="end" font-size="32" fill="var(--murekkep)">soğuk</text>
+            <rect x="170" y="215" width="300" height="44" rx="10" fill="var(--kiremit)"/>
+          </g>
+          <g class="fragment">
+            <text x="150" y="320" text-anchor="end" font-size="32" fill="var(--murekkep)">mor</text>
+            <rect x="170" y="290" width="18" height="44" rx="6" fill="var(--murekkep-acik)"/>
+            <text x="210" y="322" font-size="22" fill="var(--murekkep-acik)">neredeyse hiç</text>
+          </g>
+          <text x="820" y="95" font-size="22" fill="var(--murekkep)" class="fragment">← birini seçer,</text>
+          <text x="820" y="125" font-size="22" fill="var(--murekkep)" class="fragment">ekler, tekrarlar</text>
+        </svg>
+        <aside class="notes">
+          Ne söyle: Modelin içinde olan biten tam olarak bu. "Bugün hava çok" cümlesinin devamı için aklına gelen her kelimeye bir şans puanı verir. "Güzel" çok olası, "sıcak" ve "soğuk" da olası, "mor" neredeyse imkânsız. Birini seçer, cümleye ekler, sonra aynı soruyu yeniden sorar: Şimdi ne gelir? Bin kelimelik bir cevap, bu küçük adımın binlerce kez tekrarıdır. Her seferinde hep en olasıyı seçmediği için de aynı soruya farklı cevaplar gelir.
+          Süre: 1,5 dk.
+          Salona sor: "Siz olsanız hangisini seçerdiniz? Neden?" (Mevsime göre cevap değişir: bağlam önemli.)
+          Dikkat: Çubuk uzunlukları temsilîdir, gerçek ölçüm değildir.
+        </aside>
+      </section>
+
+      <!-- 6. TOKEN -->
+      <section>
+        <span class="etiket altin">Tahmin oyunu</span>
+        <h2>Model kelimeyi değil, parçayı görür</h2>
+        <p class="kucuk">“gelemeyecekmişsiniz” kaç parça olur?</p>
+        <div class="parcalar fragment" aria-label="Temsilî bölme: gel, eme, yecek, miş, siniz">
+          <span>gel</span><span>eme</span><span>yecek</span><span>miş</span><span>siniz</span>
+        </div>
+        <p class="fragment kucuk">Bu parçalara <strong>token</strong> denir. İngilizcede 1 token ≈ ¾ kelime; Türkçe gibi ekli dillerde genelde daha fazla parça.</p>
+        <aside class="notes">
+          Ne söyle: Küçük bir sır: Model aslında kelimeleri değil, kelime parçalarını görür. Bunlara "token" denir. Tahmin edin, "gelemeyecekmişsiniz" kaç parça olur? (Cevapları al.) Bölme şekli modelden modele değişir; ekrandaki temsilî bir örnek. OpenAI'ın yardım sayfasına göre İngilizcede bir token ortalama kelimenin dörtte üçü kadar. İngilizce dışındaki diller genelde daha fazla token harcıyor. Türkçe, ekleriyle bu konuda iyi bir örnek. Neden önemli? Uzun belgeler ve uzun sohbetler daha çok token demek; ücretsiz kotalar da genelde buna göre dolar.
+          Süre: 2 dk.
+          Salona sor: "Kaç parça olur?"
+          Dikkat: Gösterilen bölme gerçek bir modelin çıktısı değil, temsilî. "Türkçe kötü anlaşılıyor" sonucuna götürme; büyük asistanlar Türkçeyi iyi anlıyor.
+        </aside>
+      </section>
+
+      <!-- 7. NASIL YETİŞİR -->
+      <section>
+        <h2>Bir asistan nasıl yetişir?</h2>
+        <div class="kartlar">
+          <div class="kart fragment"><span class="simge" aria-hidden="true">📚</span><h3>1. Okuma</h3><p>Devasa metinden “sıradaki parça ne?” oyunuyla öğrenir</p></div>
+          <div class="kart fragment turkuaz"><span class="simge" aria-hidden="true">🧑‍🏫</span><h3>2. Terbiye</h3><p>İnsanların örnek ve geri bildirimiyle “yardımsever asistan” olur</p></div>
+          <div class="kart fragment altin"><span class="simge" aria-hidden="true">💬</span><h3>3. Sohbet</h3><p>Sizin sorunuzu bağlam yapıp devamını yazar</p></div>
+        </div>
+        <aside class="notes">
+          Ne söyle: Bir asistan üç aşamada yetişir. Birinci aşama okuma: Kitaplar, makaleler, web sayfaları dolusu metinle "sıradaki parça ne?" oyununu milyarlarca kez oynar. Bu aşamadan çıkan model çok bilgilidir ama kibar bir asistan değildir; her metni sadece sürdürür. İkinci aşama terbiye: İnsanlar ona örnek sorular ve iyi cevaplar gösterir, cevaplarını puanlar. Böylece soruya cevap veren, kurallara uyan bir asistana dönüşür. Üçüncü aşama sizinle sohbet: Yazdığınız her şey, onun devam ettireceği metnin başlangıcı olur. İşte bu yüzden iyi talimat yazmak önemli; bir sonraki bölümün konusu.
+          Süre: 2,5 dk.
+          Dikkat: Sohbet sırasında model yeniden eğitilmez. "Sizden öğreniyor mu?" sorusu gelirse: "O konuşma boyunca dikkate alır; veri ayarlarını bu haftanın son bölümünde konuşacağız."
+        </aside>
+      </section>
+
+      <!-- 8. İKİ SÜTUN -->
+      <section>
+        <h2>Ansiklopedi değil, hikâye anlatıcısı</h2>
+        <div class="iki-sutun">
+          <div><h3>📖 Ansiklopedi</h3><ul><li>Sayfayı açar, okur</li><li>Bilmediği yerde boş kalır</li><li>Kaynağı bellidir</li></ul></div>
+          <div class="fragment"><h3>🗣️ Sohbet asistanı</h3><ul><li>Hatırladığı kalıplardan yeniden yazar</li><li>Boşluğu akıcı biçimde doldurabilir</li><li>Kaynağı ancak isterseniz gösterir</li></ul></div>
+        </div>
+        <aside class="notes">
+          Ne söyle: Kahvehanede her konuda konuşabilen, binlerce kitap okumuş bir amca düşünün. Anlattıklarının çoğu doğrudur, çünkü çok okumuştur. Ama hangi kitapta okuduğunu hatırlamaz. Emin olmadığı bir yerde de duraksamaz, akıcı biçimde boşluğu doldurur. Sohbet asistanı bir ansiklopedi değil, böyle bir hikâye anlatıcısıdır. Ansiklopedi bilmediği yerde boş kalır; asistan ise o boşluğu doldurmaya eğilimlidir.
+          Süre: 1,5 dk.
+          Dikkat (benzetmenin sınırı): Amca bilerek abartabilir; modelin niyeti yoktur. Web araması açık bir asistan da "kitabı açıp bakabilir" ve kaynak gösterebilir.
+        </aside>
+      </section>
+
+      <!-- 9. HALÜSİNASYON -->
+      <section>
+        <span class="etiket kiremit">Halüsinasyon</span>
+        <h2>Neden kendinden emin uydurur?</h2>
+        <div class="benzetme">
+          <span class="simge" aria-hidden="true">📝</span>
+          <p>Yanlışın ceza getirmediği bir sınavda boş bırakmak sıfırdır; tahmin bazen tutar. Modeller de uzun süre böyle puanlandı.</p>
+        </div>
+        <p class="fragment kucuk">Bir doğum gününü tahmin etmek: 365'te 1 şans. “Bilmiyorum” demek: kesin sıfır.</p>
+        <aside class="notes">
+          Ne söyle: Asistanın gerçekte olmayan bir bilgiyi kendinden emin biçimde söylemesine "halüsinasyon" diyoruz. Neden olur? OpenAI 2025'te bunu bir sınav benzetmesiyle açıkladı. Yanlış cevabın ceza getirmediği bir sınav düşünün. Boş bırakırsanız sıfır alırsınız, sallarsanız bazen tutar. Akıllı öğrenci her soruyu doldurur. Modelleri ölçen testlerin çoğu da yalnızca doğru cevap oranına bakıyordu; "emin değilim" demek sıfır puan alıyordu. Bir de şu var: Birinin doğum günü gibi nadir bilgiler kalıptan çıkarılamaz. Model bilmiyorsa tahmin eder, 365'te bir şansla tutturur.
+          Süre: 2 dk.
+          Salona sor: "Yanlışın doğruyu götürdüğü sınavlarda ne yapardınız?" (Salon bu benzetmeyi hemen yakalar: Ceza olunca daha az sallanır.)
+          Dikkat: "Yalan söylüyor" deme; niyet yok, istatistiksel bir hata. Korkutma: Hemen ardından çözümü ver (kaynak iste, doğrula).
+        </aside>
+      </section>
+
+      <!-- 10. RİSK TAHMİN OYUNU -->
+      <section>
+        <span class="etiket altin">Oylama</span>
+        <h2>Uydurma riski en yüksek hangisinde?</h2>
+        <div class="kartlar">
+          <div class="kart"><span class="simge" aria-hidden="true">🏛️</span><h3>A</h3><p>Türkiye'nin başkenti neresi?</p></div>
+          <div class="kart turkuaz"><span class="simge" aria-hidden="true">🥖</span><h3>B</h3><p>Mahallemdeki fırın hangi yıl açıldı?</p></div>
+          <div class="kart altin"><span class="simge" aria-hidden="true">📗</span><h3>C</h3><p>Çok satan bir romanın konusu</p></div>
+        </div>
+        <p class="fragment kucuk">Cevap: <strong>B</strong> — internette az geçen, kalıptan çıkarılamayan bilgi. Riskin sinyali: nadir, yerel, çok güncel, çok ayrıntılı.</p>
+        <aside class="notes">
+          Ne söyle: Şimdi siz tahmin edin. Üç soru var; asistanın uydurma ihtimali hangisinde en yüksek? A, B, C? El kaldıralım. (Oylat.) Doğru cevap B. Türkiye'nin başkenti metinlerde milyonlarca kez geçer. Çok satan bir romanın konusu da binlerce yerde yazılmıştır. Ama mahallenizdeki fırının açılış yılı belki hiçbir yerde yazmıyor. Model bilmediğinde sessiz kalmak yerine makul görünen bir yıl üretebilir. Kural: Bilgi ne kadar nadir, yerel, güncel veya ayrıntılıysa risk o kadar yüksek.
+          Süre: 1,5 dk.
+          Salona sor: Oylamanın kendisi.
+          Dikkat: C'de de ayrıntı sorulursa (ör. üçüncü bölümde kim ne dedi) risk artar; bunu bir cümleyle ekle.
+        </aside>
+      </section>
+
+      <!-- 11. BİLGİ KESİM TARİHİ -->
+      <section>
+        <h2>Bilgi kesim tarihi: donmuş bir albüm</h2>
+        <svg role="img" aria-label="Zaman çizgisi: Eğitim verisi belli bir tarihte kesilir; sonrası modelin albümünde yoktur. Web araması o günün gazetesini ekler." viewBox="0 0 1000 300" width="1000" height="300">
+          <defs>
+            <marker id="ok" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="var(--murekkep-acik)"/></marker>
+          </defs>
+          <line x1="40" y1="150" x2="960" y2="150" stroke="var(--murekkep-acik)" stroke-width="5" marker-end="url(#ok)"/>
+          <rect x="40" y="110" width="520" height="80" rx="16" fill="var(--turkuaz)"/>
+          <text x="300" y="160" text-anchor="middle" font-size="28" fill="#fff">📚 Modelin okuduğu dönem</text>
+          <line x1="560" y1="70" x2="560" y2="230" stroke="var(--kiremit)" stroke-width="6" stroke-dasharray="12 8"/>
+          <text x="560" y="55" text-anchor="middle" font-size="24" fill="var(--kiremit)">✂️ kesim tarihi</text>
+          <g class="fragment">
+            <text x="770" y="125" text-anchor="middle" font-size="26" fill="var(--murekkep-acik)">❓ dünkü maç, yeni yasa</text>
+          </g>
+          <g class="fragment">
+            <rect x="620" y="215" width="300" height="60" rx="14" fill="var(--altin)"/>
+            <text x="770" y="254" text-anchor="middle" font-size="24" fill="#fff">🔎 web araması = gazete</text>
+          </g>
+        </svg>
+        <aside class="notes">
+          Ne söyle: Modelin bilgisi, eğitim verisinin toplandığı tarihte çekilmiş bir fotoğraf albümü gibidir. Buna "bilgi kesim tarihi" denir. Albümde o tarihten sonraki maç, seçim, yeni yasa yoktur. Üstelik eğitim ve testler aylar sürdüğü için model piyasaya çıktığında bile biraz geriden gelir. Tehlikeli olan şu: Web araması kapalıyken asistan eski bilgiyi hiçbir uyarı vermeden, güncelmiş gibi söyleyebilir.
+          Süre: 1,5 dk.
+          Salona sor: "Asistana dünkü maçın skorunu sorsak ne olur?"
+          Dikkat: Kesim tarihine yakın olaylar da çoğu zaman eksik veya bulanıktır.
+        </aside>
+      </section>
+
+      <!-- 12. WEB ARAMASI -->
+      <section>
+        <h2>Web araması açıkken ne değişir?</h2>
+        <div class="iki-sutun">
+          <div><h3>🔒 Arama kapalı</h3><ul><li>Yalnızca “albümden” cevap</li><li>Güncel konuda eski bilgi</li><li>Kaynak yok</li></ul></div>
+          <div class="fragment"><h3>🔎 Arama açık</h3><ul><li>Sayfaları okuyup özetler</li><li>Bağlantı gösterir</li><li>Yine de yanlış özetleyebilir</li></ul></div>
+        </div>
+        <p class="fragment kucuk">Alışkanlık: Önemli bilgide “kaynağını göster” deyin ve bağlantıyı açın.</p>
+        <aside class="notes">
+          Ne söyle: Bugün büyük asistanların çoğu gerektiğinde internette arama yapabiliyor. O zaman albüme o günün gazetesini iliştirmiş gibi olur: Sayfaları okur, özetler, altına bağlantı koyar. Ama dikkat: Yanlış sayfayı seçebilir ya da doğru sayfayı yanlış özetleyebilir. Altın kural şu: Önemli bilgide "kaynağını göster" deyin ve o bağlantıya bir kez tıklayın.
+          Süre: 1 dk.
+          Dikkat: Hangi asistanda aramanın nasıl açıldığına girme; 3. bölümde üç asistanı yan yana deneyeceğiz.
+        </aside>
+      </section>
+
+      <!-- 13. DÜŞÜNEN MODELLER -->
+      <section>
+        <h2>“Düşünerek” cevap veren modeller</h2>
+        <div class="kartlar">
+          <div class="kart fragment"><span class="simge" aria-hidden="true">⚡</span><h3>Hızlı mod</h3><p>Aklına ilk geleni yazar. Kısa sorular, çeviri, e-posta</p></div>
+          <div class="kart fragment turkuaz"><span class="simge" aria-hidden="true">🧮</span><h3>Düşünen mod</h3><p>Önce taslakta adım adım çalışır. Hesap, plan, karşılaştırma</p></div>
+          <div class="kart fragment altin"><span class="simge" aria-hidden="true">⏳</span><h3>Bedeli</h3><p>Daha yavaş, kotayı daha hızlı bitirir; basit işte “fazla düşünür”</p></div>
+        </div>
+        <aside class="notes">
+          Ne söyle: Matematik sınavında iki öğrenci düşünün. Biri aklına ilk gelen sayıyı yazıyor. Öteki kâğıda işlemi yazıp kontrol ediyor. Son iki yılda asistanlara ikinci öğrencinin yöntemi eklendi: "Düşünen" ya da "akıl yürüten" modeller. Cevap vermeden önce kendi içlerinde bir taslak yazar, adım adım ilerler, gerekirse yön değiştirir. Bazı uygulamalarda bunun için ayrı bir düğme ya da "çaba düzeyi" ayarı var. Bedeli: daha yavaştır ve ücretsiz kotayı daha hızlı tüketir. Basit sorularda gereksiz yere uzun düşünebilir.
+          Süre: 2 dk.
+          Salona sor: "İşinizde hangi soru 'acele' ister, hangisi 'düşün' ister?" İki üç örnek al.
+          Dikkat: "Düşünme" insan düşüncesi değil, cevaptan önce üretilen ek metin. Bir tarihi veya ismi doğru hatırlamayı tek başına garanti etmez.
+        </aside>
+      </section>
+
+      <!-- 14. GÜNCEL TABLO -->
+      <section>
+        <h3>Ekim 2026 itibarıyla dört büyük asistan</h3>
+        <table>
+          <thead><tr><th>Asistan</th><th>En yeni aile</th><th>Ücretsiz planda</th></tr></thead>
+          <tbody>
+            <tr class="fragment"><td>💬 ChatGPT (OpenAI)</td><td>GPT-6: Astra · Sol · Luna</td><td>Luna (Ekim'den itibaren kademeli)</td></tr>
+            <tr class="fragment"><td>✨ Gemini (Google)</td><td>Gemini 4 Argon (ücretli planlar)</td><td>9 Ekim'den beri yalnızca Flash-Lite</td></tr>
+            <tr class="fragment"><td>🧡 Claude (Anthropic)</td><td>5.5: Opus · Sonnet · Haiku</td><td>Sonnet ve Haiku (Opus yok)</td></tr>
+            <tr class="fragment"><td>🪟 Copilot (Microsoft)</td><td>Windows ve Office'e gömülü</td><td>Farklı şirketlerin modelleri</td></tr>
+          </tbody>
+        </table>
+        <p class="kucuk fragment">Ezberlemeyin: Bu tablo birkaç ayda bir değişiyor.</p>
+        <aside class="notes">
+          Ne söyle: Bugünkü tabloya kısaca bakalım. Her şirketin bir büyük, bir orta, bir küçük modeli var; büyük olan daha yetenekli ama pahalı, küçük olan hızlı ve ucuz. ChatGPT'de en yeni aile GPT-6; ücretsiz kullanıcılara küçük model Luna Ekim başından itibaren kademeli açılıyor. Google'da en güçlü model Gemini 4 Argon, ücretli planlarda. 9 Ekim'den beri ücretsiz Gemini hesapları en hafif model olan Flash-Lite ile çalışıyor. Anthropic'in Claude'unda 5.5 ailesi var; ücretsiz planda orta ve küçük model var, en büyüğü yok. Microsoft'un Copilot'u ise Windows ve Office'in içinde; farklı şirketlerin modellerini kullanabiliyor. Bu tabloyu ezberlemeyin, birkaç ayda bir değişiyor.
+          Süre: 2 dk.
+          Salona sor: "Hanginizin telefonunda hangisi var?"
+          Dikkat: Sunumdan bir gün önce uygulamaların model seçicisine bak, değişen ad varsa güncelle. Claude ücretsiz plan bilgisi ikincil bir rehberden; Copilot'un tüketici ücretsiz kapsamı doğrulanamadı, ayrıntıya girme. Hiçbir ürünü övme ya da yerme.
+        </aside>
+      </section>
+
+      <!-- 15. SESLİ SOHBET -->
+      <section>
+        <h2>Konuşarak sohbet</h2>
+        <div class="kartlar">
+          <div class="kart fragment"><span class="simge" aria-hidden="true">🎧</span><h3>Aynı anda dinler</h3><p>Yeni ses modelleri sözünüzü bitirmenizi beklemeden cevap hazırlar</p></div>
+          <div class="kart fragment turkuaz"><span class="simge" aria-hidden="true">✋</span><h3>Araya girebilirsiniz</h3><p>“Yavaşla”, “daha kısa”, “bir dakika” diyebilirsiniz</p></div>
+          <div class="kart fragment altin"><span class="simge" aria-hidden="true">🇹🇷</span><h3>Türkçe</h3><p>Büyük asistanların sesli modları Türkçe konuşuyor</p></div>
+        </div>
+        <aside class="notes">
+          Ne söyle: Açılıştaki demoyu hatırlayın. OpenAI, Temmuz 2026'da ChatGPT'nin sesli modu için yeni bir ses modeli açtı. Siz konuşurken dinleyip cevap hazırlayabiliyor; araya girmenize, "yavaşla" demenize izin veriyor. Ücretsiz kullanıcılar bunun küçük sürümünü kullanıyor. Google'ın sesli modu Gemini Live ise 2024'ten beri Türkçe konuşuyor. Ama unutmayın: Ses sadece bir kapı. Arkada yine aynı kelime tahmincisi var; sesli cevap da uydurabilir ve kaynak göstermez.
+          Süre: 1,5 dk.
+          Dikkat: Yaşlı veya ekrandan yorulan katılımcılar için sesli modun pratikliğini vurgula; önemli bilgiyi yazılı teyit etmeyi hatırlat.
+        </aside>
+      </section>
+
+      <!-- 16. DOĞRU / YANLIŞ QUIZ -->
+      <section>
+        <span class="etiket altin">Mini quiz</span>
+        <h2>Doğru mu, yanlış mı?</h2>
+        <p class="dy">1. Asistan emin konuşuyorsa bilgi doğrudur. <span class="fragment">❌ <strong>Yanlış</strong> — akıcılık doğruluk değildir.</span></p>
+        <p class="dy">2. Aynı soruya iki farklı cevap gelebilir. <span class="fragment">✅ <strong>Doğru</strong> — her seferinde yeniden yazar.</span></p>
+        <p class="dy">3. Web araması açıksa hiç yanılmaz. <span class="fragment">❌ <strong>Yanlış</strong> — yanlış özetleyebilir; bağlantıyı açın.</span></p>
+        <aside class="notes">
+          Ne söyle: Şimdi bölümü üç soruyla toparlayalım. Her ifade için doğru diyenler bir el, yanlış diyenler iki el kaldırsın. Birinci: "Asistan emin konuşuyorsa bilgi doğrudur." Yanlış. Halüsinasyonun tehlikesi tam da inandırıcı olmasıdır. İkinci: "Aynı soruya iki farklı cevap gelebilir." Doğru, çünkü her seferinde o an yazıyor. Üçüncü: "Web araması açıksa hiç yanılmaz." Yanlış. Yanlış sayfayı seçebilir, doğru sayfayı yanlış özetleyebilir.
+          Süre: 2 dk.
+          Salona sor: Her ifade için oylama.
+          Dikkat: Yanlış cevap veren katılımcıyı düzeltirken "çoğumuz böyle düşünüyoruz" diyerek rahatlat.
+        </aside>
+      </section>
+
+      <!-- 17. VURGU -->
+      <section class="vurgu">
+        <p class="buyuk">Asistan bir kâhin değil; çok okumuş bir tahminci. Son sözü siz söylersiniz.</p>
+        <aside class="notes">
+          Ne söyle: Bu bölümden tek bir cümle hatırlayacaksanız şu olsun: Asistan bir kâhin değil, çok okumuş bir tahminci. Son sözü siz söylersiniz. Ve madem en olası devamı yazıyor, ona ne kadar iyi bir başlangıç verirsek devamı da o kadar iyi olur. Şimdi bu başlangıcı yazmanın formülünü öğreneceğiz: ROBOT.
+          Süre: 45 sn.
+          Dikkat: Köprü cümlesini mutlaka söyle; bir sonraki bölüm buna dayanıyor.
+        </aside>
+      </section>
+
+      <!-- 18. KAYNAKLAR -->
+      <section>
+        <h3>Kaynaklar</h3>
+        <ul class="kaynaklar">
+          <li><a href="https://openai.com/index/why-language-models-hallucinate/">Why language models hallucinate</a> — OpenAI, Eylül 2025</li>
+          <li><a href="https://tr.euronews.com/2025/09/18/openai-arastirdi-yapay-zekanin-halusinasyonlari-engellenemez-mi">Yapay zekânın halüsinasyonları engellenemez mi?</a> — Euronews Türkçe, Eylül 2025</li>
+          <li><a href="https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them">What are tokens?</a> — OpenAI Yardım Merkezi</li>
+          <li><a href="https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/">GPT-6 Sol ve Luna</a> — TechCrunch, Eylül 2026</li>
+          <li><a href="https://www.engadget.com/2278504/google-removes-free-access-gemini-flash-pro-october-9/">Ücretsiz Gemini'de Flash-Lite</a> — Engadget, Ekim 2026</li>
+          <li><a href="https://www.anthropic.com/news">Anthropic haber odası</a> — Claude 5.5 ailesi, Eylül-Ekim 2026</li>
+        </ul>
+        <p class="kucuk">Ayrıntılı araştırma notu: <a href="../not.html?id=h2-01">anlatıcı notu</a> · Son güncelleme: 29 Ekim 2026</p>
+        <aside class="notes">
+          Ne söyle: Kaynaklar burada; anlatıcı notunda on sekiz kaynağın tamamı ve kısa özetleri var. Model adları her ay değiştiği için bu slaytı bir kez fotoğraflayıp bir ay sonra tekrar bakmanızı öneririm: Neyin değiştiğini görmek de bir ders.
+          Süre: 15 sn.
+          Dikkat: Bu slaytta durma; doğrudan ROBOT bölümüne geç.
+        </aside>
+      </section>
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/notes/notes.js"></script>
+  <script>
+    Reveal.initialize({
+      hash: true, slideNumber: 'c/t', progress: true, center: true, transition: 'slide',
+      width: 1280, height: 720, margin: 0.06, plugins: [RevealNotes]
+    });
+  </script>
+</body>
+</html>
