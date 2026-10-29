@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-29T17:29:05Z",
-  "calisma_sayisi": 13,
+  "son_calisma": "2026-10-29T17:34:21Z",
+  "calisma_sayisi": 14,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -368,12 +368,12 @@
         "Her meslek için 'yapay zekâya bırakılmayacaklar' satırı",
         "Mesleklere göre güncel ve kaynaklı kullanım örnekleri (Türkiye'den örnekler öncelikli)"
       ],
-      "durum": "uretiliyor",
-      "surum": 0,
-      "son_guncelleme": null,
-      "sahip": "20261029T1729Z",
-      "sahip_zamani": "2026-10-29T17:29:14Z",
-      "not": ""
+      "durum": "taslak",
+      "surum": 1,
+      "son_guncelleme": "2026-10-29T17:34:21Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 1: 8 meslek görev kartı (ROBOT talimatı, beklenen çıktı, bırakılmayacaklar), trafik ışığı ölçeği, Türkiye örnekleri (MEB, Sağlık Bakanlığı, baro/avukat vakası, TÜRMOB, TÜİK). Türkiye için yaş kırılımlı kullanım verisi bulunamadı."
     },
     {
       "id": "h4-04",
@@ -486,6 +486,10 @@
     {
       "zaman": "2026-10-29T17:29:05Z",
       "ozet": "h4-02: Kendi asistanını kur / kodsuz uygulama taslağı yayımlandı (16 arama, 11 kaynak okundu)."
+    },
+    {
+      "zaman": "2026-10-29T17:34:21Z",
+      "ozet": "h4-03: Meslek istasyonları taslağı yayımlandı (13 arama, 12 kaynak okundu)."
     }
   ]
 }
