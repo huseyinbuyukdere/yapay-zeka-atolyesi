@@ -166,7 +166,7 @@
         <aside class="notes">
           Ne söyle: Makineler üç ana yoldan öğrenir. Birincisi denetimli öğrenme: cevap anahtarlı bir test kitabı gibi. Her örneğin yanında doğru cevap yazılı: "Bu spam", "Bu kedi". İkincisi denetimsiz öğrenme: karışık bir çorap çekmecesini sıralamak gibi. Kimse etiket vermez; makine benzerleri kendisi gruplar, grupları biz yorumlarız. Alışveriş sitelerindeki "birlikte sık alınanlar" bu türden. Üçüncüsü pekiştirmeli öğrenme: ödülle numara öğrenen köpek gibi. Deneme yanılma, doğruya ödül. DeepMind'ın AlphaGo Zero'su Go oyununu hiç bilmeden kendisiyle oynayarak öğrendi ve üç günde eski şampiyon sürümü 100'e 0 yendi.
           Süre: 2 dk.
-          Dikkat: Türlerin sınırları keskin değil; bugünkü büyük modeller birkaç yolu birlikte kullanıyor.
+          Dikkat: Türlerin sınırları keskin değil. "ChatGPT hangisi?" diye sorulursa: Hepsinden biraz; önce dev metin yığınından etiketsiz öğreniyor, sonra cevap anahtarlı örneklerle ve insan geri bildirimiyle ince ayar yapılıyor.
         </aside>
       </section>
 
@@ -189,17 +189,17 @@
 
       <!-- 10. HUSKY Mİ KURT MU -->
       <section>
-        <span class="etiket kiremit">Gerçek bir hikâye</span>
+        <span class="etiket kiremit">Bilerek kurulmuş bir tuzak</span>
         <h2>Husky mi, kurt mu?</h2>
         <div class="benzetme">
           <span class="simge" aria-hidden="true">🐺❄️</span>
-          <p class="fragment">Makine hayvana değil, <strong>kara</strong> bakıyordu. Eğitimdeki bütün kurt fotoğraflarında kar vardı.</p>
+          <p class="fragment">Bütün kurt fotoğraflarında kar vardı. Makine hayvana değil, <strong>kara</strong> bakmayı öğrendi.</p>
         </div>
         <aside class="notes">
-          Ne söyle: 2016'da araştırmacılar, kurtları husky köpeklerinden ayırması için bir model eğitti. Model bir husky'ye "kurt" dedi. Neden? Önce siz tahmin edin. ... Modelin neye baktığını gösteren bir araç kullandılar: Model hayvana değil, arka plandaki kara bakıyordu. Çünkü eğitimdeki bütün kurt fotoğraflarında kar vardı. Sınavda konuyu anlamadan "uzun şık genelde doğrudur" diye puan toplayan öğrenci gibi: Doğru cevabı yanlış sebeple veriyordu.
+          Ne söyle: 2016'da araştırmacılar bilerek küçük bir tuzak kurdu. Kurtları husky köpeklerinden ayıracak bir modeli sadece 20 fotoğrafla eğittiler ve bu fotoğrafları özenle seçtiler. Model karlı bir zeminde duran husky'ye "kurt" dedi. Neden? Önce siz tahmin edin. ... Bütün kurt fotoğraflarının arka planında kar vardı. Model hayvana değil, kara bakmayı öğrenmişti. Sınavda konuyu anlamadan "uzun şık genelde doğrudur" diye puan toplayan öğrenci gibi: Doğru cevabı yanlış sebeple veriyordu. Araştırmacılar, modelin neye baktığı gösterilince insanların bu hileyi çok daha kolay fark ettiğini gördü.
           Süre: 2 dk.
           Salona sor: "Sizce makine neye bakıyordu?" Cevapları dinle, sonra fragment'ı aç.
-          Dikkat: Bu, bir sonraki uygulamanın (Teachable Machine) ana dersi. "Birazdan aynısını kendi gözünüzle göreceksiniz" de.
+          Dikkat: Bu bir ürün hatası değil, ders amaçlı bir deneydi; "bir şirketin modeli kurtları kardan tanıdı" deme. Gerçek hayattaki karşılığı bir sonraki slayttaki cilt kanseri örneği. Bu, Teachable Machine uygulamasının da ana dersi: "Birazdan aynısını kendi gözünüzle göreceksiniz" de.
         </aside>
       </section>
 
@@ -207,14 +207,15 @@
       <section>
         <h2>Veri eksikse, makine önyargılı olur</h2>
         <ul class="zaman">
-          <li class="fragment"><span class="yil">2014–17</span> Erkek ağırlıklı eski başvurularla eğitilen işe alım aracı kadınlara düşük puan verdi</li>
+          <li class="fragment"><span class="yil">2014–17</span> Erkek ağırlıklı verilerle eğitilen işe alım aracı kadınlara düşük puan verdi</li>
           <li class="fragment"><span class="yil">2018</span> Yüz analizi hatası: koyu tenli kadınlarda %34,7, açık tenli erkeklerde %0,8</li>
           <li class="fragment"><span class="yil">2021</span> Cilt kanseri modeli renkli bir etiketi “iyi huylu” işareti sandı</li>
+          <li class="fragment"><span class="yil">2026</span> Sohbet asistanları milliyete göre farklı öneriler verdi</li>
         </ul>
         <aside class="notes">
-          Ne söyle: Kar hikâyesi komik ama aynı şey ciddi işlerde de oluyor. Amazon'un denediği bir işe alım aracı, çoğu erkeklerden gelen on yıllık başvurularla eğitildi ve içinde "kadın" kelimesi geçen özgeçmişlere düşük puan vermeyi öğrendi; şirket projeyi kapattı. 2018'deki bir araştırmada ticari yüz analiz sistemleri koyu tenli kadınlarda yüzde 34,7'ye varan oranda yanılırken açık tenli erkeklerde hata en fazla yüzde 0,8 idi; çünkü eğitim verilerinin çoğu açık tenli insanlardandı. 2021'de bir cilt kanseri modelinin, iyi huylu ben fotoğraflarında sık görülen renkli bir kalibrasyon etiketini "iyi huylu" işareti sandığı gösterildi.
+          Ne söyle: Kar hikâyesi komik ama aynı şey ciddi işlerde de oluyor. Amazon'un denediği bir işe alım aracı, çoğu erkeklerden gelen on yıllık başvurularla eğitildi ve içinde "kadın" kelimesi geçen özgeçmişlere düşük puan vermeyi öğrendi; şirket projeyi kapattı. 2018'deki bir araştırmada ticari yüz analiz sistemleri koyu tenli kadınlarda yüzde 34,7'ye varan oranda yanılırken açık tenli erkeklerde hata en fazla yüzde 0,8 idi; çünkü eğitim verilerinin çoğu açık tenli insanlardandı. 2021'de bir cilt kanseri modelinin "kar"ı da bulundu: İyi huylu ben fotoğraflarının neredeyse yarısında renkli bir ölçüm etiketi vardı, kötü huylularda hiç yoktu. Model bu etiketi "iyi huylu" işareti sandı; kötü huylu bir görüntüye etiket eklenince çoğunu "iyi huylu" diye yanlış tanıdı. Ve konu eskimedi: Ağustos 2026'da Fransa'da kullanıcılar aynı cümleyi yalnızca milliyeti değiştirerek yazdı; Google'ın yapay zekâ özetleri ve yapılan testlerde büyük sohbet asistanları bazı milliyetler için çok farklı öneriler verdi. Google sonuçların olması gerektiği gibi olmadığını kabul etti.
           Süre: 2,5 dk.
-          Dikkat: Kimseyi kötü niyetli ilan etme; mesaj "veri dünyayı eşitsizlikleriyle birlikte yansıtır". Zaman daralırsa 2021 örneğini atla.
+          Dikkat: Kimseyi kötü niyetli ilan etme; mesaj "veri dünyayı eşitsizlikleriyle birlikte yansıtır". Milliyet örneğini saygılı ve kısa anlat; hangi milliyete ne denildiğini sayma. Zaman daralırsa 2018 yüz analizi örneğini kısa geç.
         </aside>
       </section>
 
@@ -253,8 +254,9 @@
           <li><a href="https://deepmind.google/discover/blog/alphago-zero-starting-from-scratch/">AlphaGo Zero</a> — DeepMind, Ekim 2017</li>
           <li><a href="https://aws.amazon.com/tr/what-is/neural-network/">Sinir ağı nedir? (Türkçe)</a> — AWS</li>
           <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8774502">Cilt kanseri modelinde kestirme öğrenme</a> — Diagnostics, 2021</li>
+          <li><a href="https://developers.google.com/machine-learning/intro-to-ml/what-is-ml?hl=tr">Makine Öğrenimi nedir? (Türkçe)</a> — Google for Developers</li>
         </ul>
-        <p class="kucuk">Ayrıntılı araştırma notu: <a href="../not.html?id=h1-03">anlatıcı notu</a> · Son güncelleme: 29 Ekim 2026</p>
+        <p class="kucuk">Ayrıntılı araştırma notu: <a href="../not.html?id=h1-03">anlatıcı notu</a> · Son güncelleme: 30 Ekim 2026</p>
         <aside class="notes">
           Ne söyle (köprü cümlesi): Şimdi sıra sizde. Birazdan kendi küçük modelinizi eğiteceksiniz. Önce bilerek az ve tek düze veriyle başlayacağız; makinenin nasıl "kopya çektiğini" kendi gözünüzle göreceksiniz.
           Süre: 30 sn.

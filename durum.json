@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-29T20:36:54Z",
-  "calisma_sayisi": 18,
+  "son_calisma": "2026-10-29T21:18:33Z",
+  "calisma_sayisi": 19,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -62,12 +62,12 @@
         "Denetimli öğrenme, pekiştirmeli öğrenme gibi türler tek cümlelik benzetmelerle (formülsüz)",
         "Veri kalitesi ve önyargının (bias) nasıl doğduğu; gerçek hayattan bilinen önyargı örnekleri"
       ],
-      "durum": "uretiliyor",
-      "surum": 1,
-      "son_guncelleme": "2026-10-29T15:04:49Z",
-      "sahip": "20261029T2109Z",
-      "sahip_zamani": "2026-10-29T21:09:51Z",
-      "not": "önceki durum: taslak (aşama 2 gözden geçirme)"
+      "durum": "gozden_gecirildi",
+      "surum": 2,
+      "son_guncelleme": "2026-10-29T21:18:33Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 2: Husky/kurt deneyinin bilerek kurulmuş 20 fotoğraflık bir tuzak olduğu düzeltildi; cilt kanseri (%46 etiket, ~%70 yanlış), Amazon (2014-2017, işe alımcılar yalnızca araca dayanmadı) ayrıntıları doğrulandı; Ağustos 2026 milliyet önyargısı testi slayta eklendi; kaynaksız strateji belgesi atfı kaldırıldı; sürekli öğrenme (Mart 2026) notu; 4 yeni SSS."
     },
     {
       "id": "h1-04",
@@ -506,6 +506,10 @@
     {
       "zaman": "2026-10-29T20:36:54Z",
       "ozet": "h1-02: Gözden geçirildi (6 arama, 7 kaynak okundu); AGI tartışması tarihleri ve ARC Prize skor farkı eklendi, 4 yeni SSS."
+    },
+    {
+      "zaman": "2026-10-29T21:18:33Z",
+      "ozet": "h1-03: Gözden geçirildi (13 arama, 9 kaynak okundu); husky deneyi 'bilerek kurulmuş tuzak' olarak düzeltildi, 2026 önyargı örneği ve 4 yeni SSS eklendi."
     }
   ]
 }
