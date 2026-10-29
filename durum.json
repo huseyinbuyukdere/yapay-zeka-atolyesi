@@ -82,12 +82,12 @@
         "Olası teknik sorunlar (kamera izni, yavaş bilgisayar) ve B planı; telefonla yapılabilir mi?",
         "Alternatif eğlenceli demo: Quick, Draw!"
       ],
-      "durum": "taslak",
+      "durum": "uretiliyor",
       "surum": 1,
       "son_guncelleme": "2026-10-29T15:09:22Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Aşama 1: 13 slayt (iki turlu uygulama, veri karşılaştırma SVG'si, sorun giderme, Quick Draw bonus), 11 kaynaklı not. Telefonda kullanım resmî kaynaktan doğrulanamadı."
+      "sahip": "20261029T2211Z",
+      "sahip_zamani": "2026-10-29T22:11:38Z",
+      "not": "eski_durum: taslak; aşama 2 gözden geçirme sürüyor"
     },
     {
       "id": "h1-05",
