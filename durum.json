@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-29T16:55:33Z",
-  "calisma_sayisi": 10,
+  "son_calisma": "2026-10-29T16:59:47Z",
+  "calisma_sayisi": 11,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -311,12 +311,12 @@
         "Gerçek kişileri ve markaları taklit etmemek; deepfake; etiketleme",
         "Haftalık görev: 'Kendi vitrinin' ve final projesi için fikir"
       ],
-      "durum": "uretiliyor",
-      "surum": 0,
-      "son_guncelleme": null,
-      "sahip": "20261029T1655Z",
-      "sahip_zamani": "2026-10-29T16:55:51Z",
-      "not": ""
+      "durum": "taslak",
+      "surum": 1,
+      "son_guncelleme": "2026-10-29T16:59:47Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 1: 9 slayt (kimin oylaması ve insan katkısı yelpazesi SVG'si, FSEK kartları, dünya zaman çizelgesi, kiralık takım elbise benzetmesi, kırmızı çizgiler ve RTÜK spotu, 'Kendi vitrinin' haftalık görevi), 12 kaynaklı not. 8 Nisan 2026 FSEK teklifinin numarası ve komisyon durumu doğrulanamadı; Türkiye'de ilgili Yargıtay kararı bulunamadı."
     },
     {
       "id": "h4-01",
@@ -474,6 +474,10 @@
     {
       "zaman": "2026-10-29T16:55:33Z",
       "ozet": "h3-04: Mini kampanya ekip görevi taslağı yayımlandı (12 arama, 9 kaynak okundu)."
+    },
+    {
+      "zaman": "2026-10-29T16:59:47Z",
+      "ozet": "h3-05: Telif, etiket ve etik taslağı yayımlandı (13 arama, 10 kaynak okundu)."
     }
   ]
 }
