@@ -178,11 +178,11 @@
         "Halüsinasyon avı: asistanın uydurma bilgi verdiği tipik durumlar ve kaynakla doğrulama",
         "Doğrulama alışkanlığı kontrol listesi"
       ],
-      "durum": "bekliyor",
+      "durum": "uretiliyor",
       "surum": 0,
       "son_guncelleme": null,
-      "sahip": null,
-      "sahip_zamani": null,
+      "sahip": "20261029T1553Z",
+      "sahip_zamani": "2026-10-29T15:53:20Z",
       "not": ""
     },
     {
