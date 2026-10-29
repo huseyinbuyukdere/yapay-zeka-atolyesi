@@ -42,12 +42,12 @@
         "Yapay zekâ, makine öğrenmesi, derin öğrenme, üretken yapay zekâ ilişkisini iç içe halkalarla gösterme",
         "Katılımcılarla kısa etkileşim: 'Bu yapay zekâ mı?' örnekleri (hesap makinesi, navigasyon, spam filtresi, termostat)"
       ],
-      "durum": "taslak",
+      "durum": "uretiliyor",
       "surum": 1,
       "son_guncelleme": "2026-10-29T15:00:14Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Aşama 1: 15 slayt (iç içe halkalar ve terazi SVG'leri, 4 'Bu yapay zekâ mı?' oylaması), 11 kaynaklı not. AGI tartışması Eylül 2026 haberleriyle güncellendi."
+      "sahip": "20261029T2029Z",
+      "sahip_zamani": "2026-10-29T20:29:19Z",
+      "not": "Önceki durum: taslak. Aşama 1: 15 slayt (iç içe halkalar ve terazi SVG'leri, 4 'Bu yapay zekâ mı?' oylaması), 11 kaynaklı not. AGI tartışması Eylül 2026 haberleriyle güncellendi."
     },
     {
       "id": "h1-03",
