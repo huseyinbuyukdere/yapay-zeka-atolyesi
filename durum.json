@@ -140,11 +140,11 @@
         "Bilgi kesim tarihi, web araması, 'düşünerek cevap veren' (akıl yürüten) modeller",
         "Ekim 2026 itibarıyla güncel asistanlar ve model aileleri (doğrulanmış)"
       ],
-      "durum": "bekliyor",
+      "durum": "uretiliyor",
       "surum": 0,
       "son_guncelleme": null,
-      "sahip": null,
-      "sahip_zamani": null,
+      "sahip": "20261029T1538Z",
+      "sahip_zamani": "2026-10-29T15:38:20Z",
       "not": ""
     },
     {
