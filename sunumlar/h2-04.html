@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kendi belgenle konuş · Yapay Zekâ Atölyesi</title>
+  <meta name="description" content="Gemini Notebook (eski adıyla NotebookLM) ile kendi belgesine dipnotlu soru sormak, Türkçe sesli özet, ücretsiz kullanım sınırları ve derin araştırma özelliklerinin ne zaman kullanılacağı.">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css">
+  <link rel="stylesheet" href="../assets/tema.css">
+  <style>
+    svg text { font-family: inherit; }
+    .senaryo { font-size: .8em; text-align: left; margin: .35em auto; max-width: 960px; }
+  </style>
+</head>
+<body>
+  <div class="altbilgi">Yapay Zekâ Atölyesi · 2. Hafta · Kendi belgenle konuş</div>
+  <div class="reveal">
+    <div class="slides">
+
+      <!-- 1. KAPAK -->
+      <section class="kapak">
+        <div class="cini" aria-hidden="true"></div>
+        <span class="etiket">2. Hafta · 25 dakika</span>
+        <h1>Kendi belgenle konuş</h1>
+        <p class="alt">Belgenize soru sorun; cevap belgeden gelsin, dipnotuyla birlikte.</p>
+        <aside class="notes">
+          Ne söyle: Şimdiye kadar asistanlara genel sorular sorduk ve cevabı internetten ya da hafızasından buldular. Bu bölümde iki yeni güç öğreneceğiz. Birincisi: Kendi belgenizi verip yalnızca ona dayanan, dipnotlu cevaplar almak. İkincisi: Elinizde belge yoksa, asistana bir konuyu baştan sona taratıp kaynaklı rapor yazdırmak, yani derin araştırma.
+          Süre: 1 dk.
+          Dikkat: Örnek belgenin bağlantısını şimdiden ekrana veya masalara ver ki uygulamada zaman kaybedilmesin.
+        </aside>
+      </section>
+
+      <!-- 2. BÜYÜK SORU -->
+      <section class="soru">
+        <span class="etiket kiremit">Bugünün sorusu</span>
+        <p class="buyuk">200 sayfalık bir yönetmelikten tek bir cevaba ihtiyacınız var. Bugün ne yapardınız?</p>
+        <p class="ipucu">Ctrl+F mi, baştan sona okumak mı, birine sormak mı?</p>
+        <aside class="notes">
+          Ne söyle: Bir durum düşünün: Elinizde 200 sayfalık bir yönetmelik, kılavuz ya da şartname var. İçinden tek bir sorunun cevabını bulmanız gerekiyor. Bugün ne yapardınız? (Cevapları al: Ctrl+F, okurum, bilen birine sorarım.) Arama tuşu kelimeyi bulur ama anlamı bulmaz. Birine sorarsanız o da yanılabilir. Peki belgeyi okuyup size sayfasını gösteren bir yardımcı olsa?
+          Süre: 1,5 dk.
+          Salona sor: "Bugün ne yapardınız?"
+        </aside>
+      </section>
+
+      <!-- 3. BENZETME -->
+      <section>
+        <span class="etiket">Benzetme</span>
+        <h2>Yalnızca sizin kitaplarınızı okuyan kütüphaneci</h2>
+        <div class="benzetme">
+          <span class="simge" aria-hidden="true">📚</span>
+          <p>Genel asistan dünyanın kütüphanesini bir kez okumuştur. Not defteri ise masasına yalnızca sizin getirdiğiniz kitapları koyar ve “şurada yazıyor” diye gösterir.</p>
+        </div>
+        <aside class="notes">
+          Ne söyle: Genel sohbet asistanı, dünyanın bütün kitaplarını bir kez okumuş ama hangisinde ne yazdığını tam hatırlamayan bir kütüphaneci gibi. Google'ın Gemini Notebook aracı ise farklı: Masasına yalnızca sizin getirdiğiniz kitapları koyar. Sorunuzu o kitaplardan cevaplar ve "şu belgenin şu yerinde yazıyor" diye dipnot gösterir. Bu aracı belki eski adıyla duydunuz: NotebookLM. Temmuz 2026'da adı Gemini Notebook oldu.
+          Süre: 1,5 dk.
+          Dikkat (benzetmenin sınırı): Kütüphaneci kitabı yanlış okuyabilir, iki ayrı yeri birleştirip yanlış sonuç çıkarabilir. Kaynakta olmayan bir şey sorulunca genel bilgisine kayabilir. Bu yüzden dipnotu tıklamak şart.
+        </aside>
+      </section>
+
+      <!-- 4. AKIŞ ÇİZİMİ -->
+      <section>
+        <h2>Nasıl çalışır?</h2>
+        <svg role="img" aria-label="Akış: Solda kaynaklar (PDF, web bağlantısı, not); ortada not defteri; sağda dipnotlu cevap. Dipnottan kaynağa geri dönen bir ok var." viewBox="0 0 1100 380" width="1100" height="380">
+          <defs>
+            <marker id="ok" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="var(--murekkep-acik)"/></marker>
+          </defs>
+          <g>
+            <rect x="20" y="40" width="250" height="70" rx="16" fill="var(--turkuaz)"/>
+            <text x="145" y="85" text-anchor="middle" font-size="26" fill="#fff">📄 PDF / belge</text>
+            <rect x="20" y="125" width="250" height="70" rx="16" fill="var(--turkuaz)"/>
+            <text x="145" y="170" text-anchor="middle" font-size="26" fill="#fff">🔗 web bağlantısı</text>
+            <rect x="20" y="210" width="250" height="70" rx="16" fill="var(--turkuaz)"/>
+            <text x="145" y="255" text-anchor="middle" font-size="26" fill="#fff">📝 kendi notunuz</text>
+          </g>
+          <path d="M275 160 L395 160" stroke="var(--murekkep-acik)" stroke-width="5" marker-end="url(#ok)"/>
+          <g class="fragment">
+            <rect x="400" y="85" width="280" height="150" rx="24" fill="var(--altin)"/>
+            <text x="540" y="150" text-anchor="middle" font-size="44">📓</text>
+            <text x="540" y="200" text-anchor="middle" font-size="26" font-weight="700" fill="#fff">Not defteri</text>
+          </g>
+          <g class="fragment">
+            <path d="M685 160 L795 160" stroke="var(--murekkep-acik)" stroke-width="5" marker-end="url(#ok)"/>
+            <rect x="800" y="70" width="280" height="180" rx="24" fill="#fff" stroke="var(--kiremit)" stroke-width="4"/>
+            <text x="940" y="120" text-anchor="middle" font-size="24" fill="var(--murekkep)">💬 Cevap: … aidat</text>
+            <text x="940" y="155" text-anchor="middle" font-size="24" fill="var(--murekkep)">ayın 10'unda</text>
+            <text x="940" y="190" text-anchor="middle" font-size="24" fill="var(--murekkep)">ödenir <tspan fill="var(--kiremit)" font-weight="700">[1]</tspan></text>
+          </g>
+          <g class="fragment">
+            <path d="M940 255 C 940 350, 145 350, 145 290" stroke="var(--kiremit)" stroke-width="4" stroke-dasharray="10 8" fill="none" marker-end="url(#ok)"/>
+            <text x="545" y="365" text-anchor="middle" font-size="22" fill="var(--kiremit)">dipnota tıkla → belgedeki asıl cümleyi gör</text>
+          </g>
+        </svg>
+        <aside class="notes">
+          Ne söyle: Çalışma şekli üç adım. Solda kaynaklarınız: bir PDF, bir web bağlantısı, kendi notunuz. Bunları bir "not defterine" eklersiniz. Sonra soru sorarsınız ve cevap gelir. Ama cevabın sonunda küçük bir numara var: dipnot. Ona tıkladığınızda belgedeki asıl cümle açılır. Bir önceki bölümün dilinde söylersek: Dipnot burada delil. Tanığın ifadesini delille hemen karşılaştırabiliyorsunuz.
+          Süre: 1,5 dk.
+          Dikkat: Ekrandaki cevap temsilîdir (apartman yönetim planı örneği). Kaynak türlerinin güncel listesini uygulamanın "kaynak ekle" penceresinden göster.
+        </aside>
+      </section>
+
+      <!-- 5. NELER YAPAR -->
+      <section>
+        <h2>Belgeniz neye dönüşebilir?</h2>
+        <div class="kartlar">
+          <div class="kart fragment"><span class="simge" aria-hidden="true">💬</span><h3>Dipnotlu sohbet</h3><p>Soru sorun, cevap kaynağıyla gelsin</p></div>
+          <div class="kart fragment turkuaz"><span class="simge" aria-hidden="true">🎧</span><h3>Sesli özet</h3><p>Belgeniz Türkçe bir radyo sohbetine dönüşür</p></div>
+          <div class="kart fragment altin"><span class="simge" aria-hidden="true">🎬</span><h3>Görüntülü özet ve slayt</h3><p>Anlatımlı kısa video veya sunum taslağı</p></div>
+        </div>
+        <aside class="notes">
+          Ne söyle: Not defteri sadece soru-cevap yapmıyor. Belgelerinizi iki sunucunun sohbet ettiği bir radyo programına dönüştürebiliyor: sesli özet. Yürürken, otobüste dinleyebilirsiniz. 2025'ten beri Türkçe de yapıyor. Ayrıca görüntülü özet ve slayt taslağı gibi çıktılar da üretebiliyor. Birazdan size önceden hazırladığım bir sesli özetten kısa bir parça dinleteceğim.
+          Süre: 1,5 dk.
+          Salona sor: "Hangisi sizin işinize yarar?"
+          Dikkat: Sesli özet akıcı olduğu için her söyleneni doğru sanmak kolay; sunucular bir istisnayı atlayabilir. Görüntülü özet ve slayt gibi ağır çıktılar ücretsiz kotayı hızlı tüketir.
+        </aside>
+      </section>
+
+      <!-- 6. EKİM 2026 DURUMU -->
+      <section>
+        <h2>Ekim 2026 itibarıyla</h2>
+        <div class="kartlar">
+          <div class="kart fragment"><span class="simge" aria-hidden="true">🏷️</span><h3>Yeni ad</h3><p>16 Temmuz 2026: NotebookLM → Gemini Notebook. Eski bağlantılar çalışıyor.</p></div>
+          <div class="kart fragment turkuaz"><span class="simge" aria-hidden="true">🆓</span><h3>Ücretsiz</h3><p>Google hesabıyla. Kota 5 saatte bir yenilenir, haftalık üst sınır var.</p></div>
+          <div class="kart fragment altin"><span class="simge" aria-hidden="true">⬆️</span><h3>Ücretli planlar</h3><p>Plus 2 kat, Pro 4 kat kullanım; yeni özellikler önce bu planlara</p></div>
+        </div>
+        <aside class="notes">
+          Ne söyle: Güncel durum. Google, 16 Temmuz 2026'da NotebookLM'in adını Gemini Notebook yaptı; eski bağlantılar otomatik yönleniyor. Kişisel Google hesabıyla ücretsiz kullanılıyor. 2 Eylül'den beri kullanım "işlem gücüne" göre ölçülüyor: Uzun sohbetler ve ağır çıktılar kotayı daha hızlı bitiriyor. Kota bitince beş saatte bir yenileniyor, ama haftalık bir üst sınır da var. Ücretli Google AI planları iki ila dört kat daha fazla kullanım veriyor; yeni özellikler de önce onlara geliyor.
+          Süre: 1,5 dk.
+          Dikkat: Kalan kullanım Ayarlar > Kullanım bölümünde görülüyor. Bağımsız rehberlerdeki "not defteri başına 50 kaynak" gibi sayılar resmî sayfada yer almıyor; sayı verme. Sunumdan önceki gün kendi hesabında kontrol et.
+        </aside>
+      </section>
+
+      <!-- 7. UYGULAMA -->
+      <section>
+        <div class="uygulama-kutu">
+          <span class="sure">⏱ 8 dk</span>
+          <h2>Uygulama: İlk not defterim</h2>
+          <ol class="adimlar">
+            <li>Gemini Notebook'u açın, yeni not defteri oluşturun</li>
+            <li>Paylaşılan örnek belgeyi kaynak olarak ekleyin</li>
+            <li>Üç soru: özet, ayrıntı ve belgede <strong>olmayan</strong> bir şey</li>
+            <li>Her cevapta bir dipnota tıklayın</li>
+          </ol>
+        </div>
+        <aside class="notes">
+          Ne söyle: Şimdi deneyelim. Gemini Notebook'u açın; "NotebookLM" diye ararsanız da aynı yere gidersiniz. Yeni bir not defteri oluşturun ve paylaştığım örnek belgeyi kaynak olarak ekleyin. Sonra üç soru sorun. Bir: "Bu belgeyi beş maddede özetle." İki: Belgenin içinden bir ayrıntı. Üç: Belgede olmayan bir şey; bakalım ne diyecek. Her cevapta en az bir dipnota tıklayın. Son iki dakikada size önceden hazırladığım Türkçe sesli özetten bir parça dinleteceğim.
+          Süre: 8 dk (1 açma + 1 kaynak + 3 soru + 2 sesli özet dinleme + 1 paylaşım).
+          Masaları dolaşırken kontrol et: Dipnota tıkladılar mı? Belgede olmayan soruya ne cevap geldi?
+          Sık sorun ve çözümü: Google hesabı yok → eşleştir. Dosya yüklenmiyor → web bağlantısı ya da metni yapıştır. Kota uyarısı → ağır çıktı üretme.
+          B planı: İnternet yoksa önceden çektiğin ekran görüntüleri ve indirdiğin sesli özetle akışı göster.
+          Dikkat: Sesli özeti canlı üretme; dakikalar sürer ve kotayı tüketir. Menü adları Türkçe arayüzde farklı olabilir; bir gün önce adımları kendin yürü.
+        </aside>
+      </section>
+
+      <!-- 8. BELGE ÖNERİLERİ -->
+      <section>
+        <h2>Hangi belgeyle denemeli?</h2>
+        <div class="iki-sutun">
+          <div><h3>✅ Uygun</h3><ul><li>Resmî Gazete'deki bir yönetmelik</li><li>Kurumların açık kılavuzları</li><li>Kendi isimsiz notlarınız</li><li>Ev aletinin kullanım kılavuzu</li></ul></div>
+          <div class="fragment"><h3>⛔ Yüklemeyin</h3><ul><li>Kimlik, sağlık, müşteri bilgisi</li><li>Öğrenci ya da çalışan listeleri</li><li>Şirket içi gizli belgeler</li><li>Telifli kitapların tamamı</li></ul></div>
+        </div>
+        <aside class="notes">
+          Ne söyle: Hangi belgeyle denemeli? Herkese açık resmî metinler çok uygun: Resmî Gazete'de yayımlanmış bir yönetmelik ya da bir kurumun bilgilendirme kılavuzu. Kendi isimsiz notlarınız, bir ev aletinin kullanım kılavuzu da olur. Yüklememeniz gerekenler ise: kimlik, sağlık, müşteri bilgisi olan her şey; öğrenci ya da çalışan listeleri; şirket içi gizli belgeler ve telifli kitapların tamamı.
+          Süre: 1 dk.
+          Dikkat: Ayrıntılı gizlilik bilgisi bu haftanın son bölümünde. Telif konusunda hukuki yorum yapma; "kendi belgeniz veya herkese açık resmî metin" çerçevesinde kal.
+        </aside>
+      </section>
+
+      <!-- 9. DERİN ARAŞTIRMA -->
+      <section>
+        <h2>Belge yoksa: derin araştırma</h2>
+        <ul class="zaman">
+          <li class="fragment"><span class="yil">1</span> Sorunuzu yazın, “derin araştırma”yı seçin</li>
+          <li class="fragment"><span class="yil">2</span> Asistan bir plan gösterir; düzeltip onaylarsınız</li>
+          <li class="fragment"><span class="yil">3</span> Onlarca sayfayı okur (5-15 dakika)</li>
+          <li class="fragment"><span class="yil">4</span> Kaynak listeli bir rapor teslim eder</li>
+        </ul>
+        <aside class="notes">
+          Ne söyle: Peki elinizde belge yoksa? Bir konuyu baştan sona taramak istiyorsanız "derin araştırma" var. Stajyere "Bu konuyu bir taramadan geçir, kaynaklı rapor yaz" demek gibi. Sorunuzu yazıp derin araştırmayı seçiyorsunuz. Asistan önce bir plan gösteriyor; isterseniz düzeltip onaylıyorsunuz. Sonra onlarca sayfayı okuyor; bu genelde beş ila on beş dakika sürüyor, pencereyi kapatıp sonra dönebilirsiniz. Sonunda kaynak listeli bir rapor teslim ediyor.
+          Süre: 1,5 dk.
+          Dikkat: Canlı başlatma; uzun sürer. Önceden ürettiğin bir raporu göster ("Türkiye'de evsel atıkların geri dönüşümünde son 5 yılda neler değişti? Resmî kaynaklara öncelik ver."), planı ve kaynak listesini ekranda aç, bir kaynağı raporla karşılaştır.
+        </aside>
+      </section>
+
+      <!-- 10. HANGİ ASİSTANDA -->
+      <section>
+        <h3>Derin araştırma hangi asistanda? (Ekim 2026)</h3>
+        <table>
+          <thead><tr><th>Asistan</th><th>Durum</th></tr></thead>
+          <tbody>
+            <tr class="fragment"><td>✨ Gemini</td><td>2025'ten beri ücretsizde sınırlı; yoğun kota harcar</td></tr>
+            <tr class="fragment"><td>💬 ChatGPT</td><td>Ücretsizde sınırlı; haftalık kota içinde</td></tr>
+            <tr class="fragment"><td>🧡 Claude</td><td>“Research” ücretli planlarda</td></tr>
+            <tr class="fragment"><td>🔎 Perplexity</td><td>Kaynaklı araştırmaya odaklı; gelişmişi ücretli</td></tr>
+          </tbody>
+        </table>
+        <p class="kucuk fragment">Şirketler kesin sayı yayımlamıyor; kalan kullanımınızı ayarlardan görün.</p>
+        <aside class="notes">
+          Ne söyle: Derin araştırma bugün büyük asistanların çoğunda var. Gemini'de 2025'ten beri ücretsiz kullanıcılara da sınırlı olarak açık; ama çok işlem gücü harcadığı için sınıra çabuk ulaşılıyor. ChatGPT'de ücretsiz hesaplarda sınırlı ve haftalık kota içinde. Claude'da "Research" adıyla ücretli planlarda. Perplexity zaten kaynaklı araştırmaya odaklı; gelişmiş özellikleri ücretli. Şirketler kesin sayı yayımlamıyor; kalan kullanımınızı ayarlardan görebilirsiniz.
+          Süre: 1,5 dk.
+          Dikkat: Gemini'nin 9 Ekim 2026 ücretsiz plan değişikliğinden sonra derin araştırmanın ücretsizde ne ölçüde sürdüğü doğrulanamadı. Claude bilgisi ikincil bir kaynaktan. Sunumdan önce kontrol et ve "sınırlı" kelimesini koru.
+        </aside>
+      </section>
+
+      <!-- 11. NE ZAMAN HANGİSİ -->
+      <section>
+        <h2>Ne zaman hangisi?</h2>
+        <div class="iki-sutun">
+          <div><h3>📓 Not defteri</h3><ul><li>Belge elinizde</li><li>Cevap o belgeden gelmeli</li><li>Hızlı, dipnotlu</li></ul></div>
+          <div class="fragment"><h3>🔭 Derin araştırma</h3><ul><li>Belge yok, konu geniş</li><li>Farklı kaynakları taramalı</li><li>Yavaş, kapsamlı rapor</li></ul></div>
+        </div>
+        <p class="fragment kucuk">İkisini birleştirin: Raporun güvenilir kaynaklarını not defterine ekleyin.</p>
+        <aside class="notes">
+          Ne söyle: Kısa kural: Belge elinizdeyse ve cevap o belgeden gelmeliyse not defteri. Belge yoksa ve konuyu geniş taramak istiyorsanız derin araştırma. Not defteri hızlı ve dipnotlu; derin araştırma yavaş ama kapsamlı. En güzeli ikisini birleştirmek: Derin araştırmanın bulduğu güvenilir kaynakları not defterine ekleyip onlarla sohbet etmek.
+          Süre: 1 dk.
+        </aside>
+      </section>
+
+      <!-- 12. OYUN -->
+      <section>
+        <span class="etiket altin">Oyun</span>
+        <h2>Hangi araç?</h2>
+        <p class="senaryo">1. Apartman yönetim planında evcil hayvanla ilgili ne yazıyor? <span class="fragment">→ 📓 <strong>Not defteri</strong></span></p>
+        <p class="senaryo">2. Küçük bir kafe açmadan önce sektörde neler oluyor? <span class="fragment">→ 🔭 <strong>Derin araştırma</strong></span></p>
+        <p class="senaryo">3. Bu e-postayı daha kibar yaz. <span class="fragment">→ 💬 <strong>Normal sohbet yeter</strong></span></p>
+        <aside class="notes">
+          Ne söyle: Küçük bir oyun. Her senaryo için hangi aracı seçerdiniz? Not defteri, derin araştırma, yoksa normal sohbet mi? Bir: Apartman yönetim planında evcil hayvanla ilgili ne yazıyor? Belge elimizde, cevap ondan gelmeli: not defteri. İki: Kafe açmadan önce sektörde neler oluyor? Belge yok, konu geniş: derin araştırma. Üç: Bu e-postayı daha kibar yaz. Hiçbirine gerek yok; normal sohbet yeter. Her işe en büyük aracı kullanmak gerekmiyor; kotanızı da korursunuz.
+          Süre: 1,5 dk.
+          Salona sor: Her senaryo için el kaldırarak oylama.
+          Dikkat: Derin araştırma raporu bir iş planı veya yatırım tavsiyesi değildir; başlangıç noktasıdır.
+        </aside>
+      </section>
+
+      <!-- 13. UYARI -->
+      <section>
+        <span class="etiket kiremit">Dikkat</span>
+        <h2>Çok kaynak ≠ doğru rapor</h2>
+        <div class="kartlar">
+          <div class="kart fragment"><span class="simge" aria-hidden="true">🧾</span><h3>%12,5 – %97,5</h3><p>Araçlara göre kaynağa dayanmayan ifade oranı</p></div>
+          <div class="kart fragment turkuaz"><span class="simge" aria-hidden="true">⚖️</span><h3>Çoğunlukla</h3><p>Tartışmalı sorularda tek taraflı cevap</p></div>
+        </div>
+        <p class="fragment kucuk">Bağımsız denetim, Ağustos 2025 sürümleri. Ders: Raporu başlangıç noktası sayın, kaynakları açın.</p>
+        <aside class="notes">
+          Ne söyle: Bir uyarı. 2025 yazında yapılan bağımsız bir denetim, derin araştırma araçlarını inceledi. Raporlardaki ifadelerin ne kadarının gösterilen kaynaklara gerçekten dayanmadığı araçtan araca çok değişiyordu: en iyisinde yüzde 12,5, en kötüsünde yüzde 97,5. Tartışmalı sorularda araçların çoğu tek tarafa yaslanıyordu. En önemli bulgu da şuydu: Daha çok kaynak listelemek, daha doğru rapor demek değil. Raporu başlangıç noktası sayın, önemli kaynakları açıp okuyun.
+          Süre: 1 dk.
+          Dikkat: Bu çalışma 2025 sürümleriyle yapıldı; araç isimlerini sayma, genel dersi ver.
+        </aside>
+      </section>
+
+      <!-- 14. VURGU -->
+      <section class="vurgu">
+        <p class="buyuk">Belgeniz sizin kanıtınız; dipnot onun anahtarı.</p>
+        <aside class="notes">
+          Ne söyle: Bu bölümden tek cümle: Belgeniz sizin kanıtınız; dipnot onun anahtarı. Belgelerimizi yapay zekâya vermeyi öğrendik. Peki neyi vermemeliyiz? Asistanlar yazdıklarımızı nereye kaydediyor? Haftayı güvenli kullanımla kapatıyoruz.
+          Süre: 45 sn.
+          Dikkat: Köprü cümlesini mutlaka söyle.
+        </aside>
+      </section>
+
+      <!-- 15. KAYNAKLAR -->
+      <section>
+        <h3>Kaynaklar</h3>
+        <ul class="kaynaklar">
+          <li><a href="https://workspaceupdates.googleblog.com/2026/07/notebooklm-now-gemini-notebook.html">NotebookLM is now Gemini Notebook</a> — Google, Temmuz 2026</li>
+          <li><a href="https://support.google.com/gemininotebook/answer/17670842?hl=en">Gemini Notebook kullanım sınırları</a> — Google Yardım</li>
+          <li><a href="https://webrazzi.com/2025/08/26/google-notebooklm-in-video-ve-ses-ozetlerini-turkce-dahil-80-dilde-kullanima-acti/">Türkçe ses ve video özetleri</a> — Webrazzi, Ağustos 2025</li>
+          <li><a href="https://engadget.com/2234173/chatgpt-free-features-2026">ChatGPT'de ücretsiz olanlar</a> — Engadget, Ağustos 2026</li>
+          <li><a href="https://arxiv.org/pdf/2509.04499">DeepTRACE: derin araştırma denetimi</a> — arXiv, Eylül 2025</li>
+        </ul>
+        <p class="kucuk">Ayrıntılı araştırma notu: <a href="../not.html?id=h2-04">anlatıcı notu</a> · Son güncelleme: 29 Ekim 2026</p>
+        <aside class="notes">
+          Ne söyle: Kaynaklar burada. Anlatıcı notunda örnek belge önerileri ve derin araştırma demosu için hazır soru var.
+          Süre: 15 sn.
+          Dikkat: Bu slaytta durma; doğrudan son bölüme geç.
+        </aside>
+      </section>
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/notes/notes.js"></script>
+  <script>
+    Reveal.initialize({
+      hash: true, slideNumber: 'c/t', progress: true, center: true, transition: 'slide',
+      width: 1280, height: 720, margin: 0.06, plugins: [RevealNotes]
+    });
+  </script>
+</body>
+</html>

@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-29T15:57:59Z",
-  "calisma_sayisi": 4,
+  "son_calisma": "2026-10-29T16:07:39Z",
+  "calisma_sayisi": 5,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -197,12 +197,12 @@
         "Derin araştırma (Deep Research) özellikleri: hangi asistanda nasıl, ne zaman kullanılır",
         "Örnek belge önerileri (kişisel veri içermeyen, telif sorunu olmayan)"
       ],
-      "durum": "uretiliyor",
-      "surum": 0,
-      "son_guncelleme": null,
-      "sahip": "20261029T1558Z",
-      "sahip_zamani": "2026-10-29T15:58:11Z",
-      "not": ""
+      "durum": "taslak",
+      "surum": 1,
+      "son_guncelleme": "2026-10-29T16:07:39Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 1: 15 slayt (dipnotlu akış SVG'si, Ekim 2026 ad değişikliği ve kota, 8 dk not defteri uygulaması, belge önerileri, derin araştırma tablosu, araç seçme oyunu, DeepTRACE uyarısı), 12 kaynaklı not. Gemini derin araştırmanın 9 Ekim sonrası ücretsiz durumu ve resmî kaynak sınırları doğrulanamadı; Claude Research bilgisi ikincil kaynaktan."
     },
     {
       "id": "h2-05",
@@ -450,6 +450,10 @@
     {
       "zaman": "2026-10-29T15:57:59Z",
       "ozet": "h2-03: Üç asistan ve halüsinasyon avı taslağı yayımlandı (12 arama, 10 kaynak okundu)."
+    },
+    {
+      "zaman": "2026-10-29T16:07:39Z",
+      "ozet": "h2-04: Kendi belgenle konuş taslağı yayımlandı (12 arama, 11 kaynak okundu)."
     }
   ]
 }
