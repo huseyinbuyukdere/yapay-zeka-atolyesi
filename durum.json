@@ -62,12 +62,12 @@
         "Denetimli öğrenme, pekiştirmeli öğrenme gibi türler tek cümlelik benzetmelerle (formülsüz)",
         "Veri kalitesi ve önyargının (bias) nasıl doğduğu; gerçek hayattan bilinen önyargı örnekleri"
       ],
-      "durum": "taslak",
+      "durum": "uretiliyor",
       "surum": 1,
       "son_guncelleme": "2026-10-29T15:04:49Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Aşama 1: 14 slayt (döngü ve ses mikseri SVG'leri, öğrenme türü quizi, Türkçe çeviri önyargısı tahmini), 12 kaynaklı not."
+      "sahip": "20261029T2109Z",
+      "sahip_zamani": "2026-10-29T21:09:51Z",
+      "not": "önceki durum: taslak (aşama 2 gözden geçirme)"
     },
     {
       "id": "h1-04",
