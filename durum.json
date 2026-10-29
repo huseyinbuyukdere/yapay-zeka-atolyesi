@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-29T15:53:12Z",
-  "calisma_sayisi": 3,
+  "son_calisma": "2026-10-29T15:57:59Z",
+  "calisma_sayisi": 4,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -178,12 +178,12 @@
         "Halüsinasyon avı: asistanın uydurma bilgi verdiği tipik durumlar ve kaynakla doğrulama",
         "Doğrulama alışkanlığı kontrol listesi"
       ],
-      "durum": "uretiliyor",
-      "surum": 0,
-      "son_guncelleme": null,
-      "sahip": "20261029T1553Z",
-      "sahip_zamani": "2026-10-29T15:53:20Z",
-      "not": ""
+      "durum": "taslak",
+      "surum": 1,
+      "son_guncelleme": "2026-10-29T15:57:59Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 1: 13 slayt (beş asistan tablosu, EBU-BBC ve kaynak doğruluğu araştırmaları, kaynak SVG'si, mahkeme vakaları, ekip tablosu, link oylaması, dört adımlı doğrulama SVG'si), 12 kaynaklı not. Copilot'un 2026 yeniden yapılanmasında kaynaklar çelişkili; Claude ücretsiz plan modeli ikincil kaynaktan."
     },
     {
       "id": "h2-04",
@@ -446,6 +446,10 @@
     {
       "zaman": "2026-10-29T15:53:12Z",
       "ozet": "h2-02: ROBOT formülü taslağı yayımlandı (12 arama, 9 kaynak okundu)."
+    },
+    {
+      "zaman": "2026-10-29T15:57:59Z",
+      "ozet": "h2-03: Üç asistan ve halüsinasyon avı taslağı yayımlandı (12 arama, 10 kaynak okundu)."
     }
   ]
 }
