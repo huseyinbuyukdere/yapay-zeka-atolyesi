@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-29T16:11:41Z",
-  "calisma_sayisi": 6,
+  "son_calisma": "2026-10-29T16:34:35Z",
+  "calisma_sayisi": 7,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -235,12 +235,12 @@
         "Metinden görsele, görselden videoya, metinden müziğe; çok modlu modeller",
         "Görünmez filigranlar (ör. SynthID) ve içerik kimlik bilgileri (C2PA) — basit anlatım"
       ],
-      "durum": "uretiliyor",
-      "surum": 0,
-      "son_guncelleme": null,
-      "sahip": "20261029T1624Z",
-      "sahip_zamani": "2026-10-29T16:24:17Z",
-      "not": ""
+      "durum": "taslak",
+      "surum": 1,
+      "son_guncelleme": "2026-10-29T16:34:35Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 1: 18 slayt (60 sn canlı kampanya demosu, karlı ekran difüzyon SVG'si, heykeltıraş ve çevirmeli defter benzetmeleri, Ekim 2026 zaman çizelgesi, D/Y quizi, SynthID, C2PA pasaport SVG'si, Gemini'de doğrulama uygulaması), 17 kaynaklı not. Türkiye'deki yapay zekâ video etiketi teklifinin güncel durumu doğrulanamadı; Lyria 3'te Türkçe söz yok."
     },
     {
       "id": "h3-02",
@@ -458,6 +458,10 @@
     {
       "zaman": "2026-10-29T16:11:41Z",
       "ozet": "h2-05: Güvenli ve gizli kullanım taslağı yayımlandı (12 arama, 9 kaynak okundu)."
+    },
+    {
+      "zaman": "2026-10-29T16:34:35Z",
+      "ozet": "h3-01: Görsel, ses ve video üretimi taslağı yayımlandı (18 arama, 17 kaynak okundu)."
     }
   ]
 }
