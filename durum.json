@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-29T15:48:23Z",
-  "calisma_sayisi": 2,
+  "son_calisma": "2026-10-29T15:53:12Z",
+  "calisma_sayisi": 3,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -159,12 +159,12 @@
         "Sohbeti sürdürerek düzelttirme, asistandan soru sormasını isteme, adım adım düşündürme",
         "Katılımcıların kendi işinden talimat yazdığı mini alıştırma"
       ],
-      "durum": "uretiliyor",
-      "surum": 0,
-      "son_guncelleme": null,
-      "sahip": "20261029T1548Z",
-      "sahip_zamani": "2026-10-29T15:48:32Z",
-      "not": ""
+      "durum": "taslak",
+      "surum": 1,
+      "son_guncelleme": "2026-10-29T15:53:12Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 1: 13 slayt (ROBOT harfleri SVG'si, renkli talimat çözümlemesi, beş meslek tablosu, eksik harf oyunu, süper hamleler, 8 dk mini alıştırma), 9 kaynaklı not. Düşünen modlarda 'adım adım düşün' önerisinin değiştiği notlandı."
     },
     {
       "id": "h2-03",
@@ -442,6 +442,10 @@
     {
       "zaman": "2026-10-29T15:48:23Z",
       "ozet": "h2-01: Sohbet asistanları nasıl çalışır taslağı yayımlandı (17 arama, 19 kaynak okundu)."
+    },
+    {
+      "zaman": "2026-10-29T15:53:12Z",
+      "ozet": "h2-02: ROBOT formülü taslağı yayımlandı (12 arama, 9 kaynak okundu)."
     }
   ]
 }

@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ROBOT formülü ile iyi talimat yazmak · Yapay Zekâ Atölyesi</title>
+  <meta name="description" content="Rol, Ortam, Beklenen iş, Örnek, Tarz ve biçim: asistana iyi talimat yazmanın beş harfi, beş meslekten örnekler, sohbeti sürdürme ve mini alıştırma.">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css">
+  <link rel="stylesheet" href="../assets/tema.css">
+  <style>
+    svg text { font-family: inherit; }
+    .talimat { text-align: left; font-size: .72em; line-height: 1.55; background: #fff; border: 2px solid var(--cizgi); border-radius: 18px; padding: .7em 1em; max-width: 1050px; margin: .4em auto; }
+    .talimat span { padding: .05em .25em; border-radius: .3em; }
+    .t-r { background: var(--turkuaz-acik); }
+    .t-o { background: var(--altin-acik); }
+    .t-b { background: var(--kiremit-acik); }
+    .t-e { background: #e6e1f3; }
+    .t-t { background: var(--kagit-koyu); }
+    .lejant { font-size: .55em; color: var(--murekkep-acik); }
+    .lejant span { padding: .1em .4em; border-radius: .3em; margin: 0 .2em; }
+    .kotu { font-size: .8em; background: var(--kiremit-acik); border-radius: 14px; padding: .5em .8em; }
+    .iyi { font-size: .7em; background: var(--turkuaz-acik); border-radius: 14px; padding: .5em .8em; text-align: left; line-height: 1.5; }
+  </style>
+</head>
+<body>
+  <div class="altbilgi">Yapay Zekâ Atölyesi · 2. Hafta · ROBOT formülü ile iyi talimat yazmak</div>
+  <div class="reveal">
+    <div class="slides">
+
+      <!-- 1. KAPAK -->
+      <section class="kapak">
+        <div class="cini" aria-hidden="true"></div>
+        <span class="etiket">2. Hafta · 25 dakika</span>
+        <h1>ROBOT formülü ile iyi talimat yazmak</h1>
+        <p class="alt">Aynı asistan, bambaşka cevaplar: Farkı soruyu soran yaratır.</p>
+        <aside class="notes">
+          Ne söyle: Az önce asistanın, ona verdiğimiz başlangıcın en olası devamını yazdığını öğrendik. O zaman şu soru çok önemli: Başlangıcı nasıl verelim? Bu bölümde size beş harflik bir formül vereceğim. Adı ROBOT. Bölümün sonunda kendi işinizden bir talimat yazıp deneyeceksiniz.
+          Süre: 1 dk.
+          Dikkat: "Prompt" kelimesini bir kez söyle ve "biz buna talimat diyeceğiz" diyerek Türkçeye bağla.
+        </aside>
+      </section>
+
+      <!-- 2. BÜYÜK SORU -->
+      <section class="soru">
+        <span class="etiket kiremit">Bugünün sorusu</span>
+        <p class="buyuk">İlk gününde parlak bir stajyere sadece “Bir duyuru yaz” derseniz, size ne getirir?</p>
+        <p class="ipucu">Tahminlerinizi duyalım</p>
+        <aside class="notes">
+          Ne söyle: Düşünün, işyerinize çok parlak bir stajyer geldi. Bugün ilk günü. Ona sadece "Bir duyuru yaz" diyorsunuz. Size ne getirir? (Cevapları al.) Evet: bir duyuru getirir. Ama kime? Ne hakkında? Ne uzunlukta? Resmî mi, samimi mi? Hepsini tahmin etmek zorunda kalır.
+          Süre: 1,5 dk.
+          Salona sor: "Ne getirir?" Beklenen cevaplar: "Ne duyurusu?", "Kime?", "Rastgele bir şey."
+          Köprü: "İşte asistan da tam bu stajyer."
+        </aside>
+      </section>
+
+      <!-- 3. BENZETME -->
+      <section>
+        <span class="etiket">Benzetme</span>
+        <h2>Parlak ama sizi tanımayan stajyer</h2>
+        <div class="benzetme">
+          <span class="simge" aria-hidden="true">🧑‍💼</span>
+          <p>Çok okumuş, hızlı, hevesli. Ama işyerinizi, müşterinizi, zevkinizi bilmiyor. Anlatmadığınız her şeyi tahminle dolduruyor.</p>
+        </div>
+        <p class="fragment kucuk">Test: Talimatınızı işi hiç bilmeyen bir arkadaşınıza okutun. O şaşırıyorsa asistan da şaşırır.</p>
+        <aside class="notes">
+          Ne söyle: Anthropic şirketinin rehberinde güzel bir benzetme var: Asistanı, bağlamınızı bilmeyen, yetenekli yeni bir çalışan gibi düşünün. Çok okumuş, hızlı, hevesli. Ama sizin işyerinizi, müşterinizi, zevkinizi bilmiyor. Ve en önemlisi: Anlatmadığınız her şeyi tahminle dolduruyor. Rehberin önerdiği basit bir test de var: Talimatınızı işi hiç bilmeyen bir arkadaşınıza okutun. O şaşırıyorsa, asistan da şaşırır.
+          Süre: 1,5 dk.
+          Dikkat (benzetmenin sınırı): Stajyer anlamadığında çoğu zaman sorar; asistan siz istemedikçe sormaz, tahmin eder. Bunun çaresini birazdan "süper hamle" olarak göstereceğiz.
+        </aside>
+      </section>
+
+      <!-- 4. KÖTÜ VE İYİ -->
+      <section>
+        <h2>Aynı istek, iki talimat</h2>
+        <div class="iki-sutun">
+          <div><h3>😐 Kısa</h3><p class="kotu">Veli toplantısı duyurusu yaz.</p></div>
+          <div class="fragment"><h3>🤩 ROBOT'lu</h3><p class="iyi">Sen deneyimli bir ilkokul öğretmenisin. 3. sınıf velilerine dönem ortası toplantısı için duyuru yazacaksın; veliler çalışıyor, kısa olmalı. Toplantının amacını ve getirilmesi gerekenleri yaz. Sıcak ama resmî bir dil kullan, en fazla 80 kelime, sonunda katılım için teşekkür olsun.</p></div>
+        </div>
+        <aside class="notes">
+          Ne söyle: Soldaki talimat 4 kelime. Sağdaki biraz daha uzun ama içinde her şey var: kim olduğu, kime yazdığı, ne istediğimiz, nasıl bir dil ve ne uzunlukta. Google'ın kendi rehberine göre en başarılı talimatlar ortalama 21 kelime civarında; insanların ilk denediği talimatlar ise genellikle 9 kelimenin altında. Yani biraz daha uzun yazmak gerçekten fark yaratıyor.
+          Süre: 1,5 dk.
+          Salona sor: "Hangisinin cevabı daha az düzeltme ister?"
+          Dikkat: Vaktin varsa iki talimatı önceden kopyaladığın not dosyasından asistana yapıştırıp sonuçları yan yana göster (1 dk). Tarih, saat ve okul adı yazma; gerçek duyuruda bunları kişi kendisi ekler.
+        </aside>
+      </section>
+
+      <!-- 5. ROBOT SVG -->
+      <section>
+        <h2>ROBOT: beş harf, beş soru</h2>
+        <svg role="img" aria-label="ROBOT harfleri: R Rol, kim gibi? O Ortam, hangi durumda, kim için? B Beklenen iş, tam olarak ne? Ö Örnek, neye benzesin? T Tarz ve biçim, nasıl görünsün?" viewBox="0 0 1100 400" width="1100" height="400">
+          <rect x="300" y="10" width="500" height="40" rx="20" fill="var(--kagit-koyu)"/>
+          <text x="550" y="38" text-anchor="middle" font-size="22" fill="var(--murekkep-acik)">🤖 asistana iş tarifi</text>
+          <g>
+            <rect x="20" y="80" width="190" height="150" rx="24" fill="var(--turkuaz)"/>
+            <text x="115" y="175" text-anchor="middle" font-size="90" font-weight="700" fill="#fff">R</text>
+            <text x="115" y="275" text-anchor="middle" font-size="30" font-weight="700" fill="var(--murekkep)">Rol</text>
+            <text x="115" y="315" text-anchor="middle" font-size="21" fill="var(--murekkep-acik)">Kim gibi</text>
+            <text x="115" y="342" text-anchor="middle" font-size="21" fill="var(--murekkep-acik)">davransın?</text>
+          </g>
+          <g class="fragment">
+            <rect x="235" y="80" width="190" height="150" rx="24" fill="var(--altin)"/>
+            <text x="330" y="175" text-anchor="middle" font-size="90" font-weight="700" fill="#fff">O</text>
+            <text x="330" y="275" text-anchor="middle" font-size="30" font-weight="700" fill="var(--murekkep)">Ortam</text>
+            <text x="330" y="315" text-anchor="middle" font-size="21" fill="var(--murekkep-acik)">Hangi durumda,</text>
+            <text x="330" y="342" text-anchor="middle" font-size="21" fill="var(--murekkep-acik)">kim için?</text>
+          </g>
+          <g class="fragment">
+            <rect x="450" y="80" width="190" height="150" rx="24" fill="var(--kiremit)"/>
+            <text x="545" y="175" text-anchor="middle" font-size="90" font-weight="700" fill="#fff">B</text>
+            <text x="545" y="275" text-anchor="middle" font-size="30" font-weight="700" fill="var(--murekkep)">Beklenen iş</text>
+            <text x="545" y="315" text-anchor="middle" font-size="21" fill="var(--murekkep-acik)">Tam olarak</text>
+            <text x="545" y="342" text-anchor="middle" font-size="21" fill="var(--murekkep-acik)">ne istiyorum?</text>
+          </g>
+          <g class="fragment">
+            <rect x="665" y="80" width="190" height="150" rx="24" fill="#7a68b3"/>
+            <text x="760" y="175" text-anchor="middle" font-size="90" font-weight="700" fill="#fff">O</text>
+            <text x="760" y="275" text-anchor="middle" font-size="30" font-weight="700" fill="var(--murekkep)">Örnek</text>
+            <text x="760" y="315" text-anchor="middle" font-size="21" fill="var(--murekkep-acik)">Neye</text>
+            <text x="760" y="342" text-anchor="middle" font-size="21" fill="var(--murekkep-acik)">benzesin?</text>
+          </g>
+          <g class="fragment">
+            <rect x="880" y="80" width="190" height="150" rx="24" fill="var(--murekkep-acik)"/>
+            <text x="975" y="175" text-anchor="middle" font-size="90" font-weight="700" fill="#fff">T</text>
+            <text x="975" y="275" text-anchor="middle" font-size="30" font-weight="700" fill="var(--murekkep)">Tarz ve biçim</text>
+            <text x="975" y="315" text-anchor="middle" font-size="21" fill="var(--murekkep-acik)">Nasıl bir dil,</text>
+            <text x="975" y="342" text-anchor="middle" font-size="21" fill="var(--murekkep-acik)">ne uzunlukta?</text>
+          </g>
+        </svg>
+        <aside class="notes">
+          Ne söyle: İşte formülümüz: ROBOT. R, Rol: Asistan kim gibi davransın? Deneyimli bir öğretmen mi, sabırlı bir müşteri temsilcisi mi? O, Ortam: Hangi durumdayız, metin kimin için? B, Beklenen iş: Tam olarak ne istiyorum? Bir duyuru mu, beş maddelik bir liste mi? İkinci O, Örnek: Beğendiğim bir örnek var mı? "Şuna benzesin" diyebilir miyim? T, Tarz ve biçim: Nasıl bir dil, ne uzunlukta, madde mi tablo mu? Bunu terziye ölçü vermek gibi düşünün: Ölçünüzü verirseniz size göre diker.
+          Süre: 2 dk.
+          Dikkat: ROBOT bu atölyenin kendi kısaltması; resmî bir standart değil. Ama Google, Microsoft ve OpenAI'ın rehberleri aynı unsurları öneriyor. "Beşi de her zaman şart değil; sonuç beğenmediyseniz eksik harfi arayın" de.
+        </aside>
+      </section>
+
+      <!-- 6. RENKLİ TAM ÖRNEK -->
+      <section>
+        <h2>Bir talimatın içi</h2>
+        <p class="talimat">
+          <span class="t-r fragment">Sen mahalle kafeleri için yazan, samimi bir metin yazarısın.</span>
+          <span class="t-o fragment">Küçük bir kitap kafe işletiyorum; müşterilerim çoğunlukla öğrenci ve emekliler.</span>
+          <span class="t-b fragment">Yeni eklediğimiz üç kış içeceği için Instagram tanıtım metni yaz.</span>
+          <span class="t-e fragment">Şu tadı yakalasın: “Kitabınız sıcak, çayınız sıcak, köşeniz hazır.”</span>
+          <span class="t-t fragment">En fazla 60 kelime, iki emoji, sonda bir soru olsun.</span>
+        </p>
+        <p class="lejant"><span class="t-r">Rol</span><span class="t-o">Ortam</span><span class="t-b">Beklenen iş</span><span class="t-e">Örnek</span><span class="t-t">Tarz ve biçim</span></p>
+        <aside class="notes">
+          Ne söyle: Şimdi bir talimatın içine bakalım. Her renk bir harf. Turkuaz: Rol, samimi bir metin yazarı. Sarı: Ortam, küçük bir kitap kafe, müşteriler öğrenci ve emekli. Kırmızı: Beklenen iş, üç kış içeceği için tanıtım metni. Mor: Örnek, yakalamasını istediğim tat. Gri: Tarz ve biçim, 60 kelime, iki emoji, sonda soru. Beş cümle, yarım dakikada yazılır, ama cevabı beş kat isabetli yapar.
+          Süre: 1,5 dk.
+          Dikkat: "Beş kat" mecazdır, ölçüm değil; sayı olarak sunma. Örneğin kopyalanmasını istemiyorsan "yalnızca tonunu al" de.
+        </aside>
+      </section>
+
+      <!-- 7. BEŞ MESLEK -->
+      <section>
+        <h3>Beş meslekten ROBOT'lu talimat</h3>
+        <table>
+          <thead><tr><th>Meslek</th><th>Kısa talimat</th><th>ROBOT'la eklenenler</th></tr></thead>
+          <tbody>
+            <tr class="fragment"><td>🍎 Öğretmen</td><td>Kesirler etkinliği</td><td>4. sınıf, 20 dakika, pizza örneği, 3 adım, malzeme listesi</td></tr>
+            <tr class="fragment"><td>🛒 Esnaf</td><td>Gecikme özrü</td><td>Kibar satıcı, kargo 2 gün gecikti, telafi önerisi, 3 cümle</td></tr>
+            <tr class="fragment"><td>🩺 Sağlık çalışanı</td><td>El hijyeni afişi</td><td>Bekleme salonu, yaşlı ziyaretçiler, büyük yazı, 5 madde</td></tr>
+            <tr class="fragment"><td>🏗️ Mühendis</td><td>Toplantı özeti</td><td>Proje sorumlusu, notları yapıştırdım, kararlar ve sorumlular, tablo</td></tr>
+            <tr class="fragment"><td>🤝 Emekli / gönüllü</td><td>Gönüllü daveti</td><td>Dernek, kitap bağışı kampanyası, sıcak dil, 100 kelime</td></tr>
+          </tbody>
+        </table>
+        <aside class="notes">
+          Ne söyle: Beş meslekten örnek. Öğretmen: "Kesirler etkinliği" yerine 4. sınıf, 20 dakika, pizza dilimleriyle, üç adımda, malzeme listesiyle. Esnaf: Kargo iki gün gecikti, müşteriye kibar, telafi öneren, üç cümlelik bir özür. Sağlık çalışanı: Bekleme salonu için, yaşlı ziyaretçilerin okuyacağı, büyük yazılı, beş maddelik el hijyeni afişi. Mühendis: Toplantı notlarını yapıştırıp kararları ve sorumluları tablo hâlinde çıkarmak. Emekli ya da gönüllü: Derneğin kitap bağışı kampanyası için sıcak, yüz kelimelik bir davet.
+          Süre: 2 dk.
+          Salona sor: "Sizin mesleğinizde en sık yazdığınız metin hangisi?"
+          Dikkat: Sağlık örneğinde hasta bilgisi yok; genel bilgilendirme. Mühendis örneğinde yapıştırılan notlarda isim ve şirket sırrı olmamalı. Salondaki mesleklere en yakın iki örneği öne çıkar.
+        </aside>
+      </section>
+
+      <!-- 8. EKSİK HARF OYUNU -->
+      <section>
+        <span class="etiket altin">Oyun</span>
+        <h2>Hangi harf eksik?</h2>
+        <p class="talimat">“Sen deneyimli bir seyahat planlayıcısısın. Emekli bir çift olarak üç günlük bir Kapadokya gezisi planlıyoruz, yürümeyi az seviyoruz. Bize bir gezi planı hazırla.”</p>
+        <p class="fragment kucuk">Cevap: <strong>T — Tarz ve biçim</strong> (ve Örnek). “Gün gün tablo, her gün en fazla 3 durak, kısa açıklama” eklersek plan okunur hâle gelir.</p>
+        <aside class="notes">
+          Ne söyle: Şimdi sıra sizde. Bu talimatı okuyun. Rol var mı? Var, seyahat planlayıcısı. Ortam var mı? Var, emekli bir çift, yürümeyi az seviyorlar. Beklenen iş? Gezi planı. Peki ne eksik? (Cevapları al.) Tarz ve biçim eksik. Asistan muhtemelen uzun bir metin yazacak. "Gün gün tablo olsun, her gün en fazla üç durak" dersek plan bir bakışta okunur. Örnek de yok ama burada şart değil.
+          Süre: 1,5 dk.
+          Salona sor: "Hangi harf eksik?"
+          Dikkat: Birden fazla doğru cevap kabul et; amaç eksik harfi arama alışkanlığı.
+        </aside>
+      </section>
+
+      <!-- 9. SOHBETİ SÜRDÜR -->
+      <section>
+        <h2>İlk cevap bir taslaktır: sohbeti sürdürün</h2>
+        <ul class="zaman">
+          <li class="fragment"><span class="yil">1</span> “Daha kısa olsun; yarısı kadar.”</li>
+          <li class="fragment"><span class="yil">2</span> “Dil fazla resmî, biraz daha sıcak yaz.”</li>
+          <li class="fragment"><span class="yil">3</span> “İkinci maddeyi çıkar, yerine fiyatı ekle.”</li>
+          <li class="fragment"><span class="yil">4</span> “Bana üç farklı versiyon ver, seçeyim.”</li>
+        </ul>
+        <aside class="notes">
+          Ne söyle: Yemek yaparken tadına bakıp "biraz daha tuz" dersiniz. Asistanla da öyle. İlk cevap bir taslaktır. Beğenmediğiniz yeri söyleyin: "Daha kısa olsun." "Dil fazla resmî." "İkinci maddeyi çıkar." Ve en sevdiğim: "Bana üç farklı versiyon ver, seçeyim." Microsoft'un kendi Türkçe rehberi de istediğiniz sonuca çoğu zaman takip mesajlarıyla ulaşıldığını söylüyor. Yeni sohbet açmak yerine aynı sohbette düzeltin; asistan önceki konuşmayı dikkate alır.
+          Süre: 1,5 dk.
+          Dikkat: Sohbet çok uzayıp karışırsa, iyi bir özetle yeni sohbet açmak daha iyi olabilir.
+        </aside>
+      </section>
+
+      <!-- 10. SÜPER HAMLELER -->
+      <section>
+        <h2>İki süper hamle</h2>
+        <div class="kartlar">
+          <div class="kart fragment"><span class="simge" aria-hidden="true">🙋</span><h3>“Önce bana soru sor”</h3><p>“Yazmadan önce bana en fazla 3 soru sor.” Stajyeri soru soran stajyere çevirir.</p></div>
+          <div class="kart fragment turkuaz"><span class="simge" aria-hidden="true">🪜</span><h3>“Adım adım düşün”</h3><p>Hızlı modda hesap ve planlarda işe yarar. Düşünen modda gerek yok.</p></div>
+        </div>
+        <aside class="notes">
+          Ne söyle: İki süper hamle. Birincisi: "Yazmadan önce bana en fazla üç soru sor." Böylece stajyerimiz tahmin etmek yerine soruyor; ROBOT'u siz doldurmak yerine o size doldurtuyor. İkincisi: "Adım adım düşün." 2022'de yayımlanan bir çalışmada, o günün bir modelinde bu tek cümle bir aritmetik testindeki başarıyı yüzde 18'den yüzde 79'a çıkarmıştı. Ama dikkat: Bugünün düşünen modları bunu zaten kendileri yapıyor. OpenAI ve Anthropic, düşünen modda "adım adım düşün" yazmak yerine işi net tarif etmeyi öneriyor. Hızlı modda hesap ve plan işlerinde hâlâ işe yarayabilir.
+          Süre: 2 dk.
+          Salona sor: "Hangi işinizde 'önce bana soru sor' hamlesi işe yarar?"
+          Dikkat: Yüzdeler eski bir modelle yapılan bir deneyden; bugünkü modellere genelleme. "En fazla üç soru" sınırını mutlaka söyle, yoksa sorular bitmeyebilir.
+        </aside>
+      </section>
+
+      <!-- 11. UYGULAMA -->
+      <section>
+        <div class="uygulama-kutu">
+          <span class="sure">⏱ 8 dk</span>
+          <h2>Uygulama: Kendi işimden bir ROBOT</h2>
+          <ol class="adimlar">
+            <li>Gerçek bir yazı işi seçin: duyuru, e-posta, plan, liste</li>
+            <li>ROBOT'un beş satırını doldurun (her harf tek cümle)</li>
+            <li>Asistana yapıştırın, sonucu okuyun</li>
+            <li>Yanınızdakiyle değişin: “Hangi harf eksik?”</li>
+          </ol>
+        </div>
+        <aside class="notes">
+          Ne söyle: Şimdi sıra sizde. Bir dakika içinde işinizden ya da gündelik hayatınızdan gerçek bir yazı işi seçin. Üç dakikada ROBOT'un beş satırını doldurun; her harf için tek cümle yeter. Sonra asistana yapıştırın ve sonucu okuyun. Son iki dakikada yanınızdakiyle telefonları değişin ve birbirinize sorun: "Hangi harf eksik?" Bir düzeltme cümlesi yazdırın.
+          Süre: 8 dk (1 + 3 + 2 + 2).
+          Masaları dolaşırken kontrol et: Beklenen iş tek ve net mi? Uzunluk ve biçim yazılmış mı? Talimatta kişisel bilgi var mı?
+          Sık sorun ve çözümü: İş bulamayan → hazır kartlardan birini ver (su kesintisi duyurusu, kargo gecikmesi özrü, gönüllülere teşekkür, haftalık yemek planı). Kota doldu → başka asistana geç.
+          B planı: İnternet yoksa kâğıt üzerinde yap; eş "asistan" rolü oynayıp eksik harfi söylesin.
+          Dikkat: İsim, telefon, müşteri ya da hasta bilgisi yazan olursa nazikçe genelleştirmesini iste.
+        </aside>
+      </section>
+
+      <!-- 12. VURGU -->
+      <section class="vurgu">
+        <p class="buyuk">Asistana emir değil, iş tarifi verin: Kim, nerede, ne, neye benzer, nasıl.</p>
+        <aside class="notes">
+          Ne söyle: Bu bölümden tek cümle: Asistana emir değil, iş tarifi verin. Kim, nerede, ne, neye benzer, nasıl. Yani ROBOT. Artık iyi bir talimatımız var. Peki aynı talimatı farklı asistanlara verirsek aynı cevabı alır mıyız? Ve hangisi bize uydurma bilgi verecek? Şimdi halüsinasyon avına çıkıyoruz.
+          Süre: 45 sn.
+          Dikkat: Köprü cümlesini mutlaka söyle; bir sonraki bölüm aynı talimatı üç asistanda deniyor.
+        </aside>
+      </section>
+
+      <!-- 13. KAYNAKLAR -->
+      <section>
+        <h3>Kaynaklar</h3>
+        <ul class="kaynaklar">
+          <li><a href="https://help.openai.com/en/articles/10032626-prompt-engineering-best-practices-for-chatgpt">Prompt engineering best practices for ChatGPT</a> — OpenAI Yardım Merkezi</li>
+          <li><a href="https://services.google.com/fh/files/misc/gemini-for-google-workspace-prompting-guide-101.pdf">Gemini Prompting Guide 101</a> — Google, Nisan 2024</li>
+          <li><a href="https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/be-clear-and-direct">Be clear and direct</a> — Anthropic belgeleri</li>
+          <li><a href="https://support.microsoft.com/tr-tr/microsoft-365-copilot/get-started-writing-prompts-in-microsoft-365-copilot">Copilot'ta istem yazmaya başlama</a> — Microsoft Destek (Türkçe)</li>
+          <li><a href="https://www.meb.gov.tr/ogretmenler-icin-yapay-zek-destekli-egitim-rehberi-hazirlandi/haber/37690/tr">Öğretmenler için yapay zekâ destekli eğitim rehberi</a> — MEB, Temmuz 2025</li>
+          <li><a href="https://arxiv.org/abs/2205.11916">Large Language Models are Zero-Shot Reasoners</a> — Kojima ve ark., 2022</li>
+        </ul>
+        <p class="kucuk">Ayrıntılı araştırma notu: <a href="../not.html?id=h2-02">anlatıcı notu</a> · Son güncelleme: 29 Ekim 2026</p>
+        <aside class="notes">
+          Ne söyle: Kaynaklar burada. Öğretmenlerimize özellikle Millî Eğitim Bakanlığı'nın rehberini öneririm; ders alanlarına göre hazır formüller var.
+          Süre: 15 sn.
+          Dikkat: Bu slaytta durma; doğrudan bir sonraki bölüme geç.
+        </aside>
+      </section>
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/notes/notes.js"></script>
+  <script>
+    Reveal.initialize({
+      hash: true, slideNumber: 'c/t', progress: true, center: true, transition: 'slide',
+      width: 1280, height: 720, margin: 0.06, plugins: [RevealNotes]
+    });
+  </script>
+</body>
+</html>
