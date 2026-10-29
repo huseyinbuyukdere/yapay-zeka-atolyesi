@@ -1,7 +1,7 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-29T15:04:49Z",
+  "son_calisma": "2026-10-29T15:09:22Z",
   "calisma_sayisi": 1,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
@@ -82,12 +82,12 @@
         "Olası teknik sorunlar (kamera izni, yavaş bilgisayar) ve B planı; telefonla yapılabilir mi?",
         "Alternatif eğlenceli demo: Quick, Draw!"
       ],
-      "durum": "uretiliyor",
-      "surum": 0,
-      "son_guncelleme": null,
-      "sahip": "20261029T1440Z",
-      "sahip_zamani": "2026-10-29T15:04:59Z",
-      "not": ""
+      "durum": "taslak",
+      "surum": 1,
+      "son_guncelleme": "2026-10-29T15:09:22Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 1: 13 slayt (iki turlu uygulama, veri karşılaştırma SVG'si, sorun giderme, Quick Draw bonus), 11 kaynaklı not. Telefonda kullanım resmî kaynaktan doğrulanamadı."
     },
     {
       "id": "h1-05",
@@ -426,6 +426,10 @@
     {
       "zaman": "2026-10-29T15:04:49Z",
       "ozet": "h1-03: Makineler nasıl öğrenir taslağı yayımlandı (12 arama, 12 kaynak okundu)."
+    },
+    {
+      "zaman": "2026-10-29T15:09:22Z",
+      "ozet": "h1-04: Teachable Machine uygulaması taslağı yayımlandı (12 arama, 12 kaynak okundu)."
     }
   ]
 }

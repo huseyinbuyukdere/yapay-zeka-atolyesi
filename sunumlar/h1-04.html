@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Uygulama: Teachable Machine ile kendi modelini eğit · Yapay Zekâ Atölyesi</title>
+  <meta name="description" content="Kodsuz uygulama: Teachable Machine ile kalem, telefon ve boş masayı tanıyan bir model eğit; önce az veriyle hatayı gör, sonra veriyi çeşitlendirip düzelt.">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css">
+  <link rel="stylesheet" href="../assets/tema.css">
+  <style>
+    svg text { font-family: inherit; }
+    .dugme { display: inline-block; padding: 2px 12px; border-radius: 10px; background: var(--turkuaz-acik); color: var(--murekkep); font-weight: 700; }
+  </style>
+</head>
+<body>
+  <div class="altbilgi">Yapay Zekâ Atölyesi · 1. Hafta · Uygulama: Teachable Machine</div>
+  <div class="reveal">
+    <div class="slides">
+
+      <!-- 1. KAPAK -->
+      <section class="kapak">
+        <div class="cini" aria-hidden="true"></div>
+        <span class="etiket">1. Hafta · 20 dakika · Uygulama</span>
+        <h1>Kendi yapay zekânı eğit</h1>
+        <p class="alt">Kod yok, kurulum yok: beş dakikada bir makineye kalemi öğreteceksiniz.</p>
+        <aside class="notes">
+          Ne söyle: Şimdiye kadar konuştuk; şimdi yapma zamanı. Önümüzdeki yirmi dakikada her grup kendi yapay zekâ modelini eğitecek. Kod yazmayacağız, hiçbir şey kurmayacağız; sadece tarayıcı ve kamera. Ve size şimdiden söyleyeyim: İlk denemede modeliniz yanılacak. Bilerek öyle yapacağız.
+          Süre: 1 dk.
+          Salona sor: "Daha önce bir makineye bir şey öğreten oldu mu?" (Genelde kimse; "bugün olacaksınız" de.)
+          Dikkat: Heyecanı yüksek tut; teknik kaygıyı "kod yok, kurulum yok" diyerek kır.
+        </aside>
+      </section>
+
+      <!-- 2. HAZIRLIK -->
+      <section>
+        <h2>Neye ihtiyacımız var?</h2>
+        <div class="kartlar">
+          <div class="kart fragment"><span class="simge" aria-hidden="true">💻</span><h3>Kameralı bilgisayar</h3><p>Chrome ya da güncel bir tarayıcı</p></div>
+          <div class="kart fragment turkuaz"><span class="simge" aria-hidden="true">✏️📱</span><h3>Üç “sınıf”</h3><p>Kalem, telefon ve boş masa</p></div>
+          <div class="kart fragment altin"><span class="simge" aria-hidden="true">👥</span><h3>İkili, üçlü gruplar</h3><p>Biri tutar, biri tıklar</p></div>
+        </div>
+        <aside class="notes">
+          Ne söyle: Her grup için kameralı bir bilgisayar yeter. Masanızda bir kalem, bir telefon ve boş bir alan olsun. Neden boş masa? Çünkü model her zaman bir cevap verir; "hiçbiri" diye bir seçeneği yoktur. Boş masa sınıfı, ortada bir şey yokken saçmalamasını önler. İkişer, üçer kişilik gruplar olalım: Biri nesneyi tutsun, biri tıklasın.
+          Süre: 1 dk.
+          Dikkat: Kamerası olmayanları kameralı bir gruba yönlendir. Yüzünü kaydetmek istemeyenler kamerayı masaya çevirebilir; bunu baştan söyle.
+        </aside>
+      </section>
+
+      <!-- 3. ADIM 1 -->
+      <section>
+        <div class="uygulama-kutu">
+          <span class="sure">⏱ 1,5 dk</span>
+          <h2>Adım 1: Projeyi aç</h2>
+          <ol class="adimlar">
+            <li><strong>teachablemachine.withgoogle.com</strong></li>
+            <li><span class="dugme">Get Started</span> → <span class="dugme">Image Project</span></li>
+            <li><span class="dugme">Standard image model</span></li>
+          </ol>
+        </div>
+        <aside class="notes">
+          Ne söyle: Tarayıcıya teachablemachine.withgoogle.com yazın. "Get Started", yani "Başla" düğmesine tıklayın. Karşınıza üç seçenek çıkacak: görsel, ses ve poz. "Image Project", yani görsel projesini, sonra "Standard image model"i seçin. Ekranda iki kutu göreceksiniz: Class 1 ve Class 2. Bunlar sınıflarımız.
+          Süre: 1,5 dk.
+          Dikkat: Arayüz İngilizce; her düğmeyi hem İngilizce hem Türkçe söyle. Projeksiyonda kendi ekranında adım adım göster, sonra "Herkes burada mı?" diye sor.
+        </aside>
+      </section>
+
+      <!-- 4. ADIM 2 - 1. TUR -->
+      <section>
+        <div class="uygulama-kutu">
+          <span class="sure">⏱ 3 dk</span>
+          <h2>Adım 2: 1. tur, bilerek az veri</h2>
+          <ol class="adimlar">
+            <li>Sınıflara isim ver: <strong>Kalem · Telefon · Boş masa</strong> (<span class="dugme">Add a class</span>)</li>
+            <li><span class="dugme">Webcam</span> → kamera iznine “İzin ver”</li>
+            <li><span class="dugme">Hold to Record</span>: sadece 1-2 saniye, <strong>tek açı</strong></li>
+          </ol>
+        </div>
+        <aside class="notes">
+          Ne söyle: "Class 1" yazısına tıklayıp "Kalem" yazın, "Class 2"yi "Telefon" yapın. Aşağıdaki "Add a class" ile üçüncü sınıfı ekleyip "Boş masa" yazın. Şimdi kalem sınıfında "Webcam"e tıklayın; tarayıcı kamera izni isteyecek, izin verin. Kalemi kameraya hep aynı açıdan, aynı elle tutun ve "Hold to Record", yani "basılı tut ve kaydet" düğmesine sadece bir-iki saniye basın. Yaklaşık on, on beş kare yeter. Aynısını telefon ve boş masa için yapın. Evet, bilerek az ve tek düze veri topluyoruz.
+          Süre: 3 dk.
+          Dikkat: Hevesli gruplar baştan çok kayıt yapabilir. O gruplara 5. adımda zor test için farklı renkte bir kalem ver. Kamera açılmazsa 10. slayttaki sorun gidermeye bak.
+        </aside>
+      </section>
+
+      <!-- 5. ADIM 3 -->
+      <section>
+        <div class="uygulama-kutu">
+          <span class="sure">⏱ 2,5 dk</span>
+          <h2>Adım 3: Eğit ve zorla</h2>
+          <ol class="adimlar">
+            <li><span class="dugme">Train Model</span> · sekmeyi değiştirme!</li>
+            <li><strong>Preview</strong>: önce aynı açıdan göster ✅</li>
+            <li>Sonra zorla: yan çevir, başka kalem, başka el, başka ışık 🤔</li>
+          </ol>
+        </div>
+        <aside class="notes">
+          Ne söyle: Şimdi "Train Model", yani "modeli eğit" düğmesine basın. Eğitim bitene kadar sekmeyi değiştirmeyin; sayfa donmuş gibi görünebilir ama çalışıyor. Bittiğinde sağda "Preview", yani önizleme bölümü açılacak. Önce kalemi eğittiğiniz açıdan gösterin: Büyük ihtimalle doğru bilecek. Şimdi zorlayın: kalemi yan çevirin, başka renkte bir kalem gösterin, arkadaşınız tutsun, kalemi masanın başka yerine koyun. Ne oluyor?
+          Süre: 2,5 dk.
+          Dikkat: Model yanıldığında "Harika, tam istediğimiz bu!" de. Katılımcılar yanlış bir şey yaptıklarını düşünmesin. Yanlış cevaba yüzde 100 emin olması da tipik; bunu göster.
+        </aside>
+      </section>
+
+      <!-- 6. BÜYÜK SORU -->
+      <section class="soru">
+        <span class="etiket kiremit">Hemen tartışalım</span>
+        <p class="buyuk">Model neden yanıldı?</p>
+        <p class="ipucu">Ona ne gösterdik, ne göstermedik?</p>
+        <aside class="notes">
+          Ne söyle: Modeliniz nerede yanıldı? Neden olabilir? ... Evet: Ona kalemi sadece tek açıdan, tek ışıkta, tek elde gösterdik. Bir önceki bölümdeki kurt ve kar hikâyesini hatırlayın: Model belki kaleme değil, elinize ya da arka plandaki şeylere bakıyordu. Çırağa tek bir tencerede tek bir pilav yapmayı gösterip başka mutfakta şaşırmasına benziyor.
+          Süre: 1 dk.
+          Salona sor: Üç-dört gruba "Sizinki nerede yanıldı?" diye sor.
+          Dikkat: Kısa tut; asıl ders ikinci turda gelecek.
+        </aside>
+      </section>
+
+      <!-- 7. ADIM 4 - 2. TUR -->
+      <section>
+        <div class="uygulama-kutu">
+          <span class="sure">⏱ 3,5 dk</span>
+          <h2>Adım 4: 2. tur, çok ve çeşitli veri</h2>
+          <ol class="adimlar">
+            <li><span class="dugme">Hold to Record</span>: 8-10 saniye basılı tut</li>
+            <li>Bu arada nesneyi <strong>döndür, yaklaştır, uzaklaştır</strong></li>
+            <li>Farklı el, farklı yer, farklı ışık</li>
+            <li>Yeniden eğit, yeniden zorla 💪</li>
+          </ol>
+        </div>
+        <aside class="notes">
+          Ne söyle: Şimdi modeli düzeltelim. Her sınıfa yeni kayıt ekleyin. Bu sefer "Hold to Record"a sekiz-on saniye basılı tutun ve bu sırada nesneyi döndürün, yaklaştırıp uzaklaştırın. Kalemi bir de arkadaşınız tutsun, masanın farklı yerlerinde gösterin. Boş masa için de kamerayı biraz oynatın. Böylece her sınıfta birkaç yüz çeşitli kare olacak. Sonra yeniden "Train Model" ve aynı zor testler.
+          Süre: 3,5 dk.
+          Dikkat: Süre daralırsa yalnızca kalem sınıfını çeşitlendirmek de dersi verir. Masaları dolaş: Boş masa sınıfı eklenmiş mi, doğru kamera seçili mi?
+        </aside>
+      </section>
+
+      <!-- 8. KARŞILAŞTIRMA SVG -->
+      <section>
+        <h2>Ne değişti?</h2>
+        <svg role="img" aria-label="Solda birinci tur: aynı açıdan çekilmiş birkaç kalem görüntüsü, model şaşırıyor. Sağda ikinci tur: farklı açı ve ışıkta çok sayıda kalem görüntüsü, model tanıyor." viewBox="0 0 1100 400" width="1100" height="400">
+          <rect x="20" y="20" width="500" height="340" rx="24" fill="var(--kiremit-acik)" stroke="var(--kiremit)" stroke-width="3"/>
+          <text x="270" y="64" text-anchor="middle" font-size="28" font-weight="700" fill="var(--murekkep)">1. tur: az ve tek düze</text>
+          <g fill="var(--kiremit)">
+            <rect x="110" y="110" width="140" height="18" rx="9"/>
+            <rect x="110" y="150" width="140" height="18" rx="9"/>
+            <rect x="110" y="190" width="140" height="18" rx="9"/>
+            <rect x="290" y="110" width="140" height="18" rx="9"/>
+            <rect x="290" y="150" width="140" height="18" rx="9"/>
+          </g>
+          <text x="270" y="270" text-anchor="middle" font-size="26" fill="var(--murekkep)">~10 kare · hep aynı açı</text>
+          <text x="270" y="320" text-anchor="middle" font-size="30" fill="var(--murekkep)">🤔 Yan çevirince şaşırıyor</text>
+          <g class="fragment">
+            <rect x="580" y="20" width="500" height="340" rx="24" fill="var(--turkuaz-acik)" stroke="var(--turkuaz)" stroke-width="3"/>
+            <text x="830" y="64" text-anchor="middle" font-size="28" font-weight="700" fill="var(--murekkep)">2. tur: çok ve çeşitli</text>
+            <g fill="var(--turkuaz)">
+              <rect x="640" y="110" width="120" height="16" rx="8"/>
+              <rect x="790" y="96" width="16" height="110" rx="8"/>
+              <rect x="840" y="120" width="110" height="16" rx="8" transform="rotate(30 895 128)"/>
+              <rect x="960" y="110" width="80" height="14" rx="7"/>
+              <rect x="650" y="170" width="100" height="22" rx="11" opacity=".7"/>
+              <rect x="840" y="180" width="130" height="16" rx="8" transform="rotate(-25 905 188)"/>
+              <rect x="985" y="150" width="16" height="70" rx="8" opacity=".7"/>
+              <rect x="700" y="215" width="90" height="14" rx="7"/>
+            </g>
+            <text x="830" y="270" text-anchor="middle" font-size="26" fill="var(--murekkep)">yüzlerce kare · açı, ışık, el, yer</text>
+            <text x="830" y="320" text-anchor="middle" font-size="30" fill="var(--murekkep)">😊 Yeni durumlarda da tanıyor</text>
+          </g>
+          <text x="550" y="392" text-anchor="middle" font-size="20" fill="var(--murekkep-acik)">Aynı model, aynı düğme. Değişen tek şey: veri.</text>
+        </svg>
+        <aside class="notes">
+          Ne söyle: İki turu karşılaştıralım. Model aynı, düğmeler aynı, yöntem aynı. Değişen tek şey veri. Birinci turda on kare, hep aynı açı: Model kaleme değil, o tek görüntüye alıştı. İkinci turda yüzlerce kare, farklı açılar, eller, ışıklar: Model kalemin "kalem olma hâlini" daha iyi yakaladı.
+          Süre: 1 dk.
+          Salona sor: "Sizde ne değişti? Hâlâ yanıldığı bir durum var mı?"
+          Dikkat: Hâlâ yanıldığı durumlar olması normal; kalem ile telefon benzer şekillerdeyse karışabilir. Rehberler de çok benzer nesneleri ayırmanın çok daha fazla veri gerektirdiğini söylüyor.
+        </aside>
+      </section>
+
+      <!-- 9. DERSLER -->
+      <section>
+        <h2>Bugünün üç dersi</h2>
+        <div class="kartlar">
+          <div class="kart fragment"><span class="simge" aria-hidden="true">📦</span><h3>Miktar</h3><p>10 kare az, yüzlerce kare daha iyi</p></div>
+          <div class="kart fragment turkuaz"><span class="simge" aria-hidden="true">🌈</span><h3>Çeşitlilik</h3><p>Sayıdan önemlisi: farklı açı, ışık, el</p></div>
+          <div class="kart fragment altin"><span class="simge" aria-hidden="true">⚖️</span><h3>Önyargı</h3><p>Görmediği durumda yanılır, ama emin görünür</p></div>
+        </div>
+        <aside class="notes">
+          Ne söyle: Bugün üç şeyi kendi ellerinizle gördünüz. Bir: miktar. On kare az, yüzlerce kare daha iyi. İki: çeşitlilik. Sayıdan bile önemli; yüzlerce kareyi aynı açıdan çekseydik yine şaşırırdı. Üç: önyargı. Model görmediği durumda yanılıyor, üstelik çoğu zaman çok emin görünüyor. Şimdi düşünün: "Boş masa" sınıfına hep bu masayı gösterdik. Başka bir masada ne olur? İşe alım ya da yüz tanıma örneklerindeki sorun da tam buydu: Verideki eksik, makinede önyargı olarak ortaya çıktı.
+          Süre: 2 dk.
+          Salona sor: "Boş masa sınıfına hep bu masayı gösterdik; başka bir masada ne olur?"
+          Dikkat: Ekrandaki yüzde çubuğu "benzerlik" gösterir, doğruluk garantisi değildir.
+        </aside>
+      </section>
+
+      <!-- 10. SORUN GİDERME -->
+      <section>
+        <h2>Takıldıysanız</h2>
+        <div class="iki-sutun">
+          <div><h3>📷 Kamera açılmıyor</h3><ul><li>Adres çubuğundaki kamera simgesi → izin ver</li><li>Chrome: Ayarlar → Gizlilik ve güvenlik → Site ayarları → Kamera</li></ul></div>
+          <div><h3>🐢 Çok yavaş</h3><ul><li>Diğer sekmeleri kapat</li><li>Eğitim sekmesini önde tut</li><li>Kamera yoksa: grubu birleştir</li></ul></div>
+        </div>
+        <aside class="notes">
+          Ne söyle: Kamera açılmıyorsa adres çubuğundaki kamera simgesine tıklayıp izin verin. Daha önce "engelle" dediyseniz Chrome'da Ayarlar, Gizlilik ve güvenlik, Site ayarları, Kamera yolundan bu siteyi "İzin ver"e çevirin. Bilgisayarın kendi gizlilik ayarları da tarayıcıyı engelliyor olabilir. Bilgisayar yavaşsa diğer sekmeleri kapatın ve eğitim sekmesini önde tutun.
+          Süre: 1 dk.
+          Dikkat: Kurum bilgisayarlarında kamera iznini yönetici kilitlemiş olabilir; o zaman kameralı başka bir gruba katıl. Telefonla kullanım resmî kaynaklarda doğrulanamadı; prova etmediysen önerme. App Store'daki aynı adlı uygulama Google'ın değil, üçüncü taraf bir uygulama.
+        </aside>
+      </section>
+
+      <!-- 11. QUICK DRAW -->
+      <section>
+        <span class="etiket altin">Erken bitenlere · kamerası olmayanlara</span>
+        <h2>Bonus: Quick, Draw!</h2>
+        <div class="benzetme">
+          <span class="simge" aria-hidden="true">✍️</span>
+          <p><strong>quickdraw.withgoogle.com</strong> · 20 saniyede çiz, yapay zekâ tahmin etsin. Milyonlarca insanın çizimiyle eğitildi.</p>
+        </div>
+        <aside class="notes">
+          Ne söyle: Erken bitirenler ya da kamerası olmayanlar için eğlenceli bir oyun: Quick, Draw! Ekrana bir kelime gelir, siz 20 saniyede çizersiniz, yapay zekâ tahmin etmeye çalışır. Google 2016'da başlattı; toplanan çizimlerden 345 kategoride 50 milyonu araştırmacılarla açıkça paylaşıldı. Oyun sonunda tanıyamadığı çizimde "başkaları bunu nasıl çizmiş" örneklerine bakın: Makine çoğunluğun nasıl çizdiğini öğrenmiş.
+          Süre: 1,5 dk.
+          Dikkat: Arayüzde Türkçe seçeneği yok; kelimeler İngilizce gelir, grup arkadaşı çevirebilir. Site, çizimleri açık veri setine eklemeyi teklif ediyor; bunu katılımcılara söyle.
+        </aside>
+      </section>
+
+      <!-- 12. VURGU -->
+      <section class="vurgu">
+        <p class="buyuk">Bugün bir yapay zekâ eğittiniz. En önemli malzeme düğmeler değil, veriydi.</p>
+        <aside class="notes">
+          Ne söyle: Tebrikler! Bugün hepiniz bir yapay zekâ modeli eğittiniz. Fark ettiyseniz hiçbir düğmeyi elle ayarlamadık. Bütün farkı veri yarattı. Büyük yapay zekâlarda da fikir aynı; sadece ölçek çok, çok daha büyük. Ve Google'a göre bu araçta örnekleriniz bilgisayarınızda kaldı; Drive'a kaydetmedikçe hiçbir yere yüklenmedi.
+          Süre: 30 sn.
+          Dikkat: "ChatGPT de tam böyle eğitildi" deme; "fikir aynı, ölçek çok farklı" de.
+        </aside>
+      </section>
+
+      <!-- 13. KAYNAKLAR -->
+      <section>
+        <h3>Kaynaklar</h3>
+        <ul class="kaynaklar">
+          <li><a href="https://blog.google/technology/ai/teachable-machine">Teachable Machine 2.0</a> — Google, Kasım 2019</li>
+          <li><a href="https://workshops.hackclub.com/teachable_machine/">Teachable Machine atölye rehberi</a> — Hack Club</li>
+          <li><a href="https://codelabs.developers.google.com/codelabs/tensorflowjs-teachablemachine-codelab">Aktarım öğrenmesiyle Teachable Machine</a> — Google Codelabs</li>
+          <li><a href="https://support.google.com/chrome/answer/2693767?hl=en&amp;co=GENIE.Platform%3DDesktop">Chrome'da kamera izni</a> — Google Chrome Yardım</li>
+          <li><a href="https://quickdraw.withgoogle.com/">Quick, Draw!</a> — Google</li>
+        </ul>
+        <p class="kucuk">Ayrıntılı araştırma notu: <a href="../not.html?id=h1-04">anlatıcı notu</a> · Son güncelleme: 29 Ekim 2026</p>
+        <aside class="notes">
+          Ne söyle (köprü cümlesi): Bugün beş dakikada yaptığımız şey, 75 yıl önce bir hayaldi. Şimdi bu hayalin nasıl başladığına, nasıl birkaç kez "kışa" girdiğine ve nasıl bugüne geldiğine bakalım.
+          Süre: 30 sn.
+          Dikkat: Bilgisayarları kapatmalarını değil, sekmeyi kapatmalarını söyle; sonraki bölüm dinleme ağırlıklı.
+        </aside>
+      </section>
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/notes/notes.js"></script>
+  <script>
+    Reveal.initialize({
+      hash: true, slideNumber: 'c/t', progress: true, center: true, transition: 'slide',
+      width: 1280, height: 720, margin: 0.06, plugins: [RevealNotes]
+    });
+  </script>
+</body>
+</html>
