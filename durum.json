@@ -1,7 +1,7 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-29T14:49:53Z",
+  "son_calisma": "2026-10-29T15:00:14Z",
   "calisma_sayisi": 1,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
@@ -42,12 +42,12 @@
         "Yapay zekâ, makine öğrenmesi, derin öğrenme, üretken yapay zekâ ilişkisini iç içe halkalarla gösterme",
         "Katılımcılarla kısa etkileşim: 'Bu yapay zekâ mı?' örnekleri (hesap makinesi, navigasyon, spam filtresi, termostat)"
       ],
-      "durum": "uretiliyor",
-      "surum": 0,
-      "son_guncelleme": null,
-      "sahip": "20261029T1440Z",
-      "sahip_zamani": "2026-10-29T14:50:02Z",
-      "not": ""
+      "durum": "taslak",
+      "surum": 1,
+      "son_guncelleme": "2026-10-29T15:00:14Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 1: 15 slayt (iç içe halkalar ve terazi SVG'leri, 4 'Bu yapay zekâ mı?' oylaması), 11 kaynaklı not. AGI tartışması Eylül 2026 haberleriyle güncellendi."
     },
     {
       "id": "h1-03",
@@ -418,6 +418,10 @@
     {
       "zaman": "2026-10-29T14:49:53Z",
       "ozet": "h1-01: Açılış oyunu taslağı yayımlandı (14 arama, 14 kaynak okundu)."
+    },
+    {
+      "zaman": "2026-10-29T15:00:14Z",
+      "ozet": "h1-02: Yapay zekâ nedir taslağı yayımlandı (14 arama, 11 kaynak okundu)."
     }
   ]
 }
