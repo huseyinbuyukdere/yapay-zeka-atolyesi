@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-29T17:34:21Z",
-  "calisma_sayisi": 14,
+  "son_calisma": "2026-10-29T19:22:52Z",
+  "calisma_sayisi": 15,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -406,12 +406,12 @@
         "Öğrenmeye devam: YÖK Dijital Üniversite, BTK Akademi, Elements of AI ve diğer ücretsiz Türkçe kaynaklar (güncel, doğrulanmış)",
         "'30 gün, 1 alışkanlık' görevi ve bir ay sonraki buluşma önerisi"
       ],
-      "durum": "uretiliyor",
-      "surum": 0,
-      "son_guncelleme": null,
-      "sahip": "20261029T1913Z",
-      "sahip_zamani": "2026-10-29T19:13:46Z",
-      "not": ""
+      "durum": "taslak",
+      "surum": 1,
+      "son_guncelleme": "2026-10-29T19:22:52Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 1: final sunum/geri bildirim akışı, 4 hafta özeti, BTK Akademi–Google Herkes için Yapay Zeka–YÖK Dijital Üniversite–Elements of AI (29.10.2026 doğrulandı), 30 gün eğer–o zaman planı ve bir ay sonra buluşma önerisi. 16 slayt, 2 SVG."
     }
   ],
   "gunluk": [
@@ -490,6 +490,10 @@
     {
       "zaman": "2026-10-29T17:34:21Z",
       "ozet": "h4-03: Meslek istasyonları taslağı yayımlandı (13 arama, 12 kaynak okundu)."
+    },
+    {
+      "zaman": "2026-10-29T19:22:52Z",
+      "ozet": "h4-05: Final sunumları ve öğrenmeye devam taslağı yayımlandı (14 arama, 15 kaynak okundu)."
     }
   ]
 }
