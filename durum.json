@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-29T16:59:47Z",
-  "calisma_sayisi": 11,
+  "son_calisma": "2026-10-29T17:04:34Z",
+  "calisma_sayisi": 12,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -330,12 +330,12 @@
         "Ekim 2026 itibarıyla tüketiciye açık ajan özellikleri (ChatGPT, Gemini, Claude, Copilot) — resmi kaynaktan doğrulanmış",
         "Ajanlarla çalışırken insan kontrolü ve güvenlik"
       ],
-      "durum": "uretiliyor",
-      "surum": 0,
-      "son_guncelleme": null,
-      "sahip": "20261029T1700Z",
-      "sahip_zamani": "2026-10-29T17:00:01Z",
-      "not": ""
+      "durum": "taslak",
+      "surum": 1,
+      "son_guncelleme": "2026-10-29T17:04:34Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 1: 13 slayt (bölünmüş canlı ajan demosu, bilet sorusu, stajyer ve şoför benzetmeleri, ajan döngüsü SVG'si, dört asistan tablosu, işler, zarftaki sahte not ile talimat enjeksiyonu, beş kural, fatura oylaması), 8 kaynaklı not. ChatGPT agent modu Ağustos 2026'da kaldırıldı, yerine ChatGPT Work; Work'ün ücretsiz plan kapsamı ve Copilot ile taramanın Türkiye takvimi doğrulanamadı."
     },
     {
       "id": "h4-02",
@@ -478,6 +478,10 @@
     {
       "zaman": "2026-10-29T16:59:47Z",
       "ozet": "h3-05: Telif, etiket ve etik taslağı yayımlandı (13 arama, 10 kaynak okundu)."
+    },
+    {
+      "zaman": "2026-10-29T17:04:34Z",
+      "ozet": "h4-01: Ajanlar taslağı yayımlandı (12 arama, 8 kaynak okundu)."
     }
   ]
 }
