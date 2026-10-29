@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-29T16:34:35Z",
-  "calisma_sayisi": 7,
+  "son_calisma": "2026-10-29T16:40:04Z",
+  "calisma_sayisi": 8,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -254,12 +254,12 @@
         "Fotoğraf düzenleme: arka plan değiştirme, ışık, nesne ekleme/çıkarma",
         "Türkçe metin yazdırma, el/yüz hataları gibi tipik kusurlar ve çözüm ipuçları"
       ],
-      "durum": "uretiliyor",
-      "surum": 0,
-      "son_guncelleme": null,
-      "sahip": "20261029T1634Z",
-      "sahip_zamani": "2026-10-29T16:34:45Z",
-      "not": ""
+      "durum": "taslak",
+      "surum": 1,
+      "son_guncelleme": "2026-10-29T16:40:04Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 1: 13 slayt (beş parçalı formül SVG'si, renkli talimat çözümlemesi, dört stil, dört araç tablosu, tek tek düzenleme SVG'si, 10 dk ikili istasyon, kusurlar, eksik parça quizi, arkadaş fotoğrafı oylaması), 11 kaynaklı not. Gemini ve Firefly ücretsiz günlük limitleri resmî sayfalarda sayı olarak yok; Midjourney fiyatı ikincil kaynaktan."
     },
     {
       "id": "h3-03",
@@ -462,6 +462,10 @@
     {
       "zaman": "2026-10-29T16:34:35Z",
       "ozet": "h3-01: Görsel, ses ve video üretimi taslağı yayımlandı (18 arama, 17 kaynak okundu)."
+    },
+    {
+      "zaman": "2026-10-29T16:40:04Z",
+      "ozet": "h3-02: Görsel istasyonu taslağı yayımlandı (17 arama, 11 kaynak okundu)."
     }
   ]
 }
