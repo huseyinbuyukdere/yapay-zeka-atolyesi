@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-29T19:22:52Z",
-  "calisma_sayisi": 15,
+  "son_calisma": "2026-10-29T19:35:20Z",
+  "calisma_sayisi": 16,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -23,12 +23,12 @@
         "Mentimeter/Kahoot ile oylama akışı; oyun sonrası 'neden yanıldık?' sohbeti",
         "Atölyenin 4 haftalık yol haritasının tanıtımı ve beklenti toplama"
       ],
-      "durum": "uretiliyor",
-      "surum": 1,
-      "son_guncelleme": "2026-10-29T14:49:53Z",
-      "sahip": "20261029T1923Z",
-      "sahip_zamani": "2026-10-29T19:23:05Z",
-      "not": "ÖNCEKİ DURUM: taslak | Aşama 1: 16 slaytlık oyun sunumu (6 çerçeve/örnek slaytı, 2 SVG), 14 kaynaklı anlatıcı notu. Mentimeter/Kahoot ücretsiz sınırları ve 6 araştırma doğrulandı."
+      "durum": "gozden_gecirildi",
+      "surum": 2,
+      "son_guncelleme": "2026-10-29T19:35:20Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 2: Yüz ayırt etme eğitimi bilgisi düzeltildi (PNAS Haziran 2026: ~%40→%80; \"1 saat/45 kişi\" doğrulanamadığı için çıkarıldı), Reading 2025 çalışması ve 2023 hiper-gerçekçilik ayrıntısı eklendi, Mentimeter/Kahoot sınırları yeniden doğrulandı, 4 yeni SSS, final bölümüyle \"Tanı-Konuş-Üret-İşine taşı\" köprüsü."
     },
     {
       "id": "h1-02",
@@ -494,6 +494,10 @@
     {
       "zaman": "2026-10-29T19:22:52Z",
       "ozet": "h4-05: Final sunumları ve öğrenmeye devam taslağı yayımlandı (14 arama, 15 kaynak okundu)."
+    },
+    {
+      "zaman": "2026-10-29T19:35:20Z",
+      "ozet": "h1-01: Gözden geçirildi (7 arama, 8 kaynak okundu); PNAS 2026 eğitim rakamları düzeltildi, 4 yeni SSS."
     }
   ]
 }
