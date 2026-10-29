@@ -101,12 +101,12 @@
         "Abartılı beklenti ve hayal kırıklığı döngüsünden çıkarılacak ders",
         "Ekim 2026 itibarıyla güncel tablo: büyük model aileleri ve Türkiye'den gelişmeler (TÜBİTAK Bilge, Yapay Zekâ Eylem Planı 2026-2030)"
       ],
-      "durum": "taslak",
+      "durum": "uretiliyor",
       "surum": 1,
       "son_guncelleme": "2026-10-29T15:15:04Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Aşama 1: 15 slayt (4 zaman çizelgesi, kışlar SVG'si, sıralama oyunu, Türkiye: Eylem Planı ve BİLGE), 19 kaynaklı not. BİLGE'nin Ekim 2026'da genel kullanıma açılıp açılmadığı doğrulanamadı; model sürüm adları bilerek 2. haftaya bırakıldı."
+      "sahip": "20261029T2310Z",
+      "sahip_zamani": "2026-10-29T23:10:50Z",
+      "not": "ESKİ DURUM: taslak | Aşama 1: 15 slayt (4 zaman çizelgesi, kışlar SVG'si, sıralama oyunu, Türkiye: Eylem Planı ve BİLGE), 19 kaynaklı not. BİLGE'nin Ekim 2026'da genel kullanıma açılıp açılmadığı doğrulanamadı; model sürüm adları bilerek 2. haftaya bırakıldı."
     },
     {
       "id": "h1-06",
