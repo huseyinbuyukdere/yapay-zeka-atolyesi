@@ -406,11 +406,11 @@
         "Öğrenmeye devam: YÖK Dijital Üniversite, BTK Akademi, Elements of AI ve diğer ücretsiz Türkçe kaynaklar (güncel, doğrulanmış)",
         "'30 gün, 1 alışkanlık' görevi ve bir ay sonraki buluşma önerisi"
       ],
-      "durum": "bekliyor",
+      "durum": "uretiliyor",
       "surum": 0,
       "son_guncelleme": null,
-      "sahip": null,
-      "sahip_zamani": null,
+      "sahip": "20261029T1913Z",
+      "sahip_zamani": "2026-10-29T19:13:46Z",
       "not": ""
     }
   ],
