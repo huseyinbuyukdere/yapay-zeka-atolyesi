@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Güvenli ve gizli kullanım · Yapay Zekâ Atölyesi</title>
+  <meta name="description" content="Asistana yazılmayacak bilgiler, ChatGPT, Gemini, Claude ve Copilot'ta model eğitimi ve saklama ayarları, KVKK'nın üretken yapay zekâ rehberi ve haftalık görev.">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css">
+  <link rel="stylesheet" href="../assets/tema.css">
+  <style>
+    svg text { font-family: inherit; }
+    .senaryo { font-size: .8em; margin: .3em auto; max-width: 980px; }
+  </style>
+</head>
+<body>
+  <div class="altbilgi">Yapay Zekâ Atölyesi · 2. Hafta · Güvenli ve gizli kullanım</div>
+  <div class="reveal">
+    <div class="slides">
+
+      <!-- 1. KAPAK -->
+      <section class="kapak">
+        <div class="cini" aria-hidden="true"></div>
+        <span class="etiket">2. Hafta · 10 dakika</span>
+        <h1>Güvenli ve gizli kullanım</h1>
+        <p class="alt">Asistana yazdığınız her şey bir kartpostaldır: Yolda birileri okuyabilir.</p>
+        <aside class="notes">
+          Ne söyle: Haftanın son on dakikası. Bir önceki bölümde belgelerimizi yapay zekâya verdik. Şimdi tersini soruyoruz: Neyi vermemeliyiz? Size tek bir kural bırakacağım: Asistana yazdığınız her şey kapalı bir mektup değil, bir kartpostaldır. Yolda birileri okuyabilir.
+          Süre: 45 sn.
+          Dikkat: Korkutucu değil, sakin ve pratik bir ton.
+        </aside>
+      </section>
+
+      <!-- 2. OYLAMA -->
+      <section>
+        <span class="etiket altin">Oylama</span>
+        <h2>Uygun mu, dikkat mi, asla mı?</h2>
+        <p class="senaryo">“Müşterimin adını, telefonunu ve borç tutarını yazıp hatırlatma mesajı yazdırmak.”</p>
+        <div class="secenekler">
+          <div class="uygun">✅ Uygun</div>
+          <div class="dikkat">⚠️ Dikkat</div>
+          <div class="asla">⛔ Asla</div>
+        </div>
+        <p class="fragment kucuk">Cevap: ⛔ Kişisel bilgilerle asla. ✅ “Bir müşteriye kibar ödeme hatırlatması yaz” ise tamamen uygun; isimleri sonra siz eklersiniz.</p>
+        <aside class="notes">
+          Ne söyle: Bir senaryo: Müşterimin adını, telefon numarasını ve borç tutarını yazıp asistana bir hatırlatma mesajı yazdırıyorum. Uygun mu, dikkat mi, asla mı? (Oylat.) Bu haliyle asla. Ama aynı işi şöyle yapabiliriz: "Bir müşteriye kibar bir ödeme hatırlatması yaz, sonunda teşekkür olsun." Asistan şablonu yazar, adı ve tutarı siz kendi telefonunuzda eklersiniz. İş görülür, müşteri korunur.
+          Süre: 1 dk.
+          Salona sor: Oylamanın kendisi.
+          Dikkat: Hukuki yorum yapma; bu bir alışkanlık örneği.
+        </aside>
+      </section>
+
+      <!-- 3. YAZILMAYACAKLAR -->
+      <section>
+        <h2>Kartpostala yazılmayacaklar</h2>
+        <div class="kartlar">
+          <div class="kart fragment"><span class="simge" aria-hidden="true">🪪</span><h3>Kimlik</h3><p>T.C. kimlik no, pasaport, adres</p></div>
+          <div class="kart fragment turkuaz"><span class="simge" aria-hidden="true">🔑</span><h3>Şifre ve kart</h3><p>Parola, kart no, IBAN ile birlikte kişisel bilgi</p></div>
+          <div class="kart fragment altin"><span class="simge" aria-hidden="true">🩺</span><h3>Başkasının verisi</h3><p>Hasta, müşteri, öğrenci, çalışan</p></div>
+          <div class="kart fragment"><span class="simge" aria-hidden="true">🏢</span><h3>Şirket sırrı</h3><p>Sözleşme, kaynak kod, iç yazışma</p></div>
+        </div>
+        <aside class="notes">
+          Ne söyle: Kartpostala neler yazılmaz? Bir: Kimlik bilgileri; kimlik numarası, pasaport, ev adresi. İki: Şifreler ve kart bilgileri. Üç: Başkasının verisi; hastanızın, müşterinizin, öğrencinizin, çalışanınızın bilgileri. Bunlar sizin değil, onların. Dört: Şirket sırları; sözleşmeler, iç yazışmalar, yazılım kodu. Bir sonraki slaytta bunun gerçek bir örneğini göreceğiz.
+          Süre: 1 dk.
+          Dikkat: "İsim yerine 'Müşteri A'" yöntemini burada kısaca an; slayt 7'de tekrar gelecek.
+        </aside>
+      </section>
+
+      <!-- 4. GERÇEK ÖRNEK -->
+      <section>
+        <span class="etiket kiremit">Gerçek örnek · 2023</span>
+        <h2>Bir teknoloji devinde üç kaza</h2>
+        <ul class="zaman">
+          <li class="fragment"><span class="yil">1</span> Hata bulsun diye gizli bir veritabanı kodu</li>
+          <li class="fragment"><span class="yil">2</span> İyileştirsin diye başka bir kod</li>
+          <li class="fragment"><span class="yil">3</span> Tutanak yazsın diye bir toplantı kaydı</li>
+          <li class="fragment"><span class="yil">→</span> Şirket kısıtlama getirdi, kendi aracını geliştirdi</li>
+        </ul>
+        <aside class="notes">
+          Ne söyle: 2023 baharında Samsung'un yarı iletken biriminde mühendislerin ChatGPT kullanmasına izin verildi. Kısa sürede en az üç kaza oldu. Biri, hata bulması için gizli bir veritabanının kodunu yapıştırdı. Bir başkası kodunu iyileştirmesini istedi. Üçüncüsü bir toplantı kaydını yükleyip tutanak yazdırdı. Hiçbiri kötü niyetli değildi; hepsi işini hızlandırmak istiyordu. Şirket girilebilecek metni sınırladı ve kendi aracını geliştirdi. Ders şu: Kazalar kötü niyetten değil, acelecilikten çıkıyor.
+          Süre: 1 dk.
+          Salona sor: "Sizin işinizde bunun karşılığı ne olurdu?"
+          Dikkat: Şirketi kötüleme; olay haberlere yansıdığı biçimiyle anlatılıyor.
+        </aside>
+      </section>
+
+      <!-- 5. AYARLAR TABLOSU -->
+      <section>
+        <h3>“Verilerim eğitimde kullanılmasın” ayarı (Ekim 2026)</h3>
+        <table>
+          <thead><tr><th>Asistan</th><th>Ayar</th><th>Nerede?</th></tr></thead>
+          <tbody>
+            <tr class="fragment"><td>💬 ChatGPT</td><td>Improve the model for everyone</td><td>Ayarlar → Veri denetimleri</td></tr>
+            <tr class="fragment"><td>✨ Gemini</td><td>Keep Activity (etkinlik)</td><td>Gemini → Etkinlik ayarları</td></tr>
+            <tr class="fragment"><td>🧡 Claude</td><td>Help improve Claude</td><td>Ayarlar → Gizlilik</td></tr>
+            <tr class="fragment"><td>🪟 Copilot</td><td>Training on conversation / voice</td><td>Profil → Gizlilik</td></tr>
+          </tbody>
+        </table>
+        <p class="kucuk fragment">Gizli konular için: ChatGPT'de <strong>geçici sohbet</strong> geçmişe kaydedilmez, eğitimde kullanılmaz.</p>
+        <aside class="notes">
+          Ne söyle: Dört büyük asistanın hepsinde "verilerim modeli eğitmek için kullanılmasın" ayarı var. ChatGPT'de Ayarlar, Veri denetimleri altında; ücretsiz hesaplarda varsayılan olarak açık. Gemini'de etkinliği saklama ayarı. Claude'da Gizlilik ayarlarında; 2025'ten beri her kullanıcıya soruluyor. Copilot'ta profilinizin Gizlilik bölümünde, yazı ve ses için ayrı ayrı. Şimdi bir dakika: Telefonunuzda kullandığınız asistanı açın ve bu ayarı bulun. Bulan el kaldırsın. Bir de geçici sohbet var: ChatGPT'de geçici sohbet geçmişinize kaydedilmez ve eğitimde kullanılmaz.
+          Süre: 1,5 dk (1 dk telefonla deneme dahil).
+          Salona sor: "Ayarınızı buldunuz mu?"
+          Dikkat: Ayar adları kaynaklardaki İngilizce adlar; Türkçe arayüzde farklı görünebilir. Sunumdan bir gün önce kendi telefonunda yolu kontrol et. Ayarın açık ya da kapalı olmasını tavsiye etme; kişinin tercihi olduğunu söyle, nasıl değiştirileceğini göster.
+        </aside>
+      </section>
+
+      <!-- 6. SAKLAMA -->
+      <section>
+        <h2>Silmek, hemen yok olmak demek değil</h2>
+        <svg role="img" aria-label="Mesajınız şirketin sunucusuna gider; oradan üç yola ayrılır: belirli süre saklanır, bir kısmı insanlarca incelenebilir, ayarınıza göre eğitimde kullanılabilir." viewBox="0 0 1100 330" width="1100" height="330">
+          <defs>
+            <marker id="ok" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="var(--murekkep-acik)"/></marker>
+          </defs>
+          <rect x="20" y="125" width="210" height="80" rx="18" fill="var(--turkuaz)"/>
+          <text x="125" y="175" text-anchor="middle" font-size="26" fill="#fff">✉️ Mesajınız</text>
+          <path d="M235 165 L320 165" stroke="var(--murekkep-acik)" stroke-width="5" marker-end="url(#ok)"/>
+          <rect x="325" y="115" width="230" height="100" rx="18" fill="var(--murekkep-acik)"/>
+          <text x="440" y="160" text-anchor="middle" font-size="26" fill="#fff">🖥️ Şirketin</text>
+          <text x="440" y="193" text-anchor="middle" font-size="26" fill="#fff">sunucusu</text>
+          <g class="fragment">
+            <path d="M560 140 L650 60" stroke="var(--murekkep-acik)" stroke-width="4" marker-end="url(#ok)"/>
+            <rect x="655" y="20" width="425" height="80" rx="18" fill="var(--altin)"/>
+            <text x="867" y="70" text-anchor="middle" font-size="24" fill="#fff">🗄️ Saklanır: 30 günden 3 yıla</text>
+          </g>
+          <g class="fragment">
+            <path d="M560 165 L650 165" stroke="var(--murekkep-acik)" stroke-width="4" marker-end="url(#ok)"/>
+            <rect x="655" y="125" width="425" height="80" rx="18" fill="var(--kiremit)"/>
+            <text x="867" y="175" text-anchor="middle" font-size="24" fill="#fff">👀 Bir kısmı insanlarca incelenebilir</text>
+          </g>
+          <g class="fragment">
+            <path d="M560 190 L650 270" stroke="var(--murekkep-acik)" stroke-width="4" marker-end="url(#ok)"/>
+            <rect x="655" y="230" width="425" height="80" rx="18" fill="var(--turkuaz)"/>
+            <text x="867" y="280" text-anchor="middle" font-size="24" fill="#fff">🧠 Ayarınıza göre eğitimde kullanılır</text>
+          </g>
+        </svg>
+        <aside class="notes">
+          Ne söyle: Bir sohbeti silmek, onun anında yok olması demek değil. ChatGPT'de silinen sohbetler ve geçici sohbetler 30 gün içinde kalıcı olarak siliniyor. Google, Gemini sohbetlerinin bir kısmını hesabınızdan ayırıp insan incelemecilere gösteriyor; incelenen sohbetler siz silseniz bile 3 yıla kadar saklanabiliyor. Ayarı kapatsanız bile yeni sohbetler 72 saat tutuluyor. Claude'da eğitime izin verirseniz verileriniz 5 yıl, vermezseniz 30 gün saklanıyor. Google'ın kendi yardım sayfası açıkça şunu söylüyor: İncelemecilerin görmesini istemediğiniz gizli bir bilgiyi girmeyin.
+          Süre: 1 dk.
+          Dikkat: Süreler Ekim 2026 itibarıyla şirketlerin kendi sayfalarından; değişebilir. Sayıları ezberletme, "kartpostal" fikrini pekiştir.
+        </aside>
+      </section>
+
+      <!-- 7. KVKK VE KURUM -->
+      <section>
+        <h2>Türkiye'de ve iş yerinde</h2>
+        <div class="iki-sutun">
+          <div><h3>🏛️ KVKK</h3><ul><li>Kasım 2025: “Üretken Yapay Zekâ ve Kişisel Verilerin Korunması Rehberi (15 Soruda)”</li><li>Bireylere ve ebeveynlere öneriler</li></ul></div>
+          <div class="fragment"><h3>🏢 Kurumunuz</h3><ul><li>Önce kurum kuralına bakın</li><li>Onaylı araç varsa onu kullanın</li><li>İsim yerine “Müşteri A”</li></ul></div>
+        </div>
+        <aside class="notes">
+          Ne söyle: Türkiye'de Kişisel Verileri Koruma Kurumu, Kasım 2025'te üretken yapay zekâ için 15 soruluk bir rehber yayımladı. Rehber, bu araçların risklerini, kişisel verilerin korunması kanunu açısından değerlendirmesini, günlük kullanımda bireylerin ve çocukları için ebeveynlerin dikkat etmesi gerekenleri anlatıyor. İş yerindeyseniz önce kurumunuzun kuralına bakın; kurumun onayladığı bir araç varsa onu kullanın. Ve her yerde işe yarayan yöntem: İsimleri "Müşteri A", "Öğrenci 1" diye değiştirin. Haberlerde tanıkların adı yerine baş harfleri yazılması gibi.
+          Süre: 1 dk.
+          Dikkat: Hukuki tavsiye verme; "suç", "ceza" gibi kesin yorumlara girme. "Ayrıntı için KVKK'nın sitesindeki rehbere ve kurumunuzun veri sorumlusuna bakın" de. Türkiye'de yapılan küçük bir ankette her beş çalışandan biri yapay zekâ kullanımını şirketiyle açıkça paylaşmıyor; açık konuşmayı teşvik et.
+        </aside>
+      </section>
+
+      <!-- 8. HAFTALIK GÖREV -->
+      <section>
+        <div class="uygulama-kutu">
+          <span class="sure">📅 1 hafta</span>
+          <h2>Haftalık görev: Asistanla gerçek bir iş</h2>
+          <ol class="adimlar">
+            <li>Gerçek bir iş seçin: e-posta, plan, özet, liste</li>
+            <li>Kişisel bilgileri çıkarın (“Kişi A”)</li>
+            <li>ROBOT ile yazın, en az iki kez düzelttirin</li>
+            <li>Bir olguyu dedektif gibi doğrulayın</li>
+            <li>Not: Kazandığım zaman? Nerede yanıldı?</li>
+          </ol>
+        </div>
+        <aside class="notes">
+          Ne söyle: Bu haftanın görevi: Asistanla gerçek bir iş. İşinizden ya da evinizden gerçek bir iş seçin: bir e-posta, bir plan, bir özet. Önce kişisel bilgileri çıkarın. Talimatı ROBOT ile yazın ve sonucu en az iki kez düzelttirin. İçinde bir olgu, sayı ya da kaynak varsa dedektifin dört adımıyla doğrulayın. Gelecek hafta için kısa bir not alın: Ne kadar zaman kazandınız, asistan nerede yanıldı?
+          Süre: 2 dk.
+          Dikkat: "İşimde kişisel veri olmadan yapabileceğim bir şey yok" diyene: evden bir iş seçsin (haftalık yemek planı, tatil listesi). Görevin fotoğrafını çektir veya çıktı dağıt.
+        </aside>
+      </section>
+
+      <!-- 9. VURGU -->
+      <section class="vurgu">
+        <p class="buyuk">Asistan güçlü bir yardımcı; ama sırrınızı kartpostala yazmayın.</p>
+        <aside class="notes">
+          Ne söyle: Haftanın son cümlesi: Asistan güçlü bir yardımcı; ama sırrınızı kartpostala yazmayın. Bu hafta asistanın nasıl düşündüğünü, ona nasıl iş tarif edeceğimizi, nasıl doğrulayacağımızı ve neyi ondan saklayacağımızı öğrendik. Gelecek hafta yazıdan çıkıp görsele, sese ve videoya geçiyoruz. Teşekkürler!
+          Süre: 30 sn.
+        </aside>
+      </section>
+
+      <!-- 10. KAYNAKLAR -->
+      <section>
+        <h3>Kaynaklar</h3>
+        <ul class="kaynaklar">
+          <li><a href="https://support.google.com/gemini/answer/13594961?hl=en">Gemini Gizlilik Merkezi</a> — Google, Ekim 2026</li>
+          <li><a href="https://www.anthropic.com/news/updates-to-our-consumer-terms">Claude tüketici koşulları güncellemesi</a> — Anthropic, Ağustos 2025</li>
+          <li><a href="https://help.openai.com/en/articles/8983778-how-are-files-vs-chats-retained">Sohbet ve dosya saklama</a> — OpenAI Yardım Merkezi</li>
+          <li><a href="https://support.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-privacy-controls">Copilot gizlilik denetimleri</a> — Microsoft Destek</li>
+          <li><a href="https://www.kvkk.gov.tr/Icerik/8547/uretken-yapay-zeka-ve-kisisel-verilerin-korunmasi-rehberi-15-soruda">Üretken Yapay Zekâ ve Kişisel Verilerin Korunması Rehberi</a> — KVKK, Kasım 2025</li>
+        </ul>
+        <p class="kucuk">Ayrıntılı araştırma notu: <a href="../not.html?id=h2-05">anlatıcı notu</a> · Son güncelleme: 29 Ekim 2026</p>
+        <aside class="notes">
+          Ne söyle: Kaynaklar burada. Ayar yollarının ayrıntılı tablosu anlatıcı notunda.
+          Süre: 15 sn.
+          Dikkat: Bu bilgiler bilgi amaçlıdır, hukuki tavsiye değildir.
+        </aside>
+      </section>
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/notes/notes.js"></script>
+  <script>
+    Reveal.initialize({
+      hash: true, slideNumber: 'c/t', progress: true, center: true, transition: 'slide',
+      width: 1280, height: 720, margin: 0.06, plugins: [RevealNotes]
+    });
+  </script>
+</body>
+</html>
