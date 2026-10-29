@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": null,
-  "calisma_sayisi": 0,
+  "son_calisma": "2026-10-29T14:49:53Z",
+  "calisma_sayisi": 1,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -23,12 +23,12 @@
         "Mentimeter/Kahoot ile oylama akışı; oyun sonrası 'neden yanıldık?' sohbeti",
         "Atölyenin 4 haftalık yol haritasının tanıtımı ve beklenti toplama"
       ],
-      "durum": "uretiliyor",
-      "surum": 0,
-      "son_guncelleme": null,
-      "sahip": "20261029T1440Z",
-      "sahip_zamani": "2026-10-29T14:40:21Z",
-      "not": ""
+      "durum": "taslak",
+      "surum": 1,
+      "son_guncelleme": "2026-10-29T14:49:53Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 1: 16 slaytlık oyun sunumu (6 çerçeve/örnek slaytı, 2 SVG), 14 kaynaklı anlatıcı notu. Mentimeter/Kahoot ücretsiz sınırları ve 6 araştırma doğrulandı."
     },
     {
       "id": "h1-02",
@@ -414,5 +414,10 @@
       "not": ""
     }
   ],
-  "gunluk": []
+  "gunluk": [
+    {
+      "zaman": "2026-10-29T14:49:53Z",
+      "ozet": "h1-01: Açılış oyunu taslağı yayımlandı (14 arama, 14 kaynak okundu)."
+    }
+  ]
 }
