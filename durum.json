@@ -368,11 +368,11 @@
         "Her meslek için 'yapay zekâya bırakılmayacaklar' satırı",
         "Mesleklere göre güncel ve kaynaklı kullanım örnekleri (Türkiye'den örnekler öncelikli)"
       ],
-      "durum": "bekliyor",
+      "durum": "uretiliyor",
       "surum": 0,
       "son_guncelleme": null,
-      "sahip": null,
-      "sahip_zamani": null,
+      "sahip": "20261029T1729Z",
+      "sahip_zamani": "2026-10-29T17:29:14Z",
       "not": ""
     },
     {
