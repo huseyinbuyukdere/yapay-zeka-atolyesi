@@ -349,11 +349,11 @@
         "Final projesi için şablon talimatlar: hesaplayıcı, quiz, kontrol listesi, randevu listesi",
         "2 dakikalık final sunumu formatı"
       ],
-      "durum": "bekliyor",
+      "durum": "uretiliyor",
       "surum": 0,
       "son_guncelleme": null,
-      "sahip": null,
-      "sahip_zamani": null,
+      "sahip": "20261029T1713Z",
+      "sahip_zamani": "2026-10-29T17:13:47Z",
       "not": ""
     },
     {
