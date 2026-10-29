@@ -159,11 +159,11 @@
         "Sohbeti sürdürerek düzelttirme, asistandan soru sormasını isteme, adım adım düşündürme",
         "Katılımcıların kendi işinden talimat yazdığı mini alıştırma"
       ],
-      "durum": "bekliyor",
+      "durum": "uretiliyor",
       "surum": 0,
       "son_guncelleme": null,
-      "sahip": null,
-      "sahip_zamani": null,
+      "sahip": "20261029T1548Z",
+      "sahip_zamani": "2026-10-29T15:48:32Z",
       "not": ""
     },
     {
