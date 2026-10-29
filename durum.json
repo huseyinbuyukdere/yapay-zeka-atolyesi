@@ -390,9 +390,9 @@
       "durum": "uretiliyor",
       "surum": 0,
       "son_guncelleme": null,
-      "sahip": "20261029T1812Z",
-      "sahip_zamani": "2026-10-29T18:12:18Z",
-      "not": ""
+      "sahip": "20261029T2011Z",
+      "sahip_zamani": "2026-10-29T20:11:47Z",
+      "not": "Önceki sahiplenme (20261029T1812Z) 100 dk aşıldığı için terk sayıldı; yeniden alındı."
     },
     {
       "id": "h4-05",
