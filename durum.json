@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-29T20:29:05Z",
-  "calisma_sayisi": 17,
+  "son_calisma": "2026-10-29T20:36:54Z",
+  "calisma_sayisi": 18,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -42,12 +42,12 @@
         "Yapay zekâ, makine öğrenmesi, derin öğrenme, üretken yapay zekâ ilişkisini iç içe halkalarla gösterme",
         "Katılımcılarla kısa etkileşim: 'Bu yapay zekâ mı?' örnekleri (hesap makinesi, navigasyon, spam filtresi, termostat)"
       ],
-      "durum": "uretiliyor",
-      "surum": 1,
-      "son_guncelleme": "2026-10-29T15:00:14Z",
-      "sahip": "20261029T2029Z",
-      "sahip_zamani": "2026-10-29T20:29:19Z",
-      "not": "Önceki durum: taslak. Aşama 1: 15 slayt (iç içe halkalar ve terazi SVG'leri, 4 'Bu yapay zekâ mı?' oylaması), 11 kaynaklı not. AGI tartışması Eylül 2026 haberleriyle güncellendi."
+      "durum": "gozden_gecirildi",
+      "surum": 2,
+      "son_guncelleme": "2026-10-29T20:36:54Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 2: GPT-6 Astra/Huang tarihleri düzeltildi (3 ve 7 Eylül 2026), ARC Prize %99,9–%62,7 düzenek farkı eklendi; AB tanımının bilgi tabanlı sistemleri kapsadığı notu; Gmail %99,9 iddiası 2017'ye tarihlendi; Nest ve Mentimeter (50 katılımcı/ay) doğrulandı; Eylem Planı 2026-2030 notu; 4 yeni SSS."
     },
     {
       "id": "h1-03",
@@ -502,6 +502,10 @@
     {
       "zaman": "2026-10-29T20:29:05Z",
       "ozet": "h4-04: Kırmızı çizgi oyunu taslağı yayımlandı (15 arama, 15 kaynak okundu)."
+    },
+    {
+      "zaman": "2026-10-29T20:36:54Z",
+      "ozet": "h1-02: Gözden geçirildi (6 arama, 7 kaynak okundu); AGI tartışması tarihleri ve ARC Prize skor farkı eklendi, 4 yeni SSS."
     }
   ]
 }
