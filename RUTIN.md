@@ -16,7 +16,8 @@ Amaç: 4 haftalık **Yapay Zekâ Atölyesi**'nin her konusu için anlatıcıya (
 - Görsel: Dışarıdan görsel indirme veya bağlama. Gerçek kişilerin fotoğrafı, marka logosu, telifli karakter kullanma. Görsel ihtiyacını emoji, CSS ve satır içi SVG çizimlerle karşıla.
 - Uydurma bilgi yok: Her sayı, tarih, fiyat, ürün adı ve iddia bu çalışmada açtığın bir kaynağa dayanmalı. Doğrulayamadığın bilgiyi yazma veya açıkça "doğrulanamadı" diye işaretle.
 - Hukuki, tıbbi, mali konularda tavsiye verme; bilgi ver ve uzmana yönlendir.
-- Yalnızca bu repoda çalış. `RUTIN.md`, `index.html`, `not.html`, `araclar/` ve `_sablon/` dosyalarını değiştirme (4. aşamada belirtilen istisnalar hariç). Başka bir konunun dosyasını silme.
+- Yalnızca bu repoda çalış. `RUTIN.md`, `index.html` (katılımcıların gördüğü müfredat sayfası), `anlatici.html` (anlatıcı kiti), `not.html`, `assets/`, `araclar/` ve `_sablon/` dosyalarını değiştirme (4. aşamada belirtilen istisnalar hariç). Başka bir konunun dosyasını silme.
+- Repo ve site herkese açık: buluşma yeri, tarih-saat, kurum/dernek adı, katılımcı isimleri veya iletişim bilgisi gibi kişisel ya da yerel bilgileri hiçbir dosyaya yazma.
 
 ## 1. Saat kontrolü
 

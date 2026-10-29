@@ -3,8 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Yapay Zekâ Atölyesi</title>
-  <meta name="description" content="4 haftalık, teknik bilgi gerektirmeyen yapay zekâ atölyesi: anlatıcı sunumları ve araştırma notları.">
+  <title>Yapay Zekâ Atölyesi · 4 Haftalık Müfredat</title>
+  <meta name="description" content="4 haftada yapay zekâyı tanı, dene, üret. Teknik bilgi gerekmez; haftada 2 saat, bol uygulama.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Yapay Zekâ Atölyesi · 4 Haftalık Müfredat">
+  <meta property="og:description" content="4 haftada yapay zekâyı tanı, dene, üret. Teknik bilgi gerekmez; haftada 2 saat, bol uygulama.">
+  <meta property="og:url" content="https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/">
+  <meta property="og:image" content="https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/assets/onizleme.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -22,107 +30,178 @@
       }
     }
     * { box-sizing: border-box; }
-    body { margin: 0; background: var(--kagit); color: var(--murekkep); font: 16px/1.55 'Inter', system-ui, sans-serif; }
+    html { -webkit-text-size-adjust: 100%; }
+    body { margin: 0; background: var(--kagit); color: var(--murekkep); font: 17px/1.6 'Inter', system-ui, sans-serif; }
     a { color: var(--turkuaz); }
-    .kap { max-width: 1080px; margin: 0 auto; padding: 0 16px; }
-    header { padding: 56px 0 28px; }
-    .ust { font: 600 12px/1 'Inter'; letter-spacing: .1em; text-transform: uppercase; color: var(--turkuaz); }
-    h1 { font: 700 clamp(36px, 6vw, 60px)/1.05 'Fraunces', Georgia, serif; margin: 12px 0 14px; letter-spacing: -.01em; }
-    .alt { font-size: 18px; color: var(--murekkep-acik); max-width: 640px; margin: 0; }
-    .rozetler { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
-    .rozet { background: var(--kart); border: 1px solid var(--cizgi); border-radius: 999px; padding: 6px 12px; font-size: 14px; }
-    .ipucu { margin: 28px 0 8px; background: var(--kart); border: 1px solid var(--cizgi); border-left: 6px solid var(--altin); border-radius: 0 14px 14px 0; padding: 14px 16px; font-size: 14px; color: var(--murekkep-acik); }
-    .ipucu kbd { font: 600 12px 'Inter'; background: var(--kagit-koyu); border: 1px solid var(--cizgi); border-radius: 6px; padding: 1px 6px; color: var(--murekkep); }
-    .ilerleme { margin: 24px 0 8px; }
-    .cubuk { height: 10px; background: var(--kagit-koyu); border-radius: 999px; overflow: hidden; }
-    .cubuk > span { display: block; height: 100%; background: var(--turkuaz); width: 0; transition: width .6s ease; }
-    .ilerleme p { margin: 8px 0 0; font-size: 14px; color: var(--murekkep-acik); }
-    .haftalar { display: grid; gap: 18px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 480px), 1fr)); margin: 28px 0 48px; }
-    .hafta { background: var(--kart); border: 1px solid var(--cizgi); border-radius: 20px; padding: 20px; }
-    .hafta h2 { font: 700 24px/1.2 'Fraunces', Georgia, serif; margin: 0 0 4px; }
-    .hafta .tema { color: var(--murekkep-acik); font-size: 14px; margin: 0 0 14px; }
-    .konu { display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; padding: 12px 0; border-top: 1px solid var(--cizgi); }
-    .konu .ad { font-weight: 600; }
-    .konu .meta { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; font-size: 13px; color: var(--murekkep-acik); }
-    .durum { font: 600 11px/1 'Inter'; letter-spacing: .05em; text-transform: uppercase; padding: 5px 8px; border-radius: 999px; white-space: nowrap; align-self: start; }
-    .d-bekliyor { background: var(--kagit-koyu); color: var(--murekkep-acik); }
-    .d-uretiliyor { background: var(--altin-acik); color: var(--altin); }
-    .d-taslak { background: var(--turkuaz-acik); color: var(--turkuaz); }
-    .d-gozden_gecirildi, .d-cilalandi { background: var(--turkuaz); color: var(--kagit); }
-    .baglanti { font-weight: 600; text-decoration: none; }
-    .baglanti[aria-disabled="true"] { color: var(--murekkep-acik); opacity: .5; pointer-events: none; }
-    .gunluk { margin: 0 0 56px; }
-    .gunluk h2 { font: 700 22px 'Fraunces', Georgia, serif; }
-    .gunluk ol { padding-left: 18px; color: var(--murekkep-acik); font-size: 14px; }
-    footer { border-top: 1px solid var(--cizgi); padding: 20px 0 40px; font-size: 13px; color: var(--murekkep-acik); }
-    .hata { color: var(--kiremit); }
+    .kap { max-width: 960px; margin: 0 auto; padding: 0 16px; }
+
+    header { padding: 48px 0 32px; position: relative; overflow: hidden; }
+    .cini {
+      position: absolute; right: -90px; top: -90px; width: 280px; height: 280px; border-radius: 50%; opacity: .7; pointer-events: none;
+      background:
+        radial-gradient(circle at 50% 50%, transparent 38%, var(--turkuaz) 39% 41%, transparent 42%),
+        conic-gradient(from 0deg, var(--turkuaz-acik) 0 12.5%, transparent 0 25%, var(--turkuaz-acik) 0 37.5%, transparent 0 50%, var(--turkuaz-acik) 0 62.5%, transparent 0 75%, var(--turkuaz-acik) 0 87.5%, transparent 0);
+    }
+    .ust { font: 600 12px/1 'Inter'; letter-spacing: .12em; text-transform: uppercase; color: var(--turkuaz); position: relative; }
+    h1 { font: 700 clamp(38px, 9vw, 68px)/1.02 'Fraunces', Georgia, serif; margin: 14px 0 16px; letter-spacing: -.015em; position: relative; }
+    h1 span { color: var(--turkuaz); }
+    .alt { font-size: clamp(17px, 2.6vw, 20px); color: var(--murekkep-acik); max-width: 620px; margin: 0; position: relative; }
+    .rozetler { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; position: relative; }
+    .rozet { background: var(--kart); border: 1px solid var(--cizgi); border-radius: 999px; padding: 6px 12px; font-size: 14px; font-weight: 500; }
+
+    section { margin: 40px 0; }
+    h2 { font: 700 clamp(26px, 5vw, 34px)/1.15 'Fraunces', Georgia, serif; margin: 0 0 14px; }
+    .giris { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); }
+    .kutu { background: var(--kart); border: 1px solid var(--cizgi); border-radius: 18px; padding: 18px; }
+    .kutu .simge { font-size: 28px; line-height: 1; }
+    .kutu h3 { font: 600 17px/1.3 'Inter'; margin: 10px 0 6px; }
+    .kutu p { margin: 0; color: var(--murekkep-acik); font-size: 15px; }
+
+    .akis { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 6px 0 0; padding: 0; list-style: none; font-size: 15px; }
+    .akis li { background: var(--kart); border: 1px solid var(--cizgi); border-radius: 12px; padding: 8px 12px; }
+    .akis li.ok { border: 0; background: none; padding: 0 2px; color: var(--murekkep-acik); }
+
+    .hafta { background: var(--kart); border: 1px solid var(--cizgi); border-radius: 22px; padding: 22px; margin: 16px 0; display: grid; gap: 6px 22px; grid-template-columns: 92px 1fr; }
+    .hafta .no { grid-row: span 3; font: 700 64px/1 'Fraunces', Georgia, serif; color: var(--turkuaz); }
+    .hafta .no small { display: block; font: 600 12px/1.2 'Inter'; letter-spacing: .1em; text-transform: uppercase; color: var(--murekkep-acik); margin-top: 6px; }
+    .hafta h3 { font: 700 24px/1.2 'Fraunces', Georgia, serif; margin: 0; }
+    .hafta .oz { margin: 0 0 6px; color: var(--murekkep-acik); }
+    .ikili { display: grid; gap: 14px; grid-template-columns: 1fr 1fr; }
+    .ikili h4 { font: 600 12px/1 'Inter'; letter-spacing: .1em; text-transform: uppercase; margin: 6px 0 8px; color: var(--kiremit); }
+    .ikili ul { margin: 0; padding-left: 18px; font-size: 15px; }
+    .ikili li + li { margin-top: 4px; }
+    .gorev { grid-column: 2; margin-top: 8px; background: var(--altin-acik); border-radius: 12px; padding: 10px 14px; font-size: 15px; }
+    .gorev b { color: var(--murekkep); }
+    @media (max-width: 640px) {
+      .hafta { grid-template-columns: 1fr; }
+      .hafta .no { grid-row: auto; font-size: 44px; display: flex; align-items: baseline; gap: 10px; }
+      .hafta .no small { margin: 0; }
+      .ikili { grid-template-columns: 1fr; }
+      .gorev { grid-column: 1; }
+    }
+
+    .liste { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+    .liste li { background: var(--kart); border: 1px solid var(--cizgi); border-radius: 14px; padding: 12px 14px 12px 46px; position: relative; font-size: 16px; }
+    .liste li::before { content: '✓'; position: absolute; left: 14px; top: 11px; width: 22px; height: 22px; border-radius: 50%; background: var(--turkuaz); color: var(--kagit); font: 700 13px/22px 'Inter'; text-align: center; }
+    .liste li span { display: block; color: var(--murekkep-acik); font-size: 14px; }
+
+    .araclar { display: flex; flex-wrap: wrap; gap: 8px; }
+    .araclar span { background: var(--turkuaz-acik); color: var(--turkuaz); border-radius: 999px; padding: 6px 12px; font-size: 14px; font-weight: 600; }
+    .not { color: var(--murekkep-acik); font-size: 15px; margin-top: 12px; }
+
+    .kaynaklar a { font-weight: 600; }
+    footer { border-top: 1px solid var(--cizgi); padding: 20px 0 48px; font-size: 13px; color: var(--murekkep-acik); display: flex; flex-wrap: wrap; gap: 8px 20px; justify-content: space-between; }
+    footer a { color: var(--murekkep-acik); }
   </style>
 </head>
 <body>
   <div class="kap">
     <header>
-      <div class="ust">Anlatıcı kiti</div>
-      <h1>Yapay Zekâ Atölyesi</h1>
-      <p class="alt">Farklı mesleklerden katılımcılar için teknik bilgi gerektirmeyen, uygulamalı bir yolculuk: yapay zekâ nedir, nasıl çalışır, nerelerde kullanılır ve bugünün araçlarıyla neler üretebiliriz?</p>
-      <div class="rozetler"><span class="rozet">4 hafta</span><span class="rozet">Haftada 2 saat</span><span class="rozet">%40 anlatım · %60 uygulama</span><span class="rozet">Kod yok</span></div>
-      <div class="ipucu">Sunum açıkken <kbd>S</kbd> konuşmacı notlarını ayrı pencerede açar, <kbd>F</kbd> tam ekran yapar, <kbd>Esc</kbd> tüm slaytları gösterir. PDF almak için sunum adresinin sonuna <code>?print-pdf</code> ekleyip tarayıcıdan yazdırın.</div>
-      <div class="ilerleme" aria-live="polite">
-        <div class="cubuk"><span id="cubuk"></span></div>
-        <p id="ozet">Durum yükleniyor…</p>
-      </div>
+      <div class="cini" aria-hidden="true"></div>
+      <div class="ust">4 haftalık müfredat</div>
+      <h1>Yapay Zekâ <span>Atölyesi</span></h1>
+      <p class="alt">4 haftada yapay zekâyı tanı, dene, üret. Teknik bilgi gerekmez: anlatımı sade, uygulaması bol, her hafta eve kendi ürettiğin bir şeyle dönüyorsun.</p>
+      <div class="rozetler"><span class="rozet">4 hafta</span><span class="rozet">Haftada 2 saat</span><span class="rozet">Teknik bilgi gerekmez</span><span class="rozet">Ücretsiz araçlar</span></div>
     </header>
 
-    <main>
-      <div class="haftalar" id="haftalar"></div>
-      <section class="gunluk">
-        <h2>Son çalışmalar</h2>
-        <ol id="gunluk"><li>Henüz kayıt yok.</li></ol>
-      </section>
-    </main>
+    <section aria-labelledby="kimin-icin">
+      <h2 id="kimin-icin">Bu atölye kimin için?</h2>
+      <div class="giris">
+        <div class="kutu"><div class="simge" aria-hidden="true">🙋</div><h3>Merak eden herkes için</h3><p>Öğretmen, esnaf, sağlıkçı, öğrenci, emekli… Hangi meslekten olursan ol, kendi işine uyarlayabileceğin şeyler öğreneceksin.</p></div>
+        <div class="kutu"><div class="simge" aria-hidden="true">🧩</div><h3>Kod yok, formül yok</h3><p>Her kavramı gündelik hayattan bir benzetmeyle anlatacağız. Yazı yazabiliyorsan yeterli.</p></div>
+        <div class="kutu"><div class="simge" aria-hidden="true">🛠️</div><h3>Dinlemekten çok yapmak</h3><p>Zamanın yarısından fazlası uygulama. Farklı mesleklerden kişilerle karma ekiplerde çalışacağız.</p></div>
+      </div>
+    </section>
 
-    <footer>Sunumlar ve notlar her saat başı çalışan bir bulut görevi tarafından araştırılıp güncellenir. İçerikler yayın tarihinde doğrulanmıştır; araçların fiyat ve özellikleri hızla değişir, atölyeden önce kontrol edin.</footer>
+    <section aria-labelledby="nasil">
+      <h2 id="nasil">Her oturum nasıl geçecek?</h2>
+      <ul class="akis">
+        <li>🎬 Merak uyandıran bir açılış</li><li class="ok" aria-hidden="true">→</li>
+        <li>💡 Sade bir anlatım</li><li class="ok" aria-hidden="true">→</li>
+        <li>🧪 Bizzat deneyeceğin uygulamalar</li><li class="ok" aria-hidden="true">→</li>
+        <li>🎁 Eve götürdüğün bir ürün</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="haftalar">
+      <h2 id="haftalar">4 hafta, 4 adım</h2>
+
+      <article class="hafta">
+        <div class="no">1<small>Hafta</small></div>
+        <h3>Yapay zekâya merhaba</h3>
+        <p class="oz">Yapay zekâ nedir, nasıl öğrenir, nerelerde kullanıldı ve bugün nerelerde kullanılıyor?</p>
+        <div class="ikili">
+          <div><h4>Konuşacağız</h4><ul><li>Yapay zekâ nedir, ne değildir?</li><li>Makineler örneklerden nasıl öğrenir?</li><li>75 yılın hikâyesi: satranç şampiyonunu yenen bilgisayardan sohbet asistanlarına</li><li>Telefonundan bankana, bugün nerelerde çalışıyor?</li></ul></div>
+          <div><h4>Yapacağız</h4><ul><li>"İnsan mı, yapay zekâ mı?" tahmin oyunu</li><li>10 dakikada kendi görüntü tanıma modelini eğiteceksin</li></ul></div>
+        </div>
+        <div class="gorev"><b>Haftalık görev:</b> Yapay zekâ avı. Bir hafta boyunca karşılaştığın 10 yapay zekâ kullanımını not et.</div>
+      </article>
+
+      <article class="hafta">
+        <div class="no">2<small>Hafta</small></div>
+        <h3>Sohbet asistanlarıyla düşünmek</h3>
+        <p class="oz">ChatGPT, Gemini ve Claude gibi asistanlardan nasıl gerçekten işe yarar sonuç alınır?</p>
+        <div class="ikili">
+          <div><h4>Konuşacağız</h4><ul><li>Bir sohbet asistanı nasıl "konuşur"?</li><li>Neden bazen kendinden emin bir şekilde uydurur?</li><li>İyi talimat yazmanın 5 adımı: ROBOT formülü</li><li>Asistana neler yazılmaz: gizlilik ve güvenlik</li></ul></div>
+          <div><h4>Yapacağız</h4><ul><li>Aynı soruyu üç farklı asistana sorup karşılaştıracağız</li><li>"Uydurma bilgi avı"na çıkacağız</li><li>Kendi belgenle konuşup sesli özetini çıkaracaksın</li></ul></div>
+        </div>
+        <div class="gorev"><b>Haftalık görev:</b> Gerçek bir işini (e-posta, plan, rapor özeti) asistanla yap, en iyi talimatını getir.</div>
+      </article>
+
+      <article class="hafta">
+        <div class="no">3<small>Hafta</small></div>
+        <h3>Üretken yapay zekâ atölyesi</h3>
+        <p class="oz">Tek bir fikirden görsel, müzik, ses ve video üretmek.</p>
+        <div class="ikili">
+          <div><h4>Konuşacağız</h4><ul><li>Yapay zekâ resmi ve videoyu nasıl üretir?</li><li>İyi bir görsel talimatı nasıl yazılır?</li><li>Ürettiğimiz içerik kimin? Telif ve etik</li></ul></div>
+          <div><h4>Yapacağız</h4><ul><li>Ekipçe hayali bir mekân ya da etkinlik için mini kampanya: afiş, jingle, kısa video ve sunum</li><li>En iyi kampanyayı salon oylayacak</li></ul></div>
+        </div>
+        <div class="gorev"><b>Haftalık görev:</b> Kendi işin ya da hobin için bir afiş veya sosyal medya gönderisi üret.</div>
+      </article>
+
+      <article class="hafta">
+        <div class="no">4<small>Hafta</small></div>
+        <h3>Kendi işinde yapay zekâ</h3>
+        <p class="oz">Yapay zekâyı kendi mesleğine taşımak, sınırlarını bilerek kullanmak.</p>
+        <div class="ikili">
+          <div><h4>Konuşacağız</h4><ul><li>İş yapan yapay zekâ: ajanlar</li><li>Kendi mesleğinde nasıl kullanırsın?</li><li>Kırmızı çizgiler: ses taklidiyle dolandırıcılık, sahte görüntüler, kişisel veriler</li><li>Türkiye'de ve dünyada kurallar</li></ul></div>
+          <div><h4>Yapacağız</h4><ul><li>Meslek masalarında hazır görev kartlarıyla çalışacağız</li><li>Kendi kişisel asistanını ya da kodsuz mini uygulamanı yapıp tanıtacaksın</li></ul></div>
+        </div>
+        <div class="gorev"><b>Atölye sonrası:</b> 30 gün, 1 alışkanlık. Her gün bir işini yapay zekâyla yap, kısa not tut.</div>
+      </article>
+    </section>
+
+    <section aria-labelledby="hazirlik">
+      <h2 id="hazirlik">Gelmeden önce</h2>
+      <ul class="liste">
+        <li>Bilgisayarın varsa yanında getir<span>Şarj aletini unutma. Bilgisayarın yoksa telefonla da rahatça katılabilirsin.</span></li>
+        <li>Bir Google hesabın olsun<span>Gmail adresin varsa hazırsın.</span></li>
+        <li>İstersen ChatGPT, Gemini ve Claude'da ücretsiz hesap aç<span>Açmadıysan dert etme, ilk derste birlikte açabiliriz.</span></li>
+        <li>Telefonuna Gemini ve ChatGPT uygulamalarını indir<span>İsteğe bağlı; sesli sohbeti telefondan deneyeceğiz.</span></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="araclar">
+      <h2 id="araclar">Deneyeceğimiz araçlardan bazıları</h2>
+      <div class="araclar">
+        <span>Teachable Machine</span><span>ChatGPT</span><span>Gemini</span><span>Claude</span><span>Perplexity</span><span>Gemini Notebook</span><span>Canva</span><span>Suno</span><span>Kling</span><span>Gamma</span><span>Google AI Studio</span>
+      </div>
+      <p class="not">Hepsini ücretsiz sürümleriyle kullanacağız; ücretli bir şey almana gerek yok.</p>
+    </section>
+
+    <section aria-labelledby="sonra" class="kaynaklar">
+      <h2 id="sonra">Atölyeden sonra öğrenmeye devam</h2>
+      <ul class="liste">
+        <li><a href="https://www.dijitaluniversiteplatformu.org" rel="noopener">YÖK Dijital Üniversite Platformu</a><span>18 yaş üstüne ücretsiz, çevrim içi yapay zekâ ve veri eğitimleri.</span></li>
+        <li><a href="https://www.btkakademi.gov.tr" rel="noopener">BTK Akademi</a><span>Türkçe, ücretsiz dijital beceri ve yapay zekâ kursları.</span></li>
+        <li><a href="https://www.elementsofai.com" rel="noopener">Elements of AI</a><span>Teknik olmayanlar için ücretsiz temel yapay zekâ kursu.</span></li>
+      </ul>
+    </section>
+
+    <footer>
+      <span>Yapay Zekâ Atölyesi · Araçların özellikleri ve ücretsiz kotaları sık değişir.</span>
+      <a href="anlatici.html">Anlatıcı kiti</a>
+    </footer>
   </div>
-
-  <script>
-    const TEMALAR = {
-      1: 'Yapay zekâya merhaba: nedir, nasıl öğrenir, nerelerde kullanılır?',
-      2: 'Sohbet asistanlarıyla düşünmek: iyi talimat, doğrulama, kendi belgenle çalışmak',
-      3: 'Üretken yapay zekâ atölyesi: görsel, müzik, ses ve video',
-      4: 'Kendi işinde yapay zekâ ve sorumluluk: ajanlar, meslekler, kurallar, final'
-    };
-    const DURUM_ADI = { bekliyor: 'Bekliyor', uretiliyor: 'Hazırlanıyor', taslak: 'Taslak hazır', gozden_gecirildi: 'Gözden geçirildi', cilalandi: 'Cilalandı' };
-    const hazir = d => ['taslak', 'gozden_gecirildi', 'cilalandi'].includes(d);
-    const kacis = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
-    const tarih = s => { try { return s ? new Date(s).toLocaleString('tr-TR', { dateStyle: 'medium', timeStyle: 'short', timeZone: 'Europe/Istanbul' }) : '—'; } catch (e) { return s || '—'; } };
-
-    fetch('durum.json', { cache: 'no-store' }).then(r => r.json()).then(veri => {
-      const konular = veri.konular || [];
-      const biten = konular.filter(k => hazir(k.durum)).length;
-      document.getElementById('cubuk').style.width = (konular.length ? (100 * biten / konular.length) : 0) + '%';
-      document.getElementById('ozet').textContent = `${konular.length} konudan ${biten} tanesi hazır · Son çalışma: ${tarih(veri.son_calisma)} · Toplam çalışma: ${veri.calisma_sayisi || 0}`;
-
-      const kap = document.getElementById('haftalar');
-      [1, 2, 3, 4].forEach(h => {
-        const liste = konular.filter(k => k.hafta === h).sort((a, b) => a.sira - b.sira);
-        const toplam = liste.reduce((t, k) => t + (k.sure_dk || 0), 0);
-        const satirlar = liste.map(k => `
-          <div class="konu">
-            <div class="ad">${kacis(k.baslik)}</div>
-            <span class="durum d-${kacis(k.durum)}">${kacis(DURUM_ADI[k.durum] || k.durum)}</span>
-            <div class="meta">
-              <span>${kacis(k.id)} · ${kacis(k.sure_dk)} dk${k.surum ? ' · sürüm ' + kacis(k.surum) : ''}</span>
-              <a class="baglanti" href="sunumlar/${encodeURIComponent(k.id)}.html" aria-disabled="${!hazir(k.durum)}">Sunum →</a>
-              <a class="baglanti" href="not.html?id=${encodeURIComponent(k.id)}" aria-disabled="${!hazir(k.durum)}">Anlatıcı notu →</a>
-            </div>
-          </div>`).join('');
-        kap.insertAdjacentHTML('beforeend', `<section class="hafta"><h2>${h}. Hafta</h2><p class="tema">${kacis(TEMALAR[h])} · ${toplam} dk</p>${satirlar}</section>`);
-      });
-
-      const g = (veri.gunluk || []).slice(-8).reverse();
-      if (g.length) document.getElementById('gunluk').innerHTML = g.map(x => `<li><strong>${kacis(tarih(x.zaman))}</strong> — ${kacis(x.ozet)}</li>`).join('');
-    }).catch(() => {
-      document.getElementById('ozet').innerHTML = '<span class="hata">Durum dosyası okunamadı. Sayfayı bir sunucu üzerinden (GitHub Pages) açın.</span>';
-    });
-  </script>
 </body>
 </html>

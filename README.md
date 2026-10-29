@@ -2,7 +2,9 @@
 
 4 haftalık, haftada 2 saatlik, teknik bilgi gerektirmeyen yapay zekâ atölyesi için anlatıcı kiti.
 
-**Site:** https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/
+**Müfredat (katılımcılar için):** https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/
+
+**Anlatıcı kiti:** https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/anlatici.html
 
 | Hafta | Tema |
 | --- | --- |
@@ -13,6 +15,8 @@
 
 ## Klasörler
 
+- `index.html` — katılımcıların gördüğü müfredat sayfası
+- `anlatici.html` — konu listesi, üretim durumu, sunum ve not bağlantıları
 - `sunumlar/` — her konu için reveal.js sunumu (`S` tuşu konuşmacı notlarını açar)
 - `notlar/` — her konu için anlatıcı araştırma notu (Markdown; `not.html?id=<id>` ile okunur)
 - `durum.json` — konu listesi, kapsamlar ve üretim durumu
