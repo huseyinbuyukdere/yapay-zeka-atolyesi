@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-29T17:04:34Z",
-  "calisma_sayisi": 12,
+  "son_calisma": "2026-10-29T17:29:05Z",
+  "calisma_sayisi": 13,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -349,12 +349,12 @@
         "Final projesi için şablon talimatlar: hesaplayıcı, quiz, kontrol listesi, randevu listesi",
         "2 dakikalık final sunumu formatı"
       ],
-      "durum": "uretiliyor",
-      "surum": 0,
-      "son_guncelleme": null,
-      "sahip": "20261029T1713Z",
-      "sahip_zamani": "2026-10-29T17:13:47Z",
-      "not": ""
+      "durum": "taslak",
+      "surum": 1,
+      "son_guncelleme": "2026-10-29T17:29:05Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 1: Gem/Proje/GPT ücretsizlik durumu, AI Studio-Lovable-Bolt kotaları, 4 şablon ve 2 dk sunum formatı. OpenAI ve Claude resmi yardım sayfaları açılamadı; ikincil kaynaklara dayanıldı."
     },
     {
       "id": "h4-03",
@@ -482,6 +482,10 @@
     {
       "zaman": "2026-10-29T17:04:34Z",
       "ozet": "h4-01: Ajanlar taslağı yayımlandı (12 arama, 8 kaynak okundu)."
+    },
+    {
+      "zaman": "2026-10-29T17:29:05Z",
+      "ozet": "h4-02: Kendi asistanını kur / kodsuz uygulama taslağı yayımlandı (16 arama, 11 kaynak okundu)."
     }
   ]
 }

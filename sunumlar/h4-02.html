@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kendi asistanını kur, kodsuz uygulama yap · Yapay Zekâ Atölyesi</title>
+  <meta name="description" content="Gemini Gem, Claude Projesi ve ChatGPT GPT ile kişisel asistan kurmak; Google AI Studio, Lovable ve Bolt ile kod yazmadan küçük uygulama yapmak; final projesi şablonları ve 2 dakikalık sunum formatı (Ekim 2026).">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css">
+  <link rel="stylesheet" href="../assets/tema.css">
+  <style>
+    svg text { font-family: inherit; }
+    .reveal table { font-size: .55em; }
+  </style>
+</head>
+<body>
+  <div class="altbilgi">Yapay Zekâ Atölyesi · 4. Hafta · Kendi asistanını kur, kodsuz uygulama yap</div>
+  <div class="reveal">
+    <div class="slides">
+
+      <!-- 1. KAPAK -->
+      <section class="kapak">
+        <div class="cini" aria-hidden="true"></div>
+        <span class="etiket">4. Hafta · 10 dakika</span>
+        <h1>Kendi asistanını kur, kodsuz uygulama yap</h1>
+        <p class="alt">Bir kez anlat, hep hatırlasın. Tarif ver, uygulama gelsin.</p>
+        <aside class="notes">
+          Ne söyle: Ajanların iş yapabildiğini gördük. Şimdi sıra sizde: Bugün kendi yapay zekâ asistanınızı kurmayı ve kod yazmadan küçük bir uygulama yapmayı göreceğiz. Bu, final projenizin hazırlığı. On dakikamız var; o yüzden hızlı ama keyifli gideceğiz.
+          Süre: 30 sn.
+          Dikkat: AI Studio sekmesi arka planda açık ve hesap girişli olsun.
+        </aside>
+      </section>
+
+      <!-- 2. BÜYÜK SORU -->
+      <section class="soru">
+        <span class="etiket kiremit">Bugünün sorusu</span>
+        <p class="buyuk">Yapay zekâya her seferinde baştan anlattığınız şey ne?</p>
+        <p class="ipucu">İki üç kişiden kısa cevap</p>
+        <aside class="notes">
+          Ne söyle: Dürüst olalım: Yapay zekâya her sohbette aynı şeyi anlatıyoruz. "Ben öğretmenim, 7. sınıflara ders veriyorum, sade yaz." Sizde bu cümle ne? İki üç kişiden duyalım.
+          Süre: 30 sn.
+          Salona sor: Beklenen cevaplar: mesleğim, yazım tarzım, dilim, kitlem.
+          Dikkat: Uzun tartışmaya izin verme; cevapları bir sonraki slayta köprü yap: "İşte bunu bir kere yazıp kaydedebiliyoruz."
+        </aside>
+      </section>
+
+      <!-- 3. BENZETME -->
+      <section>
+        <span class="etiket">Benzetme</span>
+        <h2>Kişisel asistan = iş tanımı dosyası</h2>
+        <div class="benzetme">
+          <span class="simge" aria-hidden="true">📁</span>
+          <p>Yeni elemana kuralları her sabah anlatmazsınız; bir kere dosya verirsiniz. Asistan da o dosya.</p>
+        </div>
+        <aside class="notes">
+          Ne söyle: Dükkânınıza yeni bir eleman geldiğini düşünün. Her sabah ona kuralları baştan anlatmazsınız; bir kere yazılı bir dosya verirsiniz: fiyat listesi şu, müşteriye böyle hitap edilir. Kişisel asistan tam olarak bu dosya. Bir kere "sen şusun, şöyle çalışırsın" yazarsınız; her sohbette geçerli olur. İsterseniz yanına belgelerinizi de koyarsınız.
+          Süre: 45 sn.
+          Dikkat: Benzetmenin sınırı: Yapay zekâ dosyayı bazen gözden kaçırır, belgeden yanlış sonuç çıkarabilir. Dosya vermek kontrolü bırakmak değildir.
+        </aside>
+      </section>
+
+      <!-- 4. KARTLAR -->
+      <section>
+        <h2>Üç şirket, üç ad, aynı fikir</h2>
+        <div class="kartlar">
+          <div class="kart fragment"><span class="simge" aria-hidden="true">💎</span><h3>Gemini · Gem</h3><p>Ücretsiz kurulur ✅</p></div>
+          <div class="kart fragment turkuaz"><span class="simge" aria-hidden="true">🗂️</span><h3>Claude · Proje</h3><p>Ücretsiz kurulur ✅</p></div>
+          <div class="kart fragment altin"><span class="simge" aria-hidden="true">🤖</span><h3>ChatGPT · GPT</h3><p>Kullanmak ücretsiz, kurmak ücretli</p></div>
+        </div>
+        <p class="fragment kucuk">Ekim 2026 itibarıyla</p>
+        <aside class="notes">
+          Ne söyle: Bu "dosya" her şirkette başka adla geçiyor. Google Gemini'de adı Gem; ücretsiz hesapla kurabiliyorsunuz. (İleri.) Claude'da Proje deniyor; bu yıl ücretsiz pakete eklendi. (İleri.) ChatGPT'de GPT deniyor; ücretsiz hesapla başkalarının yaptığı GPT'leri kullanabilirsiniz ama kendinizinkini kurmak ücretli plan istiyor. Atölyede bu yüzden Gem ile çalışacağız: Gmail hesabı olan herkes kurabilir.
+          Süre: 45 sn.
+          Salona sor: "Kimde Gmail hesabı var?"
+          Dikkat: ChatGPT kullananlara ücretsiz yol: Talimatı bir notta saklayıp her sohbetin başına yapıştırmak. Kurallar sık değişir; sunumdan önce kontrol et.
+        </aside>
+      </section>
+
+      <!-- 5. SVG: 5 ADIMDA GEM -->
+      <section>
+        <h2>5 adımda kendi Gem'iniz</h2>
+        <svg viewBox="0 0 1000 220" width="940" role="img" aria-label="Gem kurulumunun beş adımı soldan sağa oklarla: 1 Ad ver, 2 Görevi yaz, 3 Belge ekle (isteğe bağlı), 4 Önizlemede dene, 5 Kaydet.">
+          <g font-size="22" text-anchor="middle">
+            <rect x="10" y="50" width="160" height="110" rx="18" fill="var(--turkuaz)" opacity=".9"/>
+            <text x="90" y="98" fill="#fff" font-size="34">🏷️</text><text x="90" y="138" fill="#fff">1. Ad ver</text>
+            <rect x="210" y="50" width="160" height="110" rx="18" fill="var(--turkuaz)" opacity=".9"/>
+            <text x="290" y="98" fill="#fff" font-size="34">✍️</text><text x="290" y="138" fill="#fff">2. Görevi yaz</text>
+            <rect x="410" y="50" width="160" height="110" rx="18" fill="var(--altin)" opacity=".9"/>
+            <text x="490" y="98" fill="#fff" font-size="34">📎</text><text x="490" y="138" fill="#fff">3. Belge ekle</text>
+            <rect x="610" y="50" width="160" height="110" rx="18" fill="var(--turkuaz)" opacity=".9"/>
+            <text x="690" y="98" fill="#fff" font-size="34">🧪</text><text x="690" y="138" fill="#fff">4. Dene</text>
+            <rect x="810" y="50" width="160" height="110" rx="18" fill="var(--kiremit)" opacity=".9"/>
+            <text x="890" y="98" fill="#fff" font-size="34">💾</text><text x="890" y="138" fill="#fff">5. Kaydet</text>
+          </g>
+          <g stroke="var(--murekkep, #333)" stroke-width="4" fill="none">
+            <path d="M172 105 L206 105 M196 95 L206 105 L196 115"/>
+            <path d="M372 105 L406 105 M396 95 L406 105 L396 115"/>
+            <path d="M572 105 L606 105 M596 95 L606 105 L596 115"/>
+            <path d="M772 105 L806 105 M796 95 L806 105 L796 115"/>
+          </g>
+          <text x="490" y="200" text-anchor="middle" font-size="18" fill="currentColor">isteğe bağlı</text>
+        </svg>
+        <p class="kucuk">gemini.google.com → Gem'ler → Yeni Gem</p>
+        <aside class="notes">
+          Ne söyle: Kurulum beş adım. Bilgisayardan gemini.google.com'a girin, soldaki menüden Gem'lere gidin, yeni Gem deyin. Bir ad verin. Görevini yazın: kimsin, kime yazıyorsun, nasıl bir çıktı istiyorsun; ROBOT formülünü burada kullanabilirsiniz. İsterseniz bir belge ekleyin, örneğin fiyat listeniz. Sağdaki önizlemede deneyin. Ve en önemlisi: Kaydet'e basın; önizleme kendiliğinden kaydetmiyor.
+          Süre: 45 sn.
+          Dikkat: Belge eklerken hassas belge koymama kuralını hatırlat (2. hafta). Claude Projesi de benzer: ad, dosya, talimat.
+        </aside>
+      </section>
+
+      <!-- 6. BENZETME: VIBE CODING -->
+      <section>
+        <span class="etiket">Bir adım ötesi</span>
+        <h2>Vibe coding: terziye ölçü vermek</h2>
+        <div class="benzetme">
+          <span class="simge" aria-hidden="true">🧵</span>
+          <p>Kodu siz yazmazsınız. "Şunu istiyorum" dersiniz, yapay zekâ yazar, siz dener, "şurayı düzelt" dersiniz.</p>
+        </div>
+        <p class="fragment kucuk">Collins Sözlüğü'nün 2025 yılı kelimesi</p>
+        <aside class="notes">
+          Ne söyle: Asistanın bir adım ötesi var: uygulama yapmak. Terziye kumaşı nasıl keseceğini anlatmazsınız; "bel bol olsun, cep içte olsun" dersiniz. Yapay zekâya da "şöyle bir hesaplayıcı istiyorum" diyorsunuz; o kodu yazıyor, siz deneyip "düğmeyi büyüt" diyorsunuz. Buna İngilizcede vibe coding deniyor, sezgiyle kodlama diyebiliriz. (İleri.) Öyle yaygınlaştı ki Collins Sözlüğü 2025'in kelimesi seçti.
+          Süre: 45 sn.
+          Dikkat: Benzetmenin sınırı: Terzi dikişin sağlam olduğunu bilir; yapay zekânın uygulamasının içi (güvenlik, veri) görünmez. "Artık herkes yazılımcı" diye abartma.
+        </aside>
+      </section>
+
+      <!-- 7. ARAÇ TABLOSU -->
+      <section>
+        <h2>Üç araç, ücretsiz sınırlarıyla</h2>
+        <table>
+          <thead><tr><th>Araç</th><th>Ücretsiz ne var? (Ekim 2026)</th></tr></thead>
+          <tbody>
+            <tr class="fragment"><td>⭐ Google AI Studio</td><td>Google hesabıyla dene; kartsız 2 uygulama yayımla</td></tr>
+            <tr class="fragment"><td>Lovable</td><td>Günde 5 kredi, ayda en çok 30</td></tr>
+            <tr class="fragment"><td>Bolt</td><td>Ayda 1 milyon, günde 300 bin token</td></tr>
+          </tbody>
+        </table>
+        <p class="fragment kucuk">Rakamlar sık değişir; "ücretsiz ama sınırlı" diye hatırlayın.</p>
+        <aside class="notes">
+          Ne söyle: Üç araç önereceğim. Birincisi Google AI Studio; Gem için kullandığınız aynı Google hesabıyla giriyorsunuz, kredi kartı olmadan iki uygulamaya kadar yayımlayabiliyorsunuz. Atölyede bunu kullanacağız. (İleri.) Lovable ücretsiz planda günde beş kredi veriyor, ayda en fazla otuz; küçük bir değişiklik yaklaşık bir kredi. (İleri.) Bolt ayda bir milyon token veriyor; token, yapay zekânın okuyup yazdığı metin parçası demek. Uzun sohbet daha çok harcar.
+          Süre: 1 dk.
+          Dikkat: İş veya okul Google hesaplarında AI Studio yayımlama kısıtlı olabilir; kişisel Gmail önerin. Rakamları ezberletme.
+        </aside>
+      </section>
+
+      <!-- 8. CANLI DEMO -->
+      <section>
+        <div class="uygulama-kutu">
+          <span class="sure">⏱ 1,5 dk</span>
+          <h2>Canlı: tek cümleyle hesaplayıcı</h2>
+          <p class="kucuk">“Türkçe, tek sayfalık ‘Ofis çay-kahve bütçesi’ hesaplayıcı yap: kişi, günlük bardak, bardak fiyatı → aylık toplam TL.”</p>
+          <ol class="adimlar">
+            <li class="fragment">📝 Tarifi yapıştır</li>
+            <li class="fragment">🧪 Bir değer gir, dene</li>
+            <li class="fragment">🔧 “Yıllığı da göster” de</li>
+          </ol>
+        </div>
+        <aside class="notes">
+          Ne söyle: Hemen deneyelim. AI Studio'da Build sekmesindeyim. Bu cümleyi yapıştırıyorum: Türkçe, tek sayfalık bir ofis çay-kahve bütçesi hesaplayıcı. (İleri.) Bakın, kodu kendisi yazıyor; biz kod görmüyoruz bile. (İleri.) Bir değer girelim: 8 kişi, günde 3 bardak, bardağı 10 lira. (İleri.) Şimdi terzi gibi düzeltme isteyelim: "Yıllığı da göster." İşte tarif, deneme, düzeltme döngüsü.
+          Süre: 1,5 dk.
+          Salona sor: "Siz olsanız hangi düğmeyi eklerdiniz?"
+          Dikkat: Üretim yavaşsa şablon slaytına geçip sonra dön. B planı: önceden alınmış ekran görüntüleri ya da aynı talimatı Claude veya Gemini sohbetine vermek.
+        </aside>
+      </section>
+
+      <!-- 9. OYLAMA -->
+      <section>
+        <span class="etiket altin">Oylama</span>
+        <h2>Randevu uygulamama gerçek müşteri adlarını ve telefonlarını yazayım mı?</h2>
+        <div class="secenekler">
+          <div class="uygun">✅ Uygun</div>
+          <div class="dikkat">⚠️ Dikkat</div>
+          <div class="asla">⛔ Asla</div>
+        </div>
+        <p class="fragment kucuk">Atölyede: ⛔ Örnek isim kullanın. Yayımlanan uygulamayı herkes görebilir varsayın.</p>
+        <aside class="notes">
+          Ne söyle: Kısa bir oylama. Kuaförüm, randevu uygulaması yaptım; içine gerçek müşterilerimin adlarını ve telefonlarını yazayım mı? Uygun, dikkat, asla? (Oylat, ileri.) Atölyede cevap net: asla, örnek isim kullanıyoruz. Bu yıl bir güvenlik firması yapay zekâyla yapılmış yüz binlerce herkese açık uygulamayı taradı; binlercesinde sağlık kaydı, müşteri sohbeti gibi bilgiler açıktaydı. Kural basit: Yayımladıysanız herkes görebilir diye düşünün.
+          Süre: 1 dk.
+          Salona sor: Oylama.
+          Dikkat: Korkutma; tek vaka, tek kural. Gerçek iş kullanımında KVKK yükümlülükleri var; uzmana yönlendir, hukuki tavsiye verme.
+        </aside>
+      </section>
+
+      <!-- 10. ŞABLONLAR + FORMAT -->
+      <section>
+        <h2>Final: şablonunu seç, 2 dakikada sun</h2>
+        <div class="iki-sutun">
+          <div><h3>Dört şablon</h3><ul>
+            <li class="fragment">🧮 Hesaplayıcı</li>
+            <li class="fragment">❓ Quiz</li>
+            <li class="fragment">☑️ Kontrol listesi</li>
+            <li class="fragment">📅 Randevu listesi</li>
+          </ul></div>
+          <div class="fragment"><h3>2 dakika</h3><ul>
+            <li>30 sn · Sorun</li>
+            <li>60 sn · Demo</li>
+            <li>30 sn · Ders</li>
+          </ul></div>
+        </div>
+        <aside class="notes">
+          Ne söyle: Final projeniz için dört hazır tarif kartı var; el notunda tam metinleri duruyor. Hesaplayıcı: girdileri ve sonucu yazıyorsunuz. Quiz: konu ve seviye. Kontrol listesi: maddeler. Randevu listesi: saat dilimleri, örnek isimlerle. Köşeli parantezleri kendi işinize göre doldurmanız yeterli. Uygulama yerine Gem de olabilir: quiz soran bir asistan gibi. (İleri.) Sunum iki dakika: Otuz saniye sorununuz, bir dakika ekranda çalıştırma, otuz saniye ne öğrendiniz, yapay zekâ nerede iyiydi, nerede hata yaptı.
+          Süre: 1 dk 15 sn.
+          Salona sor: "Hangi şablon size yakın?"
+          Dikkat: Şablon metinleri anlatıcı notunda; katılımcılara dağıt veya ekranda paylaş.
+        </aside>
+      </section>
+
+      <!-- 11. VURGU -->
+      <section class="vurgu">
+        <p class="buyuk">Bir kez anlatın, sonra deneyin ve düzeltin. Gerçek veriyi dışarıda bırakın.</p>
+        <aside class="notes">
+          Ne söyle: Aklınızda tek cümle kalsın: Bir kez anlatın, sonra deneyin ve düzeltin; gerçek veriyi dışarıda bırakın. Aracınızı ve şablonunuzu seçtiniz. Şimdi mesleğinize göre hazırlanmış istasyonlara geçiyoruz; orada şablonu kendi işinize uyduracaksınız.
+          Süre: 30 sn.
+          Dikkat: Köprü: meslek istasyonları.
+        </aside>
+      </section>
+
+      <!-- 12. KAYNAKLAR -->
+      <section>
+        <h3>Kaynaklar</h3>
+        <ul class="kaynaklar">
+          <li><a href="https://chromestory.com/2026/07/create-gem-gemini-app/">Ücretsiz Gem kurulumu (ChromeStory)</a> — Temmuz 2026</li>
+          <li><a href="https://www.tomsguide.com/ai/claude-just-made-two-of-its-best-features-free-heres-how-to-use-projects-and-artifacts">Claude Projeleri ücretsiz (Tom's Guide)</a> — Mart 2026</li>
+          <li><a href="https://www.techrepublic.com/article/news-what-is-free-chatgpt-2026/">ChatGPT'de ücretsiz olanlar (TechRepublic)</a> — Ağustos 2026</li>
+          <li><a href="https://gigazine.net/gsc_news/en/20260623-starter-tier-google-ai-studio/">AI Studio Starter Tier (Gigazine)</a> — Haziran 2026</li>
+          <li><a href="https://docs.lovable.dev/introduction/plans-and-credits">Lovable krediler</a> · <a href="https://bolt.new/pricing">Bolt fiyatlar</a> — Ekim 2026</li>
+          <li><a href="https://www.eweek.com/news/ai-vibe-coding-apps-data-leaks/">Vibe coding veri açıkları (eWeek)</a> — Mayıs 2026</li>
+        </ul>
+        <p class="kucuk">Ayrıntılı araştırma notu ve şablon metinleri: <a href="../not.html?id=h4-02">anlatıcı notu</a> · Son güncelleme: 29 Ekim 2026</p>
+        <aside class="notes">
+          Ne söyle: Kaynaklar burada; şablonların tam metni anlatıcı notunda.
+          Süre: 15 sn.
+          Dikkat: Kota ve fiyatlar ayda bir değişiyor; sunumdan bir gün önce kontrol et.
+        </aside>
+      </section>
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/notes/notes.js"></script>
+  <script>
+    Reveal.initialize({
+      hash: true, slideNumber: 'c/t', progress: true, center: true, transition: 'slide',
+      width: 1280, height: 720, margin: 0.06, plugins: [RevealNotes]
+    });
+  </script>
+</body>
+</html>
