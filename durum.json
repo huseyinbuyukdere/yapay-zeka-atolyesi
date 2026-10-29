@@ -23,12 +23,12 @@
         "Mentimeter/Kahoot ile oylama akışı; oyun sonrası 'neden yanıldık?' sohbeti",
         "Atölyenin 4 haftalık yol haritasının tanıtımı ve beklenti toplama"
       ],
-      "durum": "taslak",
+      "durum": "uretiliyor",
       "surum": 1,
       "son_guncelleme": "2026-10-29T14:49:53Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Aşama 1: 16 slaytlık oyun sunumu (6 çerçeve/örnek slaytı, 2 SVG), 14 kaynaklı anlatıcı notu. Mentimeter/Kahoot ücretsiz sınırları ve 6 araştırma doğrulandı."
+      "sahip": "20261029T1923Z",
+      "sahip_zamani": "2026-10-29T19:23:05Z",
+      "not": "ÖNCEKİ DURUM: taslak | Aşama 1: 16 slaytlık oyun sunumu (6 çerçeve/örnek slaytı, 2 SVG), 14 kaynaklı anlatıcı notu. Mentimeter/Kahoot ücretsiz sınırları ve 6 araştırma doğrulandı."
     },
     {
       "id": "h1-02",
