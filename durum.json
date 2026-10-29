@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-29T19:35:20Z",
-  "calisma_sayisi": 16,
+  "son_calisma": "2026-10-29T20:29:05Z",
+  "calisma_sayisi": 17,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -387,12 +387,12 @@
         "AB Yapay Zekâ Yasası: 2 Ağustos 2026 şeffaflık kuralları, Dijital Omnibus ile ertelenen yüksek risk kuralları",
         "Türkiye: Yapay Zekâ Eylem Planı 2026-2030, TBMM'deki kanun teklifinin güncel durumu, KVKK — hukuki tavsiye vermeden"
       ],
-      "durum": "uretiliyor",
-      "surum": 0,
-      "son_guncelleme": null,
-      "sahip": "20261029T2011Z",
-      "sahip_zamani": "2026-10-29T20:11:47Z",
-      "not": "Önceki sahiplenme (20261029T1812Z) 100 dk aşıldığı için terk sayıldı; yeniden alındı."
+      "durum": "taslak",
+      "surum": 1,
+      "son_guncelleme": "2026-10-29T20:29:05Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 1: 7 senaryo (2 uygun, 1 dikkat, 4 asla) ve açıklamaları, ses klonlama/deepfake (Türkiye: EGM 2024 uyarısı, Ocak 2026 Yozgat operasyonu), aile parolası + kapat-geri ara akışı, AB Omnibus (2026/1744) tarihleri, Eylem Planı 2026-2030 (RG 18.08.2026), TBMM teklifleri komisyonda. 16 slayt, 2 SVG. Teklifin Genel Kurul'a geldiği iddiası doğrulanamadı; atölye öncesi TBMM'den kontrol edilmeli."
     },
     {
       "id": "h4-05",
@@ -498,6 +498,10 @@
     {
       "zaman": "2026-10-29T19:35:20Z",
       "ozet": "h1-01: Gözden geçirildi (7 arama, 8 kaynak okundu); PNAS 2026 eğitim rakamları düzeltildi, 4 yeni SSS."
+    },
+    {
+      "zaman": "2026-10-29T20:29:05Z",
+      "ozet": "h4-04: Kırmızı çizgi oyunu taslağı yayımlandı (15 arama, 15 kaynak okundu)."
     }
   ]
 }
