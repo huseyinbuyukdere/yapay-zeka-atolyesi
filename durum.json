@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-30T01:17:29Z",
-  "calisma_sayisi": 23,
+  "son_calisma": "2026-10-30T02:19:07Z",
+  "calisma_sayisi": 24,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -159,12 +159,12 @@
         "Sohbeti sürdürerek düzelttirme, asistandan soru sormasını isteme, adım adım düşündürme",
         "Katılımcıların kendi işinden talimat yazdığı mini alıştırma"
       ],
-      "durum": "uretiliyor",
-      "surum": 1,
-      "son_guncelleme": "2026-10-29T15:53:12Z",
-      "sahip": "20261030T0209Z",
-      "sahip_zamani": "2026-10-30T02:09:24Z",
-      "not": "önceki durum: taslak; aşama 2 gözden geçirme"
+      "durum": "gozden_gecirildi",
+      "surum": 2,
+      "son_guncelleme": "2026-10-30T02:19:07Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 2: 12 arama, 9 kaynak okundu; uzman rolü (Wharton 2025) ve kibarlık araştırması, Anthropic düşünme güncellemesi, özel talimatlar/Gem bilgisi, 'Efsane mi gerçek mi?' quiz slaytı ve 4 yeni SSS eklendi."
     },
     {
       "id": "h2-03",
@@ -526,6 +526,10 @@
     {
       "zaman": "2026-10-30T01:17:29Z",
       "ozet": "h2-01: Gözden geçirildi (12 arama, 11 kaynak okundu); Claude Fable 5.1 ve ücretsiz plan resmî kaynakla doğrulandı, Copilot birleşmesi ve Türkçe tokenizasyon çalışması eklendi, 4 yeni SSS."
+    },
+    {
+      "zaman": "2026-10-30T02:19:07Z",
+      "ozet": "h2-02: Gözden geçirildi (12 arama, 9 kaynak okundu); uzman rolü ve kibarlık efsanelerini düzelten quiz slaytı, güncel düşünen model bilgisi, özel talimatlar ve 4 yeni SSS eklendi."
     }
   ]
 }
