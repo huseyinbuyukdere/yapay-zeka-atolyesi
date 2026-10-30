@@ -23,12 +23,12 @@
         "Mentimeter/Kahoot ile oylama akışı; oyun sonrası 'neden yanıldık?' sohbeti",
         "Atölyenin 4 haftalık yol haritasının tanıtımı ve beklenti toplama"
       ],
-      "durum": "gozden_gecirildi",
+      "durum": "uretiliyor",
       "surum": 2,
       "son_guncelleme": "2026-10-29T19:35:20Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Aşama 2: Yüz ayırt etme eğitimi bilgisi düzeltildi (PNAS Haziran 2026: ~%40→%80; \"1 saat/45 kişi\" doğrulanamadığı için çıkarıldı), Reading 2025 çalışması ve 2023 hiper-gerçekçilik ayrıntısı eklendi, Mentimeter/Kahoot sınırları yeniden doğrulandı, 4 yeni SSS, final bölümüyle \"Tanı-Konuş-Üret-İşine taşı\" köprüsü."
+      "sahip": "20261030T1613Z",
+      "sahip_zamani": "2026-10-30T16:13:30Z",
+      "not": "Önceki durum: gozden_gecirildi. Aşama 3 (cila) başladı. Önceki not: Aşama 2: Yüz ayırt etme eğitimi bilgisi düzeltildi (PNAS Haziran 2026: ~%40→%80; \"1 saat/45 kişi\" doğrulanamadığı için çıkarıldı), Reading 2025 çalışması ve 2023 hiper-gerçekçilik ayrıntısı eklendi, Mentimeter/Kahoot sınırları yeniden doğrulandı, 4 yeni SSS, final bölümüyle \"Tanı-Konuş-Üret-İşine taşı\" köprüsü."
     },
     {
       "id": "h1-02",
