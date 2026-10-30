@@ -254,12 +254,12 @@
         "Fotoğraf düzenleme: arka plan değiştirme, ışık, nesne ekleme/çıkarma",
         "Türkçe metin yazdırma, el/yüz hataları gibi tipik kusurlar ve çözüm ipuçları"
       ],
-      "durum": "taslak",
+      "durum": "uretiliyor",
       "surum": 1,
       "son_guncelleme": "2026-10-29T16:40:04Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Aşama 1: 13 slayt (beş parçalı formül SVG'si, renkli talimat çözümlemesi, dört stil, dört araç tablosu, tek tek düzenleme SVG'si, 10 dk ikili istasyon, kusurlar, eksik parça quizi, arkadaş fotoğrafı oylaması), 11 kaynaklı not. Gemini ve Firefly ücretsiz günlük limitleri resmî sayfalarda sayı olarak yok; Midjourney fiyatı ikincil kaynaktan."
+      "sahip": "20261030T0711Z",
+      "sahip_zamani": "2026-10-30T07:11:25Z",
+      "not": "Önceki durum: taslak (aşama 2 gözden geçirme sürüyor). Aşama 1: 13 slayt (beş parçalı formül SVG'si, renkli talimat çözümlemesi, dört stil, dört araç tablosu, tek tek düzenleme SVG'si, 10 dk ikili istasyon, kusurlar, eksik parça quizi, arkadaş fotoğrafı oylaması), 11 kaynaklı not. Gemini ve Firefly ücretsiz günlük limitleri resmî sayfalarda sayı olarak yok; Midjourney fiyatı ikincil kaynaktan."
     },
     {
       "id": "h3-03",
