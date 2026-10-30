@@ -292,12 +292,12 @@
         "Çıktı listesi: slogan ve tanıtım metni, afiş, 30 sn jingle, 5-8 sn video, 3 slaytlık sunum (Gamma veya Canva)",
         "Sunum ve salon oylaması için değerlendirme ölçütleri; sunucu için sorun giderme ipuçları"
       ],
-      "durum": "taslak",
+      "durum": "uretiliyor",
       "surum": 1,
       "son_guncelleme": "2026-10-29T16:55:33Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Aşama 1: 13 slayt (görev kartı, dört rol, çıktı listesi, 35 dk zaman planı SVG'si, hazır talimat tablosu, kırmızı çizgiler ve 1 Ağustos 2026 reklam yönetmeliği, 18 dk üretim, sunum formatı, dört ölçütlü nokta oylaması, sorun giderme), yazdırılabilir kartlı 10 kaynaklı not. Yönetmelik bilgisi iki Türkçe ikincil kaynaktan (Resmî Gazete metni açılmadı); Gamma kotası ikincil kaynaktan. Başlangıç talimatları slaytı kelime sınırını aşıyor (başvuru slaytı)."
+      "sahip": "20261030T0911Z",
+      "sahip_zamani": "2026-10-30T09:11:32Z",
+      "not": "önceki durum: taslak (aşama 2 gözden geçirme)"
     },
     {
       "id": "h3-05",
