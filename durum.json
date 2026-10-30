@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-30T14:25:02Z",
-  "calisma_sayisi": 36,
+  "son_calisma": "2026-10-30T15:25:39Z",
+  "calisma_sayisi": 37,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -387,12 +387,12 @@
         "AB Yapay Zekâ Yasası: 2 Ağustos 2026 şeffaflık kuralları, Dijital Omnibus ile ertelenen yüksek risk kuralları",
         "Türkiye: Yapay Zekâ Eylem Planı 2026-2030, TBMM'deki kanun teklifinin güncel durumu, KVKK — hukuki tavsiye vermeden"
       ],
-      "durum": "uretiliyor",
-      "surum": 1,
-      "son_guncelleme": "2026-10-29T20:29:05Z",
-      "sahip": "20261030T1516Z",
-      "sahip_zamani": "2026-10-30T15:16:37Z",
-      "not": "önceki durum: taslak; aşama 2 gözden geçirme sürüyor"
+      "durum": "gozden_gecirildi",
+      "surum": 2,
+      "son_guncelleme": "2026-10-30T15:25:39Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 2: TBMM resmî sayfasıyla 2/3358'in 'Komisyonda' olduğu doğrulandı, üçüncü teklif (Aralık 2025, 5651) eklendi; AB Parlamento oyu ve gönüllü etiket kılavuzu; Queen Mary %58 tahmin etkileşimi; Afyonkarahisar operasyonu; iş yeri ses taklidi; 4 yeni SSS."
     },
     {
       "id": "h4-05",
@@ -578,6 +578,10 @@
     {
       "zaman": "2026-10-30T14:25:02Z",
       "ozet": "h4-05: Gözden geçirildi (13 arama, 10 kaynak okundu); Dijital Üniversite'nin kontenjan/İngilizce ölçütleri, devletin okuryazarlık programının henüz açılmadığı, Google öğrenci teklifinin ücret koşulu ve 2024 alışkanlık derlemesi eklendi; eşleştirme etkileşimi ve 4 yeni SSS."
+    },
+    {
+      "zaman": "2026-10-30T15:25:39Z",
+      "ozet": "h4-04: Gözden geçirildi (9 arama, 11 kaynak okundu); TBMM sayfasından teklif durumu doğrulandı, üçüncü teklif, AB oylama ve etiket kılavuzu, %58 klon ses tahmin etkileşimi, iş yeri doğrulama kuralı ve 4 yeni SSS eklendi."
     }
   ]
 }
