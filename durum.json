@@ -159,12 +159,12 @@
         "Sohbeti sürdürerek düzelttirme, asistandan soru sormasını isteme, adım adım düşündürme",
         "Katılımcıların kendi işinden talimat yazdığı mini alıştırma"
       ],
-      "durum": "taslak",
+      "durum": "uretiliyor",
       "surum": 1,
       "son_guncelleme": "2026-10-29T15:53:12Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Aşama 1: 13 slayt (ROBOT harfleri SVG'si, renkli talimat çözümlemesi, beş meslek tablosu, eksik harf oyunu, süper hamleler, 8 dk mini alıştırma), 9 kaynaklı not. Düşünen modlarda 'adım adım düşün' önerisinin değiştiği notlandı."
+      "sahip": "20261030T0209Z",
+      "sahip_zamani": "2026-10-30T02:09:24Z",
+      "not": "önceki durum: taslak; aşama 2 gözden geçirme"
     },
     {
       "id": "h2-03",
