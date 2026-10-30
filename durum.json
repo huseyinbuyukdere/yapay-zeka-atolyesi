@@ -273,12 +273,12 @@
         "Video: Kling, Runway, Google Veo, Hailuo, Pika — ücretsiz kotalar ve hangi iş için hangisi (Ekim 2026, doğrulanmış)",
         "Kısa video talimatı yazma formülü (sahne, hareket, kamera, süre)"
       ],
-      "durum": "taslak",
+      "durum": "uretiliyor",
       "surum": 1,
       "son_guncelleme": "2026-10-29T16:50:22Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Aşama 1: 13 slayt (stil/söz kutusu, canlı jingle, Suno ücretsiz ve ticari kuralları, seslendirme, ses klonlama oylaması, beş video aracı tablosu, iş-araç kartları, dört parçalı video formülü SVG'si, renkli talimat, eksik parça quizi), 14 kaynaklı not. Video ve ElevenLabs kotaları ikincil kaynaklardan; resmî fiyat sayfaları açılamadı; Lyria 3 ticari koşulları doğrulanmadı."
+      "sahip": "20261030T0809Z",
+      "sahip_zamani": "2026-10-30T08:09:51Z",
+      "not": "ÖNCEKİ DURUM: taslak | Aşama 1: 13 slayt (stil/söz kutusu, canlı jingle, Suno ücretsiz ve ticari kuralları, seslendirme, ses klonlama oylaması, beş video aracı tablosu, iş-araç kartları, dört parçalı video formülü SVG'si, renkli talimat, eksik parça quizi), 14 kaynaklı not. Video ve ElevenLabs kotaları ikincil kaynaklardan; resmî fiyat sayfaları açılamadı; Lyria 3 ticari koşulları doğrulanmadı."
     },
     {
       "id": "h3-04",
