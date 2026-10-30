@@ -178,12 +178,12 @@
         "Halüsinasyon avı: asistanın uydurma bilgi verdiği tipik durumlar ve kaynakla doğrulama",
         "Doğrulama alışkanlığı kontrol listesi"
       ],
-      "durum": "taslak",
+      "durum": "uretiliyor",
       "surum": 1,
       "son_guncelleme": "2026-10-29T15:57:59Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Aşama 1: 13 slayt (beş asistan tablosu, EBU-BBC ve kaynak doğruluğu araştırmaları, kaynak SVG'si, mahkeme vakaları, ekip tablosu, link oylaması, dört adımlı doğrulama SVG'si), 12 kaynaklı not. Copilot'un 2026 yeniden yapılanmasında kaynaklar çelişkili; Claude ücretsiz plan modeli ikincil kaynaktan."
+      "sahip": "20261030T0308Z",
+      "sahip_zamani": "2026-10-30T03:08:55Z",
+      "not": "önceki durum: taslak (aşama 2 gözden geçirme)"
     },
     {
       "id": "h2-04",
