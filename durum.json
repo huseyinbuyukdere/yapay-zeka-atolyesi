@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-30T09:15:41Z",
-  "calisma_sayisi": 31,
+  "son_calisma": "2026-10-30T10:19:03Z",
+  "calisma_sayisi": 32,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -311,12 +311,12 @@
         "Gerçek kişileri ve markaları taklit etmemek; deepfake; etiketleme",
         "Haftalık görev: 'Kendi vitrinin' ve final projesi için fikir"
       ],
-      "durum": "uretiliyor",
-      "surum": 1,
-      "son_guncelleme": "2026-10-29T16:59:47Z",
-      "sahip": "20261030T1010Z",
-      "sahip_zamani": "2026-10-30T10:10:32Z",
-      "not": "Önceki durum: taslak (aşama 2 gözden geçirme sürüyor)"
+      "durum": "gozden_gecirildi",
+      "surum": 2,
+      "son_guncelleme": "2026-10-30T10:19:03Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 2: FSEK teklifi TBMM kaydıyla doğrulandı (2/3634, 8 Nisan 2026, komisyonda); Getty temyiz izni, Allen davasının sürmesi, AB nihai etiket kuralları ve Omnibus'un 2 Aralık 2026 tarihleri, Suno'nun geriye dönük hak vermemesi, Türk hukukunda deepfake çerçevesi ve 4 yeni SSS eklendi; h4-04 ile tekrar notları kondu."
     },
     {
       "id": "h4-01",
@@ -558,6 +558,10 @@
     {
       "zaman": "2026-10-30T09:15:41Z",
       "ozet": "h3-04: Gözden geçirildi (12 arama, 9 kaynak okundu); zaman planı ve kontrol noktaları geri sayıma göre düzeltildi, reklam yönetmeliği Ticaret Bakanlığı duyurusuyla, Gamma/Suno/Canva kotaları resmî sayfalarla doğrulandı, hesap hazırlığı ve 5 yeni SSS eklendi."
+    },
+    {
+      "zaman": "2026-10-30T10:19:03Z",
+      "ozet": "h3-05: Gözden geçirildi (13 arama, 9 kaynak okundu); FSEK teklifi TBMM'den doğrulandı (2/3634, komisyonda), Getty temyizi, Allen davası, AB nihai etiket kuralları ve Omnibus tarihleri, Suno geriye dönük hak kuralı, Türk hukukunda deepfake ve 4 yeni SSS eklendi."
     }
   ]
 }
