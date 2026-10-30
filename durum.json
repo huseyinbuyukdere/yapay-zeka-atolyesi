@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-30T06:26:06Z",
-  "calisma_sayisi": 28,
+  "son_calisma": "2026-10-30T07:21:14Z",
+  "calisma_sayisi": 29,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -254,12 +254,12 @@
         "Fotoğraf düzenleme: arka plan değiştirme, ışık, nesne ekleme/çıkarma",
         "Türkçe metin yazdırma, el/yüz hataları gibi tipik kusurlar ve çözüm ipuçları"
       ],
-      "durum": "uretiliyor",
-      "surum": 1,
-      "son_guncelleme": "2026-10-29T16:40:04Z",
-      "sahip": "20261030T0711Z",
-      "sahip_zamani": "2026-10-30T07:11:25Z",
-      "not": "Önceki durum: taslak (aşama 2 gözden geçirme sürüyor). Aşama 1: 13 slayt (beş parçalı formül SVG'si, renkli talimat çözümlemesi, dört stil, dört araç tablosu, tek tek düzenleme SVG'si, 10 dk ikili istasyon, kusurlar, eksik parça quizi, arkadaş fotoğrafı oylaması), 11 kaynaklı not. Gemini ve Firefly ücretsiz günlük limitleri resmî sayfalarda sayı olarak yok; Midjourney fiyatı ikincil kaynaktan."
+      "durum": "gozden_gecirildi",
+      "surum": 2,
+      "son_guncelleme": "2026-10-30T07:21:14Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 2: 13 arama, 12 kaynak okundu. Canva kotası yeni yapıya göre düzeltildi (Free: 20 premium/200 standart, görsel premium), Gemini'nin üç modeli, 18 yaş şartı, 1K/2K indirme, Nano Banana 2.1 (API), ChatGPT Images 2.5 yedek araç, Midjourney V8.2 ve Thinking Mode, Firefly Standard fiyatı eklendi; 5 yeni SSS. Midjourney fiyatı yine ikincil kaynaktan."
     },
     {
       "id": "h3-03",
@@ -546,6 +546,10 @@
     {
       "zaman": "2026-10-30T06:26:06Z",
       "ozet": "h3-01: Gözden geçirildi (14 arama, 11 kaynak okundu); Lyria 3 Pro, Omni 1.1 Flash, Sora kapanış tarihleri, herkese açılan SynthID Detector, C2PA 2.3 ve Suno'ya yeni dava eklendi, 4 yeni SSS."
+    },
+    {
+      "zaman": "2026-10-30T07:21:14Z",
+      "ozet": "h3-02: Gözden geçirildi (13 arama, 12 kaynak okundu); Canva'nın yeni kota yapısı düzeltildi, Gemini model seçimi ve 18 yaş şartı, ChatGPT Images 2.5 yedek araç, Midjourney V8.2 güncellemesi ve 5 yeni SSS eklendi."
     }
   ]
 }
