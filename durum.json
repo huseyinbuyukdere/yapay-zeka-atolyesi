@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-30T03:14:54Z",
-  "calisma_sayisi": 25,
+  "son_calisma": "2026-10-30T04:18:47Z",
+  "calisma_sayisi": 26,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -197,12 +197,12 @@
         "Derin araştırma (Deep Research) özellikleri: hangi asistanda nasıl, ne zaman kullanılır",
         "Örnek belge önerileri (kişisel veri içermeyen, telif sorunu olmayan)"
       ],
-      "durum": "uretiliyor",
-      "surum": 1,
-      "son_guncelleme": "2026-10-29T16:07:39Z",
-      "sahip": "20261030T0409Z",
-      "sahip_zamani": "2026-10-30T04:09:08Z",
-      "not": "önceki durum: taslak (aşama 2 gözden geçirme)"
+      "durum": "gozden_gecirildi",
+      "surum": 2,
+      "son_guncelleme": "2026-10-30T04:18:47Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 2: 13 arama, 10 kaynak okundu. Not defteri başına 50 kaynak/500.000 kelime/200 MB resmî yardım sayfasından, Gemini derin araştırmanın ücretsizde günlük sınırlı olduğu ve Claude Research'ün yalnızca ücretlide olduğu resmî sayfalardan doğrulandı; Ekim yenilikleri (İncele seçeneği, @Gemini Notebook), not defteri içi Deep Research, Türkçe ad 'Gemini Not Defteri', uydurma bağlantı çalışması (Nisan 2026) ve tahmin sorusu eklendi; 5 yeni SSS."
     },
     {
       "id": "h2-05",
@@ -534,6 +534,10 @@
     {
       "zaman": "2026-10-30T03:14:54Z",
       "ozet": "h2-03: Gözden geçirildi (14 arama, 11 kaynak okundu); asistan tablosu yeniden doğrulandı, 'çalışan bağlantı ≠ doğru kaynak' bulgusu, mahkemelerin önlemleri ve Türkiye'deki baro tartışması eklendi, künye sadeleştirildi, 4 yeni SSS."
+    },
+    {
+      "zaman": "2026-10-30T04:18:47Z",
+      "ozet": "h2-04: Gözden geçirildi (13 arama, 10 kaynak okundu); kaynak sınırları ve derin araştırma tablosu resmî sayfalarla doğrulandı, Ekim 2026 yenilikleri, not defteri içi derin araştırma, uydurma bağlantı bulgusu ve 5 yeni SSS eklendi."
     }
   ]
 }
