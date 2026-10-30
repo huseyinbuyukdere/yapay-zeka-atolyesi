@@ -216,12 +216,12 @@
         "KVKK açısından temel dikkat noktaları; kurum politikaları",
         "Haftalık görev: 'Asistanla gerçek bir iş'"
       ],
-      "durum": "taslak",
+      "durum": "uretiliyor",
       "surum": 1,
       "son_guncelleme": "2026-10-29T16:11:41Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Aşama 1: 10 slayt (müşteri bilgisi oylaması, yazılmayacaklar, 2023 sızıntı örneği, dört asistanda eğitim ayarı tablosu, veri yolu SVG'si, KVKK rehberi, haftalık görev), 10 kaynaklı not. Ayar adlarının Türkçe arayüz karşılıkları ve KVKK rehberinin madde madde önerileri (PDF) doğrulanamadı."
+      "sahip": "20261030T0509Z",
+      "sahip_zamani": "2026-10-30T05:09:19Z",
+      "not": "Önceki durum: taslak. Aşama 1: 10 slayt (müşteri bilgisi oylaması, yazılmayacaklar, 2023 sızıntı örneği, dört asistanda eğitim ayarı tablosu, veri yolu SVG'si, KVKK rehberi, haftalık görev), 10 kaynaklı not. Ayar adlarının Türkçe arayüz karşılıkları ve KVKK rehberinin madde madde önerileri (PDF) doğrulanamadı."
     },
     {
       "id": "h3-01",
