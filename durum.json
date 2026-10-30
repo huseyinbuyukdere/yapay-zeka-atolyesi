@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-30T10:19:03Z",
-  "calisma_sayisi": 32,
+  "son_calisma": "2026-10-30T11:21:08Z",
+  "calisma_sayisi": 33,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -330,12 +330,12 @@
         "Ekim 2026 itibarıyla tüketiciye açık ajan özellikleri (ChatGPT, Gemini, Claude, Copilot) — resmi kaynaktan doğrulanmış",
         "Ajanlarla çalışırken insan kontrolü ve güvenlik"
       ],
-      "durum": "uretiliyor",
-      "surum": 1,
-      "son_guncelleme": "2026-10-29T17:04:34Z",
-      "sahip": "20261030T1111Z",
-      "sahip_zamani": "2026-10-30T11:11:15Z",
-      "not": "önceki durum: taslak (aşama 2 gözden geçirme sürüyor)"
+      "durum": "gozden_gecirildi",
+      "surum": 2,
+      "son_guncelleme": "2026-10-30T11:21:08Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 2: Gemini özelliği yardım sayfasındaki yeni adıyla 'Görevler' (Etkinliği sakla, Kişisel Zekâ, Mac şartları), Claude in Chrome'un 26 Ağustos 2026'da betadan çıkışı, ChatGPT Work'ün ücretsizde sınırlı/masaüstü olduğu (ikincil 2 kaynak), Copilot'un çerez erişimi ve 19 Ekim güncel ABD sınırı, 2026 gerçek istem enjeksiyonu raporları eklendi; 'Gizli yazıyı bul' SVG mini oyun slaytı ve 5 yeni SSS."
     },
     {
       "id": "h4-02",
@@ -562,6 +562,10 @@
     {
       "zaman": "2026-10-30T10:19:03Z",
       "ozet": "h3-05: Gözden geçirildi (13 arama, 9 kaynak okundu); FSEK teklifi TBMM'den doğrulandı (2/3634, komisyonda), Getty temyizi, Allen davası, AB nihai etiket kuralları ve Omnibus tarihleri, Suno geriye dönük hak kuralı, Türk hukukunda deepfake ve 4 yeni SSS eklendi."
+    },
+    {
+      "zaman": "2026-10-30T11:21:08Z",
+      "ozet": "h4-01: Gözden geçirme tamamlandı (12 arama, 11 kaynak okundu; gizli yazı mini oyunu, Görevler adı, Claude in Chrome genel erişim, gerçek enjeksiyon raporları)."
     }
   ]
 }
