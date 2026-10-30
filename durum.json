@@ -82,12 +82,12 @@
         "Olası teknik sorunlar (kamera izni, yavaş bilgisayar) ve B planı; telefonla yapılabilir mi?",
         "Alternatif eğlenceli demo: Quick, Draw!"
       ],
-      "durum": "gozden_gecirildi",
+      "durum": "uretiliyor",
       "surum": 2,
       "son_guncelleme": "2026-10-29T22:18:40Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Aşama 2: 8 arama, 7 yeni kaynak okundu. Aracın Ekim 2026'da ücretsiz olduğu doğrulandı; dengesiz veri benzetmesi, Chrome/Windows-macOS önerisi, iPad sürümünün bağımsız olduğu, 5 yeni SSS, husky köprüsü eklendi. Telefon tarayıcısında eğitim hâlâ doğrulanamadı."
+      "sahip": "20261030T1909Z",
+      "sahip_zamani": "2026-10-30T19:09:36Z",
+      "not": "ÖNCEKİ DURUM: gozden_gecirildi | Aşama 2: 8 arama, 7 yeni kaynak okundu. Aracın Ekim 2026'da ücretsiz olduğu doğrulandı; dengesiz veri benzetmesi, Chrome/Windows-macOS önerisi, iPad sürümünün bağımsız olduğu, 5 yeni SSS, husky köprüsü eklendi. Telefon tarayıcısında eğitim hâlâ doğrulanamadı."
     },
     {
       "id": "h1-05",
