@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-30T21:23:14Z",
-  "calisma_sayisi": 43,
+  "son_calisma": "2026-10-30T22:20:24Z",
+  "calisma_sayisi": 44,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -140,12 +140,12 @@
         "Bilgi kesim tarihi, web araması, 'düşünerek cevap veren' (akıl yürüten) modeller",
         "Ekim 2026 itibarıyla güncel asistanlar ve model aileleri (doğrulanmış)"
       ],
-      "durum": "uretiliyor",
-      "surum": 2,
-      "son_guncelleme": "2026-10-30T01:17:29Z",
-      "sahip": "20261030T2209Z",
-      "sahip_zamani": "2026-10-30T22:09:12Z",
-      "not": "onceki_durum: gozden_gecirildi; aşama 3 (cila) başladı"
+      "durum": "cilalandi",
+      "surum": 3,
+      "son_guncelleme": "2026-10-30T22:20:24Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 3 (cila): iki yeni SVG (yetişme akışı, hızlı/düşünen mod yolları; toplam 4), GPT-6 Ekim sürümü OpenAI birincil kaynakla teyit, GPT-6.1 Sol/Terra ve Gemini AI Plus notu, uzun sohbet araştırması, 2 yeni SSS, 6 yeni kaynak."
     },
     {
       "id": "h2-02",
@@ -606,6 +606,10 @@
     {
       "zaman": "2026-10-30T21:23:14Z",
       "ozet": "h1-06: Cilalandı (13 arama, 7 kaynak okundu); vaat/kapanış cümleleri, sağlıkta iş bölümü SVG'si, Nisan 2026 mamografi verisi, okuryazarlık programı ve CİMER örneği, TÜİK karşıtlığı, 3 yeni SSS."
+    },
+    {
+      "zaman": "2026-10-30T22:20:24Z",
+      "ozet": "h2-01: Cilalandı (12 arama, 10 kaynak okundu); okuma–terbiye–sohbet ve hızlı/düşünen mod SVG'leri, OpenAI Ekim GPT-6 birincil teyidi, GPT-6.1 Terra/Sol ve Gemini AI Plus ayrıntısı, uzun sohbet uyarısı, 2 yeni SSS."
     }
   ]
 }

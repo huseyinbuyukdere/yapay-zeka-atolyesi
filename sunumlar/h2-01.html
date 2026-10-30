@@ -138,15 +138,41 @@
       <!-- 7. NASIL YETİŞİR -->
       <section>
         <h2>Bir asistan nasıl yetişir?</h2>
-        <div class="kartlar">
-          <div class="kart fragment"><span class="simge" aria-hidden="true">📚</span><h3>1. Okuma</h3><p>Devasa metinden “sıradaki parça ne?” oyunuyla öğrenir</p></div>
-          <div class="kart fragment turkuaz"><span class="simge" aria-hidden="true">🧑‍🏫</span><h3>2. Terbiye</h3><p>İnsanların örnek ve geri bildirimiyle “yardımsever asistan” olur</p></div>
-          <div class="kart fragment altin"><span class="simge" aria-hidden="true">💬</span><h3>3. Sohbet</h3><p>Sizin sorunuzu bağlam yapıp devamını yazar</p></div>
-        </div>
+        <svg role="img" aria-label="Akış çizimi: Bir asistanın üç aşaması. Okuma: kütüphaneler dolusu metinden sıradaki parçayı tahmin etmeyi öğrenir. Terbiye: insanların örnek ve puanlarıyla yardımsever asistana dönüşür. Sohbet: sizin mesajınızın devamını yazar." viewBox="0 0 1000 340" width="1000" height="340">
+          <defs>
+            <marker id="ok2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="var(--murekkep-acik)"/></marker>
+          </defs>
+          <g class="fragment">
+            <rect x="20" y="40" width="280" height="200" rx="22" fill="var(--murekkep-acik)"/>
+            <text x="160" y="105" text-anchor="middle" font-size="46">📚</text>
+            <text x="160" y="155" text-anchor="middle" font-size="30" fill="#fff" font-weight="bold">1. Okuma</text>
+            <text x="160" y="192" text-anchor="middle" font-size="20" fill="#fff">“sıradaki parça ne?”</text>
+            <text x="160" y="218" text-anchor="middle" font-size="20" fill="#fff">milyarlarca kez</text>
+            <text x="160" y="290" text-anchor="middle" font-size="22" fill="var(--murekkep-acik)">bilgili ama ham</text>
+          </g>
+          <g class="fragment">
+            <line x1="305" y1="140" x2="355" y2="140" stroke="var(--murekkep-acik)" stroke-width="5" marker-end="url(#ok2)"/>
+            <rect x="360" y="40" width="280" height="200" rx="22" fill="var(--turkuaz)"/>
+            <text x="500" y="105" text-anchor="middle" font-size="46">🧑‍🏫</text>
+            <text x="500" y="155" text-anchor="middle" font-size="30" fill="#fff" font-weight="bold">2. Terbiye</text>
+            <text x="500" y="192" text-anchor="middle" font-size="20" fill="#fff">insanlar örnek gösterir,</text>
+            <text x="500" y="218" text-anchor="middle" font-size="20" fill="#fff">cevapları puanlar</text>
+            <text x="500" y="290" text-anchor="middle" font-size="22" fill="var(--turkuaz)">yardımsever asistan</text>
+          </g>
+          <g class="fragment">
+            <line x1="645" y1="140" x2="695" y2="140" stroke="var(--murekkep-acik)" stroke-width="5" marker-end="url(#ok2)"/>
+            <rect x="700" y="40" width="280" height="200" rx="22" fill="var(--altin)"/>
+            <text x="840" y="105" text-anchor="middle" font-size="46">💬</text>
+            <text x="840" y="155" text-anchor="middle" font-size="30" fill="#fff" font-weight="bold">3. Sohbet</text>
+            <text x="840" y="192" text-anchor="middle" font-size="20" fill="#fff">sizin mesajınız =</text>
+            <text x="840" y="218" text-anchor="middle" font-size="20" fill="#fff">devamı yazılacak metin</text>
+            <text x="840" y="290" text-anchor="middle" font-size="22" fill="var(--kiremit)">model burada öğrenmez</text>
+          </g>
+        </svg>
         <aside class="notes">
           Ne söyle: Bir asistan üç aşamada yetişir. Birinci aşama okuma: Kitaplar, makaleler, web sayfaları dolusu metinle "sıradaki parça ne?" oyununu milyarlarca kez oynar. Bu aşamadan çıkan model çok bilgilidir ama kibar bir asistan değildir; her metni sadece sürdürür. İkinci aşama terbiye: İnsanlar ona örnek sorular ve iyi cevaplar gösterir, cevaplarını puanlar. Böylece soruya cevap veren, kurallara uyan bir asistana dönüşür. Üçüncü aşama sizinle sohbet: Yazdığınız her şey, onun devam ettireceği metnin başlangıcı olur. İşte bu yüzden iyi talimat yazmak önemli; bir sonraki bölümün konusu.
           Süre: 2,5 dk.
-          Dikkat: Sohbet sırasında model yeniden eğitilmez. "Sizden öğreniyor mu?" sorusu gelirse: "O konuşma boyunca dikkate alır; veri ayarlarını bu haftanın son bölümünde konuşacağız."
+          Dikkat: Sohbet sırasında model yeniden eğitilmez. "Sizden öğreniyor mu?" sorusu gelirse: "O konuşma boyunca dikkate alır; veri ayarlarını bu haftanın son bölümünde konuşacağız." Pratik ipucu olarak ekleyebilirsin: Çok uzayan sohbetlerde asistan dağılmaya başlayabilir; konu değişince yeni sohbet açmak iyi bir alışkanlık.
         </aside>
       </section>
 
@@ -245,11 +271,30 @@
       <!-- 13. DÜŞÜNEN MODELLER -->
       <section>
         <h2>“Düşünerek” cevap veren modeller</h2>
-        <div class="kartlar">
-          <div class="kart fragment"><span class="simge" aria-hidden="true">⚡</span><h3>Hızlı mod</h3><p>Aklına ilk geleni yazar. Kısa sorular, çeviri, e-posta</p></div>
-          <div class="kart fragment turkuaz"><span class="simge" aria-hidden="true">🧮</span><h3>Düşünen mod</h3><p>Önce taslakta adım adım çalışır. Hesap, plan, karşılaştırma</p></div>
-          <div class="kart fragment altin"><span class="simge" aria-hidden="true">⏳</span><h3>Bedeli</h3><p>Daha yavaş, kotayı daha hızlı bitirir; basit işte “fazla düşünür”</p></div>
-        </div>
+        <svg role="img" aria-label="İki yol çizimi: Hızlı modda soru doğrudan cevaba gider; kısa sorular, çeviri, e-posta için. Düşünen modda soru önce adım adım taslak ve kontrol döngüsünden geçer, sonra cevaba ulaşır; hesap, plan, karşılaştırma için. Bedeli daha yavaş olması ve kotayı daha hızlı bitirmesidir." viewBox="0 0 1000 360" width="1000" height="360">
+          <defs>
+            <marker id="ok3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="var(--murekkep-acik)"/></marker>
+          </defs>
+          <rect x="20" y="130" width="150" height="80" rx="18" fill="var(--murekkep-acik)"/>
+          <text x="95" y="180" text-anchor="middle" font-size="28" fill="#fff">❓ Soru</text>
+          <rect x="830" y="130" width="150" height="80" rx="18" fill="var(--murekkep)"/>
+          <text x="905" y="180" text-anchor="middle" font-size="28" fill="#fff">💬 Cevap</text>
+          <g class="fragment">
+            <path d="M170 150 C 350 40, 650 40, 828 150" fill="none" stroke="var(--kiremit)" stroke-width="6" marker-end="url(#ok3)"/>
+            <text x="500" y="55" text-anchor="middle" font-size="26" fill="var(--kiremit)">⚡ Hızlı mod: kısa soru, çeviri, e-posta</text>
+          </g>
+          <g class="fragment">
+            <path d="M170 195 C 260 300, 380 300, 420 280" fill="none" stroke="var(--turkuaz)" stroke-width="6" marker-end="url(#ok3)"/>
+            <rect x="425" y="240" width="160" height="80" rx="18" fill="var(--turkuaz)"/>
+            <text x="505" y="290" text-anchor="middle" font-size="24" fill="#fff">🧮 taslak</text>
+            <path d="M560 240 C 600 190, 650 210, 620 250" fill="none" stroke="var(--turkuaz)" stroke-width="4" marker-end="url(#ok3)"/>
+            <text x="680" y="215" font-size="20" fill="var(--turkuaz)">kontrol et 🔁</text>
+            <path d="M585 290 C 700 300, 780 260, 828 200" fill="none" stroke="var(--turkuaz)" stroke-width="6" marker-end="url(#ok3)"/>
+            <text x="505" y="350" text-anchor="middle" font-size="22" fill="var(--turkuaz)">Düşünen mod: hesap, plan, karşılaştırma</text>
+          </g>
+          <text x="905" y="250" text-anchor="middle" font-size="20" fill="var(--altin)" class="fragment">⏳ bedeli: yavaş,</text>
+          <text x="905" y="275" text-anchor="middle" font-size="20" fill="var(--altin)" class="fragment">kotayı hızlı bitirir</text>
+        </svg>
         <aside class="notes">
           Ne söyle: Matematik sınavında iki öğrenci düşünün. Biri aklına ilk gelen sayıyı yazıyor. Öteki kâğıda işlemi yazıp kontrol ediyor. Son iki yılda asistanlara ikinci öğrencinin yöntemi eklendi: "Düşünen" ya da "akıl yürüten" modeller. Cevap vermeden önce kendi içlerinde bir taslak yazar, adım adım ilerler, gerekirse yön değiştirir. Bazı uygulamalarda bunun için ayrı bir düğme ya da "çaba düzeyi" ayarı var. Bedeli: daha yavaştır ve ücretsiz kotayı daha hızlı tüketir. Basit sorularda gereksiz yere uzun düşünebilir.
           Süre: 2 dk.
@@ -275,7 +320,7 @@
           Ne söyle: Bugünkü tabloya kısaca bakalım. Her şirketin bir büyük, bir orta, bir küçük modeli var; büyük olan daha yetenekli ama pahalı, küçük olan hızlı ve ucuz. ChatGPT'de en yeni aile GPT-6; ücretli planlarda orta boy Sol, ücretsiz kullanıcılarda küçük model Luna var, 8 Ekim'den beri kademeli açılıyor. Google'da en güçlü model Gemini 4 Argon, yalnızca ücretli planlarda. 9 Ekim'den beri ücretsiz Gemini hesapları en hafif model olan Flash-Lite ile çalışıyor. Anthropic'in Claude'unda 5.5 ailesi var, en tepede de uzun işler için Fable 5.1 duruyor; ücretsiz planda orta ve küçük model var, büyükler yok. Microsoft ise Ağustos'ta iki ayrı Copilot uygulamasını tek uygulamada birleştirdi; temel sohbet ücretsiz. Bu tabloyu ezberlemeyin, birkaç ayda bir değişiyor. Hangisinin hangi işte iyi olduğunu üçüncü bölümde kendi gözümüzle deneyeceğiz.
           Süre: 2 dk.
           Salona sor: "Hanginizin telefonunda hangisi var?"
-          Dikkat: Sunumdan bir gün önce uygulamaların model seçicisine bak, değişen ad varsa güncelle. Claude'un ücretsiz planda Haiku ve Sonnet sunduğu Anthropic'in kendi eğitim sayfasında da yazıyor. Copilot'un arkasındaki modeller ve ücretsiz kota sınırları resmî olarak net yayımlanmıyor; ayrıntıya girme. Güçlü/zayıf yan karşılaştırmasını 3. bölüme bırak. Hiçbir ürünü övme ya da yerme.
+          Dikkat: Sunumdan bir gün önce uygulamaların model seçicisine bak, değişen ad varsa güncelle. Claude'un ücretsiz planda Haiku ve Sonnet sunduğu Anthropic'in kendi eğitim sayfasında da yazıyor. Copilot'un arkasındaki modeller ve ücretsiz kota sınırları resmî olarak net yayımlanmıyor; ayrıntıya girme. OpenAI'ın "Work" ve Codex bölümlerinde ayrıca GPT-6.1 Sol (29 Eylül) ve GPT-6.1 Terra (26 Ekim) adlı modeller var; bunlar ücretli planlara yönelik, sohbet ekranındaki tabloyu değiştirmiyor. Soran olursa "her şirketin ara sürümleri de var" demen yeterli. Güçlü/zayıf yan karşılaştırmasını 3. bölüme bırak. Hiçbir ürünü övme ya da yerme.
         </aside>
       </section>
 
@@ -327,11 +372,12 @@
           <li><a href="https://tr.euronews.com/2025/09/18/openai-arastirdi-yapay-zekanin-halusinasyonlari-engellenemez-mi">Yapay zekânın halüsinasyonları engellenemez mi?</a> — Euronews Türkçe, Eylül 2025</li>
           <li><a href="https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them">What are tokens?</a> — OpenAI Yardım Merkezi</li>
           <li><a href="https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/">GPT-6 Sol ve Luna</a> — TechCrunch, Eylül 2026</li>
+          <li><a href="https://deploymentsafety.openai.com/gpt-6-october">GPT-6 Sol ve Luna: Ekim 2026 güncellemesi</a> — OpenAI, Ekim 2026</li>
           <li><a href="https://www.engadget.com/2278504/google-removes-free-access-gemini-flash-pro-october-9/">Ücretsiz Gemini'de Flash-Lite</a> — Engadget, Ekim 2026</li>
           <li><a href="https://www.anthropic.com/news">Anthropic haber odası</a> — Claude 5.5 ailesi, Eylül-Ekim 2026</li>
           <li><a href="https://arxiv.org/html/2508.13058v1">Türkçe üzerinden tokenizasyon analizi</a> — arXiv, Ağustos 2025</li>
         </ul>
-        <p class="kucuk">Ayrıntılı araştırma notu: <a href="../not.html?id=h2-01">anlatıcı notu</a> · Son güncelleme: 30 Ekim 2026</p>
+        <p class="kucuk">Ayrıntılı araştırma notu: <a href="../not.html?id=h2-01">anlatıcı notu</a> · Son güncelleme: 31 Ekim 2026</p>
         <aside class="notes">
           Ne söyle: Kaynaklar burada; anlatıcı notunda yirmiden fazla kaynağın tamamı ve kısa özetleri var. Model adları her ay değiştiği için bu slaytı bir kez fotoğraflayıp bir ay sonra tekrar bakmanızı öneririm: Neyin değiştiğini görmek de bir ders.
           Süre: 15 sn.
