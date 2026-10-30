@@ -42,12 +42,12 @@
         "Yapay zekâ, makine öğrenmesi, derin öğrenme, üretken yapay zekâ ilişkisini iç içe halkalarla gösterme",
         "Katılımcılarla kısa etkileşim: 'Bu yapay zekâ mı?' örnekleri (hesap makinesi, navigasyon, spam filtresi, termostat)"
       ],
-      "durum": "gozden_gecirildi",
+      "durum": "uretiliyor",
       "surum": 2,
       "son_guncelleme": "2026-10-29T20:36:54Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Aşama 2: GPT-6 Astra/Huang tarihleri düzeltildi (3 ve 7 Eylül 2026), ARC Prize %99,9–%62,7 düzenek farkı eklendi; AB tanımının bilgi tabanlı sistemleri kapsadığı notu; Gmail %99,9 iddiası 2017'ye tarihlendi; Nest ve Mentimeter (50 katılımcı/ay) doğrulandı; Eylem Planı 2026-2030 notu; 4 yeni SSS."
+      "sahip": "20261030T1709Z",
+      "sahip_zamani": "2026-10-30T17:09:31Z",
+      "not": "Önceki durum: gozden_gecirildi (aşama 3 cila sürüyor). Aşama 2: GPT-6 Astra/Huang tarihleri düzeltildi (3 ve 7 Eylül 2026), ARC Prize %99,9–%62,7 düzenek farkı eklendi; AB tanımının bilgi tabanlı sistemleri kapsadığı notu; Gmail %99,9 iddiası 2017'ye tarihlendi; Nest ve Mentimeter (50 katılımcı/ay) doğrulandı; Eylem Planı 2026-2030 notu; 4 yeni SSS."
     },
     {
       "id": "h1-03",
