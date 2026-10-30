@@ -349,12 +349,12 @@
         "Final projesi için şablon talimatlar: hesaplayıcı, quiz, kontrol listesi, randevu listesi",
         "2 dakikalık final sunumu formatı"
       ],
-      "durum": "taslak",
+      "durum": "uretiliyor",
       "surum": 1,
       "son_guncelleme": "2026-10-29T17:29:05Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Aşama 1: Gem/Proje/GPT ücretsizlik durumu, AI Studio-Lovable-Bolt kotaları, 4 şablon ve 2 dk sunum formatı. OpenAI ve Claude resmi yardım sayfaları açılamadı; ikincil kaynaklara dayanıldı."
+      "sahip": "20261030T1212Z",
+      "sahip_zamani": "2026-10-30T12:12:45Z",
+      "not": "Önceki durum: taslak. Aşama 2 gözden geçirme sürüyor. Eski not: Aşama 1: Gem/Proje/GPT ücretsizlik durumu, AI Studio-Lovable-Bolt kotaları, 4 şablon ve 2 dk sunum formatı. OpenAI ve Claude resmi yardım sayfaları açılamadı; ikincil kaynaklara dayanıldı."
     },
     {
       "id": "h4-03",
