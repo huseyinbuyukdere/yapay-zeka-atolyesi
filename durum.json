@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-29T23:13:21Z",
-  "calisma_sayisi": 21,
+  "son_calisma": "2026-10-30T00:18:49Z",
+  "calisma_sayisi": 22,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -120,12 +120,12 @@
         "Türkiye'den örnekler (kamu, bankacılık, e-ticaret, tarım) — kaynaklı",
         "Haftalık görev: 'Yapay zekâ avı' yönergesi"
       ],
-      "durum": "uretiliyor",
-      "surum": 1,
-      "son_guncelleme": "2026-10-29T15:20:13Z",
-      "sahip": "20261030T0010Z",
-      "sahip_zamani": "2026-10-30T00:10:27Z",
-      "not": "Önceki durum: taslak. Aşama 1: 12 slayt (bir günün yapay zekâ haritası SVG'si, Türkiye örnekleri, doğru/yanlış quizi, Yapay zekâ avı görevi, hafta özeti), 13 kaynaklı not. e-Devlet yapay zekâ destek sisteminin güncel durumu doğrulanamadı."
+      "durum": "gozden_gecirildi",
+      "surum": 2,
+      "son_guncelleme": "2026-10-30T00:18:49Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 2: 14 arama, 10 kaynak okundu. Mastercard %57'nin Türkiye'ye özel değil 'küresel örnek' olduğu düzeltildi; Gmail %99,9 'doğruluk' olarak düzeltildi; MEBİ resmî MEB verisiyle (5.676.000 kullanıcı, kırılım) güncellendi; Trendyol DHA'dan doğrulandı; bankacılık satırı ve e-Devlet okuryazarlık ölçümü planı eklendi; telefon-dinleme sorusu Northeastern çalışmasıyla cevaplandı; 4 yeni SSS. e-Devlet yapay zekâ destek asistanının bugünkü durumu hâlâ doğrulanamadı."
     },
     {
       "id": "h2-01",
@@ -518,6 +518,10 @@
     {
       "zaman": "2026-10-29T23:13:21Z",
       "ozet": "h1-05: Gözden geçirildi (11 arama, 9 kaynak okundu); Turing testi ayrıntısı, Deep Blue 1996, AlphaGo 10. yıl ve okuryazarlık hedefi eklendi, 4 yeni SSS."
+    },
+    {
+      "zaman": "2026-10-30T00:18:49Z",
+      "ozet": "h1-06: Gözden geçirildi (14 arama, 10 kaynak okundu); Mastercard ve Gmail rakamlarının bağlamı düzeltildi, MEBİ resmî veriyle güncellendi, bankacılık ve e-Devlet planı eklendi, 4 yeni SSS."
     }
   ]
 }
