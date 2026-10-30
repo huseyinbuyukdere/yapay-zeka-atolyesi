@@ -159,12 +159,12 @@
         "Sohbeti sürdürerek düzelttirme, asistandan soru sormasını isteme, adım adım düşündürme",
         "Katılımcıların kendi işinden talimat yazdığı mini alıştırma"
       ],
-      "durum": "gozden_gecirildi",
+      "durum": "uretiliyor",
       "surum": 2,
       "son_guncelleme": "2026-10-30T02:19:07Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Aşama 2: 12 arama, 9 kaynak okundu; uzman rolü (Wharton 2025) ve kibarlık araştırması, Anthropic düşünme güncellemesi, özel talimatlar/Gem bilgisi, 'Efsane mi gerçek mi?' quiz slaytı ve 4 yeni SSS eklendi."
+      "sahip": "20261030T2309Z",
+      "sahip_zamani": "2026-10-30T23:09:24Z",
+      "not": "önceki durum: gozden_gecirildi (aşama 3 cila)"
     },
     {
       "id": "h2-03",
