@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-30T13:16:26Z",
-  "calisma_sayisi": 35,
+  "son_calisma": "2026-10-30T14:25:02Z",
+  "calisma_sayisi": 36,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -406,12 +406,12 @@
         "Öğrenmeye devam: YÖK Dijital Üniversite, BTK Akademi, Elements of AI ve diğer ücretsiz Türkçe kaynaklar (güncel, doğrulanmış)",
         "'30 gün, 1 alışkanlık' görevi ve bir ay sonraki buluşma önerisi"
       ],
-      "durum": "uretiliyor",
-      "surum": 1,
-      "son_guncelleme": "2026-10-29T19:22:52Z",
-      "sahip": "20261030T1416Z",
-      "sahip_zamani": "2026-10-30T14:16:17Z",
-      "not": "önceki durum: taslak; aşama 2 gözden geçirme sürüyor. Önceki not: Aşama 1: final sunum/geri bildirim akışı, 4 hafta özeti, BTK Akademi–Google Herkes için Yapay Zeka–YÖK Dijital Üniversite–Elements of AI (29.10.2026 doğrulandı), 30 gün eğer–o zaman planı ve bir ay sonra buluşma önerisi. 16 slayt, 2 SVG."
+      "durum": "gozden_gecirildi",
+      "surum": 2,
+      "son_guncelleme": "2026-10-30T14:25:02Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 2 (30.10.2026): Dijital Üniversite seçim ölçütleri ve haftalık canlı ders, Ulusal Yapay Zeka Okuryazarlığı Programı (81 il, 5 milyon; 8 Ekim'de hâlâ açılmamış), Google AI Plus öğrenci teklifi koşulları, Singh vd. 2024 alışkanlık derlemesi (≈2 ay) işlendi; kütüphane kartı benzetmesi, kaynak eşleştirme etkileşimi, 4 yeni SSS."
     }
   ],
   "gunluk": [
@@ -574,6 +574,10 @@
     {
       "zaman": "2026-10-30T13:16:26Z",
       "ozet": "h4-03: Gözden geçirildi (13 arama, 8 kaynak okundu); TÜİK 2026 verileriyle tahmin oyunu, h4-04 ile tekrarı önleyen \"işi parçala\" etkileşimi, AMA/Gallup meslek anketleri ve 4 yeni SSS eklendi."
+    },
+    {
+      "zaman": "2026-10-30T14:25:02Z",
+      "ozet": "h4-05: Gözden geçirildi (13 arama, 10 kaynak okundu); Dijital Üniversite'nin kontenjan/İngilizce ölçütleri, devletin okuryazarlık programının henüz açılmadığı, Google öğrenci teklifinin ücret koşulu ve 2024 alışkanlık derlemesi eklendi; eşleştirme etkileşimi ve 4 yeni SSS."
     }
   ]
 }
