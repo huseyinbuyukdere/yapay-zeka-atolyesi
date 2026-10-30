@@ -24,10 +24,11 @@
         <span class="etiket">1. Hafta · 20 dakika</span>
         <h1>Yapay zekâ nedir?</h1>
         <p class="alt">Sihir değil, robot değil: örneklerden öğrenen bir çırak.</p>
+        <p class="kucuk">🎯 20 dakika sonra her cihaza bakıp “Bu yapay zekâ mı?” sorusunu gerekçesiyle cevaplayacaksınız.</p>
         <aside class="notes">
-          Ne söyle: Az önce altı örnekte bizi şaşırtan şeyin adı yapay zekâ. Peki tam olarak ne? Önümüzdeki yirmi dakikada bu soruya formülsüz, kodsuz bir cevap bulacağız. Sonunda herkes yapay zekâyı tek cümleyle anlatabilecek ve "Bu yapay zekâ mı?" sorusuna kendi gerekçesiyle cevap verebilecek.
+          Ne söyle: Az önce altı örnekte bizi şaşırtan şeyin adı yapay zekâ. Peki tam olarak nedir? Size bir söz veriyorum: Yirmi dakika sonra evinizdeki, cebinizdeki herhangi bir cihaza bakıp "Bu yapay zekâ mı, değil mi?" diye soracak ve gerekçesiyle cevap verebileceksiniz. Formül yok, kod yok; bir yemek tarifi ve bir çırak var.
           Süre: 1 dk.
-          Dikkat: Açılış oyunundan sıcak bir köprü kur; enerjiyi düşürme.
+          Dikkat: Açılış oyunundan sıcak bir köprü kur; enerjiyi düşürme. Vaadi yüksek sesle söyle; 14. slaytta bu vaadi yerine getireceksin.
         </aside>
       </section>
 
@@ -37,7 +38,7 @@
         <p class="buyuk">“Yapay zekâ” deyince aklınıza ilk gelen kelime ne?</p>
         <p class="ipucu">menti.com · ya da yüksek sesle</p>
         <aside class="notes">
-          Ne söyle: Düşünmeden, ilk gelen kelimeyi söyleyin. Doğru ya da yanlış yok.
+          Ne söyle: Düşünmeden, aklınıza ilk gelen kelimeyi söyleyin ya da telefondan yazın. Doğru ya da yanlış cevap yok; sadece bu salonun yapay zekâ hakkındaki ilk izlenimini görmek istiyorum.
           Süre: 1,5 dk.
           Salona sor: Kelime bulutunu bekle. Robot, ChatGPT, film, gelecek, korku, kolaylık gibi kelimeler gelecek. Zıt kelimeleri yan yana oku: "Birimiz korku dedi, birimiz kolaylık. İkisi de anlaşılır; bugün ikisinin arasında bir yer bulacağız."
           Dikkat: Korku dile getirilirse küçümseme; 9. slaytta döneceğini söyle.
@@ -61,13 +62,37 @@
       <section>
         <span class="etiket">Benzetme</span>
         <h2>Tarif kitabı mı, çırak mı?</h2>
-        <div class="benzetme">
-          <span class="simge" aria-hidden="true">🧑‍🍳</span>
-          <p>Klasik program tarif kitabıdır: her adım yazılıdır. Yapay zekâ ise ustasını yüzlerce kez izleyip pilavı tarifsiz yapmayı öğrenen çıraktır.</p>
-        </div>
+        <svg role="img" aria-label="İki yol. Üstte tarif kitabı: insanın yazdığı kurallar ve malzeme girer, program uygular, cevap çıkar. Altta çırak: örnekler ve doğru sonuçlar girer, sistem öğrenir, kuralı kendisi çıkarır." viewBox="0 0 1000 400" width="1000" height="400">
+          <defs>
+            <marker id="ok4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="var(--murekkep-acik)"/></marker>
+          </defs>
+          <text x="20" y="40" font-size="26" font-weight="700" fill="var(--murekkep)">📖 Tarif kitabı (klasik program)</text>
+          <rect x="20" y="62" width="270" height="100" rx="18" fill="var(--kagit-koyu)" stroke="var(--cizgi)" stroke-width="3"/>
+          <text x="155" y="104" text-anchor="middle" font-size="22" fill="var(--murekkep)">Kuralı insan yazar</text>
+          <text x="155" y="136" text-anchor="middle" font-size="20" fill="var(--murekkep-acik)">+ malzeme</text>
+          <line x1="295" y1="112" x2="385" y2="112" stroke="var(--murekkep-acik)" stroke-width="4" marker-end="url(#ok4)"/>
+          <rect x="395" y="62" width="230" height="100" rx="18" fill="var(--altin-acik)" stroke="var(--altin)" stroke-width="3"/>
+          <text x="510" y="120" text-anchor="middle" font-size="24" font-weight="700" fill="var(--murekkep)">⚙️ Uygular</text>
+          <line x1="630" y1="112" x2="720" y2="112" stroke="var(--murekkep-acik)" stroke-width="4" marker-end="url(#ok4)"/>
+          <rect x="730" y="62" width="250" height="100" rx="18" fill="var(--kagit-koyu)" stroke="var(--cizgi)" stroke-width="3"/>
+          <text x="855" y="120" text-anchor="middle" font-size="24" fill="var(--murekkep)">🍚 Cevap</text>
+          <g class="fragment">
+            <text x="20" y="238" font-size="26" font-weight="700" fill="var(--murekkep)">🧑‍🍳 Çırak (yapay zekâ)</text>
+            <rect x="20" y="260" width="270" height="100" rx="18" fill="var(--kagit-koyu)" stroke="var(--cizgi)" stroke-width="3"/>
+            <text x="155" y="302" text-anchor="middle" font-size="22" fill="var(--murekkep)">Yüzlerce örnek</text>
+            <text x="155" y="334" text-anchor="middle" font-size="20" fill="var(--murekkep-acik)">+ doğru sonuçlar</text>
+            <line x1="295" y1="310" x2="385" y2="310" stroke="var(--murekkep-acik)" stroke-width="4" marker-end="url(#ok4)"/>
+            <rect x="395" y="260" width="230" height="100" rx="18" fill="var(--turkuaz-acik)" stroke="var(--turkuaz)" stroke-width="3"/>
+            <text x="510" y="318" text-anchor="middle" font-size="24" font-weight="700" fill="var(--murekkep)">🔁 Öğrenir</text>
+            <line x1="630" y1="310" x2="720" y2="310" stroke="var(--murekkep-acik)" stroke-width="4" marker-end="url(#ok4)"/>
+            <rect x="730" y="260" width="250" height="100" rx="18" fill="var(--turkuaz)"/>
+            <text x="855" y="304" text-anchor="middle" font-size="22" font-weight="700" fill="#fff">Kuralı kendisi</text>
+            <text x="855" y="334" text-anchor="middle" font-size="22" font-weight="700" fill="#fff">çıkarır</text>
+          </g>
+        </svg>
         <aside class="notes">
-          Ne söyle: Eski usul bir bilgisayar programı tarif kitabı gibidir: "Suyu kaynat, iki bardak pirinç ekle, on beş dakika pişir." Kitapta yazmayan bir şey olursa, mesela pirinç farklıysa, ne yapacağını bilemez. Bugünkü yapay zekânın çoğu ise bir çırak gibidir: Ustasını yüzlerce kez izler, dener, yanılır, düzeltir; sonunda tarifi kimse yazmadan güzel pilav yapar.
-          Süre: 1 dk.
+          Ne söyle: Eski usul bir bilgisayar programı tarif kitabı gibidir. Tarifi insan yazar: "Suyu kaynat, iki bardak pirinç ekle, on beş dakika pişir." Program bu tarifi harfiyen uygular ve cevabı verir. Kitapta yazmayan bir şey olursa, mesela pirinç farklıysa, ne yapacağını bilemez. (İleri.) Bugünkü yapay zekânın çoğu ise bir çırak gibidir. Ona tarif vermeyiz; ustasını yüzlerce kez izletir, sonuçları gösteririz. Çırak dener, yanılır, düzeltir ve sonunda kuralı kendisi çıkarır. Dikkat edin, oklar aynı yöne gidiyor ama kutuların yeri değişti: Üstte kural bizden geliyor, altta kural makineden çıkıyor.
+          Süre: 1,5 dk.
           Dikkat (benzetmenin sınırı): Çırak neden öyle yaptığını anlatabilir, makine çoğu zaman anlatamaz. Çırak birkaç örnekten öğrenir; makine binlerce, milyonlarca örneğe ihtiyaç duyar.
         </aside>
       </section>
@@ -80,7 +105,7 @@
           <div class="fragment"><h3>🧑‍🎓 Örnekten öğrenir</h3><ul><li>Milyonlarca “spam” ve “spam değil” örneği</li><li>Ortak işaretleri kendi bulur</li><li>Yeni hileleri de yakalayabilir</li></ul></div>
         </div>
         <aside class="notes">
-          Ne söyle: Somut bir örnek: spam filtresi. Kuralı biz yazmaya kalksak "İçinde 'bedava' geçiyorsa spam" deriz. Dolandırıcı ertesi gün "b3dava" yazar, kural çöker. Kural kitabı hep eksik kalır. Örnekten öğrenen sisteme ise milyonlarca "bu spam", "bu spam değil" örneği gösteririz; ortak işaretleri kendisi bulur. Google 2017'de, Gmail'in bu yöntemle spam ve oltalama e-postalarını yüzde 99,9'un üzerinde doğrulukla dışarıda tuttuğunu açıklamıştı.
+          Ne söyle: Şimdi bu iki yolu gerçek bir örnekte görelim: e-postadaki spam filtresi. Kuralı biz yazmaya kalksak "İçinde 'bedava' geçiyorsa spam" deriz. Dolandırıcı ertesi gün "b3dava" yazar, kural çöker. Kural kitabı hep eksik kalır. Örnekten öğrenen sisteme ise milyonlarca "bu spam", "bu spam değil" örneği gösteririz; ortak işaretleri kendisi bulur. Google 2017'de, Gmail'in bu yöntemle spam ve oltalama e-postalarını yüzde 99,9'un üzerinde doğrulukla dışarıda tuttuğunu açıklamıştı.
           Süre: 1 dk.
           Salona sor: "Siz bir spam kuralı yazsanız ne yazardınız?" Bir iki cevap al.
           Dikkat: Yüzde 99,9 Google'ın 2017'deki kendi açıklaması, bağımsız doğrulama yok; "hiç spam gelmez" anlamına gelmez.
@@ -111,7 +136,7 @@
           </g>
         </svg>
         <aside class="notes">
-          Ne söyle: Bu kelimeleri hep duyuyoruz: yapay zekâ, makine öğrenmesi, derin öğrenme, üretken yapay zekâ. Bunlar rakip değil, matruşka bebekler gibi iç içe. En dışta yapay zekâ: akıllı davranan her sistem. İçinde makine öğrenmesi: kuralı örneklerden çıkaranlar, yani çıraklar. Onun içinde derin öğrenme: çok katmanlı yapay sinir ağlarıyla öğrenenler; bir sonraki bölümde bunu ses mikseri benzetmesiyle anlatacağım. En içte üretken yapay zekâ: yeni metin, resim, ses üretenler. ChatGPT, Gemini, Claude burada.
+          Ne söyle: Haberlerde dört kelimeyi sürekli duyuyoruz: yapay zekâ, makine öğrenmesi, derin öğrenme, üretken yapay zekâ. Bunlar birbirinin rakibi değil; matruşka bebekler gibi iç içe. En dışta yapay zekâ: akıllı davranan her sistem. İçinde makine öğrenmesi: kuralı örneklerden çıkaranlar, yani çıraklar. Onun içinde derin öğrenme: çok katmanlı yapay sinir ağlarıyla öğrenenler; bir sonraki bölümde bunu ses mikseri benzetmesiyle anlatacağım. En içte üretken yapay zekâ: yeni metin, resim, ses üretenler. ChatGPT, Gemini, Claude burada.
           Süre: 2,5 dk.
           Salona sor: "Açılıştaki atasözünü yazan sistem hangi halkada?" (Cevap: en içte, üretken yapay zekâ.)
           Dikkat: En içteki halka "en akıllı" demek değil; sadece daha özel bir yöntem. Sınırlar keskin değil.
@@ -138,16 +163,15 @@
         <h2>“AGI geldi mi?” tartışması</h2>
         <ul class="zaman">
           <li class="fragment"><span class="yil">2025</span> Araştırmacıların %76'sı: “Büyütmek yetmez”</li>
-          <li class="fragment"><span class="yil">Eyl. 2026</span> Yeni model duyurusu, bir CEO: “AGI geldi”</li>
+          <li class="fragment"><span class="yil">Eyl. 2026</span> Yeni model; şirket başkanı: “AGI çağına hoş geldiniz”</li>
           <li class="fragment"><span class="yil">Aynı test</span> Şirketin düzeneği %99,9 · standart düzenek %62,7</li>
-          <li class="fragment"><span class="yil">Bugün</span> Bilim insanları: “Önce tanımda anlaşalım”</li>
+          <li class="fragment"><span class="yil">Ekim 2026</span> Bağımsız ölçüm: bazı işlerde ileri, bazılarında geri</li>
         </ul>
         <aside class="notes">
-          Ne söyle: Bu tartışma şu an çok sıcak. 2025'te yapay zekâ araştırmacılarıyla yapılan 475 kişilik bir ankette dörtte üçü, bugünkü sistemleri sadece büyütmenin genel yapay zekâya götürmeyeceğini söyledi. Eylül 2026'da OpenAI GPT-6 Astra modelini tanıttı; birkaç gün sonra Nvidia'nın CEO'su Jensen Huang "AGI geldi" diye paylaşım yaptı. OpenAI'ın kendisi bu kelimeyi resmî olarak kullanmadı. (İleri.) İlginç bir ayrıntı: Zor bir bulmaca testinde model, şirketin kendi kurduğu düzenekle yüzde 99,9, testi hazırlayanların standart düzeneğiyle yüzde 62,7 aldı. Kendi hazırladığınız sınavdan tam not almak gibi. (İleri.) Buna karşılık pek çok bilim insanı, mesela Google DeepMind'ın CEO'su Demis Hassabis, sürekli öğrenme ve dünyayı tutarlı anlama gibi eksikleri hatırlatıyor. Yani cevap, AGI'yı nasıl tanımladığınıza bağlı.
+          Ne söyle: Bu tartışma şu an çok sıcak. 2025'te 475 yapay zekâ araştırmacısıyla yapılan bir ankette dörtte üçü, bugünkü sistemleri sadece büyütmenin genel yapay zekâya götürmeyeceğini söyledi. (İleri.) Eylül 2026'da OpenAI yeni modeli GPT-6 Astra'yı tanıttı. Şirketin başkanı Greg Brockman basın toplantısını "AGI çağına hoş geldiniz" diye bitirdi; ama kararı kullanıcılara bıraktı. Birkaç gün sonra Nvidia'nın CEO'su Jensen Huang da "AGI geldi" diye paylaşım yaptı. (İleri.) İşin ilginç yanı şu: Zor bir bulmaca testinde model, şirketin kendi kurduğu düzenekle yüzde 99,9, testi hazırlayanların standart düzeneğiyle yüzde 62,7 aldı. Kendi hazırladığınız sınavdan tam not almak gibi. Testi hazırlayanlar da "Buna AGI demek için kanıtımız yok" dedi. (İleri.) Ekim ayında bağımsız ölçüm yapan kuruluşlar ise karışık bir tablo buldu: Model bazı işlerde ilerlemiş, bazılarında gerilemiş; genel puanı bir önceki modelle aynı. Yani cevap, AGI'yı nasıl tanımladığınıza ve nasıl ölçtüğünüze bağlı.
           Süre: 2 dk.
-          Salona sor: "Sizce bir makineye 'genel zekâ' demek için ne görmemiz gerekir?" Bir iki cevap.
-          Dikkat: Kişilerin sözünü aktar, yorumlama ve küçümseme. Tartışma uzarsa "arada sürdürelim" de. Çip şirketinin model üreticisine yatırım yapmış ve onun tedarikçisi olduğunu hatırlatmak dengeli bir not olabilir.
-          Süre notu: Yeni madde eklendi; toplam yine 2 dakikayı geçmesin, Hassabis cümlesini kısaltabilirsin.
+          Salona sor: "Sizce bir makineye 'genel zekâ' demek için ne görmemiz gerekir?" Bir iki cevap al, yorum yapmadan teşekkür et.
+          Dikkat: Kişilerin sözünü aktar, yorumlama ve küçümseme. Tartışma uzarsa "arada sürdürelim" de. Soran olursa: Nvidia, OpenAI'a yatırım yapmış ve onun çip tedarikçisi; yani açıklamanın ticari bir boyutu da var.
         </aside>
       </section>
 
@@ -250,9 +274,9 @@
         </div>
         <p class="fragment kucuk">⚠️ Duruma göre: “21 dereceye düşünce yak” kural; alışkanlığınızı öğreneni yapay zekâ.</p>
         <aside class="notes">
-          Ne söyle: Sonuncusu evdeki termostat. Evet mi, hayır mı?
+          Ne söyle: Sonuncusu evdeki kombi termostatı. Duvarda duran o küçük kutu. Evet mi, hayır mı?
           Süre: 1 dk.
-          Cevap: Duruma göre. Klasik termostat "21 dereceye düşünce yak" kuralıyla çalışır; kuralı biz yazdık, yapay zekâ değil. Ama "öğrenen" termostatlar da var: Google'ın yardım sayfasına göre bu cihazlar birkaç gün içinde tercih ettiğiniz sıcaklıkları izleyip yaklaşık bir haftada kendi programını kuruyor. Bu özellik kapatılırsa öğrenme duruyor; yani aynı cihaz bile ayara göre çırak ya da tarif kitabı olabiliyor. Aynı cihaz türünün iki ucu: biri tarif kitabı, biri çırak.
+          Cevap: Duruma göre. Klasik termostat "21 dereceye düşünce yak" kuralıyla çalışır; kuralı biz yazdık, yapay zekâ değil. Ama "öğrenen" termostatlar da var: Google'ın yardım sayfasına göre bu cihazlar birkaç gün içinde tercih ettiğiniz sıcaklıkları izleyip yaklaşık bir haftada kendi programını kuruyor. Bu özellik kapatılırsa öğrenme duruyor; yani aynı cihaz bile ayara göre çırak ya da tarif kitabı olabiliyor.
           Dikkat: Belirli bir markayı övme; örnek olarak an.
         </aside>
       </section>
@@ -260,8 +284,9 @@
       <!-- 14. VURGU -->
       <section class="vurgu">
         <p class="buyuk">Kuralı biz yazıyorsak program; örnekten öğreniyorsa yapay zekâ.</p>
+        <p class="fragment kucuk">📖 Tarif kitabı mı, 🧑‍🍳 çırak mı? Bu hafta her cihaza bu soruyu sorun.</p>
         <aside class="notes">
-          Ne söyle: Bugünden aklınızda tek bir cümle kalsın: Kuralı biz yazıyorsak bu bir programdır; sistem kuralı örneklerden kendi çıkarıyorsa yapay zekâdır. Bu basit ölçütle hafta boyunca etrafınızdaki yapay zekâları avlayacaksınız.
+          Ne söyle: Başta size bir söz vermiştim. İşte o ölçüt, tek cümle: Kuralı biz yazıyorsak bu bir programdır; sistem kuralı örneklerden kendisi çıkarıyorsa yapay zekâdır. (İleri.) Bu hafta telefonunuza, arabanıza, bankanızın uygulamasına bakarken içinizden sorun: Bu bir tarif kitabı mı, yoksa bir çırak mı? Bu basit soruyla hafta boyunca etrafınızdaki yapay zekâları avlayacaksınız.
           Süre: 1,5 dk.
           Dikkat: Bu ölçüt bir başlangıç kestirmesidir; bazı klasik yapay zekâ sistemleri (ör. eski satranç programları, uzman sistemler) da kurallarla ve bilgi tabanlarıyla çalışır. AB'nin tanımı da bu "bilgi tabanlı" sistemleri dışlamıyor. Soran olursa bunu dürüstçe söyle.
         </aside>
@@ -276,9 +301,10 @@
           <li><a href="https://www.matheson.com/insights/eu-commission-publishes-guidelines-on-definition-of-an-ai-system/">AB'nin yapay zekâ sistemi tanımı kılavuzu</a> — Matheson, Şubat 2025</li>
           <li><a href="https://the-decoder.com/most-ai-researchers-are-skeptical-about-language-models-achieving-agi/">Araştırmacıların AGI'ya bakışı (AAAI 2025)</a> — The Decoder, Mart 2025</li>
           <li><a href="https://www.foxbusiness.com/technology/nvidia-ceo-jensen-huang-declares-agi-has-arrived-after-openai-unveils-gpt-6-astra">“AGI geldi” açıklaması</a> — Fox Business, Eylül 2026</li>
+          <li><a href="https://www.livescience.com/technology/artificial-intelligence/openai-claims-weve-entered-the-agi-era-has-gpt-6-astra-really-demonstrated-general-intelligence">GPT-6 Astra gerçekten genel zekâ mı?</a> — Live Science, Ekim 2026</li>
           <li><a href="https://deepmind.google/discover/blog/traffic-prediction-with-advanced-graph-neural-networks/">Google Maps'te varış süresi tahmini</a> — DeepMind, 2020</li>
         </ul>
-        <p class="kucuk">Ayrıntılı araştırma notu: <a href="../not.html?id=h1-02">anlatıcı notu</a> · Son güncelleme: 29 Ekim 2026</p>
+        <p class="kucuk">Ayrıntılı araştırma notu: <a href="../not.html?id=h1-02">anlatıcı notu</a> · Son güncelleme: 30 Ekim 2026</p>
         <aside class="notes">
           Ne söyle (köprü cümlesi): Yapay zekânın çoğunun bir çırak gibi örnekten öğrendiğini söyledik. Peki bu çırak nasıl öğreniyor? Bir çocuğa kediyi nasıl öğrettiğimizi düşünerek başlayalım.
           Süre: 30 sn.

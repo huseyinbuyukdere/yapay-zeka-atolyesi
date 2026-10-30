@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-30T16:30:02Z",
-  "calisma_sayisi": 38,
+  "son_calisma": "2026-10-30T17:21:20Z",
+  "calisma_sayisi": 39,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -42,12 +42,12 @@
         "Yapay zekâ, makine öğrenmesi, derin öğrenme, üretken yapay zekâ ilişkisini iç içe halkalarla gösterme",
         "Katılımcılarla kısa etkileşim: 'Bu yapay zekâ mı?' örnekleri (hesap makinesi, navigasyon, spam filtresi, termostat)"
       ],
-      "durum": "uretiliyor",
-      "surum": 2,
-      "son_guncelleme": "2026-10-29T20:36:54Z",
-      "sahip": "20261030T1709Z",
-      "sahip_zamani": "2026-10-30T17:09:31Z",
-      "not": "Önceki durum: gozden_gecirildi (aşama 3 cila sürüyor). Aşama 2: GPT-6 Astra/Huang tarihleri düzeltildi (3 ve 7 Eylül 2026), ARC Prize %99,9–%62,7 düzenek farkı eklendi; AB tanımının bilgi tabanlı sistemleri kapsadığı notu; Gmail %99,9 iddiası 2017'ye tarihlendi; Nest ve Mentimeter (50 katılımcı/ay) doğrulandı; Eylem Planı 2026-2030 notu; 4 yeni SSS."
+      "durum": "cilalandi",
+      "surum": 3,
+      "son_guncelleme": "2026-10-30T17:21:20Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 3 (cila): Kapağa vaat cümlesi ve 14. slaytta vaadi kapatan kapanış ('Tarif kitabı mı, çırak mı?'), 4. slayta iki şeritli akış SVG'si (3. SVG), notlar akıcılaştırıldı. AGI slaytı düzeltildi: 'AGI çağına hoş geldiniz' sözü şirket başkanı Brockman'a ait (Axios, Euronews TR); Ekim 2026 bağımsız ölçümleri (Live Science: genel endeks önceki modelle aynı, 61) eklendi. AAAI %79 algı bulgusu, Eylem Planı okuryazarlık rakamları (Webrazzi), Nest ve Mentimeter (ikincil) yeniden kontrol edildi; 1 yeni SSS."
     },
     {
       "id": "h1-03",
@@ -586,6 +586,10 @@
     {
       "zaman": "2026-10-30T16:30:02Z",
       "ozet": "h1-01: Cilalandı (11 arama, 8 kaynak okundu); vaat ve kapanış cümleleri, üçüncü SVG, PNAS eğitim ayrıntıları ve güncel Mentimeter/Kahoot/Gemini kotaları."
+    },
+    {
+      "zaman": "2026-10-30T17:21:20Z",
+      "ozet": "h1-02: Cilalandı (13 arama, 9 kaynak okundu); vaat/kapanış cümleleri, tarif kitabı–çırak akış SVG'si, AGI slaytında Brockman atfı düzeltildi ve Ekim 2026 bağımsız ölçümleri eklendi."
     }
   ]
 }
