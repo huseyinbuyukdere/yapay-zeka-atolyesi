@@ -406,12 +406,12 @@
         "Öğrenmeye devam: YÖK Dijital Üniversite, BTK Akademi, Elements of AI ve diğer ücretsiz Türkçe kaynaklar (güncel, doğrulanmış)",
         "'30 gün, 1 alışkanlık' görevi ve bir ay sonraki buluşma önerisi"
       ],
-      "durum": "taslak",
+      "durum": "uretiliyor",
       "surum": 1,
       "son_guncelleme": "2026-10-29T19:22:52Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Aşama 1: final sunum/geri bildirim akışı, 4 hafta özeti, BTK Akademi–Google Herkes için Yapay Zeka–YÖK Dijital Üniversite–Elements of AI (29.10.2026 doğrulandı), 30 gün eğer–o zaman planı ve bir ay sonra buluşma önerisi. 16 slayt, 2 SVG."
+      "sahip": "20261030T1416Z",
+      "sahip_zamani": "2026-10-30T14:16:17Z",
+      "not": "önceki durum: taslak; aşama 2 gözden geçirme sürüyor. Önceki not: Aşama 1: final sunum/geri bildirim akışı, 4 hafta özeti, BTK Akademi–Google Herkes için Yapay Zeka–YÖK Dijital Üniversite–Elements of AI (29.10.2026 doğrulandı), 30 gün eğer–o zaman planı ve bir ay sonra buluşma önerisi. 16 slayt, 2 SVG."
     }
   ],
   "gunluk": [
