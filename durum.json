@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-30T12:27:28Z",
-  "calisma_sayisi": 34,
+  "son_calisma": "2026-10-30T13:16:26Z",
+  "calisma_sayisi": 35,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -368,12 +368,12 @@
         "Her meslek için 'yapay zekâya bırakılmayacaklar' satırı",
         "Mesleklere göre güncel ve kaynaklı kullanım örnekleri (Türkiye'den örnekler öncelikli)"
       ],
-      "durum": "uretiliyor",
-      "surum": 1,
-      "son_guncelleme": "2026-10-29T17:34:21Z",
-      "sahip": "20261030T1309Z",
-      "sahip_zamani": "2026-10-30T13:09:37Z",
-      "not": "önceki durum: taslak — aşama 2 gözden geçirme"
+      "durum": "gozden_gecirildi",
+      "surum": 2,
+      "son_guncelleme": "2026-10-30T13:16:26Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 2: TÜİK Yapay Zeka İstatistikleri 2026 ile güncellendi (bireyler %37,6, girişimler %7,5→%14, yaş kırılımı); tahmin oyunu slaytı (SVG çubuk grafik) eklendi; h4-04 ile tekrar eden Uygun/Dikkat/Asla oylaması \"işi üç parçaya böl\" alıştırmasıyla değiştirildi; AMA hekim ve Gallup öğretmen anketleri, Kızılcahamam avukat vakası ayrıntısı, YÖK durumu; 4 yeni SSS; zaman planı yeniden dağıtıldı."
     },
     {
       "id": "h4-04",
@@ -570,6 +570,10 @@
     {
       "zaman": "2026-10-30T12:27:28Z",
       "ozet": "h4-02: Gözden geçirildi (17 arama, 13 kaynak okundu); Gem→beceri geçişi (17 Kasım salt okunur, 17 Aralık kaldırma) işlendi, AI Studio yayımlama uygunluk uyarısı, Lovable/Bolt/ChatGPT Go doğrulaması ve 5 yeni SSS eklendi."
+    },
+    {
+      "zaman": "2026-10-30T13:16:26Z",
+      "ozet": "h4-03: Gözden geçirildi (13 arama, 8 kaynak okundu); TÜİK 2026 verileriyle tahmin oyunu, h4-04 ile tekrarı önleyen \"işi parçala\" etkileşimi, AMA/Gallup meslek anketleri ve 4 yeni SSS eklendi."
     }
   ]
 }
