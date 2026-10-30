@@ -311,12 +311,12 @@
         "Gerçek kişileri ve markaları taklit etmemek; deepfake; etiketleme",
         "Haftalık görev: 'Kendi vitrinin' ve final projesi için fikir"
       ],
-      "durum": "taslak",
+      "durum": "uretiliyor",
       "surum": 1,
       "son_guncelleme": "2026-10-29T16:59:47Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Aşama 1: 9 slayt (kimin oylaması ve insan katkısı yelpazesi SVG'si, FSEK kartları, dünya zaman çizelgesi, kiralık takım elbise benzetmesi, kırmızı çizgiler ve RTÜK spotu, 'Kendi vitrinin' haftalık görevi), 12 kaynaklı not. 8 Nisan 2026 FSEK teklifinin numarası ve komisyon durumu doğrulanamadı; Türkiye'de ilgili Yargıtay kararı bulunamadı."
+      "sahip": "20261030T1010Z",
+      "sahip_zamani": "2026-10-30T10:10:32Z",
+      "not": "Önceki durum: taslak (aşama 2 gözden geçirme sürüyor)"
     },
     {
       "id": "h4-01",
