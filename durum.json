@@ -140,12 +140,12 @@
         "Bilgi kesim tarihi, web araması, 'düşünerek cevap veren' (akıl yürüten) modeller",
         "Ekim 2026 itibarıyla güncel asistanlar ve model aileleri (doğrulanmış)"
       ],
-      "durum": "taslak",
+      "durum": "uretiliyor",
       "surum": 1,
       "son_guncelleme": "2026-10-29T15:48:23Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Aşama 1: 18 slayt (canlı ses demosu, olasılık çubukları ve kesim tarihi SVG'leri, token tahmini, risk oylaması, D/Y quizi, Ekim 2026 asistan tablosu), 18 kaynaklı not. Claude ücretsiz plan modeli yalnızca ikincil kaynaktan; Copilot ücretsiz kapsamı doğrulanamadı."
+      "sahip": "20261030T0109Z",
+      "sahip_zamani": "2026-10-30T01:09:22Z",
+      "not": "Önceki durum: taslak (aşama 2 gözden geçirme sürüyor)"
     },
     {
       "id": "h2-02",
