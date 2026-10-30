@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-30T07:21:14Z",
-  "calisma_sayisi": 29,
+  "son_calisma": "2026-10-30T08:13:26Z",
+  "calisma_sayisi": 30,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -273,12 +273,12 @@
         "Video: Kling, Runway, Google Veo, Hailuo, Pika — ücretsiz kotalar ve hangi iş için hangisi (Ekim 2026, doğrulanmış)",
         "Kısa video talimatı yazma formülü (sahne, hareket, kamera, süre)"
       ],
-      "durum": "uretiliyor",
-      "surum": 1,
-      "son_guncelleme": "2026-10-29T16:50:22Z",
-      "sahip": "20261030T0809Z",
-      "sahip_zamani": "2026-10-30T08:09:51Z",
-      "not": "ÖNCEKİ DURUM: taslak | Aşama 1: 13 slayt (stil/söz kutusu, canlı jingle, Suno ücretsiz ve ticari kuralları, seslendirme, ses klonlama oylaması, beş video aracı tablosu, iş-araç kartları, dört parçalı video formülü SVG'si, renkli talimat, eksik parça quizi), 14 kaynaklı not. Video ve ElevenLabs kotaları ikincil kaynaklardan; resmî fiyat sayfaları açılamadı; Lyria 3 ticari koşulları doğrulanmadı."
+      "durum": "gozden_gecirildi",
+      "surum": 2,
+      "son_guncelleme": "2026-10-30T08:13:26Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 2: 13 arama, 13 kaynak okundu. Kling 4.0 (15 Ekim 2026, 30 sn) tabloya girdi, Kling günlük 66 kredinin model başına 2-6 deneme ettiği düzeltildi; Gemini'de Omni'nin Veo'nun yerini alması ve abonelik şartı, Runway Gen-4.5'in ücretli olduğu, Pika'nın 20 Eylül'de ücretsiz krediyi sıfırlaması, Hailuo 768p/filigran, ElevenLabs başlıkta atıf ve 'ticari hak yalnız abonelik süresince' bilgisi eklendi; Suno '~10 şarkı' tahmini işaretlendi; Yeni Asır Haziran 2026 Türkiye örneği; Sora tekrarı 1. bölüme bırakıldı; 4 yeni SSS. Lyria 3 ticari koşulları ve ücretsiz Kling hesaplarının 4.0 erişimi doğrulanamadı."
     },
     {
       "id": "h3-04",
@@ -550,6 +550,10 @@
     {
       "zaman": "2026-10-30T07:21:14Z",
       "ozet": "h3-02: Gözden geçirildi (13 arama, 12 kaynak okundu); Canva'nın yeni kota yapısı düzeltildi, Gemini model seçimi ve 18 yaş şartı, ChatGPT Images 2.5 yedek araç, Midjourney V8.2 güncellemesi ve 5 yeni SSS eklendi."
+    },
+    {
+      "zaman": "2026-10-30T08:13:26Z",
+      "ozet": "h3-03: Gözden geçirildi (13 arama, 13 kaynak okundu); Kling 4.0, Pika'nın ücretsiz kredisini kaldırması, Runway/Hailuo/ElevenLabs koşulları ve Haziran 2026 Türkiye ses taklidi örneği eklendi, 4 yeni SSS."
     }
   ]
 }
