@@ -368,12 +368,12 @@
         "Her meslek için 'yapay zekâya bırakılmayacaklar' satırı",
         "Mesleklere göre güncel ve kaynaklı kullanım örnekleri (Türkiye'den örnekler öncelikli)"
       ],
-      "durum": "taslak",
+      "durum": "uretiliyor",
       "surum": 1,
       "son_guncelleme": "2026-10-29T17:34:21Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Aşama 1: 8 meslek görev kartı (ROBOT talimatı, beklenen çıktı, bırakılmayacaklar), trafik ışığı ölçeği, Türkiye örnekleri (MEB, Sağlık Bakanlığı, baro/avukat vakası, TÜRMOB, TÜİK). Türkiye için yaş kırılımlı kullanım verisi bulunamadı."
+      "sahip": "20261030T1309Z",
+      "sahip_zamani": "2026-10-30T13:09:37Z",
+      "not": "önceki durum: taslak — aşama 2 gözden geçirme"
     },
     {
       "id": "h4-04",
