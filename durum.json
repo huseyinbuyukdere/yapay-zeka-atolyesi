@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-30T20:21:17Z",
-  "calisma_sayisi": 42,
+  "son_calisma": "2026-10-30T21:23:14Z",
+  "calisma_sayisi": 43,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -120,12 +120,12 @@
         "Türkiye'den örnekler (kamu, bankacılık, e-ticaret, tarım) — kaynaklı",
         "Haftalık görev: 'Yapay zekâ avı' yönergesi"
       ],
-      "durum": "uretiliyor",
-      "surum": 2,
-      "son_guncelleme": "2026-10-30T00:18:49Z",
-      "sahip": "20261030T2110Z",
-      "sahip_zamani": "2026-10-30T21:10:38Z",
-      "not": "Önceki durum: gozden_gecirildi (aşama 3 cila sürüyor). Aşama 2: 14 arama, 10 kaynak okundu. Mastercard %57'nin Türkiye'ye özel değil 'küresel örnek' olduğu düzeltildi; Gmail %99,9 'doğruluk' olarak düzeltildi; MEBİ resmî MEB verisiyle (5.676.000 kullanıcı, kırılım) güncellendi; Trendyol DHA'dan doğrulandı; bankacılık satırı ve e-Devlet okuryazarlık ölçümü planı eklendi; telefon-dinleme sorusu Northeastern çalışmasıyla cevaplandı; 4 yeni SSS. e-Devlet yapay zekâ destek asistanının bugünkü durumu hâlâ doğrulanamadı."
+      "durum": "cilalandi",
+      "surum": 3,
+      "son_guncelleme": "2026-10-30T21:23:14Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 3 (cila): 13 arama, 7 kaynak okundu. Kapağa vaat ('15 dakika sonra cebinizdeki görünmez yardımcıları sayabileceksiniz') ve vaadi kapatan kapanış ('Görmeye başladığınız an, sorgulamaya da başlarsınız'); yeni 'Sağlıkta iş bölümü' akış SVG slaytı (toplam 2 SVG, 13 slayt), notlar akıcılaştırıldı. Mamografi Nisan 2026 Bakanlık verisi (2 milyon+ sonuç, karar destek, MHRS öncelikli randevu), AA'dan okuryazarlık programı ayrıntıları, CİMER sınıflandırma (İletişim Başkanlığı), TÜİK 2026 'bilerek kullanım' karşıtlığı, MEBİ 2026-27 denemeleri, Visa açıklaması, Google Haritalar Mart 2026 Gemini özellikleri eklendi; 3 yeni SSS. e-Devlet destek asistanı ve okuryazarlık programının açılışı, Haritalar özelliklerinin Türkiye'de kullanılabilirliği doğrulanamadı; Trendyol DHA sayfası bu turda yeniden açılamadı."
     },
     {
       "id": "h2-01",
@@ -602,6 +602,10 @@
     {
       "zaman": "2026-10-30T20:21:17Z",
       "ozet": "h1-05: Cilalandı (12 arama, 11 kaynak okundu); vaat/kapanış cümleleri, tahmin oyunu ve Venn SVG'leri, GPT-6 Astra/AlphaGo/Eylem Planı Ekim 2026 güncellemeleri, 3 yeni SSS."
+    },
+    {
+      "zaman": "2026-10-30T21:23:14Z",
+      "ozet": "h1-06: Cilalandı (13 arama, 7 kaynak okundu); vaat/kapanış cümleleri, sağlıkta iş bölümü SVG'si, Nisan 2026 mamografi verisi, okuryazarlık programı ve CİMER örneği, TÜİK karşıtlığı, 3 yeni SSS."
     }
   ]
 }
