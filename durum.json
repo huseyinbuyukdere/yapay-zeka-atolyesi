@@ -235,12 +235,12 @@
         "Metinden görsele, görselden videoya, metinden müziğe; çok modlu modeller",
         "Görünmez filigranlar (ör. SynthID) ve içerik kimlik bilgileri (C2PA) — basit anlatım"
       ],
-      "durum": "taslak",
+      "durum": "uretiliyor",
       "surum": 1,
       "son_guncelleme": "2026-10-29T16:34:35Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Aşama 1: 18 slayt (60 sn canlı kampanya demosu, karlı ekran difüzyon SVG'si, heykeltıraş ve çevirmeli defter benzetmeleri, Ekim 2026 zaman çizelgesi, D/Y quizi, SynthID, C2PA pasaport SVG'si, Gemini'de doğrulama uygulaması), 17 kaynaklı not. Türkiye'deki yapay zekâ video etiketi teklifinin güncel durumu doğrulanamadı; Lyria 3'te Türkçe söz yok."
+      "sahip": "20261030T0616Z",
+      "sahip_zamani": "2026-10-30T06:16:10Z",
+      "not": "Önceki durum: taslak. Aşama 1: 18 slayt (60 sn canlı kampanya demosu, karlı ekran difüzyon SVG'si, heykeltıraş ve çevirmeli defter benzetmeleri, Ekim 2026 zaman çizelgesi, D/Y quizi, SynthID, C2PA pasaport SVG'si, Gemini'de doğrulama uygulaması), 17 kaynaklı not. Türkiye'deki yapay zekâ video etiketi teklifinin güncel durumu doğrulanamadı; Lyria 3'te Türkçe söz yok."
     },
     {
       "id": "h3-02",
