@@ -128,14 +128,27 @@
       <!-- 6. EĞİTİM ADIMLARI -->
       <section>
         <h2>Eğitim = düğmeleri azar azar çevirmek</h2>
-        <ol class="adimlar">
-          <li class="fragment">Bir fotoğraf göster, makine tahmin etsin</li>
-          <li class="fragment">Cevaba bak: Ne kadar yanıldı?</li>
-          <li class="fragment">Bütün düğmeleri <strong>biraz</strong> doğru yöne çevir</li>
-          <li class="fragment">Tekrarla, tekrarla, tekrarla… 🔁</li>
-        </ol>
+        <div style="display:grid;grid-template-columns:1.1fr 1fr;gap:.8em;align-items:center">
+          <ol class="adimlar" style="font-size:.85em">
+            <li class="fragment">Bir fotoğraf göster, makine tahmin etsin</li>
+            <li class="fragment">Cevaba bak: Ne kadar yanıldı?</li>
+            <li class="fragment">Bütün düğmeleri <strong>biraz</strong> doğru yöne çevir</li>
+            <li class="fragment">Tekrarla, tekrarla, tekrarla… 🔁</li>
+          </ol>
+          <svg class="fragment" role="img" aria-label="Hata eğrisi: Eğitim ilerledikçe hata yüksekten başlayıp inişli çıkışlı biçimde azalıyor ve sonunda düşük bir düzeyde yatay seyrediyor." viewBox="0 0 520 380" width="520" height="380">
+            <line x1="60" y1="30" x2="60" y2="320" stroke="var(--murekkep-acik)" stroke-width="4"/>
+            <line x1="60" y1="320" x2="500" y2="320" stroke="var(--murekkep-acik)" stroke-width="4"/>
+            <text x="34" y="175" text-anchor="middle" font-size="22" fill="var(--murekkep)" transform="rotate(-90 34 175)">Hata</text>
+            <text x="490" y="356" text-anchor="end" font-size="22" fill="var(--murekkep)">Tekrar sayısı →</text>
+            <path d="M70 60 C 110 70, 120 150, 150 140 S 190 200, 215 190 S 260 240, 290 235 S 350 270, 380 268 S 450 282, 495 280" stroke="var(--kiremit)" stroke-width="7" fill="none" stroke-linecap="round"/>
+            <circle cx="72" cy="60" r="11" fill="var(--kiremit)"/>
+            <text x="92" y="52" font-size="22" fill="var(--murekkep)">Başta: “Kedi mi? Araba!” 🙃</text>
+            <circle cx="493" cy="280" r="11" fill="var(--turkuaz)"/>
+            <text x="470" y="309" text-anchor="end" font-size="22" fill="var(--murekkep)">Sonda: çoğunlukla doğru 🙂</text>
+          </svg>
+        </div>
         <aside class="notes">
-          Ne söyle: Başlangıçta düğmeler rastgele durur; makine kediye "araba" diyebilir. Eğitim şöyle işler: Bir fotoğraf gösteririz, makine tahmin eder. Doğru cevaba bakarız ve ne kadar yanıldığını ölçeriz. Sonra bütün düğmeleri hatayı biraz azaltacak yönde azıcık çeviririz. Ve bunu milyonlarca kez tekrarlarız. Düğmeleri bir insan çevirmiyor; bunu otomatik bir yöntem yapıyor.
+          Ne söyle: Başlangıçta düğmeler rastgele durur; makine kediye "araba" diyebilir. Eğitim şöyle işler: Bir fotoğraf gösteririz, makine tahmin eder. Doğru cevaba bakarız ve ne kadar yanıldığını ölçeriz. Sonra bütün düğmeleri, hatayı biraz azaltacak yönde azıcık çeviririz. Ve bunu milyonlarca kez tekrarlarız. (İleri, eğri açılır.) Bakın, hata önce hızla düşüyor, arada biraz zıplıyor, sonra yavaşça yerine oturuyor. Düğmeleri bir insan çevirmiyor; bunu otomatik bir yöntem yapıyor.
           Süre: 1,25 dk.
           Dikkat: "Gradyan", "geri yayılım" gibi terimleri kullanma. Soran olursa: "Bunun matematiksel bir yöntemi var; özü hatayı azaltacak yöne küçük adımlar atmak."
         </aside>
@@ -191,12 +204,25 @@
       <section>
         <span class="etiket kiremit">Bilerek kurulmuş bir tuzak</span>
         <h2>Husky mi, kurt mu?</h2>
-        <div class="benzetme">
-          <span class="simge" aria-hidden="true">🐺❄️</span>
-          <p class="fragment">Bütün kurt fotoğraflarında kar vardı. Makine hayvana değil, <strong>kara</strong> bakmayı öğrendi.</p>
-        </div>
+        <svg role="img" aria-label="İki çerçeve. Solda eğitim fotoğrafları: kurtların hepsi karlı zeminde. Sağda yeni fotoğraf: karda duran bir husky; makine 'kurt' diyor çünkü kara bakıyor." viewBox="0 0 1000 330" width="1000" height="330">
+          <rect x="30" y="20" width="420" height="250" rx="20" fill="var(--kagit-koyu)" stroke="var(--cizgi)" stroke-width="3"/>
+          <rect x="30" y="190" width="420" height="80" rx="0" fill="#fff" stroke="var(--cizgi)" stroke-width="3"/>
+          <text x="240" y="60" text-anchor="middle" font-size="24" fill="var(--murekkep)">Eğitimdeki kurtlar</text>
+          <text x="150" y="175" text-anchor="middle" font-size="70">🐺</text>
+          <text x="330" y="175" text-anchor="middle" font-size="70">🐺</text>
+          <text x="240" y="245" text-anchor="middle" font-size="26" fill="var(--murekkep-acik)">❄️ hep kar ❄️</text>
+          <defs><marker id="ok2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="var(--murekkep-acik)"/></marker></defs>
+          <path d="M470 145 L530 145" stroke="var(--murekkep-acik)" stroke-width="5" marker-end="url(#ok2)"/>
+          <rect x="550" y="20" width="420" height="250" rx="20" fill="var(--kagit-koyu)" stroke="var(--cizgi)" stroke-width="3"/>
+          <rect x="550" y="190" width="420" height="80" fill="#fff" stroke="var(--cizgi)" stroke-width="3"/>
+          <text x="760" y="60" text-anchor="middle" font-size="24" fill="var(--murekkep)">Yeni fotoğraf</text>
+          <text x="760" y="175" text-anchor="middle" font-size="70">🐕</text>
+          <text x="760" y="245" text-anchor="middle" font-size="26" fill="var(--murekkep-acik)">❄️ kar ❄️</text>
+          <ellipse class="fragment" cx="760" cy="232" rx="190" ry="36" fill="none" stroke="var(--kiremit)" stroke-width="6" stroke-dasharray="14 10"/>
+          <text class="fragment" x="760" y="315" text-anchor="middle" font-size="28" fill="var(--kiremit)" font-weight="700">Makine: “Kar var, demek ki kurt!”</text>
+        </svg>
         <aside class="notes">
-          Ne söyle: 2016'da araştırmacılar bilerek küçük bir tuzak kurdu. Kurtları husky köpeklerinden ayıracak bir modeli sadece 20 fotoğrafla eğittiler ve bu fotoğrafları özenle seçtiler. Model karlı bir zeminde duran husky'ye "kurt" dedi. Neden? Önce siz tahmin edin. ... Bütün kurt fotoğraflarının arka planında kar vardı. Model hayvana değil, kara bakmayı öğrenmişti. Sınavda konuyu anlamadan "uzun şık genelde doğrudur" diye puan toplayan öğrenci gibi: Doğru cevabı yanlış sebeple veriyordu. Araştırmacılar, modelin neye baktığı gösterilince insanların bu hileyi çok daha kolay fark ettiğini gördü.
+          Ne söyle: 2016'da araştırmacılar bilerek küçük bir tuzak kurdu. Kurtları husky köpeklerinden ayıracak bir modeli sadece 20 fotoğrafla eğittiler ve bu fotoğrafları özenle seçtiler. Soldakiler eğitimdeki kurtlar; sağda yeni bir fotoğraf: karda duran bir husky. Model ona "kurt" dedi. Neden? Önce siz tahmin edin. ... (İleri.) Bütün kurt fotoğraflarının arka planında kar vardı. Model hayvana değil, kara bakmayı öğrenmişti. Sınavda konuyu anlamadan "uzun şık genelde doğrudur" diye puan toplayan öğrenci gibi: Doğru cevabı yanlış sebeple veriyordu. Araştırmacılar, modelin neye baktığı gösterilince insanların bu hileyi çok daha kolay fark ettiğini gördü.
           Süre: 2 dk.
           Salona sor: "Sizce makine neye bakıyordu?" Cevapları dinle, sonra fragment'ı aç.
           Dikkat: Bu bir ürün hatası değil, ders amaçlı bir deneydi; "bir şirketin modeli kurtları kardan tanıdı" deme. Gerçek hayattaki karşılığı bir sonraki slayttaki cilt kanseri örneği. Bu, Teachable Machine uygulamasının da ana dersi: "Birazdan aynısını kendi gözünüzle göreceksiniz" de.
@@ -213,7 +239,7 @@
           <li class="fragment"><span class="yil">2026</span> Sohbet asistanları milliyete göre farklı öneriler verdi</li>
         </ul>
         <aside class="notes">
-          Ne söyle: Kar hikâyesi komik ama aynı şey ciddi işlerde de oluyor. Amazon'un denediği bir işe alım aracı, çoğu erkeklerden gelen on yıllık başvurularla eğitildi ve içinde "kadın" kelimesi geçen özgeçmişlere düşük puan vermeyi öğrendi; şirket projeyi kapattı. 2018'deki bir araştırmada ticari yüz analiz sistemleri koyu tenli kadınlarda yüzde 34,7'ye varan oranda yanılırken açık tenli erkeklerde hata en fazla yüzde 0,8 idi; çünkü eğitim verilerinin çoğu açık tenli insanlardandı. 2021'de bir cilt kanseri modelinin "kar"ı da bulundu: İyi huylu ben fotoğraflarının neredeyse yarısında renkli bir ölçüm etiketi vardı, kötü huylularda hiç yoktu. Model bu etiketi "iyi huylu" işareti sandı; kötü huylu bir görüntüye etiket eklenince çoğunu "iyi huylu" diye yanlış tanıdı. Ve konu eskimedi: Ağustos 2026'da Fransa'da kullanıcılar aynı cümleyi yalnızca milliyeti değiştirerek yazdı; Google'ın yapay zekâ özetleri ve yapılan testlerde büyük sohbet asistanları bazı milliyetler için çok farklı öneriler verdi. Google sonuçların olması gerektiği gibi olmadığını kabul etti.
+          Ne söyle: Kar hikâyesi komik ama aynı şey ciddi işlerde de oluyor. Amazon'un denediği bir işe alım aracı, çoğu erkeklerden gelen on yıllık başvurularla eğitildi ve içinde "kadın" kelimesi geçen özgeçmişlere düşük puan vermeyi öğrendi; şirket projeyi kapattı. 2018'deki bir araştırmada ticari yüz analiz sistemleri koyu tenli kadınlarda yüzde 34,7'ye varan oranda yanılırken açık tenli erkeklerde hata en fazla yüzde 0,8 idi; çünkü eğitim verilerinin çoğu açık tenli insanlardandı. 2021'de bir cilt kanseri modelinin "kar"ı da bulundu: İyi huylu ben fotoğraflarının neredeyse yarısında renkli bir ölçüm etiketi vardı, kötü huylularda hiç yoktu. Model bu etiketi "iyi huylu" işareti sandı; kötü huylu bir görüntüye etiket eklenince çoğunu "iyi huylu" diye yanlış tanıdı. Ve konu eskimedi: Ağustos 2026'da Fransa'da kullanıcılar "… biriyle yalnızım" cümlesini yalnızca milliyeti değiştirerek yazdı. Google'ın yapay zekâ özetleri, birine çay ya da kahve önerirken diğerine polisin numarasını verdi; bir Fransız teknoloji sitesinin testinde üç büyük sohbet asistanı da benzer bir eğilim gösterdi. Google sonuçların olması gerektiği gibi olmadığını kabul etti ve birkaç gün içinde ayar yaptı.
           Süre: 2,5 dk.
           Dikkat: Kimseyi kötü niyetli ilan etme; mesaj "veri dünyayı eşitsizlikleriyle birlikte yansıtır". Milliyet örneğini saygılı ve kısa anlat; hangi milliyete ne denildiğini sayma. Zaman daralırsa 2018 yüz analizi örneğini kısa geç.
         </aside>
@@ -237,10 +263,11 @@
       <!-- 13. VURGU -->
       <section class="vurgu">
         <p class="buyuk">Makine, ona ne gösterirsek onu öğrenir.</p>
+        <p class="fragment kucuk">🧐 Biz de makineden öğreniyoruz. O yüzden son söz, sorgulayan insanda.</p>
         <aside class="notes">
-          Ne söyle: Bu bölümden aklınızda tek bir cümle kalsın: Makine, ona ne gösterirsek onu öğrenir. Örnekler çeşitliyse iyi öğrenir; eksik ya da tek düzeyse kar gibi saçma işaretlere tutunur, hatta önyargılı olur. Bu yüzden yapay zekânın cevabını sorgulamak bizim işimiz.
+          Ne söyle: Başta size bir söz vermiştim: Kediyi öğretebiliyorsanız makine öğrenmesini de anlarsınız. İşte bütün bölüm tek cümlede: Makine, ona ne gösterirsek onu öğrenir. Örnekler çeşitliyse iyi öğrenir; eksik ya da tek düzeyse kar gibi saçma işaretlere tutunur, hatta önyargılı olur. (İleri.) Bir şey daha: Washington Üniversitesi'nin 2025'teki bir deneyinde insanlar işe alımda yapay zekânın önerisini izledi; öneri belirgin biçimde yanlıysa insanların seçimleri de yaklaşık yüzde 90 oranında makineyle aynı yönde gitti. Yani makine bizden öğreniyor, biz de makineden. O yüzden son söz, cevabı sorgulayan insanda olmalı.
           Süre: 1 dk.
-          Dikkat: Kısa tut; enerjiyi uygulamaya sakla.
+          Dikkat: Kısa tut; enerjiyi uygulamaya sakla. Deney ABD'de, çevrim içi 528 katılımcıyla ve canlandırılmış önerilerle yapıldı; "herkes böyle yapar" diye genelleme.
         </aside>
       </section>
 
@@ -255,6 +282,8 @@
           <li><a href="https://aws.amazon.com/tr/what-is/neural-network/">Sinir ağı nedir? (Türkçe)</a> — AWS</li>
           <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8774502">Cilt kanseri modelinde kestirme öğrenme</a> — Diagnostics, 2021</li>
           <li><a href="https://developers.google.com/machine-learning/intro-to-ml/what-is-ml?hl=tr">Makine Öğrenimi nedir? (Türkçe)</a> — Google for Developers</li>
+          <li><a href="https://www.washington.edu/news/2025/11/10/people-mirror-ai-systems-hiring-biases-study-finds/">İnsanlar yapay zekânın önyargısını taklit ediyor</a> — Washington Üniversitesi, Kasım 2025</li>
+          <li><a href="https://euperspectives.eu/2026/09/im-alone-with-insert-your-nationality/">“… biriyle yalnızım” testi ve Google'ın ayarı</a> — EU Perspectives, Eylül 2026</li>
         </ul>
         <p class="kucuk">Ayrıntılı araştırma notu: <a href="../not.html?id=h1-03">anlatıcı notu</a> · Son güncelleme: 30 Ekim 2026</p>
         <aside class="notes">

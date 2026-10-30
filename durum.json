@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-30T17:21:20Z",
-  "calisma_sayisi": 39,
+  "son_calisma": "2026-10-30T18:22:01Z",
+  "calisma_sayisi": 40,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -62,12 +62,12 @@
         "Denetimli öğrenme, pekiştirmeli öğrenme gibi türler tek cümlelik benzetmelerle (formülsüz)",
         "Veri kalitesi ve önyargının (bias) nasıl doğduğu; gerçek hayattan bilinen önyargı örnekleri"
       ],
-      "durum": "uretiliyor",
-      "surum": 2,
-      "son_guncelleme": "2026-10-29T21:18:33Z",
-      "sahip": "20261030T1810Z",
-      "sahip_zamani": "2026-10-30T18:10:32Z",
-      "not": "önceki durum: gozden_gecirildi (aşama 3 cila)"
+      "durum": "cilalandi",
+      "surum": 3,
+      "son_guncelleme": "2026-10-30T18:22:01Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 3 cila: hata eğrisi ve husky/kurt SVG'leri (toplam 4 SVG), vurgu slaytında kapak vaadini kapatan kapanış cümlesi, UW 2025 'insan da makineyi taklit ediyor' deneyi, Google'ın Ağustos 2026 ayarı, olgular yeniden doğrulandı, 2 yeni SSS."
     },
     {
       "id": "h1-04",
@@ -590,6 +590,10 @@
     {
       "zaman": "2026-10-30T17:21:20Z",
       "ozet": "h1-02: Cilalandı (13 arama, 9 kaynak okundu); vaat/kapanış cümleleri, tarif kitabı–çırak akış SVG'si, AGI slaytında Brockman atfı düzeltildi ve Ekim 2026 bağımsız ölçümleri eklendi."
+    },
+    {
+      "zaman": "2026-10-30T18:22:01Z",
+      "ozet": "h1-03: cila — iki yeni SVG (hata eğrisi, husky/kurt), kapanış cümlesi, UW 2025 deneyi ve Google'ın Ağustos 2026 ayarı eklendi; 13 arama, 11 kaynak okundu."
     }
   ]
 }
