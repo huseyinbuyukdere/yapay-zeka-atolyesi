@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-30T08:13:26Z",
-  "calisma_sayisi": 30,
+  "son_calisma": "2026-10-30T09:15:41Z",
+  "calisma_sayisi": 31,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -292,12 +292,12 @@
         "Çıktı listesi: slogan ve tanıtım metni, afiş, 30 sn jingle, 5-8 sn video, 3 slaytlık sunum (Gamma veya Canva)",
         "Sunum ve salon oylaması için değerlendirme ölçütleri; sunucu için sorun giderme ipuçları"
       ],
-      "durum": "uretiliyor",
-      "surum": 1,
-      "son_guncelleme": "2026-10-29T16:55:33Z",
-      "sahip": "20261030T0911Z",
-      "sahip_zamani": "2026-10-30T09:11:32Z",
-      "not": "önceki durum: taslak (aşama 2 gözden geçirme)"
+      "durum": "gozden_gecirildi",
+      "surum": 2,
+      "son_guncelleme": "2026-10-30T09:15:41Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 2: 12 arama, 9 kaynak okundu; zaman planı 18 dk geri sayıma göre tutarlı hâle getirildi, yönetmelik Ticaret Bakanlığı'ndan, Gamma/Suno/Canva kotaları resmî yardım sayfalarından doğrulandı, 5 yeni SSS."
     },
     {
       "id": "h3-05",
@@ -554,6 +554,10 @@
     {
       "zaman": "2026-10-30T08:13:26Z",
       "ozet": "h3-03: Gözden geçirildi (13 arama, 13 kaynak okundu); Kling 4.0, Pika'nın ücretsiz kredisini kaldırması, Runway/Hailuo/ElevenLabs koşulları ve Haziran 2026 Türkiye ses taklidi örneği eklendi, 4 yeni SSS."
+    },
+    {
+      "zaman": "2026-10-30T09:15:41Z",
+      "ozet": "h3-04: Gözden geçirildi (12 arama, 9 kaynak okundu); zaman planı ve kontrol noktaları geri sayıma göre düzeltildi, reklam yönetmeliği Ticaret Bakanlığı duyurusuyla, Gamma/Suno/Canva kotaları resmî sayfalarla doğrulandı, hesap hazırlığı ve 5 yeni SSS eklendi."
     }
   ]
 }
