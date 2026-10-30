@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-30T19:14:55Z",
-  "calisma_sayisi": 41,
+  "son_calisma": "2026-10-30T20:21:17Z",
+  "calisma_sayisi": 42,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -101,12 +101,12 @@
         "Abartılı beklenti ve hayal kırıklığı döngüsünden çıkarılacak ders",
         "Ekim 2026 itibarıyla güncel tablo: büyük model aileleri ve Türkiye'den gelişmeler (TÜBİTAK Bilge, Yapay Zekâ Eylem Planı 2026-2030)"
       ],
-      "durum": "uretiliyor",
-      "surum": 2,
-      "son_guncelleme": "2026-10-29T23:13:21Z",
-      "sahip": "20261030T2012Z",
-      "sahip_zamani": "2026-10-30T20:12:16Z",
-      "not": "önceki durum: gozden_gecirildi; Aşama 2: 11 arama, 9 kaynak okundu. Turing testi 2025 çalışması ayrıntılandı (GPT-4.5 %73, ELIZA %23), Deep Blue'nun 1996 yenilgisi, AlphaGo 10. yıl dönümü (Mart 2026, Lee Sedol'un yapay zekâ ile ortak gösterisi), Eylem Planı'nın 5 milyon kişilik okuryazarlık hedefi eklendi; BİLGE tanıtım bağlamı düzeltildi; 4 yeni SSS. BİLGE'nin Ekim 2026'da kullanıma açıldığı hâlâ doğrulanamadı; 2026 Nobel bilgisi ikincil kaynaktan."
+      "durum": "cilalandi",
+      "surum": 3,
+      "son_guncelleme": "2026-10-30T20:21:17Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 3 (cila): 12 arama, 11 kaynak okundu. Kapak vaadi ve vaadi kapatan kapanış cümlesi; iki yeni SVG (100 milyon kullanıcı tahmin çubukları, üç malzeme Venn'i), kış eğrisi etiket çakışmaları düzeltildi; GPT-6 Astra tarihi (3 Eylül) ve erişimi, AlphaGo 10. yıl (Nisan 2026 plaket, 200M izleyici), Eylem Planı Ekim 2026 güncellemesi ve e-Devlet okuryazarlık planı, Mentimeter kotası doğrulandı; 3 yeni SSS. BİLGE'nin genel kullanıma açıldığı hâlâ doğrulanamadı; 2026 Nobel listesi yalnızca ikincil kaynaklardan (nobelprize.org açılamadı)."
     },
     {
       "id": "h1-06",
@@ -598,6 +598,10 @@
     {
       "zaman": "2026-10-30T19:14:55Z",
       "ozet": "h1-04: Cilalandı (12 arama, 8 kaynak okundu); vaat/kapanış cümleleri, döngü ve daire yönü SVG'leri, güncellik doğrulaması, MEB ve Türk akademik kaynağı, 2 yeni SSS."
+    },
+    {
+      "zaman": "2026-10-30T20:21:17Z",
+      "ozet": "h1-05: Cilalandı (12 arama, 11 kaynak okundu); vaat/kapanış cümleleri, tahmin oyunu ve Venn SVG'leri, GPT-6 Astra/AlphaGo/Eylem Planı Ekim 2026 güncellemeleri, 3 yeni SSS."
     }
   ]
 }
