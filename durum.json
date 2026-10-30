@@ -197,12 +197,12 @@
         "Derin araştırma (Deep Research) özellikleri: hangi asistanda nasıl, ne zaman kullanılır",
         "Örnek belge önerileri (kişisel veri içermeyen, telif sorunu olmayan)"
       ],
-      "durum": "taslak",
+      "durum": "uretiliyor",
       "surum": 1,
       "son_guncelleme": "2026-10-29T16:07:39Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Aşama 1: 15 slayt (dipnotlu akış SVG'si, Ekim 2026 ad değişikliği ve kota, 8 dk not defteri uygulaması, belge önerileri, derin araştırma tablosu, araç seçme oyunu, DeepTRACE uyarısı), 12 kaynaklı not. Gemini derin araştırmanın 9 Ekim sonrası ücretsiz durumu ve resmî kaynak sınırları doğrulanamadı; Claude Research bilgisi ikincil kaynaktan."
+      "sahip": "20261030T0409Z",
+      "sahip_zamani": "2026-10-30T04:09:08Z",
+      "not": "önceki durum: taslak (aşama 2 gözden geçirme)"
     },
     {
       "id": "h2-05",
