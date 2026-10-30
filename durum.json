@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-30T22:20:24Z",
-  "calisma_sayisi": 44,
+  "son_calisma": "2026-10-30T23:21:10Z",
+  "calisma_sayisi": 45,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -159,12 +159,12 @@
         "Sohbeti sürdürerek düzelttirme, asistandan soru sormasını isteme, adım adım düşündürme",
         "Katılımcıların kendi işinden talimat yazdığı mini alıştırma"
       ],
-      "durum": "uretiliyor",
-      "surum": 2,
-      "son_guncelleme": "2026-10-30T02:19:07Z",
-      "sahip": "20261030T2309Z",
-      "sahip_zamani": "2026-10-30T23:09:24Z",
-      "not": "önceki durum: gozden_gecirildi (aşama 3 cila)"
+      "durum": "cilalandi",
+      "surum": 3,
+      "son_guncelleme": "2026-10-30T23:21:10Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 3 cila: talimat–taslak–oku–düzelt döngü SVG'si (2. SVG), kapak vaadi, akıcı notlar; Gem→beceriler (13 Ekim/17 Kasım 2026) düzeltmesi, ChatGPT 5.000/1.500 karakter tarihi, Anthropic düşünme teyidi, DETAIL (Ara 2025) çalışması, 2 yeni SSS."
     },
     {
       "id": "h2-03",
@@ -610,6 +610,10 @@
     {
       "zaman": "2026-10-30T22:20:24Z",
       "ozet": "h2-01: Cilalandı (12 arama, 10 kaynak okundu); okuma–terbiye–sohbet ve hızlı/düşünen mod SVG'leri, OpenAI Ekim GPT-6 birincil teyidi, GPT-6.1 Terra/Sol ve Gemini AI Plus ayrıntısı, uzun sohbet uyarısı, 2 yeni SSS."
+    },
+    {
+      "zaman": "2026-10-30T23:21:10Z",
+      "ozet": "h2-02: Cilalandı (14 arama, 8 kaynak okundu); döngü SVG'si, kapak vaadi, Gem'lerin becerilere geçişi (yeni Gem 13 Ekim'den beri yok) düzeltildi, DETAIL çalışması ve Google 'power prompt' ipucu eklendi, 2 yeni SSS."
     }
   ]
 }

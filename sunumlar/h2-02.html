@@ -33,9 +33,9 @@
         <div class="cini" aria-hidden="true"></div>
         <span class="etiket">2. Hafta · 25 dakika</span>
         <h1>ROBOT formülü ile iyi talimat yazmak</h1>
-        <p class="alt">Aynı asistan, bambaşka cevaplar: Farkı soruyu soran yaratır.</p>
+        <p class="alt">Beş harf öğrenin; asistan size hazır ceket değil, ölçünüze göre dikilmiş bir cevap versin.</p>
         <aside class="notes">
-          Ne söyle: Az önce asistanın, ona verdiğimiz başlangıcın en olası devamını yazdığını öğrendik. O zaman şu soru çok önemli: Başlangıcı nasıl verelim? Bu bölümde size beş harflik bir formül vereceğim. Adı ROBOT. Bölümün sonunda kendi işinizden bir talimat yazıp deneyeceksiniz.
+          Ne söyle: Az önce asistanın, ona verdiğimiz başlangıcın en olası devamını yazdığını öğrendik. O zaman şu soru çok önemli: Bu başlangıcı nasıl vereceğiz? Size bir söz veriyorum: Yirmi beş dakika sonra elinizde beş harflik bir formül olacak. Adı ROBOT. Ve bölümün sonunda kendi işinizden bir talimat yazıp asistanda deneyeceksiniz.
           Süre: 1 dk.
           Dikkat: "Prompt" kelimesini bir kez söyle ve "biz buna talimat diyeceğiz" diyerek Türkçeye bağla.
         </aside>
@@ -146,9 +146,9 @@
         </p>
         <p class="lejant"><span class="t-r">Rol</span><span class="t-o">Ortam</span><span class="t-b">Beklenen iş</span><span class="t-e">Örnek</span><span class="t-t">Tarz ve biçim</span></p>
         <aside class="notes">
-          Ne söyle: Şimdi bir talimatın içine bakalım. Her renk bir harf. Turkuaz: Rol, samimi bir metin yazarı. Sarı: Ortam, küçük bir kitap kafe, müşteriler öğrenci ve emekli. Kırmızı: Beklenen iş, üç kış içeceği için tanıtım metni. Mor: Örnek, yakalamasını istediğim tat. Gri: Tarz ve biçim, 60 kelime, iki emoji, sonda soru. Beş cümle, yarım dakikada yazılır, ama cevabı beş kat isabetli yapar.
+          Ne söyle: Şimdi bir talimatın içine bakalım. Her renk bir harf. Turkuaz: Rol, samimi bir metin yazarı. Sarı: Ortam, küçük bir kitap kafe, müşteriler öğrenci ve emekli. Kırmızı: Beklenen iş, üç kış içeceği için tanıtım metni. Mor: Örnek, yakalamasını istediğim tat. Gri: Tarz ve biçim, 60 kelime, iki emoji, sonda soru. Beş cümle, yarım dakikada yazılır; ama asistanın tahmin etmesi gereken şeyleri neredeyse sıfıra indirir.
           Süre: 1,5 dk.
-          Dikkat: "Beş kat" mecazdır, ölçüm değil; sayı olarak sunma. Örneğin kopyalanmasını istemiyorsan "yalnızca tonunu al" de.
+          Dikkat: Örneğin kopyalanmasını istemiyorsan "yalnızca tonunu al" de.
         </aside>
       </section>
 
@@ -190,16 +190,54 @@
       <!-- 9. SOHBETİ SÜRDÜR -->
       <section>
         <h2>İlk cevap bir taslaktır: sohbeti sürdürün</h2>
-        <ul class="zaman">
-          <li class="fragment"><span class="yil">1</span> “Daha kısa olsun; yarısı kadar.”</li>
-          <li class="fragment"><span class="yil">2</span> “Dil fazla resmî, biraz daha sıcak yaz.”</li>
-          <li class="fragment"><span class="yil">3</span> “İkinci maddeyi çıkar, yerine fiyatı ekle.”</li>
-          <li class="fragment"><span class="yil">4</span> “Bana üç farklı versiyon ver, seçeyim.”</li>
-        </ul>
+        <div class="iki-sutun">
+          <div>
+            <svg role="img" aria-label="Döngü: Talimat yazarsınız, asistan taslak verir, siz okuyup tadına bakarsınız, bir düzeltme cümlesi yazarsınız ve döngü yeniden başlar." viewBox="0 0 520 440" width="100%" style="max-height:440px">
+              <defs>
+                <marker id="ok9" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                  <path d="M0,0 L10,5 L0,10 z" fill="var(--murekkep-acik)"/>
+                </marker>
+              </defs>
+              <circle cx="260" cy="220" r="150" fill="none" stroke="var(--cizgi)" stroke-width="3" stroke-dasharray="8 8"/>
+              <path d="M330,92 A150,150 0 0 1 392,160" fill="none" stroke="var(--murekkep-acik)" stroke-width="4" marker-end="url(#ok9)"/>
+              <path d="M392,282 A150,150 0 0 1 330,348" fill="none" stroke="var(--murekkep-acik)" stroke-width="4" marker-end="url(#ok9)"/>
+              <path d="M190,348 A150,150 0 0 1 128,282" fill="none" stroke="var(--murekkep-acik)" stroke-width="4" marker-end="url(#ok9)"/>
+              <path d="M128,160 A150,150 0 0 1 190,92" fill="none" stroke="var(--murekkep-acik)" stroke-width="4" marker-end="url(#ok9)"/>
+              <text x="260" y="212" text-anchor="middle" font-size="44">🍲</text>
+              <text x="260" y="250" text-anchor="middle" font-size="20" fill="var(--murekkep-acik)">tadına bak,</text>
+              <text x="260" y="274" text-anchor="middle" font-size="20" fill="var(--murekkep-acik)">tuzunu ayarla</text>
+              <g>
+                <rect x="185" y="40" width="150" height="62" rx="31" fill="var(--turkuaz)"/>
+                <text x="260" y="80" text-anchor="middle" font-size="22" font-weight="700" fill="#fff">✍️ Talimat</text>
+              </g>
+              <g class="fragment">
+                <rect x="360" y="190" width="150" height="62" rx="31" fill="var(--altin)"/>
+                <text x="435" y="230" text-anchor="middle" font-size="22" font-weight="700" fill="#fff">🤖 Taslak</text>
+              </g>
+              <g class="fragment">
+                <rect x="185" y="338" width="150" height="62" rx="31" fill="var(--kiremit)"/>
+                <text x="260" y="378" text-anchor="middle" font-size="22" font-weight="700" fill="#fff">👀 Okuyun</text>
+              </g>
+              <g class="fragment">
+                <rect x="10" y="190" width="150" height="62" rx="31" fill="#7a68b3"/>
+                <text x="85" y="230" text-anchor="middle" font-size="22" font-weight="700" fill="#fff">💬 Düzeltin</text>
+              </g>
+            </svg>
+          </div>
+          <div>
+            <h3>💬 Düzeltme cümleleri</h3>
+            <ul>
+              <li class="fragment">“Daha kısa olsun; yarısı kadar.”</li>
+              <li class="fragment">“Dil fazla resmî, biraz daha sıcak yaz.”</li>
+              <li class="fragment">“İkinci maddeyi çıkar, yerine fiyatı ekle.”</li>
+              <li class="fragment">“Bana üç farklı versiyon ver, seçeyim.”</li>
+            </ul>
+          </div>
+        </div>
         <aside class="notes">
-          Ne söyle: Yemek yaparken tadına bakıp "biraz daha tuz" dersiniz. Asistanla da öyle. İlk cevap bir taslaktır. Beğenmediğiniz yeri söyleyin: "Daha kısa olsun." "Dil fazla resmî." "İkinci maddeyi çıkar." Ve en sevdiğim: "Bana üç farklı versiyon ver, seçeyim." Microsoft'un kendi Türkçe rehberi de istediğiniz sonuca çoğu zaman takip mesajlarıyla ulaşıldığını söylüyor. Yeni sohbet açmak yerine aynı sohbette düzeltin; asistan önceki konuşmayı dikkate alır.
+          Ne söyle: Yemek yaparken tencereye bir kez malzeme atıp bırakmazsınız; tadına bakar, "biraz daha tuz" dersiniz. Asistanla da tam böyle bir döngü kuruyoruz. Talimatı yazarsınız, asistan bir taslak verir, siz okursunuz ve bir düzeltme cümlesi yazarsınız. Sonra döngü yeniden döner. Düzeltme cümleleri çok basit: "Daha kısa olsun." "Dil fazla resmî." "İkinci maddeyi çıkar." Ve benim en sevdiğim: "Bana üç farklı versiyon ver, seçeyim." Google da Microsoft da kendi rehberlerinde talimat yazmayı tek seferlik bir iş değil, bir sohbet olarak görmemizi öneriyor. Yeni sohbet açmak yerine aynı sohbette düzeltin; asistan önceki konuşmayı hatırlar.
           Süre: 1,5 dk.
-          Dikkat: Sohbet çok uzayıp karışırsa, iyi bir özetle yeni sohbet açmak daha iyi olabilir.
+          Dikkat: Sohbet çok uzayıp karışırsa, kısa bir özetle yeni sohbet açmak daha iyi olabilir. Döngüyü anlatırken okları parmağınla takip et; dört kutu, dört adım.
         </aside>
       </section>
 
@@ -211,7 +249,7 @@
           <div class="kart fragment turkuaz"><span class="simge" aria-hidden="true">🪜</span><h3>“Adım adım düşün”</h3><p>Hızlı modda hesap ve planlarda işe yarar. Düşünen modda gerek yok.</p></div>
         </div>
         <aside class="notes">
-          Ne söyle: İki süper hamle. Birincisi: "Yazmadan önce bana en fazla üç soru sor." Böylece stajyerimiz tahmin etmek yerine soruyor; ROBOT'u siz doldurmak yerine o size doldurtuyor. Google'ın kendi rehberi de bunu öneriyor: İşinizi anlatın, sonra "daha iyi yapman için neyi bilmen gerekiyor?" diye sorun. İkincisi: "Adım adım düşün." 2022'de yayımlanan bir çalışmada, o günün bir modelinde bu tek cümle bir aritmetik testindeki başarıyı yüzde 18'den yüzde 79'a çıkarmıştı. Ama dikkat: Bugünün düşünen modları bunu zaten kendileri yapıyor. OpenAI ve Anthropic, düşünen modda "adım adım düşün" yazmak yerine işi net tarif etmeyi öneriyor; Anthropic'in en yeni modellerinde düşünme zaten hep açık. Hızlı modda hesap ve plan işlerinde hâlâ işe yarayabilir.
+          Ne söyle: İki süper hamle. Birincisi: "Yazmadan önce bana en fazla üç soru sor." Böylece stajyerimiz tahmin etmek yerine soruyor; ROBOT'u siz doldurmak yerine o size doldurtuyor. Google'ın kendi rehberi de bunu öneriyor: İşinizi anlatın, sonra "daha iyi yapman için neyi bilmen gerekiyor?" diye sorun. İkincisi: "Adım adım düşün." 2022'de yayımlanan bir çalışmada, o günün bir modelinde bu tek cümle bir aritmetik testindeki başarıyı yüzde 18'den yüzde 79'a çıkarmıştı. Ama dikkat: Bugünün düşünen modları bunu zaten kendileri yapıyor. OpenAI ve Anthropic, düşünen modda "adım adım düşün" yazmak yerine işi net tarif etmeyi öneriyor; Anthropic'in en yeni modellerinde düşünme zaten hep açık. Hızlı modda hesap ve plan işlerinde hâlâ işe yarayabilir. Küçük bir bonus: Talimatınızı asistana düzelttirebilirsiniz. "Bu talimatı daha net hâle getir" yazmanız yeter; Google kendi rehberinde Gemini için tam bunu öneriyor.
           Süre: 2 dk.
           Salona sor: "Hangi işinizde 'önce bana soru sor' hamlesi işe yarar?"
           Dikkat: Yüzdeler eski bir modelle yapılan bir deneyden; bugünkü modellere genelleme. "En fazla üç soru" sınırını mutlaka söyle, yoksa sorular bitmeyebilir.
@@ -230,10 +268,10 @@
           </tbody>
         </table>
         <aside class="notes">
-          Ne söyle: İnternette talimat yazmayla ilgili çok "sihirli formül" dolaşıyor. Üç tanesini oylayalım; efsane diyen bir el, gerçek diyen iki el kaldırsın. Birincisi: "Sen dünyaca ünlü bir uzmansın" demek cevabı daha doğru yapar mı? Aralık 2025'te Wharton'daki bir araştırma ekibi altı modelde bunu ölçtü: Uzman rolü doğruluğu güvenilir biçimde artırmadı. Rol dili ve bakışı ayarlar, bilgi eklemez. İkincisi: Kaba yazınca daha iyi cevap mı gelir? Tek modelle yapılmış küçük bir deneyde kaba sorular biraz daha iyi sonuç aldı, ama yazarları bunu genellememe ve kaba dil kullanmama uyarısı yaptı. Fark yaratan kibarlık ya da kabalık değil, netlik. Üçüncüsü: Biraz daha uzun ve net yazmak işe yarar mı? Evet; Google'ın verisinde başarılı talimatlar ortalama 21 kelime civarındaydı.
+          Ne söyle: İnternette talimat yazmayla ilgili çok "sihirli formül" dolaşıyor. Üç tanesini oylayalım; efsane diyen bir el, gerçek diyen iki el kaldırsın. Birincisi: "Sen dünyaca ünlü bir uzmansın" demek cevabı daha doğru yapar mı? Aralık 2025'te Wharton'daki bir araştırma ekibi altı modelde bunu ölçtü: Uzman rolü doğruluğu güvenilir biçimde artırmadı. Rol dili ve bakışı ayarlar, bilgi eklemez. İkincisi: Kaba yazınca daha iyi cevap mı gelir? Tek modelle yapılmış küçük bir deneyde kaba sorular biraz daha iyi sonuç aldı, ama yazarları bunu genellememe ve kaba dil kullanmama uyarısı yaptı. Fark yaratan kibarlık ya da kabalık değil, netlik. Üçüncüsü: Biraz daha uzun ve net yazmak işe yarar mı? Evet. Google'ın verisinde başarılı talimatlar ortalama 21 kelime civarındaydı. Aralık 2025'te yayımlanan küçük bir akademik çalışmada da belirsiz talimatlar ayrıntılı hâle getirilince bir modelin doğru cevap oranı kabaca iki katına çıktı. Ama dikkat: Uzunluk değil, netlik önemli. Gereksiz laf kalabalığı işe yaramaz.
           Süre: 1,5 dk.
           Salona sor: Her iddiadan sonra el kaldırarak oylama, sonra cevabı aç.
-          Dikkat: "Rol vermek işe yaramaz" deme; tonu ve bakış açısını ayarlamak için hâlâ yararlı. Kaba dil denemesini kesinlikle önerme.
+          Dikkat: "İki katı" sözünü küçük bir deneyin sonucu olarak sun, genel kural gibi değil. "Rol vermek işe yaramaz" deme; tonu ve bakış açısını ayarlamak için hâlâ yararlı. Kaba dil denemesini kesinlikle önerme.
         </aside>
       </section>
 
@@ -278,10 +316,10 @@
           <li><a href="https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/be-clear-and-direct">Be clear and direct</a> — Anthropic belgeleri</li>
           <li><a href="https://support.microsoft.com/tr-tr/microsoft-365-copilot/get-started-writing-prompts-in-microsoft-365-copilot">Copilot'ta istem yazmaya başlama</a> — Microsoft Destek (Türkçe)</li>
           <li><a href="https://www.meb.gov.tr/ogretmenler-icin-yapay-zek-destekli-egitim-rehberi-hazirlandi/haber/37690/tr">Öğretmenler için yapay zekâ destekli eğitim rehberi</a> — MEB, Temmuz 2025</li>
-          <li><a href="https://arxiv.org/abs/2205.11916">Large Language Models are Zero-Shot Reasoners</a> — Kojima ve ark., 2022</li>
-          <li><a href="https://gail.wharton.upenn.edu/research-and-insights/playing-pretend-expert-personas/">Expert Personas Don't Improve Factual Accuracy</a> — Wharton, Aralık 2025</li>
+                    <li><a href="https://gail.wharton.upenn.edu/research-and-insights/playing-pretend-expert-personas/">Expert Personas Don't Improve Factual Accuracy</a> — Wharton, Aralık 2025</li>
+          <li><a href="https://workspace.google.com/intl/en/resources/ai/writing-effective-prompts/">Writing effective prompts</a> — Google Workspace</li>
         </ul>
-        <p class="kucuk">Ayrıntılı araştırma notu: <a href="../not.html?id=h2-02">anlatıcı notu</a> · Son güncelleme: 30 Ekim 2026</p>
+        <p class="kucuk">Ayrıntılı araştırma notu: <a href="../not.html?id=h2-02">anlatıcı notu</a> · Son güncelleme: 31 Ekim 2026</p>
         <aside class="notes">
           Ne söyle: Kaynaklar burada. Öğretmenlerimize özellikle Millî Eğitim Bakanlığı'nın rehberini öneririm; ders alanlarına göre hazır formüller var.
           Süre: 15 sn.
