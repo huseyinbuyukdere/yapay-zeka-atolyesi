@@ -120,12 +120,12 @@
         "Türkiye'den örnekler (kamu, bankacılık, e-ticaret, tarım) — kaynaklı",
         "Haftalık görev: 'Yapay zekâ avı' yönergesi"
       ],
-      "durum": "gozden_gecirildi",
+      "durum": "uretiliyor",
       "surum": 2,
       "son_guncelleme": "2026-10-30T00:18:49Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Aşama 2: 14 arama, 10 kaynak okundu. Mastercard %57'nin Türkiye'ye özel değil 'küresel örnek' olduğu düzeltildi; Gmail %99,9 'doğruluk' olarak düzeltildi; MEBİ resmî MEB verisiyle (5.676.000 kullanıcı, kırılım) güncellendi; Trendyol DHA'dan doğrulandı; bankacılık satırı ve e-Devlet okuryazarlık ölçümü planı eklendi; telefon-dinleme sorusu Northeastern çalışmasıyla cevaplandı; 4 yeni SSS. e-Devlet yapay zekâ destek asistanının bugünkü durumu hâlâ doğrulanamadı."
+      "sahip": "20261030T2110Z",
+      "sahip_zamani": "2026-10-30T21:10:38Z",
+      "not": "Önceki durum: gozden_gecirildi (aşama 3 cila sürüyor). Aşama 2: 14 arama, 10 kaynak okundu. Mastercard %57'nin Türkiye'ye özel değil 'küresel örnek' olduğu düzeltildi; Gmail %99,9 'doğruluk' olarak düzeltildi; MEBİ resmî MEB verisiyle (5.676.000 kullanıcı, kırılım) güncellendi; Trendyol DHA'dan doğrulandı; bankacılık satırı ve e-Devlet okuryazarlık ölçümü planı eklendi; telefon-dinleme sorusu Northeastern çalışmasıyla cevaplandı; 4 yeni SSS. e-Devlet yapay zekâ destek asistanının bugünkü durumu hâlâ doğrulanamadı."
     },
     {
       "id": "h2-01",
