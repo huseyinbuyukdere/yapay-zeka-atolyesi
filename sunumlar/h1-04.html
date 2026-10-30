@@ -23,9 +23,9 @@
         <div class="cini" aria-hidden="true"></div>
         <span class="etiket">1. Hafta · 20 dakika · Uygulama</span>
         <h1>Kendi yapay zekânı eğit</h1>
-        <p class="alt">Kod yok, kurulum yok: beş dakikada bir makineye kalemi öğreteceksiniz.</p>
+        <p class="alt">Kod yok, kurulum yok. Önce makinenizi yanıltacaksınız, sonra kendi ellerinizle düzelteceksiniz.</p>
         <aside class="notes">
-          Ne söyle: Şimdiye kadar konuştuk; şimdi yapma zamanı. Önümüzdeki yirmi dakikada her grup kendi yapay zekâ modelini eğitecek. Kod yazmayacağız, hiçbir şey kurmayacağız; sadece tarayıcı ve kamera. Ve size şimdiden söyleyeyim: İlk denemede modeliniz yanılacak. Bilerek öyle yapacağız.
+          Ne söyle: Şimdiye kadar hep konuştuk; şimdi sıra sizde. Önümüzdeki yirmi dakikada her grup kendi yapay zekâ modelini eğitecek. Kod yazmayacağız, hiçbir şey kurmayacağız; bir tarayıcı ve bir kamera yeter. Size şimdiden bir sır vereyim: İlk denemede modeliniz yanılacak. Bunu bilerek yapacağız. Çünkü bugünün asıl dersi, o hatayı nasıl düzelteceğinizde saklı.
           Süre: 1 dk.
           Salona sor: "Daha önce bir makineye bir şey öğreten oldu mu?" (Genelde kimse; "bugün olacaksınız" de.)
           Dikkat: Heyecanı yüksek tut; teknik kaygıyı "kod yok, kurulum yok" diyerek kır.
@@ -47,7 +47,36 @@
         </aside>
       </section>
 
-      <!-- 3. ADIM 1 -->
+      <!-- 3. YOL HARİTASI: DÖNGÜ SVG -->
+      <section>
+        <h2>Bugünkü yolumuz</h2>
+        <svg role="img" aria-label="Dört adımlı döngü: Topla, eğit, dene, düzelt. Düzelt adımından yeniden toplaya dönen ok, bu döngünün iki kez yapılacağını gösteriyor." viewBox="0 0 1000 400" width="1000" height="400">
+          <defs>
+            <marker id="ok" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--murekkep-acik)"/></marker>
+          </defs>
+          <g font-size="28" font-weight="700" text-anchor="middle" fill="var(--murekkep)">
+            <g><rect x="40" y="140" width="190" height="110" rx="22" fill="var(--turkuaz-acik)" stroke="var(--turkuaz)" stroke-width="3"/><text x="135" y="188">📸 Topla</text><text x="135" y="225" font-size="20" font-weight="400">örnek kareler</text></g>
+            <g class="fragment"><rect x="290" y="140" width="190" height="110" rx="22" fill="var(--altin-acik)" stroke="var(--altin)" stroke-width="3"/><text x="385" y="188">⚙️ Eğit</text><text x="385" y="225" font-size="20" font-weight="400">tek düğme</text></g>
+            <g class="fragment"><rect x="540" y="140" width="190" height="110" rx="22" fill="var(--kiremit-acik)" stroke="var(--kiremit)" stroke-width="3"/><text x="635" y="188">🔍 Dene</text><text x="635" y="225" font-size="20" font-weight="400">zorla, yanılt</text></g>
+            <g class="fragment"><rect x="790" y="140" width="190" height="110" rx="22" fill="var(--turkuaz-acik)" stroke="var(--turkuaz)" stroke-width="3"/><text x="885" y="188">🔧 Düzelt</text><text x="885" y="225" font-size="20" font-weight="400">veriyi zenginleştir</text></g>
+          </g>
+          <g stroke="var(--murekkep-acik)" stroke-width="3" fill="none" marker-end="url(#ok)">
+            <line x1="232" y1="195" x2="284" y2="195"/>
+            <line x1="482" y1="195" x2="534" y2="195"/>
+            <line x1="732" y1="195" x2="784" y2="195"/>
+            <path class="fragment" d="M885 254 C885 360, 135 360, 135 258"/>
+          </g>
+          <text x="510" y="385" text-anchor="middle" font-size="22" fill="var(--murekkep-acik)">Bu döngüyü bugün iki kez döneceğiz: önce kötü veriyle, sonra iyi veriyle.</text>
+          <text x="510" y="80" text-anchor="middle" font-size="24" fill="var(--murekkep-acik)">Önceki bölümdeki “veri → örüntü → tahmin” döngüsü, şimdi sizin elinizde</text>
+        </svg>
+        <aside class="notes">
+          Ne söyle: Bugün dört adımlı bir döngüyü yaşayacağız. Önce toplayacağız: kameraya örnekler göstereceğiz. Sonra tek bir düğmeyle eğiteceğiz. Sonra deneyeceğiz; hatta makineyi bilerek zorlayıp yanıltacağız. Ve son olarak düzelteceğiz. Bu döngüyü iki kez döneceğiz: birinci turda bilerek kötü veriyle, ikinci turda iyi veriyle. Gerçek yapay zekâ ekipleri de bütün gün tam olarak bunu yapıyor.
+          Süre: 30 sn.
+          Dikkat: Burada oyalanma; ayrıntı uygulamada. Okları tek tek açarken sadece adların üstünden geç.
+        </aside>
+      </section>
+
+      <!-- 4. ADIM 1 -->
       <section>
         <div class="uygulama-kutu">
           <span class="sure">⏱ 1,5 dk</span>
@@ -65,7 +94,7 @@
         </aside>
       </section>
 
-      <!-- 4. ADIM 2 - 1. TUR -->
+      <!-- 5. ADIM 2 - 1. TUR -->
       <section>
         <div class="uygulama-kutu">
           <span class="sure">⏱ 3 dk</span>
@@ -79,11 +108,11 @@
         <aside class="notes">
           Ne söyle: "Class 1" yazısına tıklayıp "Kalem" yazın, "Class 2"yi "Telefon" yapın. Aşağıdaki "Add a class" ile üçüncü sınıfı ekleyip "Boş masa" yazın. Şimdi kalem sınıfında "Webcam"e tıklayın; tarayıcı kamera izni isteyecek, izin verin. Kalemi kameraya hep aynı açıdan, aynı elle tutun ve "Hold to Record", yani "basılı tut ve kaydet" düğmesine sadece bir-iki saniye basın. Yaklaşık on, on beş kare yeter. Aynısını telefon ve boş masa için yapın. Evet, bilerek az ve tek düze veri topluyoruz.
           Süre: 3 dk.
-          Dikkat: Hevesli gruplar baştan çok kayıt yapabilir. O gruplara 5. adımda zor test için farklı renkte bir kalem ver. Kamera açılmazsa 10. slayttaki sorun gidermeye bak.
+          Dikkat: Hevesli gruplar baştan çok kayıt yapabilir. O gruplara 5. adımda zor test için farklı renkte bir kalem ver. Kamera açılmazsa 11. slayttaki sorun gidermeye bak.
         </aside>
       </section>
 
-      <!-- 5. ADIM 3 -->
+      <!-- 6. ADIM 3 -->
       <section>
         <div class="uygulama-kutu">
           <span class="sure">⏱ 2,5 dk</span>
@@ -101,7 +130,7 @@
         </aside>
       </section>
 
-      <!-- 6. BÜYÜK SORU -->
+      <!-- 7. BÜYÜK SORU -->
       <section class="soru">
         <span class="etiket kiremit">Hemen tartışalım</span>
         <p class="buyuk">Model neden yanıldı?</p>
@@ -114,7 +143,7 @@
         </aside>
       </section>
 
-      <!-- 7. ADIM 4 - 2. TUR -->
+      <!-- 8. ADIM 4 - 2. TUR -->
       <section>
         <div class="uygulama-kutu">
           <span class="sure">⏱ 3,5 dk</span>
@@ -133,7 +162,7 @@
         </aside>
       </section>
 
-      <!-- 8. KARŞILAŞTIRMA SVG -->
+      <!-- 9. KARŞILAŞTIRMA SVG -->
       <section>
         <h2>Ne değişti?</h2>
         <svg role="img" aria-label="Solda birinci tur: aynı açıdan çekilmiş birkaç kalem görüntüsü, model şaşırıyor. Sağda ikinci tur: farklı açı ve ışıkta çok sayıda kalem görüntüsü, model tanıyor." viewBox="0 0 1100 400" width="1100" height="400">
@@ -174,7 +203,7 @@
         </aside>
       </section>
 
-      <!-- 9. DERSLER -->
+      <!-- 10. DERSLER -->
       <section>
         <h2>Bugünün üç dersi</h2>
         <div class="kartlar">
@@ -190,7 +219,7 @@
         </aside>
       </section>
 
-      <!-- 10. SORUN GİDERME -->
+      <!-- 11. SORUN GİDERME -->
       <section>
         <h2>Takıldıysanız</h2>
         <div class="iki-sutun">
@@ -198,38 +227,47 @@
           <div><h3>🐢 Çok yavaş</h3><ul><li>Diğer sekmeleri kapat</li><li>Eğitim sekmesini önde tut</li><li>Kamera yoksa: grubu birleştir</li></ul></div>
         </div>
         <aside class="notes">
-          Ne söyle: Kamera açılmıyorsa adres çubuğundaki kamera simgesine tıklayıp izin verin. Daha önce "engelle" dediyseniz Chrome'da Ayarlar, Gizlilik ve güvenlik, Site ayarları, Kamera yolundan bu siteyi "İzin ver"e çevirin. Bilgisayarın kendi gizlilik ayarları da tarayıcıyı engelliyor olabilir. Bilgisayar yavaşsa diğer sekmeleri kapatın ve eğitim sekmesini önde tutun.
-          Süre: 1 dk.
+          Ne söyle: Kamera açılmıyorsa adres çubuğundaki kamera simgesine tıklayıp izin verin. Daha önce "engelle" dediyseniz Chrome'da Ayarlar, Gizlilik ve güvenlik, Site ayarları, Kamera yolundan bu siteyi "İzin ver"e çevirin. Bilgisayarın kendi gizlilik ayarları da tarayıcıyı engelliyor olabilir. Bilgisayar sizden ayrıca izin isterse "Ayarları aç" deyip kamerayı açın; sonra tarayıcıyı kapatıp yeniden açmanız gerekebilir. Bilgisayar yavaşsa diğer sekmeleri kapatın ve eğitim sekmesini önde tutun.
+          Süre: 30 sn (sorun çıkmadıysa atla; masaları dolaşırken birebir çöz).
           Dikkat: Kurum bilgisayarlarında kamera iznini yönetici kilitlemiş olabilir; o zaman kameralı başka bir gruba katıl. Telefonla kullanım resmî kaynaklarda doğrulanamadı; prova etmediysen önerme. App Store'daki aynı adlı uygulama Google'ın değil, üçüncü taraf bir uygulama.
         </aside>
       </section>
 
-      <!-- 11. QUICK DRAW -->
+      <!-- 12. QUICK DRAW -->
       <section>
         <span class="etiket altin">Erken bitenlere · kamerası olmayanlara</span>
         <h2>Bonus: Quick, Draw!</h2>
         <div class="benzetme">
           <span class="simge" aria-hidden="true">✍️</span>
-          <p><strong>quickdraw.withgoogle.com</strong> · 20 saniyede çiz, yapay zekâ tahmin etsin. Milyonlarca insanın çizimiyle eğitildi.</p>
+          <p><strong>quickdraw.withgoogle.com</strong> · 20 saniyede çiz, yapay zekâ tahmin etsin.</p>
         </div>
+        <svg class="fragment" role="img" aria-label="İki daire. Soldaki saat yönünün tersine çizilmiş: ABD'deki çizimlerin yüzde 86'sı böyle. Sağdaki saat yönünde çizilmiş: Japonya'daki çizimlerin yüzde 80'i böyle." viewBox="0 0 900 230" width="900" height="230">
+          <defs><marker id="uc" viewBox="0 0 10 10" refX="3" refY="5" markerUnits="userSpaceOnUse" markerWidth="26" markerHeight="26" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="var(--murekkep)"/></marker></defs>
+          <path d="M260 40 A70 70 0 1 0 330 110" fill="none" stroke="var(--turkuaz)" stroke-width="9" marker-end="url(#uc)"/>
+          <text x="260" y="215" text-anchor="middle" font-size="24" fill="var(--murekkep)">ABD: %86 saat yönü tersine ↺</text>
+          <path d="M640 40 A70 70 0 1 1 570 110" fill="none" stroke="var(--kiremit)" stroke-width="9" marker-end="url(#uc)"/>
+          <text x="640" y="215" text-anchor="middle" font-size="24" fill="var(--murekkep)">Japonya: %80 saat yönünde ↻</text>
+        </svg>
         <aside class="notes">
-          Ne söyle: Erken bitirenler ya da kamerası olmayanlar için eğlenceli bir oyun: Quick, Draw! Ekrana bir kelime gelir, siz 20 saniyede çizersiniz, yapay zekâ tahmin etmeye çalışır. Google 2016'da başlattı; toplanan çizimlerden 345 kategoride 50 milyonu araştırmacılarla açıkça paylaşıldı. Oyun sonunda tanıyamadığı çizimde "başkaları bunu nasıl çizmiş" örneklerine bakın: Makine çoğunluğun nasıl çizdiğini öğrenmiş.
+          Ne söyle: Erken bitirenler ya da kamerası olmayanlar için eğlenceli bir oyun: Quick, Draw! Ekrana bir kelime gelir, siz 20 saniyede çizersiniz, yapay zekâ tahmin etmeye çalışır. Google 2016'da başlattı; toplanan çizimlerden 345 kategoride 50 milyonu araştırmacılarla açıkça paylaşıldı. Oyun sonunda tanıyamadığı çizimde "başkaları bunu nasıl çizmiş" örneklerine bakın: Makine çoğunluğun nasıl çizdiğini öğrenmiş. Bu verilerden çıkan şaşırtıcı bir bulgu da var: Bir gazetecilik ekibi 2017'de yüz bini aşkın daireyi incelemiş. ABD'deki dairelerin yüzde 86'sı saat yönünün tersine çizilmiş; Japonya'da ise yüzde 80'i saat yönünde. Araştırmacılar bunu yazı sistemindeki kalem sırası alışkanlığına bağlıyor. Yani "bir daire nasıl çizilir" bile kültürden kültüre değişiyor; verisi tek bir ülkeden gelen model başka ülkede şaşırabilir.
           Süre: 1,5 dk.
+          Salona sor: "Siz daireyi hangi yöne çizersiniz? Havada parmağınızla çizin." (Türkiye için veri vermedik; salonun hâli eğlenceli bir mini anket olur.)
           Dikkat: Arayüzde Türkçe seçeneği yok; kelimeler İngilizce gelir, grup arkadaşı çevirebilir. Site, çizimleri açık veri setine eklemeyi teklif ediyor; bunu katılımcılara söyle.
         </aside>
       </section>
 
-      <!-- 12. VURGU -->
+      <!-- 13. VURGU -->
       <section class="vurgu">
-        <p class="buyuk">Bugün bir yapay zekâ eğittiniz. En önemli malzeme düğmeler değil, veriydi.</p>
+        <p class="buyuk">Makineyi yanılttınız, sonra düzelttiniz.</p>
+        <p class="fragment" style="font-size:1.4em">Düğmeye dokunmadınız, <strong>veriyi</strong> değiştirdiniz.</p>
         <aside class="notes">
-          Ne söyle: Tebrikler! Bugün hepiniz bir yapay zekâ modeli eğittiniz. Fark ettiyseniz hiçbir düğmeyi elle ayarlamadık. Bütün farkı veri yarattı. Büyük yapay zekâlarda da fikir aynı; sadece ölçek çok, çok daha büyük. Ve Google'a göre bu araçta örnekleriniz bilgisayarınızda kaldı; Drive'a kaydetmedikçe hiçbir yere yüklenmedi.
+          Ne söyle: Tebrikler! Başta size söz vermiştim: Önce makinenizi yanıltacaktınız, sonra düzeltecektiniz. İkisini de yaptınız. Fark ettiyseniz hiçbir ayarı elle değiştirmediniz. Bütün farkı veri yarattı. Bugünden aklınızda tek bir cümle kalsın: Makine, ona ne gösterirseniz onu görür. Büyük yapay zekâlarda da fikir aynı; sadece ölçek çok, çok daha büyük. Ve Google'a göre bu araçta örnekleriniz bilgisayarınızda kaldı; Drive'a kaydetmedikçe hiçbir yere yüklenmedi.
           Süre: 30 sn.
           Dikkat: "ChatGPT de tam böyle eğitildi" deme; "fikir aynı, ölçek çok farklı" de.
         </aside>
       </section>
 
-      <!-- 13. KAYNAKLAR -->
+      <!-- 14. KAYNAKLAR -->
       <section>
         <h3>Kaynaklar</h3>
         <ul class="kaynaklar">
@@ -239,6 +277,8 @@
           <li><a href="https://support.google.com/chrome/answer/2693767?hl=en&amp;co=GENIE.Platform%3DDesktop">Chrome'da kamera izni</a> — Google Chrome Yardım</li>
           <li><a href="https://quickdraw.withgoogle.com/">Quick, Draw!</a> — Google</li>
           <li><a href="https://www.digitaltechnologieshub.edu.au/teachers/lesson-ideas/ai-lesson-plans/ai-image-recognition-exploring-limitations-and-bias">Görüntü tanıma ve önyargı etkinliği</a> — Digital Technologies Hub</li>
+          <li><a href="https://qz.com/994486/the-way-you-draw-circles-says-a-lot-about-you/">Daireyi nasıl çiziyoruz?</a> — Quartz, 2017</li>
+          <li><a href="https://pcworld.com/article/3257845/ever-wanted-to-train-your-own-ai-this-free-google-tool-lets-you-do-just-that.html">Ücretsiz Teachable Machine</a> — PCWorld, Ekim 2026</li>
         </ul>
         <p class="kucuk">Ayrıntılı araştırma notu: <a href="../not.html?id=h1-04">anlatıcı notu</a> · Son güncelleme: 30 Ekim 2026</p>
         <aside class="notes">

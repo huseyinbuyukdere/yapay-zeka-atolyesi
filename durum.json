@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-30T18:22:01Z",
-  "calisma_sayisi": 40,
+  "son_calisma": "2026-10-30T19:14:55Z",
+  "calisma_sayisi": 41,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -82,12 +82,12 @@
         "Olası teknik sorunlar (kamera izni, yavaş bilgisayar) ve B planı; telefonla yapılabilir mi?",
         "Alternatif eğlenceli demo: Quick, Draw!"
       ],
-      "durum": "uretiliyor",
-      "surum": 2,
-      "son_guncelleme": "2026-10-29T22:18:40Z",
-      "sahip": "20261030T1909Z",
-      "sahip_zamani": "2026-10-30T19:09:36Z",
-      "not": "ÖNCEKİ DURUM: gozden_gecirildi | Aşama 2: 8 arama, 7 yeni kaynak okundu. Aracın Ekim 2026'da ücretsiz olduğu doğrulandı; dengesiz veri benzetmesi, Chrome/Windows-macOS önerisi, iPad sürümünün bağımsız olduğu, 5 yeni SSS, husky köprüsü eklendi. Telefon tarayıcısında eğitim hâlâ doğrulanamadı."
+      "durum": "cilalandi",
+      "surum": 3,
+      "son_guncelleme": "2026-10-30T19:14:55Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 3 (cila): Kapağa vaat ('önce yanıltacak, sonra düzelteceksiniz') ve vurguda sözü kapatan cümle ('Makine, ona ne gösterirseniz onu görür'); yeni 'Topla→Eğit→Dene→Düzelt' döngü SVG slaytı ve Quick, Draw! slaytına daire yönü SVG'si (Quartz 2017: ABD %86 saat yönü tersine, Japonya %80 saat yönünde) — toplam 3 SVG, 14 slayt; sorun giderme 30 sn'ye indi. Ücretsizlik OSU (Ağu 2026) ve PCWorld (Eki 2026) ile, Chrome kamera adımları resmî yardımla yeniden doğrulandı; MEB seçmeli ders ve Çukurova Üniv. ICITS 2023 çalışması eklendi; 2 yeni SSS. Telefon tarayıcısında eğitim hâlâ doğrulanamadı."
     },
     {
       "id": "h1-05",
@@ -594,6 +594,10 @@
     {
       "zaman": "2026-10-30T18:22:01Z",
       "ozet": "h1-03: cila — iki yeni SVG (hata eğrisi, husky/kurt), kapanış cümlesi, UW 2025 deneyi ve Google'ın Ağustos 2026 ayarı eklendi; 13 arama, 11 kaynak okundu."
+    },
+    {
+      "zaman": "2026-10-30T19:14:55Z",
+      "ozet": "h1-04: Cilalandı (12 arama, 8 kaynak okundu); vaat/kapanış cümleleri, döngü ve daire yönü SVG'leri, güncellik doğrulaması, MEB ve Türk akademik kaynağı, 2 yeni SSS."
     }
   ]
 }
