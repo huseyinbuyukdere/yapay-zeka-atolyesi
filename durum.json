@@ -120,12 +120,12 @@
         "Türkiye'den örnekler (kamu, bankacılık, e-ticaret, tarım) — kaynaklı",
         "Haftalık görev: 'Yapay zekâ avı' yönergesi"
       ],
-      "durum": "taslak",
+      "durum": "uretiliyor",
       "surum": 1,
       "son_guncelleme": "2026-10-29T15:20:13Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Aşama 1: 12 slayt (bir günün yapay zekâ haritası SVG'si, Türkiye örnekleri, doğru/yanlış quizi, Yapay zekâ avı görevi, hafta özeti), 13 kaynaklı not. e-Devlet yapay zekâ destek sisteminin güncel durumu doğrulanamadı."
+      "sahip": "20261030T0010Z",
+      "sahip_zamani": "2026-10-30T00:10:27Z",
+      "not": "Önceki durum: taslak. Aşama 1: 12 slayt (bir günün yapay zekâ haritası SVG'si, Türkiye örnekleri, doğru/yanlış quizi, Yapay zekâ avı görevi, hafta özeti), 13 kaynaklı not. e-Devlet yapay zekâ destek sisteminin güncel durumu doğrulanamadı."
     },
     {
       "id": "h2-01",
