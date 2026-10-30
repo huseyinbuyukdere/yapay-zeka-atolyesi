@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-30T11:21:08Z",
-  "calisma_sayisi": 33,
+  "son_calisma": "2026-10-30T12:27:28Z",
+  "calisma_sayisi": 34,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -349,12 +349,12 @@
         "Final projesi için şablon talimatlar: hesaplayıcı, quiz, kontrol listesi, randevu listesi",
         "2 dakikalık final sunumu formatı"
       ],
-      "durum": "uretiliyor",
-      "surum": 1,
-      "son_guncelleme": "2026-10-29T17:29:05Z",
-      "sahip": "20261030T1212Z",
-      "sahip_zamani": "2026-10-30T12:12:45Z",
-      "not": "Önceki durum: taslak. Aşama 2 gözden geçirme sürüyor. Eski not: Aşama 1: Gem/Proje/GPT ücretsizlik durumu, AI Studio-Lovable-Bolt kotaları, 4 şablon ve 2 dk sunum formatı. OpenAI ve Claude resmi yardım sayfaları açılamadı; ikincil kaynaklara dayanıldı."
+      "durum": "gozden_gecirildi",
+      "surum": 2,
+      "son_guncelleme": "2026-10-30T12:27:28Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 2: Gemini Gem'leri 17 Kasım 2026'da salt okunur olup becerilere (skills) dönüştüğü için asistan yolu 'beceri' olarak yeniden yazıldı (Google yardım sayfalarıyla doğrulandı); ChatGPT GPT (OpenAI Go sayfası), AI Studio Starter Tier (Google Cloud blog + uygunluk sorunu), Lovable/Bolt kotaları doğrulandı; 5 yeni SSS. Claude ücretsiz proje sınırı hâlâ doğrulanamadı."
     },
     {
       "id": "h4-03",
@@ -566,6 +566,10 @@
     {
       "zaman": "2026-10-30T11:21:08Z",
       "ozet": "h4-01: Gözden geçirme tamamlandı (12 arama, 11 kaynak okundu; gizli yazı mini oyunu, Görevler adı, Claude in Chrome genel erişim, gerçek enjeksiyon raporları)."
+    },
+    {
+      "zaman": "2026-10-30T12:27:28Z",
+      "ozet": "h4-02: Gözden geçirildi (17 arama, 13 kaynak okundu); Gem→beceri geçişi (17 Kasım salt okunur, 17 Aralık kaldırma) işlendi, AI Studio yayımlama uygunluk uyarısı, Lovable/Bolt/ChatGPT Go doğrulaması ve 5 yeni SSS eklendi."
     }
   ]
 }
