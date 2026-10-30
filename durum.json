@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-30T02:19:07Z",
-  "calisma_sayisi": 24,
+  "son_calisma": "2026-10-30T03:14:54Z",
+  "calisma_sayisi": 25,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -178,12 +178,12 @@
         "Halüsinasyon avı: asistanın uydurma bilgi verdiği tipik durumlar ve kaynakla doğrulama",
         "Doğrulama alışkanlığı kontrol listesi"
       ],
-      "durum": "uretiliyor",
-      "surum": 1,
-      "son_guncelleme": "2026-10-29T15:57:59Z",
-      "sahip": "20261030T0308Z",
-      "sahip_zamani": "2026-10-30T03:08:55Z",
-      "not": "önceki durum: taslak (aşama 2 gözden geçirme)"
+      "durum": "gozden_gecirildi",
+      "surum": 2,
+      "son_guncelleme": "2026-10-30T03:14:54Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 2: 14 arama, 11 kaynak okundu; tablo yeniden doğrulandı (Luna, Flash-Lite, Copilot birleşmesi, Perplexity ücretsiz), alakasız bağlantıya açılan uydurma kaynak bulgusu, mahkeme önlemleri, 78 baro tartışması, künye açıklaması, 4 yeni SSS."
     },
     {
       "id": "h2-04",
@@ -530,6 +530,10 @@
     {
       "zaman": "2026-10-30T02:19:07Z",
       "ozet": "h2-02: Gözden geçirildi (12 arama, 9 kaynak okundu); uzman rolü ve kibarlık efsanelerini düzelten quiz slaytı, güncel düşünen model bilgisi, özel talimatlar ve 4 yeni SSS eklendi."
+    },
+    {
+      "zaman": "2026-10-30T03:14:54Z",
+      "ozet": "h2-03: Gözden geçirildi (14 arama, 11 kaynak okundu); asistan tablosu yeniden doğrulandı, 'çalışan bağlantı ≠ doğru kaynak' bulgusu, mahkemelerin önlemleri ve Türkiye'deki baro tartışması eklendi, künye sadeleştirildi, 4 yeni SSS."
     }
   ]
 }
