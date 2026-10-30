@@ -62,12 +62,12 @@
         "Denetimli öğrenme, pekiştirmeli öğrenme gibi türler tek cümlelik benzetmelerle (formülsüz)",
         "Veri kalitesi ve önyargının (bias) nasıl doğduğu; gerçek hayattan bilinen önyargı örnekleri"
       ],
-      "durum": "gozden_gecirildi",
+      "durum": "uretiliyor",
       "surum": 2,
       "son_guncelleme": "2026-10-29T21:18:33Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Aşama 2: Husky/kurt deneyinin bilerek kurulmuş 20 fotoğraflık bir tuzak olduğu düzeltildi; cilt kanseri (%46 etiket, ~%70 yanlış), Amazon (2014-2017, işe alımcılar yalnızca araca dayanmadı) ayrıntıları doğrulandı; Ağustos 2026 milliyet önyargısı testi slayta eklendi; kaynaksız strateji belgesi atfı kaldırıldı; sürekli öğrenme (Mart 2026) notu; 4 yeni SSS."
+      "sahip": "20261030T1810Z",
+      "sahip_zamani": "2026-10-30T18:10:32Z",
+      "not": "önceki durum: gozden_gecirildi (aşama 3 cila)"
     },
     {
       "id": "h1-04",
