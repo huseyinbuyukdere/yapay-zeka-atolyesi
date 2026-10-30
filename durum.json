@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-30T00:18:49Z",
-  "calisma_sayisi": 22,
+  "son_calisma": "2026-10-30T01:17:29Z",
+  "calisma_sayisi": 23,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -140,12 +140,12 @@
         "Bilgi kesim tarihi, web araması, 'düşünerek cevap veren' (akıl yürüten) modeller",
         "Ekim 2026 itibarıyla güncel asistanlar ve model aileleri (doğrulanmış)"
       ],
-      "durum": "uretiliyor",
-      "surum": 1,
-      "son_guncelleme": "2026-10-29T15:48:23Z",
-      "sahip": "20261030T0109Z",
-      "sahip_zamani": "2026-10-30T01:09:22Z",
-      "not": "Önceki durum: taslak (aşama 2 gözden geçirme sürüyor)"
+      "durum": "gozden_gecirildi",
+      "surum": 2,
+      "son_guncelleme": "2026-10-30T01:17:29Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 2: model tablosu yeniden doğrulandı (GPT-6 Sol/Luna Ekim sürümleri, Claude Fable 5.1 eklendi, Claude ücretsiz planı resmî kaynakla teyit, Copilot uygulama birleşmesi); Türkçe tokenizasyon araştırması ve 4 yeni SSS eklendi."
     },
     {
       "id": "h2-02",
@@ -522,6 +522,10 @@
     {
       "zaman": "2026-10-30T00:18:49Z",
       "ozet": "h1-06: Gözden geçirildi (14 arama, 10 kaynak okundu); Mastercard ve Gmail rakamlarının bağlamı düzeltildi, MEBİ resmî veriyle güncellendi, bankacılık ve e-Devlet planı eklendi, 4 yeni SSS."
+    },
+    {
+      "zaman": "2026-10-30T01:17:29Z",
+      "ozet": "h2-01: Gözden geçirildi (12 arama, 11 kaynak okundu); Claude Fable 5.1 ve ücretsiz plan resmî kaynakla doğrulandı, Copilot birleşmesi ve Türkçe tokenizasyon çalışması eklendi, 4 yeni SSS."
     }
   ]
 }
