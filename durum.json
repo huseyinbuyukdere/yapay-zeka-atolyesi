@@ -311,12 +311,12 @@
         "Gerçek kişileri ve markaları taklit etmemek; deepfake; etiketleme",
         "Haftalık görev: 'Kendi vitrinin' ve final projesi için fikir"
       ],
-      "durum": "gozden_gecirildi",
+      "durum": "uretiliyor",
       "surum": 2,
       "son_guncelleme": "2026-10-30T10:19:03Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Aşama 2: FSEK teklifi TBMM kaydıyla doğrulandı (2/3634, 8 Nisan 2026, komisyonda); Getty temyiz izni, Allen davasının sürmesi, AB nihai etiket kuralları ve Omnibus'un 2 Aralık 2026 tarihleri, Suno'nun geriye dönük hak vermemesi, Türk hukukunda deepfake çerçevesi ve 4 yeni SSS eklendi; h4-04 ile tekrar notları kondu."
+      "sahip": "20261031T0709Z",
+      "sahip_zamani": "2026-10-31T07:09:28Z",
+      "not": "önceki durum: gozden_gecirildi (aşama 3 cila)"
     },
     {
       "id": "h4-01",
