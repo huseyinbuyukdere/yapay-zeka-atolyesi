@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-31T12:20:05Z",
-  "calisma_sayisi": 59,
+  "son_calisma": "2026-10-31T13:15:46Z",
+  "calisma_sayisi": 60,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -416,10 +416,6 @@
   ],
   "gunluk": [
     {
-      "zaman": "2026-10-29T15:15:04Z",
-      "ozet": "h1-05: Kısa tarih taslağı yayımlandı (17 arama, 19 kaynak okundu)."
-    },
-    {
       "zaman": "2026-10-29T15:20:13Z",
       "ozet": "h1-06: Bugün yapay zekâ nerede taslağı yayımlandı (12 arama, 14 kaynak okundu)."
     },
@@ -654,6 +650,10 @@
     {
       "zaman": "2026-10-31T12:20:05Z",
       "ozet": "Aşama 4 (ekstra 1): notlar/hafta-1-el-notu.md katılımcı el notu yazıldı (öğrendiklerimiz, benzetmeler, araçlar, Türkçe kaynaklar, yapay zekâ avı tablosu; 12 arama, 13 kaynak okundu); h1-06 Kaynaklar slaytına GitHub bağlantısı eklendi (not.html yalnızca hN-NN kimliklerini kabul ediyor). Sıradaki: hafta-2-el-notu."
+    },
+    {
+      "zaman": "2026-10-31T13:15:46Z",
+      "ozet": "Aşama 4 (ekstra 1): notlar/hafta-2-el-notu.md katılımcı el notu yazıldı (öğrendiklerimiz, ROBOT kartı, dedektifin dört adımı, yazılmayacaklar ve KVKK önerileri, gizlilik ayarları tablosu, ücretsiz araçlar, 'Asistanla gerçek bir iş' görev tablosu; 15 arama, 11 kaynak okundu); h2-05 Kaynaklar slaytına bağlantı eklendi. Sıradaki: hafta-3-el-notu."
     }
   ]
 }
