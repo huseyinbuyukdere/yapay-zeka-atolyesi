@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-31T17:12:11Z",
-  "calisma_sayisi": 64,
+  "son_calisma": "2026-10-31T18:19:26Z",
+  "calisma_sayisi": 65,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -160,8 +160,8 @@
         "Katılımcıların kendi işinden talimat yazdığı mini alıştırma"
       ],
       "durum": "cilalandi",
-      "surum": 3,
-      "son_guncelleme": "2026-10-30T23:21:10Z",
+      "surum": 4,
+      "son_guncelleme": "2026-10-31T18:19:26Z",
       "sahip": null,
       "sahip_zamani": null,
       "not": "Aşama 3 cila: talimat–taslak–oku–düzelt döngü SVG'si (2. SVG), kapak vaadi, akıcı notlar; Gem→beceriler (13 Ekim/17 Kasım 2026) düzeltmesi, ChatGPT 5.000/1.500 karakter tarihi, Anthropic düşünme teyidi, DETAIL (Ara 2025) çalışması, 2 yeni SSS."
@@ -236,8 +236,8 @@
         "Görünmez filigranlar (ör. SynthID) ve içerik kimlik bilgileri (C2PA) — basit anlatım"
       ],
       "durum": "cilalandi",
-      "surum": 3,
-      "son_guncelleme": "2026-10-31T03:25:34Z",
+      "surum": 4,
+      "son_guncelleme": "2026-10-31T18:19:26Z",
       "sahip": null,
       "sahip_zamani": null,
       "not": "Aşama 3 (cila): 15 arama, 14 kaynak okundu. Yeni 'Çok modlu model: her dili konuşan tercüman' SVG slaytı (3. SVG, 19 slayt), kapak vaadi ('30 dakika sonra sihri anlatıp videoya Nereden geldin? diye soracaksınız'), süreler tam 30 dk'ya dengelendi. Müzik bölümü Lyria 3.5'e güncellendi (4 Eylül 2026, tüm kullanıcılar, 3 dk'ya kadar; Google Blog + TR ürün sayfası), Omni ücretsiz kampanyanın bittiği, Nano Banana 2 ayrıntıları, Gemini doğrulama günlük toplam sınırları, Suno davası OECD kaydı, Veo 4 söylentisi eklendi; 3 yeni SSS. Lyria 3.5'in ücretsiz kotası ve Türkçe söz desteği, Nano Banana 2.1'in Gemini uygulamasına gelişi, TBMM video etiketi teklifinin durumu doğrulanamadı; Gemini video ürün sayfası bu turda açılamadı."
@@ -274,8 +274,8 @@
         "Kısa video talimatı yazma formülü (sahne, hareket, kamera, süre)"
       ],
       "durum": "cilalandi",
-      "surum": 3,
-      "son_guncelleme": "2026-10-31T05:12:05Z",
+      "surum": 4,
+      "son_guncelleme": "2026-10-31T18:19:26Z",
       "sahip": null,
       "sahip_zamani": null,
       "not": "Aşama 3: 12 arama, 12 kaynak okundu. 'Dur · Kapat · Sen ara' telefon kalkanı SVG slaytı eklendi (14 slayt); Suno'nun 3 Eylül 2026 ücretsiz indirme kısıtı, Gemini'de videonun abonelik istediği (yaz kampanyası bitti), Kling 4.0'ın önce üst abonelere açıldığı, Runway ücretsiz Gen-4 Turbo/filigran bilgisi, RTÜK kamu spotu eklendi; 3 yeni SSS. Ücretsiz Kling hesaplarının 4.0 erişimi, Runway Standard fiyatı ve Lyria 3 ticari koşulları doğrulanamadı."
@@ -293,8 +293,8 @@
         "Sunum ve salon oylaması için değerlendirme ölçütleri; sunucu için sorun giderme ipuçları"
       ],
       "durum": "cilalandi",
-      "surum": 3,
-      "son_guncelleme": "2026-10-31T06:21:02Z",
+      "surum": 4,
+      "son_guncelleme": "2026-10-31T18:19:26Z",
       "sahip": null,
       "sahip_zamani": null,
       "not": "Aşama 3 cila: 'Tek mesaj, beş çıktı' pusula SVG slaytı (2. SVG), kapak vaadi, Canva Free kotası 20 toplam kullanıma düzeltildi, Suno indirme kısıtı ve bağlantıdan çalma B planı, YouTube Create'in Türkiye'de sunulduğu teyidi, 2 yeni SSS."
@@ -331,8 +331,8 @@
         "Ajanlarla çalışırken insan kontrolü ve güvenlik"
       ],
       "durum": "cilalandi",
-      "surum": 3,
-      "son_guncelleme": "2026-10-31T08:18:04Z",
+      "surum": 4,
+      "son_guncelleme": "2026-10-31T18:19:26Z",
       "sahip": null,
       "sahip_zamani": null,
       "not": "Aşama 3 (cila): 12 arama, 10 kaynak okundu. Yeni 'Oku · Hazırla · Yap' yetki merdiveni SVG slaytı (3. SVG, 15 slayt), kapak vaadi ve vaadi kapatan kapanış ('Anahtarı verin, ama son kapıyı hep siz kilitleyin'), notlar akıcılaştırıldı, süreler 20 dk'ya yeniden dengelendi. Düzeltme: Gemini Chrome otomatik tarama ülkeye göre sınırlı (Google Hindistan blogu 7 Eki 2026; ikincile göre ABD+Hindistan). Gemini Görevler, Claude in Chrome, Copilot ile tarama (19 Eki) yeniden teyit; Edge Copilot Modu emekliye ayrıldı; ChatGPT Work ücretsiz-masaüstü 3. ikincil kaynakla teyit; Haziran 2026 BioShocking saldırısı ve 8 Eki Gemini iş ajanı ayrımı eklendi; 3 yeni SSS. ChatGPT Work ücretsiz kotası (OpenAI sayfası) ve Chrome otomatik taramanın Türkiye'de olup olmadığı doğrulanamadı."
@@ -415,10 +415,6 @@
     }
   ],
   "gunluk": [
-    {
-      "zaman": "2026-10-29T16:07:39Z",
-      "ozet": "h2-04: Kendi belgenle konuş taslağı yayımlandı (12 arama, 11 kaynak okundu)."
-    },
     {
       "zaman": "2026-10-29T16:11:41Z",
       "ozet": "h2-05: Güvenli ve gizli kullanım taslağı yayımlandı (12 arama, 9 kaynak okundu)."
@@ -654,6 +650,10 @@
     {
       "zaman": "2026-10-31T17:12:11Z",
       "ozet": "Aşama 4 (ekstra 3, güncellik taraması): Tüm sunumlardaki model adı, fiyat ve kota iddiaları tarandı (13 arama, 13 kaynak okundu). GPT-6 Luna/Sol, Claude 5.5 ailesi tarihleri, Gemini ücretsiz Flash-Lite, Copilot birleşmesi, Sora kapanış tarihleri, Suno v6/v6-mini ve ücretsiz indirme sınırı teyit edildi. h2-01 düzeltildi: Argon yalnızca AI Pro ve Ultra'da; AI Plus'ta Pro 13 Kasım'da kalkıyor; nota Türkiye fiyatları (AI Plus 359,99 TL, AI Pro 1.519,99 TL, ChatGPT Plus App Store 999,99 TL) eklendi. Sıradaki: ekstra 4 tutarlılık turu."
+    },
+    {
+      "zaman": "2026-10-31T18:19:26Z",
+      "ozet": "Aşama 4 (ekstra 4, tutarlılık turu): Tüm sunum ve notlarda kavram adları ve benzetmeler karşılaştırıldı (ROBOT, token/parça, halüsinasyon, çırak, stajyer, deepfake, aile parolası, Gemini Notebook, AB tarihleri); 12 arama, 10 kaynak okundu. Düzeltmeler: h2-02 notunda Gem takvimi Google yardım sayfasına uyduruldu (17 Kasım salt okunur, 17 Aralık kaldırma; '13 Ekim'den beri Gem kurulamıyor' doğrulanamadı), h3-04'te ROBOT'a eksik 'örnek' eklendi, h3-03'te 'aile parolası' terimi, h3-01'de deepfake tanımı, h4-01'de 2. haftanın stajyerine köprü, sss ve hafta-4 el notunda arama adımları h4-04 sırasına (parolayı sor → kapat → kendin geri ara) getirildi. Sıradaki: ekstra 5 (en zayıf konuya aşama 2)."
     }
   ]
 }

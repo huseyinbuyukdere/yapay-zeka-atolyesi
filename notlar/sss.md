@@ -79,7 +79,7 @@ Gözle kesin anlamak giderek zorlaşıyor; atölyenin ilk oyununda da gördük k
 ## E. Dolandırıcılık ve sahte içerik 🚨
 
 **21. Sesim gerçekten kopyalanabilir mi? Telefonu açınca konuşmamalı mıyım?**
-Evet, yapay zekâ kısa ses kayıtlarından bir kişinin sesini taklit edebiliyor; sosyal medyadaki videolar da bunun için malzeme olabiliyor. Ama telefonu hiç açmamak ya da "alo" dememek pratik bir çözüm değil. Asıl korunma yolu **doğrulamak**: Acil para isteyen bir arama gelirse kapatın, kişiyi bildiğiniz numaradan kendiniz geri arayın ve **aile parolasını** sorun. **→ h3-03, h4-04**
+Evet, yapay zekâ kısa ses kayıtlarından bir kişinin sesini taklit edebiliyor; sosyal medyadaki videolar da bunun için malzeme olabiliyor. Ama telefonu hiç açmamak ya da "alo" dememek pratik bir çözüm değil. Asıl korunma yolu **doğrulamak**: Acil para isteyen bir arama gelirse önce **aile parolasını** sorun; doğru bilse bile kapatın ve kişiyi bildiğiniz numaradan kendiniz geri arayın. **→ h3-03, h4-04**
 
 **22. Aile parolası nedir, nasıl kurarız?**
 Ailenizin yalnızca birbirinin bildiği, internette bulunamayacak bir kelime ya da cümle. Para, kaza, gözaltı ya da acil yardım isteyen olağandışı bir aramada "Parolamız neydi?" diye sorarsınız. Doğum tarihi, evcil hayvan adı gibi sosyal medyadan bulunabilecek şeyleri seçmeyin. Korku anında sormayı unutmak kolay olduğu için ailece bir kez prova edin. Yaşlı aile büyüklerinizle bu konuşmayı bu hafta yapın. **→ h4-04**

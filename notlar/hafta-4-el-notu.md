@@ -88,7 +88,7 @@ Yapay zekâ bir kişinin sesini kısa kayıtlardan taklit edebiliyor. Dolandır�
 
 1. **Seçin:** Aile içinde, kolay hatırlanan ama tahmin edilmesi zor bir kelime ya da soru belirleyin. Yüz yüze konuşun; mesajla ya da sosyal medyada paylaşmayın.
 2. **Sorun:** Para, kaza, gözaltı ya da acil yardım isteyen olağandışı bir aramada parolayı sorun.
-3. **Kapatın, siz arayın:** Şüphe varsa telefonu kapatın ve kişiyi kayıtlı numarasından kendiniz arayın. Doğrulamadan para göndermeyin, bir yere gitmeyin.
+3. **Kapatın, siz arayın:** Parolayı doğru bilse bile telefonu kapatın ve kişiyi kayıtlı numarasından kendiniz arayın. Doğrulamadan para göndermeyin, bir yere gitmeyin.
 4. **Prova edin:** Korku anında parolayı sormayı unutmak kolay. Ailece bir kez "böyle bir arama gelirse ne yaparız?" diye konuşun ve ara sıra hatırlatın.
 
 **Üç alarm işareti:** acele baskısı · izi sürülmesi zor ödeme (kripto, hediye kartı, nakit) · "kimseye söyleme, polise haber verme" isteği.
@@ -104,7 +104,7 @@ Yapay zekâ bir kişinin sesini kısa kayıtlardan taklit edebiliyor. Dolandır�
 | Özgeçmişinizi yapay zekâyla güzelleştirmek | ⚠️ Dikkat | Olmayan bir deneyim ya da sertifika ekleyebilir; her satırı kontrol edin. |
 | Başkasının tahlil sonucunu yükleyip yorumlatmak | ⛔ Asla | Sağlık verisi en hassas veri türlerinden; yorum hekimin işi. |
 | İş yerindeki müşteri listesini ücretsiz bir asistana yüklemek | ⛔ Asla | Müşterinin bilgisi size emanet; mesajı yazdırmak için listeye gerek yok. |
-| Telefondaki ağlayan sese hemen para göndermek | ⛔ Asla | Ses klonlanmış olabilir: kapat, kendin geri ara, parolayı sor. |
+| Telefondaki ağlayan sese hemen para göndermek | ⛔ Asla | Ses klonlanmış olabilir: parolayı sor, kapat, kendin geri ara. |
 | Ünlü yüzlü yatırım videosuna para yatırmak | ⛔ Asla | Sahte reklam olabilir. |
 
 ## Kurallar ne diyor? (kısaca, Ekim 2026)
