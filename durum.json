@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-31T04:25:27Z",
-  "calisma_sayisi": 50,
+  "son_calisma": "2026-10-31T05:12:05Z",
+  "calisma_sayisi": 51,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -273,12 +273,12 @@
         "Video: Kling, Runway, Google Veo, Hailuo, Pika — ücretsiz kotalar ve hangi iş için hangisi (Ekim 2026, doğrulanmış)",
         "Kısa video talimatı yazma formülü (sahne, hareket, kamera, süre)"
       ],
-      "durum": "uretiliyor",
-      "surum": 2,
-      "son_guncelleme": "2026-10-30T08:13:26Z",
-      "sahip": "20261031T0508Z",
-      "sahip_zamani": "2026-10-31T05:08:50Z",
-      "not": "önceki durum: gozden_gecirildi; cila (aşama 3) sürüyor"
+      "durum": "cilalandi",
+      "surum": 3,
+      "son_guncelleme": "2026-10-31T05:12:05Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 3: 12 arama, 12 kaynak okundu. 'Dur · Kapat · Sen ara' telefon kalkanı SVG slaytı eklendi (14 slayt); Suno'nun 3 Eylül 2026 ücretsiz indirme kısıtı, Gemini'de videonun abonelik istediği (yaz kampanyası bitti), Kling 4.0'ın önce üst abonelere açıldığı, Runway ücretsiz Gen-4 Turbo/filigran bilgisi, RTÜK kamu spotu eklendi; 3 yeni SSS. Ücretsiz Kling hesaplarının 4.0 erişimi, Runway Standard fiyatı ve Lyria 3 ticari koşulları doğrulanamadı."
     },
     {
       "id": "h3-04",
@@ -634,6 +634,10 @@
     {
       "zaman": "2026-10-31T04:25:27Z",
       "ozet": "h3-02: Cilalandı (12 arama, 8 kaynak okundu); Canva kotası 20 toplam kullanıma, Midjourney V8.2 varsayılana güncellendi, kadraj SVG'si ve vaat-kapanış eklendi."
+    },
+    {
+      "zaman": "2026-10-31T05:12:05Z",
+      "ozet": "h3-03: Cilalandı (12 arama, 12 kaynak okundu); telefon kalkanı SVG slaytı, Suno indirme kısıtı, Gemini video abonelik teyidi, Kling 4.0 erişim katmanı, 3 yeni SSS."
     }
   ]
 }
