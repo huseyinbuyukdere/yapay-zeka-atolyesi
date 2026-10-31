@@ -178,12 +178,12 @@
         "Halüsinasyon avı: asistanın uydurma bilgi verdiği tipik durumlar ve kaynakla doğrulama",
         "Doğrulama alışkanlığı kontrol listesi"
       ],
-      "durum": "gozden_gecirildi",
+      "durum": "uretiliyor",
       "surum": 2,
       "son_guncelleme": "2026-10-30T03:14:54Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Aşama 2: 14 arama, 11 kaynak okundu; tablo yeniden doğrulandı (Luna, Flash-Lite, Copilot birleşmesi, Perplexity ücretsiz), alakasız bağlantıya açılan uydurma kaynak bulgusu, mahkeme önlemleri, 78 baro tartışması, künye açıklaması, 4 yeni SSS."
+      "sahip": "20261031T0009Z",
+      "sahip_zamani": "2026-10-31T00:09:48Z",
+      "not": "önceki durum: gozden_gecirildi (aşama 3 cila)"
     },
     {
       "id": "h2-04",
