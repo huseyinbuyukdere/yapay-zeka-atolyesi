@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-31T21:23:07Z",
-  "calisma_sayisi": 68,
+  "son_calisma": "2026-10-31T22:13:33Z",
+  "calisma_sayisi": 69,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -216,12 +216,12 @@
         "KVKK açısından temel dikkat noktaları; kurum politikaları",
         "Haftalık görev: 'Asistanla gerçek bir iş'"
       ],
-      "durum": "uretiliyor",
-      "surum": 3,
-      "son_guncelleme": "2026-10-31T02:22:20Z",
-      "sahip": "20261031T2209Z",
-      "sahip_zamani": "2026-10-31T22:09:31Z",
-      "not": "ESKİ DURUM: cilalandi | Aşama 3 (cila): 12 arama, 9 kaynak okundu. Yeni 'Çıkar · sor · geri koy' SVG slaytı (2. çizim), 2026 Claude paylaşım bağlantısı olayı eklendi, Claude ayar adı 'Help Improve our AI models' olarak güncellendi, ChatGPT geçici sohbet Ağustos 2026 değişikliği, Gemini gizlilik merkezi 26 Ekim teyidi, Copilot yeni uygulama belirsizliği notu, 3 yeni SSS, süreler 10 dk'ya yeniden dengelendi. Copilot yeni uygulama menü yolu, Türkçe arayüz ayar adları ve KVKK resmî PDF hâlâ doğrulanamadı."
+      "durum": "cilalandi",
+      "surum": 4,
+      "son_guncelleme": "2026-10-31T22:13:33Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 4 ekstra 5 (en kısa not/en az kaynaklı konu, aşama 2 yeniden): 13 arama, 10 kaynak okundu. Slayt 5 'Üç gerçek ders' kartlarına dönüştü: 2025 sohbet kopyalayan 'gizlilik' eklentileri (Koi; 8 milyon+ kullanıcı, Sözcü/The Decoder) eklendi; notta Chat & Ask AI aracı uygulama sızıntısı (300M mesaj, Malwarebytes), Gemini Kişisel Zekâ (TR 15 Nisan 2026, varsayılan kapalı) ve ChatGPT reklamları (TR Eylül 2026; reklamveren sohbet görmez, kişiselleştirme izinli) 'İki yeni düğme' olarak, Copilot Q&A ülke istisnaları, 5. benzetme (anahtar verilen usta), 4 yeni SSS, 10 yeni kaynak (toplam 34); süreler 10:00'a yeniden dengelendi. ChatGPT reklam ayarının Türkçe adı, Kişisel Zekâ'nın ücretsiz hesaplarda TR'de açılışı ve Copilot yeni uygulama menüsü doğrulanamadı; OpenAI TR yardım ve reklam yardım sayfaları açılamadı."
     },
     {
       "id": "h3-01",
@@ -415,10 +415,6 @@
     }
   ],
   "gunluk": [
-    {
-      "zaman": "2026-10-29T16:50:22Z",
-      "ozet": "h3-03: Müzik, ses ve video üretimi taslağı yayımlandı (12 arama, 12 kaynak okundu)."
-    },
     {
       "zaman": "2026-10-29T16:55:33Z",
       "ozet": "h3-04: Mini kampanya ekip görevi taslağı yayımlandı (12 arama, 9 kaynak okundu)."
@@ -654,6 +650,10 @@
     {
       "zaman": "2026-10-31T21:23:07Z",
       "ozet": "Aşama 4 (ekstra 5): h3-02 en az kaynaklı konu olarak yeniden gözden geçirildi (12 arama, 14 kaynak okundu); Gemini işaretleme aracı, Canva kota teyidi, Midjourney sürüm çelişkisi, 4 yeni SSS."
+    },
+    {
+      "zaman": "2026-10-31T22:13:33Z",
+      "ozet": "Aşama 4 (ekstra 5): h2-05 en kısa notlu konu olarak yeniden gözden geçirildi (13 arama, 10 kaynak okundu); sohbet kopyalayan eklentiler slaytı, aracı uygulama sızıntısı, Gemini Kişisel Zekâ ve ChatGPT reklamları, 4 yeni SSS."
     }
   ]
 }
