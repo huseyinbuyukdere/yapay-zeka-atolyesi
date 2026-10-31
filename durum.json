@@ -349,12 +349,12 @@
         "Final projesi için şablon talimatlar: hesaplayıcı, quiz, kontrol listesi, randevu listesi",
         "2 dakikalık final sunumu formatı"
       ],
-      "durum": "gozden_gecirildi",
+      "durum": "uretiliyor",
       "surum": 2,
       "son_guncelleme": "2026-10-30T12:27:28Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Aşama 2: Gemini Gem'leri 17 Kasım 2026'da salt okunur olup becerilere (skills) dönüştüğü için asistan yolu 'beceri' olarak yeniden yazıldı (Google yardım sayfalarıyla doğrulandı); ChatGPT GPT (OpenAI Go sayfası), AI Studio Starter Tier (Google Cloud blog + uygunluk sorunu), Lovable/Bolt kotaları doğrulandı; 5 yeni SSS. Claude ücretsiz proje sınırı hâlâ doğrulanamadı."
+      "sahip": "20261031T0909Z",
+      "sahip_zamani": "2026-10-31T09:09:10Z",
+      "not": "önceki durum: gozden_gecirildi (cila sürüyor)"
     },
     {
       "id": "h4-03",
