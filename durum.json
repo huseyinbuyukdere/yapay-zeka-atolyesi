@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-31T02:22:20Z",
-  "calisma_sayisi": 48,
+  "son_calisma": "2026-10-31T03:25:34Z",
+  "calisma_sayisi": 49,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -235,12 +235,12 @@
         "Metinden görsele, görselden videoya, metinden müziğe; çok modlu modeller",
         "Görünmez filigranlar (ör. SynthID) ve içerik kimlik bilgileri (C2PA) — basit anlatım"
       ],
-      "durum": "uretiliyor",
-      "surum": 2,
-      "son_guncelleme": "2026-10-30T06:26:06Z",
-      "sahip": "20261031T0310Z",
-      "sahip_zamani": "2026-10-31T03:10:25Z",
-      "not": "Önceki durum: gozden_gecirildi. Aşama 3 (cila) sürüyor. Aşama 2: 14 arama, 11 kaynak okundu. Lyria 3 Pro (3 dk, ücretli planlar, Türkçe yok), Gemini'de videoda Omni 1.1 Flash'ın Veo 3.1'in yerini alması, Sora'nın kapanış tarihleri (26 Nisan / 24 Eylül 2026), SynthID Detector'ın 7 Ekim 2026'da herkese açılması (180 milyar tahmin sorusu), C2PA 2.3 ve TikTok, AB 2 Aralık 2026 geçiş süresi, Suno'ya Eylül 2026 yeni dava eklendi; zaman çizelgesi güncellendi; 4 yeni SSS. TBMM video etiketi teklifinin durumu hâlâ doğrulanamadı; Suno v6-mini'nin ücretsizliği bu turda yeniden doğrulanamadı."
+      "durum": "cilalandi",
+      "surum": 3,
+      "son_guncelleme": "2026-10-31T03:25:34Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 3 (cila): 15 arama, 14 kaynak okundu. Yeni 'Çok modlu model: her dili konuşan tercüman' SVG slaytı (3. SVG, 19 slayt), kapak vaadi ('30 dakika sonra sihri anlatıp videoya Nereden geldin? diye soracaksınız'), süreler tam 30 dk'ya dengelendi. Müzik bölümü Lyria 3.5'e güncellendi (4 Eylül 2026, tüm kullanıcılar, 3 dk'ya kadar; Google Blog + TR ürün sayfası), Omni ücretsiz kampanyanın bittiği, Nano Banana 2 ayrıntıları, Gemini doğrulama günlük toplam sınırları, Suno davası OECD kaydı, Veo 4 söylentisi eklendi; 3 yeni SSS. Lyria 3.5'in ücretsiz kotası ve Türkçe söz desteği, Nano Banana 2.1'in Gemini uygulamasına gelişi, TBMM video etiketi teklifinin durumu doğrulanamadı; Gemini video ürün sayfası bu turda açılamadı."
     },
     {
       "id": "h3-02",
@@ -626,6 +626,10 @@
     {
       "zaman": "2026-10-31T02:22:20Z",
       "ozet": "h2-05: Cilalandı (12 arama, 9 kaynak) — 'Çıkar · sor · geri koy' SVG slaytı, 2026 Claude paylaşım olayı, güncel Claude ayar adı, ChatGPT geçici sohbet değişikliği, Copilot yeni uygulama notu, 3 yeni SSS."
+    },
+    {
+      "zaman": "2026-10-31T03:25:34Z",
+      "ozet": "h3-01: Cilalandı (15 arama, 14 kaynak okundu); çok modlu SVG slaytı, Lyria 3.5 güncellemesi, 3 yeni SSS."
     }
   ]
 }
