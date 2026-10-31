@@ -235,12 +235,12 @@
         "Metinden görsele, görselden videoya, metinden müziğe; çok modlu modeller",
         "Görünmez filigranlar (ör. SynthID) ve içerik kimlik bilgileri (C2PA) — basit anlatım"
       ],
-      "durum": "gozden_gecirildi",
+      "durum": "uretiliyor",
       "surum": 2,
       "son_guncelleme": "2026-10-30T06:26:06Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Aşama 2: 14 arama, 11 kaynak okundu. Lyria 3 Pro (3 dk, ücretli planlar, Türkçe yok), Gemini'de videoda Omni 1.1 Flash'ın Veo 3.1'in yerini alması, Sora'nın kapanış tarihleri (26 Nisan / 24 Eylül 2026), SynthID Detector'ın 7 Ekim 2026'da herkese açılması (180 milyar tahmin sorusu), C2PA 2.3 ve TikTok, AB 2 Aralık 2026 geçiş süresi, Suno'ya Eylül 2026 yeni dava eklendi; zaman çizelgesi güncellendi; 4 yeni SSS. TBMM video etiketi teklifinin durumu hâlâ doğrulanamadı; Suno v6-mini'nin ücretsizliği bu turda yeniden doğrulanamadı."
+      "sahip": "20261031T0310Z",
+      "sahip_zamani": "2026-10-31T03:10:25Z",
+      "not": "Önceki durum: gozden_gecirildi. Aşama 3 (cila) sürüyor. Aşama 2: 14 arama, 11 kaynak okundu. Lyria 3 Pro (3 dk, ücretli planlar, Türkçe yok), Gemini'de videoda Omni 1.1 Flash'ın Veo 3.1'in yerini alması, Sora'nın kapanış tarihleri (26 Nisan / 24 Eylül 2026), SynthID Detector'ın 7 Ekim 2026'da herkese açılması (180 milyar tahmin sorusu), C2PA 2.3 ve TikTok, AB 2 Aralık 2026 geçiş süresi, Suno'ya Eylül 2026 yeni dava eklendi; zaman çizelgesi güncellendi; 4 yeni SSS. TBMM video etiketi teklifinin durumu hâlâ doğrulanamadı; Suno v6-mini'nin ücretsizliği bu turda yeniden doğrulanamadı."
     },
     {
       "id": "h3-02",
