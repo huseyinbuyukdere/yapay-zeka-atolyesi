@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-31T16:14:08Z",
-  "calisma_sayisi": 63,
+  "son_calisma": "2026-10-31T17:12:11Z",
+  "calisma_sayisi": 64,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -141,8 +141,8 @@
         "Ekim 2026 itibarıyla güncel asistanlar ve model aileleri (doğrulanmış)"
       ],
       "durum": "cilalandi",
-      "surum": 3,
-      "son_guncelleme": "2026-10-30T22:20:24Z",
+      "surum": 4,
+      "son_guncelleme": "2026-10-31T17:12:11Z",
       "sahip": null,
       "sahip_zamani": null,
       "not": "Aşama 3 (cila): iki yeni SVG (yetişme akışı, hızlı/düşünen mod yolları; toplam 4), GPT-6 Ekim sürümü OpenAI birincil kaynakla teyit, GPT-6.1 Sol/Terra ve Gemini AI Plus notu, uzun sohbet araştırması, 2 yeni SSS, 6 yeni kaynak."
@@ -416,10 +416,6 @@
   ],
   "gunluk": [
     {
-      "zaman": "2026-10-29T15:57:59Z",
-      "ozet": "h2-03: Üç asistan ve halüsinasyon avı taslağı yayımlandı (12 arama, 10 kaynak okundu)."
-    },
-    {
       "zaman": "2026-10-29T16:07:39Z",
       "ozet": "h2-04: Kendi belgenle konuş taslağı yayımlandı (12 arama, 11 kaynak okundu)."
     },
@@ -654,6 +650,10 @@
     {
       "zaman": "2026-10-31T16:14:08Z",
       "ozet": "Aşama 4 (ekstra 2): notlar/sss.md yazıldı — tüm atölye için 7 başlıkta 30 soru-cevap (temeller, gizlilik, doğruluk, telif/etiket, dolandırıcılık, iş/toplum/kurallar, atölye sonrası), her cevaba ilgili konu kodu, kısa sözlük; enerji/su (Google ölçümü, IEA), ILO iş etkisi, yaş sınırları (Gemini, ChatGPT), AB şeffaflık takvimi, dolandırılınca yapılacaklar yeni doğrulandı (16 arama, 11 kaynak okundu); h4-05 Kaynaklar slaytına bağlantı eklendi. Sıradaki: ekstra 3 güncellik taraması."
+    },
+    {
+      "zaman": "2026-10-31T17:12:11Z",
+      "ozet": "Aşama 4 (ekstra 3, güncellik taraması): Tüm sunumlardaki model adı, fiyat ve kota iddiaları tarandı (13 arama, 13 kaynak okundu). GPT-6 Luna/Sol, Claude 5.5 ailesi tarihleri, Gemini ücretsiz Flash-Lite, Copilot birleşmesi, Sora kapanış tarihleri, Suno v6/v6-mini ve ücretsiz indirme sınırı teyit edildi. h2-01 düzeltildi: Argon yalnızca AI Pro ve Ultra'da; AI Plus'ta Pro 13 Kasım'da kalkıyor; nota Türkiye fiyatları (AI Plus 359,99 TL, AI Pro 1.519,99 TL, ChatGPT Plus App Store 999,99 TL) eklendi. Sıradaki: ekstra 4 tutarlılık turu."
     }
   ]
 }
