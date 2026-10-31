@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-31T20:17:16Z",
-  "calisma_sayisi": 67,
+  "son_calisma": "2026-10-31T21:23:07Z",
+  "calisma_sayisi": 68,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -254,12 +254,12 @@
         "Fotoğraf düzenleme: arka plan değiştirme, ışık, nesne ekleme/çıkarma",
         "Türkçe metin yazdırma, el/yüz hataları gibi tipik kusurlar ve çözüm ipuçları"
       ],
-      "durum": "uretiliyor",
-      "surum": 3,
-      "son_guncelleme": "2026-10-31T04:25:27Z",
-      "sahip": "20261031T2109Z",
-      "sahip_zamani": "2026-10-31T21:09:30Z",
-      "not": "[önceki durum: cilalandi] Aşama 3 (cila): 12 arama, 8 kaynak okundu. Kapağa vaat ('25 dakika sonra kafanızdaki resmi ekrana getirip tek tek düzelteceksiniz') ve vaadi kapatan kapanış ('Görseli şans değil, tarif belirler'); quiz cevabına iç içe kadraj çerçeveleri SVG'si (3. SVG). Canva ücretsiz kotası daralmış: ayda toplam 20 kullanım (standart+premium aynı kotadan; Canva yardım + Krea, 31.10.2026); Midjourney V8.2 24 Temmuz'dan beri varsayılan (2 ikincil kaynak); Nano Banana 2.1 Gemini'de Google AI planıyla (Google TR sayfası), SynthID+görünür filigran; Firefly ve ChatGPT Images 2.5 yeniden teyit; 2 yeni SSS. Ücretsiz Gemini indirme çözünürlüğünde Google sayfaları çelişiyor (1K/2K), Midjourney resmî sürüm sayfası açılamadı."
+      "durum": "cilalandi",
+      "surum": 4,
+      "son_guncelleme": "2026-10-31T21:23:07Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 4 ekstra 5 (en az kaynaklı konu, aşama 2 yeniden): 12 arama, 14 kaynak okundu. Gemini işaretleme (Markup) aracı benzetme, slayt ipucu ve SSS olarak eklendi; Canva 20'lik ortak kota resmî sayfadan yeniden teyit ve 24 Ekim kesinti kaydı; Nano Banana 2.1 API GA (6 Ekim) ve eski modelin 29 Ekim kapanışı; Firefly Pro fiyatı; HandEval el hatası çalışması; Google Fotoğraflar kişisel görsel (ABD, ücretli); 4 yeni SSS, 11 yeni kaynak. Midjourney resmî belgesi hâlâ V7 varsayılan diyor (ikincil kaynaklar V8.2) — çelişki işaretlendi; Gemini TR yardım ve tanıtım sayfaları açılamadı."
     },
     {
       "id": "h3-03",
@@ -415,10 +415,6 @@
     }
   ],
   "gunluk": [
-    {
-      "zaman": "2026-10-29T16:40:04Z",
-      "ozet": "h3-02: Görsel istasyonu taslağı yayımlandı (17 arama, 11 kaynak okundu)."
-    },
     {
       "zaman": "2026-10-29T16:50:22Z",
       "ozet": "h3-03: Müzik, ses ve video üretimi taslağı yayımlandı (12 arama, 12 kaynak okundu)."
@@ -654,6 +650,10 @@
     {
       "zaman": "2026-10-31T20:17:16Z",
       "ozet": "Aşama 4 (ekstra 5): h4-01 en az kaynaklı ikinci konu olarak yeniden gözden geçirildi (12 arama, 8 kaynak okundu); Claude in Chrome Cowork paneli, Temmuz 2026 eklenti açığı ve 'eklentisiz profil' kuralı, Opus 4.8 %31,5→%0,5 enjeksiyon oranı, Black Hat 2026, alışverişçi güven anketleri, 4 yeni SSS, 7 yeni kaynak."
+    },
+    {
+      "zaman": "2026-10-31T21:23:07Z",
+      "ozet": "Aşama 4 (ekstra 5): h3-02 en az kaynaklı konu olarak yeniden gözden geçirildi (12 arama, 14 kaynak okundu); Gemini işaretleme aracı, Canva kota teyidi, Midjourney sürüm çelişkisi, 4 yeni SSS."
     }
   ]
 }
