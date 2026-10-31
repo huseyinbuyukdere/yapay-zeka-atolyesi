@@ -197,12 +197,12 @@
         "Derin araştırma (Deep Research) özellikleri: hangi asistanda nasıl, ne zaman kullanılır",
         "Örnek belge önerileri (kişisel veri içermeyen, telif sorunu olmayan)"
       ],
-      "durum": "gozden_gecirildi",
+      "durum": "uretiliyor",
       "surum": 2,
       "son_guncelleme": "2026-10-30T04:18:47Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Aşama 2: 13 arama, 10 kaynak okundu. Not defteri başına 50 kaynak/500.000 kelime/200 MB resmî yardım sayfasından, Gemini derin araştırmanın ücretsizde günlük sınırlı olduğu ve Claude Research'ün yalnızca ücretlide olduğu resmî sayfalardan doğrulandı; Ekim yenilikleri (İncele seçeneği, @Gemini Notebook), not defteri içi Deep Research, Türkçe ad 'Gemini Not Defteri', uydurma bağlantı çalışması (Nisan 2026) ve tahmin sorusu eklendi; 5 yeni SSS."
+      "sahip": "20261031T0109Z",
+      "sahip_zamani": "2026-10-31T01:09:28Z",
+      "not": "ESKI_DURUM=gozden_gecirildi | Aşama 2: 13 arama, 10 kaynak okundu. Not defteri başına 50 kaynak/500.000 kelime/200 MB resmî yardım sayfasından, Gemini derin araştırmanın ücretsizde günlük sınırlı olduğu ve Claude Research'ün yalnızca ücretlide olduğu resmî sayfalardan doğrulandı; Ekim yenilikleri (İncele seçeneği, @Gemini Notebook), not defteri içi Deep Research, Türkçe ad 'Gemini Not Defteri', uydurma bağlantı çalışması (Nisan 2026) ve tahmin sorusu eklendi; 5 yeni SSS."
     },
     {
       "id": "h2-05",
