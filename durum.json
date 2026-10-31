@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-31T22:13:33Z",
-  "calisma_sayisi": 69,
+  "son_calisma": "2026-10-31T23:22:10Z",
+  "calisma_sayisi": 70,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -349,12 +349,12 @@
         "Final projesi için şablon talimatlar: hesaplayıcı, quiz, kontrol listesi, randevu listesi",
         "2 dakikalık final sunumu formatı"
       ],
-      "durum": "uretiliyor",
-      "surum": 3,
-      "son_guncelleme": "2026-10-31T09:30:50Z",
-      "sahip": "20261031T2309Z",
-      "sahip_zamani": "2026-10-31T23:09:13Z",
-      "not": "ESKİ DURUM: cilalandi — aşama 4 ekstra 5 (aşama 2 yeniden) için alındı. Önceki not: Cila: 'tarif→yaz→dene→düzelt' döngü SVG'si ve 2 dk sunum şeridi SVG'si, kapak vaadi/kapanış cümlesi, becerilerin kademeli açılışı (Kasım ortası) ve ilk 'ücretli' haberlerinin açıklaması, 2 yeni SSS."
+      "durum": "cilalandi",
+      "surum": 4,
+      "son_guncelleme": "2026-10-31T23:22:10Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 4 ekstra 5 (en az kaynaklı konu, aşama 2 yeniden): 13 arama, 12 kaynak okundu. Gem tarihleri ve becerilerin kişisel hesaplarda kullanımda olduğu teyit edildi; Türkçe 'Özelleştir › Beceriler' menüsü, becerilerle çalışmayan araçlar, dosya yüklemenin yalnızca web/Mac'te olması, Opal'ın 17 Kasım kapanışı, AI Studio'da uygulamaların varsayılan gizli olması, Lovable'ın geçici sohbet fiyatı, ESET Türkiye vibe coding uyarısı eklendi; 5 yeni SSS, 7 yeni kaynak."
     },
     {
       "id": "h4-03",
@@ -415,10 +415,6 @@
     }
   ],
   "gunluk": [
-    {
-      "zaman": "2026-10-29T16:55:33Z",
-      "ozet": "h3-04: Mini kampanya ekip görevi taslağı yayımlandı (12 arama, 9 kaynak okundu)."
-    },
     {
       "zaman": "2026-10-29T16:59:47Z",
       "ozet": "h3-05: Telif, etiket ve etik taslağı yayımlandı (13 arama, 10 kaynak okundu)."
@@ -654,6 +650,10 @@
     {
       "zaman": "2026-10-31T22:13:33Z",
       "ozet": "Aşama 4 (ekstra 5): h2-05 en kısa notlu konu olarak yeniden gözden geçirildi (13 arama, 10 kaynak okundu); sohbet kopyalayan eklentiler slaytı, aracı uygulama sızıntısı, Gemini Kişisel Zekâ ve ChatGPT reklamları, 4 yeni SSS."
+    },
+    {
+      "zaman": "2026-10-31T23:22:10Z",
+      "ozet": "h4-02: Aşama 4 ekstra 5 ile yeniden gözden geçirildi (13 arama, 12 kaynak); Gemini 'Özelleştir › Beceriler' Türkçe menüsü, becerilerin sınırları, Opal kapanışı, ESET Türkiye uyarısı ve 5 yeni SSS eklendi."
     }
   ]
 }
