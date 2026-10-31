@@ -349,12 +349,12 @@
         "Final projesi için şablon talimatlar: hesaplayıcı, quiz, kontrol listesi, randevu listesi",
         "2 dakikalık final sunumu formatı"
       ],
-      "durum": "cilalandi",
+      "durum": "uretiliyor",
       "surum": 3,
       "son_guncelleme": "2026-10-31T09:30:50Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Cila: 'tarif→yaz→dene→düzelt' döngü SVG'si ve 2 dk sunum şeridi SVG'si, kapak vaadi/kapanış cümlesi, becerilerin kademeli açılışı (Kasım ortası) ve ilk 'ücretli' haberlerinin açıklaması, 2 yeni SSS."
+      "sahip": "20261031T2309Z",
+      "sahip_zamani": "2026-10-31T23:09:13Z",
+      "not": "ESKİ DURUM: cilalandi — aşama 4 ekstra 5 (aşama 2 yeniden) için alındı. Önceki not: Cila: 'tarif→yaz→dene→düzelt' döngü SVG'si ve 2 dk sunum şeridi SVG'si, kapak vaadi/kapanış cümlesi, becerilerin kademeli açılışı (Kasım ortası) ve ilk 'ücretli' haberlerinin açıklaması, 2 yeni SSS."
     },
     {
       "id": "h4-03",
