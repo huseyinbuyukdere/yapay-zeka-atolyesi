@@ -216,12 +216,12 @@
         "KVKK açısından temel dikkat noktaları; kurum politikaları",
         "Haftalık görev: 'Asistanla gerçek bir iş'"
       ],
-      "durum": "gozden_gecirildi",
+      "durum": "uretiliyor",
       "surum": 2,
       "son_guncelleme": "2026-10-30T05:18:11Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Aşama 2: 11 arama, 11 kaynak okundu. Ayar/saklama tablosu resmî yardım sayfalarıyla yeniden doğrulandı (ChatGPT web/mobil yolu ve geçici sohbet; Claude'da güncel ad 'Model Improvement', gizli sohbet, işaretli içerik 2 yıl; Gemini'de dış incelemeciler ve 'önce kapat sonra sil'; Copilot yeni uygulama notu ve eğitim dışı gruplar). Slayt 4 'İki gerçek ders' oldu (2025 Paylaş bağlantıları Google'da), KVKK rehberinin bireylere 6 önerisi slayta girdi, NYT saklama kararı, 5 yeni SSS. Türkçe arayüz ayar adları, Copilot yeni uygulama menüleri ve KVKK PDF'i hâlâ doğrulanamadı."
+      "sahip": "20261031T0209Z",
+      "sahip_zamani": "2026-10-31T02:09:04Z",
+      "not": "önceki durum: gozden_gecirildi (cila sürüyor); Aşama 2: 11 arama, 11 kaynak okundu. Ayar/saklama tablosu resmî yardım sayfalarıyla yeniden doğrulandı (ChatGPT web/mobil yolu ve geçici sohbet; Claude'da güncel ad 'Model Improvement', gizli sohbet, işaretli içerik 2 yıl; Gemini'de dış incelemeciler ve 'önce kapat sonra sil'; Copilot yeni uygulama notu ve eğitim dışı gruplar). Slayt 4 'İki gerçek ders' oldu (2025 Paylaş bağlantıları Google'da), KVKK rehberinin bireylere 6 önerisi slayta girdi, NYT saklama kararı, 5 yeni SSS. Türkçe arayüz ayar adları, Copilot yeni uygulama menüleri ve KVKK PDF'i hâlâ doğrulanamadı."
     },
     {
       "id": "h3-01",
