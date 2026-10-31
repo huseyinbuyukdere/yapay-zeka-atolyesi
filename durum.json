@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-31T08:18:04Z",
-  "calisma_sayisi": 54,
+  "son_calisma": "2026-10-31T09:30:50Z",
+  "calisma_sayisi": 55,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -349,12 +349,12 @@
         "Final projesi için şablon talimatlar: hesaplayıcı, quiz, kontrol listesi, randevu listesi",
         "2 dakikalık final sunumu formatı"
       ],
-      "durum": "uretiliyor",
-      "surum": 2,
-      "son_guncelleme": "2026-10-30T12:27:28Z",
-      "sahip": "20261031T0909Z",
-      "sahip_zamani": "2026-10-31T09:09:10Z",
-      "not": "önceki durum: gozden_gecirildi (cila sürüyor)"
+      "durum": "cilalandi",
+      "surum": 3,
+      "son_guncelleme": "2026-10-31T09:30:50Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Cila: 'tarif→yaz→dene→düzelt' döngü SVG'si ve 2 dk sunum şeridi SVG'si, kapak vaadi/kapanış cümlesi, becerilerin kademeli açılışı (Kasım ortası) ve ilk 'ücretli' haberlerinin açıklaması, 2 yeni SSS."
     },
     {
       "id": "h4-03",
@@ -650,6 +650,10 @@
     {
       "zaman": "2026-10-31T08:18:04Z",
       "ozet": "h4-01: Cila — yetki merdiveni SVG'si, kapak vaadi/kapanış, Chrome otomatik tarama ülke kısıtı düzeltmesi, BioShocking örneği (12 arama, 10 kaynak)."
+    },
+    {
+      "zaman": "2026-10-31T09:30:50Z",
+      "ozet": "h4-02: Cilalandı (12 arama, 13 kaynak okundu); döngü ve 2 dk şerit SVG'leri, kapak vaadi, beceri açılış takvimi (13 Ekim–Kasım ortası) teyidi, Lovable/Bolt/GPT kotaları yeniden doğrulandı, 2 yeni SSS."
     }
   ]
 }
