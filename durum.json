@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-31T10:17:39Z",
-  "calisma_sayisi": 56,
+  "son_calisma": "2026-10-31T11:19:13Z",
+  "calisma_sayisi": 57,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -406,19 +406,15 @@
         "Öğrenmeye devam: YÖK Dijital Üniversite, BTK Akademi, Elements of AI ve diğer ücretsiz Türkçe kaynaklar (güncel, doğrulanmış)",
         "'30 gün, 1 alışkanlık' görevi ve bir ay sonraki buluşma önerisi"
       ],
-      "durum": "uretiliyor",
-      "surum": 2,
-      "son_guncelleme": "2026-10-30T14:25:02Z",
-      "sahip": "20261031T1110Z",
-      "sahip_zamani": "2026-10-31T11:10:39Z",
-      "not": "önceki durum: gozden_gecirildi (cila başladı). Aşama 2 (30.10.2026): Dijital Üniversite seçim ölçütleri ve haftalık canlı ders, Ulusal Yapay Zeka Okuryazarlığı Programı (81 il, 5 milyon; 8 Ekim'de hâlâ açılmamış), Google AI Plus öğrenci teklifi koşulları, Singh vd. 2024 alışkanlık derlemesi (≈2 ay) işlendi; kütüphane kartı benzetmesi, kaynak eşleştirme etkileşimi, 4 yeni SSS."
+      "durum": "cilalandi",
+      "surum": 3,
+      "son_guncelleme": "2026-10-31T11:19:13Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 3 (31.10.2026): 'kime hangisi' kaynak haritası SVG'si (3. SVG), kapak vaadi, YÖK resmî duyurusuyla Dijital Üniversite takvimi (3 Kas 2026–4 Haz 2027, 42–72 saat, geçen yıl 135 bin başvuru/30 bin katılımcı, sonuç e-postayla), Singh vd. 2024 ortanca/ortalama ayrımı, AI Plus öğrenci fiyatı 199,99 TL teyidi, okuryazarlık programında önce eğitici yetiştirme, benzetme numaralandırması düzeltildi, 3 yeni SSS."
     }
   ],
   "gunluk": [
-    {
-      "zaman": "2026-10-29T15:00:14Z",
-      "ozet": "h1-02: Yapay zekâ nedir taslağı yayımlandı (14 arama, 11 kaynak okundu)."
-    },
     {
       "zaman": "2026-10-29T15:04:49Z",
       "ozet": "h1-03: Makineler nasıl öğrenir taslağı yayımlandı (12 arama, 12 kaynak okundu)."
@@ -654,6 +650,10 @@
     {
       "zaman": "2026-10-31T10:17:39Z",
       "ozet": "h4-03: Cilalandı (12 arama, 12 kaynak okundu); 13 dk zaman şeridi SVG'si, kapak vaadi, Ege Üniv. tez beyanı yönetmeliği, UYAP AI karar destek örneği, ücretsiz Gemini/ChatGPT koşulları (Ekim 2026), 3 yeni SSS."
+    },
+    {
+      "zaman": "2026-10-31T11:19:13Z",
+      "ozet": "h4-05: Cilalandı (13 arama, 8 kaynak okundu); kaynak haritası SVG'si, kapak vaadi, YÖK resmî takvimi ve seçicilik rakamları, alışkanlık derlemesi ayrıntısı, AI Plus fiyat teyidi, 3 yeni SSS."
     }
   ]
 }
