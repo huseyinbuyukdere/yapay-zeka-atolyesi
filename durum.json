@@ -159,12 +159,12 @@
         "Sohbeti sürdürerek düzelttirme, asistandan soru sormasını isteme, adım adım düşündürme",
         "Katılımcıların kendi işinden talimat yazdığı mini alıştırma"
       ],
-      "durum": "cilalandi",
+      "durum": "uretiliyor",
       "surum": 4,
       "son_guncelleme": "2026-10-31T18:19:26Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Aşama 3 cila: talimat–taslak–oku–düzelt döngü SVG'si (2. SVG), kapak vaadi, akıcı notlar; Gem→beceriler (13 Ekim/17 Kasım 2026) düzeltmesi, ChatGPT 5.000/1.500 karakter tarihi, Anthropic düşünme teyidi, DETAIL (Ara 2025) çalışması, 2 yeni SSS."
+      "sahip": "20261031T1909Z",
+      "sahip_zamani": "2026-10-31T19:09:33Z",
+      "not": "ÖNCEKİ DURUM: cilalandi (Aşama 4 ekstra 5: yeniden gözden geçirme). Aşama 3 cila: talimat–taslak–oku–düzelt döngü SVG'si (2. SVG), kapak vaadi, akıcı notlar; Gem→beceriler (13 Ekim/17 Kasım 2026) düzeltmesi, ChatGPT 5.000/1.500 karakter tarihi, Anthropic düşünme teyidi, DETAIL (Ara 2025) çalışması, 2 yeni SSS."
     },
     {
       "id": "h2-03",
