@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-31T18:19:26Z",
-  "calisma_sayisi": 65,
+  "son_calisma": "2026-10-31T19:16:58Z",
+  "calisma_sayisi": 66,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -159,12 +159,12 @@
         "Sohbeti sürdürerek düzelttirme, asistandan soru sormasını isteme, adım adım düşündürme",
         "Katılımcıların kendi işinden talimat yazdığı mini alıştırma"
       ],
-      "durum": "uretiliyor",
-      "surum": 4,
-      "son_guncelleme": "2026-10-31T18:19:26Z",
-      "sahip": "20261031T1909Z",
-      "sahip_zamani": "2026-10-31T19:09:33Z",
-      "not": "ÖNCEKİ DURUM: cilalandi (Aşama 4 ekstra 5: yeniden gözden geçirme). Aşama 3 cila: talimat–taslak–oku–düzelt döngü SVG'si (2. SVG), kapak vaadi, akıcı notlar; Gem→beceriler (13 Ekim/17 Kasım 2026) düzeltmesi, ChatGPT 5.000/1.500 karakter tarihi, Anthropic düşünme teyidi, DETAIL (Ara 2025) çalışması, 2 yeni SSS."
+      "durum": "cilalandi",
+      "surum": 5,
+      "son_guncelleme": "2026-10-31T19:16:58Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 4 ekstra 5 (en az kaynaklı konu, aşama 2 yeniden): 12 arama, 8 kaynak okundu. 2026 'kontrol listesi vs önce soru sor' karşılaştırması (arXiv 2605.20149) slayt 10 notuna, Wharton CoT raporu quiz notuna, Microsoft Eylül 2026 'yalnızca amaç zorunlu' bilgisi slayt 5 notuna eklendi; Gemini becerilerinin 18+ kişisel hesaplara ücretsiz açılışı (PCWorld) ve ChatGPT 5.000 karakter plan listesindeki kaynak ayrışması nota işlendi; 3 yeni SSS, 6 yeni kaynak (toplam 25). Google Gem yardım sayfası bu turda açılamadı; ücretsiz hesapta beceri kurma ekranının Türkiye'de görünürlüğü doğrulanamadı."
     },
     {
       "id": "h2-03",
@@ -416,10 +416,6 @@
   ],
   "gunluk": [
     {
-      "zaman": "2026-10-29T16:11:41Z",
-      "ozet": "h2-05: Güvenli ve gizli kullanım taslağı yayımlandı (12 arama, 9 kaynak okundu)."
-    },
-    {
       "zaman": "2026-10-29T16:34:35Z",
       "ozet": "h3-01: Görsel, ses ve video üretimi taslağı yayımlandı (18 arama, 17 kaynak okundu)."
     },
@@ -654,6 +650,10 @@
     {
       "zaman": "2026-10-31T18:19:26Z",
       "ozet": "Aşama 4 (ekstra 4, tutarlılık turu): Tüm sunum ve notlarda kavram adları ve benzetmeler karşılaştırıldı (ROBOT, token/parça, halüsinasyon, çırak, stajyer, deepfake, aile parolası, Gemini Notebook, AB tarihleri); 12 arama, 10 kaynak okundu. Düzeltmeler: h2-02 notunda Gem takvimi Google yardım sayfasına uyduruldu (17 Kasım salt okunur, 17 Aralık kaldırma; '13 Ekim'den beri Gem kurulamıyor' doğrulanamadı), h3-04'te ROBOT'a eksik 'örnek' eklendi, h3-03'te 'aile parolası' terimi, h3-01'de deepfake tanımı, h4-01'de 2. haftanın stajyerine köprü, sss ve hafta-4 el notunda arama adımları h4-04 sırasına (parolayı sor → kapat → kendin geri ara) getirildi. Sıradaki: ekstra 5 (en zayıf konuya aşama 2)."
+    },
+    {
+      "zaman": "2026-10-31T19:16:58Z",
+      "ozet": "Aşama 4 (ekstra 5): h2-02 en az kaynaklı konu olarak yeniden gözden geçirildi (12 arama, 8 kaynak okundu); kontrol listesi/önce soru sor çalışması, Wharton CoT raporu, Microsoft 'yalnızca amaç zorunlu', Gemini becerileri ücretsizlik teyidi, 3 yeni SSS, 6 yeni kaynak."
     }
   ]
 }
