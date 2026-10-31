@@ -292,12 +292,12 @@
         "Çıktı listesi: slogan ve tanıtım metni, afiş, 30 sn jingle, 5-8 sn video, 3 slaytlık sunum (Gamma veya Canva)",
         "Sunum ve salon oylaması için değerlendirme ölçütleri; sunucu için sorun giderme ipuçları"
       ],
-      "durum": "gozden_gecirildi",
+      "durum": "uretiliyor",
       "surum": 2,
       "son_guncelleme": "2026-10-30T09:15:41Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Aşama 2: 12 arama, 9 kaynak okundu; zaman planı 18 dk geri sayıma göre tutarlı hâle getirildi, yönetmelik Ticaret Bakanlığı'ndan, Gamma/Suno/Canva kotaları resmî yardım sayfalarından doğrulandı, 5 yeni SSS."
+      "sahip": "20261031T0609Z",
+      "sahip_zamani": "2026-10-31T06:09:14Z",
+      "not": "onceki_durum: gozden_gecirildi (aşama 3 cila başladı)"
     },
     {
       "id": "h3-05",
