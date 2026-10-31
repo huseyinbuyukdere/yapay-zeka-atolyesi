@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-31T09:30:50Z",
-  "calisma_sayisi": 55,
+  "son_calisma": "2026-10-31T10:17:39Z",
+  "calisma_sayisi": 56,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -368,12 +368,12 @@
         "Her meslek için 'yapay zekâya bırakılmayacaklar' satırı",
         "Mesleklere göre güncel ve kaynaklı kullanım örnekleri (Türkiye'den örnekler öncelikli)"
       ],
-      "durum": "uretiliyor",
-      "surum": 2,
-      "son_guncelleme": "2026-10-30T13:16:26Z",
-      "sahip": "20261031T1009Z",
-      "sahip_zamani": "2026-10-31T10:09:08Z",
-      "not": "Aşama 3 (cila) sürüyor; önceki durum: gozden_gecirildi"
+      "durum": "cilalandi",
+      "surum": 3,
+      "son_guncelleme": "2026-10-31T10:17:39Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 3 (cila): kapak vaadi ve kapanış, 13 dk zaman şeridi SVG'si (4. SVG), slayt 6 notu süreye göre kısaltıldı; Ege Üniv. tez yapay zekâ beyanı (RG 18.10.2026), UYAP AI karar destek, TÜRMOB etik webinarı, Gemini/ChatGPT ücretsiz sürüm koşulları; 3 yeni SSS; TÜİK rakamları yeniden teyit edildi."
     },
     {
       "id": "h4-04",
@@ -415,10 +415,6 @@
     }
   ],
   "gunluk": [
-    {
-      "zaman": "2026-10-29T14:49:53Z",
-      "ozet": "h1-01: Açılış oyunu taslağı yayımlandı (14 arama, 14 kaynak okundu)."
-    },
     {
       "zaman": "2026-10-29T15:00:14Z",
       "ozet": "h1-02: Yapay zekâ nedir taslağı yayımlandı (14 arama, 11 kaynak okundu)."
@@ -654,6 +650,10 @@
     {
       "zaman": "2026-10-31T09:30:50Z",
       "ozet": "h4-02: Cilalandı (12 arama, 13 kaynak okundu); döngü ve 2 dk şerit SVG'leri, kapak vaadi, beceri açılış takvimi (13 Ekim–Kasım ortası) teyidi, Lovable/Bolt/GPT kotaları yeniden doğrulandı, 2 yeni SSS."
+    },
+    {
+      "zaman": "2026-10-31T10:17:39Z",
+      "ozet": "h4-03: Cilalandı (12 arama, 12 kaynak okundu); 13 dk zaman şeridi SVG'si, kapak vaadi, Ege Üniv. tez beyanı yönetmeliği, UYAP AI karar destek örneği, ücretsiz Gemini/ChatGPT koşulları (Ekim 2026), 3 yeni SSS."
     }
   ]
 }
