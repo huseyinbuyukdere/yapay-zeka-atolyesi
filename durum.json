@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-31T05:12:05Z",
-  "calisma_sayisi": 51,
+  "son_calisma": "2026-10-31T06:21:02Z",
+  "calisma_sayisi": 52,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -292,12 +292,12 @@
         "Çıktı listesi: slogan ve tanıtım metni, afiş, 30 sn jingle, 5-8 sn video, 3 slaytlık sunum (Gamma veya Canva)",
         "Sunum ve salon oylaması için değerlendirme ölçütleri; sunucu için sorun giderme ipuçları"
       ],
-      "durum": "uretiliyor",
-      "surum": 2,
-      "son_guncelleme": "2026-10-30T09:15:41Z",
-      "sahip": "20261031T0609Z",
-      "sahip_zamani": "2026-10-31T06:09:14Z",
-      "not": "onceki_durum: gozden_gecirildi (aşama 3 cila başladı)"
+      "durum": "cilalandi",
+      "surum": 3,
+      "son_guncelleme": "2026-10-31T06:21:02Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 3 cila: 'Tek mesaj, beş çıktı' pusula SVG slaytı (2. SVG), kapak vaadi, Canva Free kotası 20 toplam kullanıma düzeltildi, Suno indirme kısıtı ve bağlantıdan çalma B planı, YouTube Create'in Türkiye'de sunulduğu teyidi, 2 yeni SSS."
     },
     {
       "id": "h3-05",
@@ -638,6 +638,10 @@
     {
       "zaman": "2026-10-31T05:12:05Z",
       "ozet": "h3-03: Cilalandı (12 arama, 12 kaynak okundu); telefon kalkanı SVG slaytı, Suno indirme kısıtı, Gemini video abonelik teyidi, Kling 4.0 erişim katmanı, 3 yeni SSS."
+    },
+    {
+      "zaman": "2026-10-31T06:21:02Z",
+      "ozet": "h3-04: Cilalandı (12 arama, 9 kaynak okundu); pusula SVG slaytı ve kapak vaadi, Canva Free 20 toplam AI kullanımına düzeltildi, Suno indirme kısıtı, YouTube Create Türkiye teyidi, 2 yeni SSS."
     }
   ]
 }
