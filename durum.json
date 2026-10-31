@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-30T23:21:10Z",
-  "calisma_sayisi": 45,
+  "son_calisma": "2026-10-31T00:21:43Z",
+  "calisma_sayisi": 46,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -178,12 +178,12 @@
         "Halüsinasyon avı: asistanın uydurma bilgi verdiği tipik durumlar ve kaynakla doğrulama",
         "Doğrulama alışkanlığı kontrol listesi"
       ],
-      "durum": "uretiliyor",
-      "surum": 2,
-      "son_guncelleme": "2026-10-30T03:14:54Z",
-      "sahip": "20261031T0009Z",
-      "sahip_zamani": "2026-10-31T00:09:48Z",
-      "not": "önceki durum: gozden_gecirildi (aşama 3 cila)"
+      "durum": "cilalandi",
+      "surum": 3,
+      "son_guncelleme": "2026-10-31T00:21:43Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 3 cila: 'Neden uydurur?' sınav benzetmesi slaytı ve SVG'si (OpenAI 2025 makalesi), kapak vaadi, ChatGPT ücretsiz sınırsız metin sohbeti (Ağu 2026), Perplexity 3 Pro arama/gün, mahkeme vakaları Ekim 2026 (2.223 dünya, AI Vortex) güncellendi; 2 yeni SSS, 5 yeni kaynak."
     },
     {
       "id": "h2-04",
@@ -614,6 +614,10 @@
     {
       "zaman": "2026-10-30T23:21:10Z",
       "ozet": "h2-02: Cilalandı (14 arama, 8 kaynak okundu); döngü SVG'si, kapak vaadi, Gem'lerin becerilere geçişi (yeni Gem 13 Ekim'den beri yok) düzeltildi, DETAIL çalışması ve Google 'power prompt' ipucu eklendi, 2 yeni SSS."
+    },
+    {
+      "zaman": "2026-10-31T00:21:43Z",
+      "ozet": "h2-03: Cilalandı (13 arama, 13 kaynak okundu); 'yanlışın cezası yok' sınav SVG'si ve yeni slayt, kapak vaadi, ChatGPT ücretsiz sınırsız yazışma, Perplexity kotası, Ekim 2026 mahkeme vaka sayıları, Gemini Flash-Lite yeniden doğrulandı, 2 yeni SSS."
     }
   ]
 }
