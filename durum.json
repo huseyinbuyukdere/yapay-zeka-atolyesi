@@ -387,12 +387,12 @@
         "AB Yapay Zekâ Yasası: 2 Ağustos 2026 şeffaflık kuralları, Dijital Omnibus ile ertelenen yüksek risk kuralları",
         "Türkiye: Yapay Zekâ Eylem Planı 2026-2030, TBMM'deki kanun teklifinin güncel durumu, KVKK — hukuki tavsiye vermeden"
       ],
-      "durum": "gozden_gecirildi",
+      "durum": "uretiliyor",
       "surum": 2,
       "son_guncelleme": "2026-10-30T15:25:39Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Aşama 2: TBMM resmî sayfasıyla 2/3358'in 'Komisyonda' olduğu doğrulandı, üçüncü teklif (Aralık 2025, 5651) eklendi; AB Parlamento oyu ve gönüllü etiket kılavuzu; Queen Mary %58 tahmin etkileşimi; Afyonkarahisar operasyonu; iş yeri ses taklidi; 4 yeni SSS."
+      "sahip": "20261031T1119Z",
+      "sahip_zamani": "2026-10-31T11:19:26Z",
+      "not": "önceki durum: gozden_gecirildi (cila başladı). Aşama 2: TBMM resmî sayfasıyla 2/3358'in 'Komisyonda' olduğu doğrulandı, üçüncü teklif (Aralık 2025, 5651) eklendi; AB Parlamento oyu ve gönüllü etiket kılavuzu; Queen Mary %58 tahmin etkileşimi; Afyonkarahisar operasyonu; iş yeri ses taklidi; 4 yeni SSS."
     },
     {
       "id": "h4-05",
