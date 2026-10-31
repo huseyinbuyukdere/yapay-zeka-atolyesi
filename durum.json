@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-31T19:16:58Z",
-  "calisma_sayisi": 66,
+  "son_calisma": "2026-10-31T20:17:16Z",
+  "calisma_sayisi": 67,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -330,12 +330,12 @@
         "Ekim 2026 itibarıyla tüketiciye açık ajan özellikleri (ChatGPT, Gemini, Claude, Copilot) — resmi kaynaktan doğrulanmış",
         "Ajanlarla çalışırken insan kontrolü ve güvenlik"
       ],
-      "durum": "uretiliyor",
-      "surum": 4,
-      "son_guncelleme": "2026-10-31T18:19:26Z",
-      "sahip": "20261031T2009Z",
-      "sahip_zamani": "2026-10-31T20:09:31Z",
-      "not": "ÖNCEKİ DURUM: cilalandi (Aşama 4 ekstra 5: yeniden gözden geçirme). Aşama 3 (cila): 12 arama, 10 kaynak okundu. Yeni 'Oku · Hazırla · Yap' yetki merdiveni SVG slaytı (3. SVG, 15 slayt), kapak vaadi ve vaadi kapatan kapanış ('Anahtarı verin, ama son kapıyı hep siz kilitleyin'), notlar akıcılaştırıldı, süreler 20 dk'ya yeniden dengelendi. Düzeltme: Gemini Chrome otomatik tarama ülkeye göre sınırlı (Google Hindistan blogu 7 Eki 2026; ikincile göre ABD+Hindistan). Gemini Görevler, Claude in Chrome, Copilot ile tarama (19 Eki) yeniden teyit; Edge Copilot Modu emekliye ayrıldı; ChatGPT Work ücretsiz-masaüstü 3. ikincil kaynakla teyit; Haziran 2026 BioShocking saldırısı ve 8 Eki Gemini iş ajanı ayrımı eklendi; 3 yeni SSS. ChatGPT Work ücretsiz kotası (OpenAI sayfası) ve Chrome otomatik taramanın Türkiye'de olup olmadığı doğrulanamadı."
+      "durum": "cilalandi",
+      "surum": 5,
+      "son_guncelleme": "2026-10-31T20:17:16Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 4 ekstra 5 (en az kaynaklı konu, aşama 2 yeniden): 12 arama, 8 kaynak okundu. ChatGPT Work açılış sırası (Webtekno), Claude in Chrome yan panelinin Cowork oturumu açması ve bulutta süren işler, Manifold'un Temmuz 2026 eklenti açığı (başka eklentilerin sahte onay tıklaması; beş kuralın 2.'si 'ayrı, eklentisiz profil' oldu), Opus 4.8 sistem kartındaki %31,5→%0,5 talimat enjeksiyonu oranı, Black Hat 2026 bulguları ve Riskified/Product.ai güven anketleri nota ve slayt notlarına eklendi; 4 yeni SSS, 7 yeni kaynak (toplam 28). OpenAI kullanım sınırları ve Google Gemini Görevler sayfaları bu turda açılamadı; eklenti açığının sonradan kapatılıp kapatılmadığı doğrulanamadı."
     },
     {
       "id": "h4-02",
@@ -415,10 +415,6 @@
     }
   ],
   "gunluk": [
-    {
-      "zaman": "2026-10-29T16:34:35Z",
-      "ozet": "h3-01: Görsel, ses ve video üretimi taslağı yayımlandı (18 arama, 17 kaynak okundu)."
-    },
     {
       "zaman": "2026-10-29T16:40:04Z",
       "ozet": "h3-02: Görsel istasyonu taslağı yayımlandı (17 arama, 11 kaynak okundu)."
@@ -654,6 +650,10 @@
     {
       "zaman": "2026-10-31T19:16:58Z",
       "ozet": "Aşama 4 (ekstra 5): h2-02 en az kaynaklı konu olarak yeniden gözden geçirildi (12 arama, 8 kaynak okundu); kontrol listesi/önce soru sor çalışması, Wharton CoT raporu, Microsoft 'yalnızca amaç zorunlu', Gemini becerileri ücretsizlik teyidi, 3 yeni SSS, 6 yeni kaynak."
+    },
+    {
+      "zaman": "2026-10-31T20:17:16Z",
+      "ozet": "Aşama 4 (ekstra 5): h4-01 en az kaynaklı ikinci konu olarak yeniden gözden geçirildi (12 arama, 8 kaynak okundu); Claude in Chrome Cowork paneli, Temmuz 2026 eklenti açığı ve 'eklentisiz profil' kuralı, Opus 4.8 %31,5→%0,5 enjeksiyon oranı, Black Hat 2026, alışverişçi güven anketleri, 4 yeni SSS, 7 yeni kaynak."
     }
   ]
 }
