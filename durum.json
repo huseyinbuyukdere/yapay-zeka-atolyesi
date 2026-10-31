@@ -254,12 +254,12 @@
         "Fotoğraf düzenleme: arka plan değiştirme, ışık, nesne ekleme/çıkarma",
         "Türkçe metin yazdırma, el/yüz hataları gibi tipik kusurlar ve çözüm ipuçları"
       ],
-      "durum": "gozden_gecirildi",
+      "durum": "uretiliyor",
       "surum": 2,
       "son_guncelleme": "2026-10-30T07:21:14Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Aşama 2: 13 arama, 12 kaynak okundu. Canva kotası yeni yapıya göre düzeltildi (Free: 20 premium/200 standart, görsel premium), Gemini'nin üç modeli, 18 yaş şartı, 1K/2K indirme, Nano Banana 2.1 (API), ChatGPT Images 2.5 yedek araç, Midjourney V8.2 ve Thinking Mode, Firefly Standard fiyatı eklendi; 5 yeni SSS. Midjourney fiyatı yine ikincil kaynaktan."
+      "sahip": "20261031T0409Z",
+      "sahip_zamani": "2026-10-31T04:09:05Z",
+      "not": "Önceki durum: gozden_gecirildi. Aşama 3 (cila) sürüyor. Aşama 2: 13 arama, 12 kaynak okundu. Canva kotası yeni yapıya göre düzeltildi (Free: 20 premium/200 standart, görsel premium), Gemini'nin üç modeli, 18 yaş şartı, 1K/2K indirme, Nano Banana 2.1 (API), ChatGPT Images 2.5 yedek araç, Midjourney V8.2 ve Thinking Mode, Firefly Standard fiyatı eklendi; 5 yeni SSS. Midjourney fiyatı yine ikincil kaynaktan."
     },
     {
       "id": "h3-03",
