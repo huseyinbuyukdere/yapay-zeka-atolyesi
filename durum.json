@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-31T06:21:02Z",
-  "calisma_sayisi": 52,
+  "son_calisma": "2026-10-31T07:18:26Z",
+  "calisma_sayisi": 53,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -311,12 +311,12 @@
         "Gerçek kişileri ve markaları taklit etmemek; deepfake; etiketleme",
         "Haftalık görev: 'Kendi vitrinin' ve final projesi için fikir"
       ],
-      "durum": "uretiliyor",
-      "surum": 2,
-      "son_guncelleme": "2026-10-30T10:19:03Z",
-      "sahip": "20261031T0709Z",
-      "sahip_zamani": "2026-10-31T07:09:28Z",
-      "not": "önceki durum: gozden_gecirildi (aşama 3 cila)"
+      "durum": "cilalandi",
+      "surum": 3,
+      "son_guncelleme": "2026-10-31T07:18:26Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 3 cila: 'üç kapı' SVG kapanışı, kapak vaadi, Suno Eylül 2026 koşulları (ücretli aboneye hak devri) düzeltmesi, ElevenLabs atıf kuralı, TR deepfake teklifi 2/3358, 3 yeni SSS, süre 5:00'a ayarlandı."
     },
     {
       "id": "h4-01",
@@ -642,6 +642,10 @@
     {
       "zaman": "2026-10-31T06:21:02Z",
       "ozet": "h3-04: Cilalandı (12 arama, 9 kaynak okundu); pusula SVG slaytı ve kapak vaadi, Canva Free 20 toplam AI kullanımına düzeltildi, Suno indirme kısıtı, YouTube Create Türkiye teyidi, 2 yeni SSS."
+    },
+    {
+      "zaman": "2026-10-31T07:18:26Z",
+      "ozet": "h3-05: Cilalandı (18 arama, 12 kaynak okundu); 'üç kapı' SVG'si ve kapak vaadi, Suno'nun Eylül 2026 koşullarıyla sahiplik düzeltmesi, ElevenLabs atfı, TR deepfake teklifi, 3 yeni SSS."
     }
   ]
 }
