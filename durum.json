@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-31T11:19:13Z",
-  "calisma_sayisi": 57,
+  "son_calisma": "2026-10-31T11:32:43Z",
+  "calisma_sayisi": 58,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -387,12 +387,12 @@
         "AB Yapay Zekâ Yasası: 2 Ağustos 2026 şeffaflık kuralları, Dijital Omnibus ile ertelenen yüksek risk kuralları",
         "Türkiye: Yapay Zekâ Eylem Planı 2026-2030, TBMM'deki kanun teklifinin güncel durumu, KVKK — hukuki tavsiye vermeden"
       ],
-      "durum": "uretiliyor",
-      "surum": 2,
-      "son_guncelleme": "2026-10-30T15:25:39Z",
-      "sahip": "20261031T1119Z",
-      "sahip_zamani": "2026-10-31T11:19:26Z",
-      "not": "önceki durum: gozden_gecirildi (cila başladı). Aşama 2: TBMM resmî sayfasıyla 2/3358'in 'Komisyonda' olduğu doğrulandı, üçüncü teklif (Aralık 2025, 5651) eklendi; AB Parlamento oyu ve gönüllü etiket kılavuzu; Queen Mary %58 tahmin etkileşimi; Afyonkarahisar operasyonu; iş yeri ses taklidi; 4 yeni SSS."
+      "durum": "cilalandi",
+      "surum": 3,
+      "son_guncelleme": "2026-10-31T11:32:43Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 3 (31.10.2026): AB zaman çizgisi SVG'si 'Bugün' işaretiyle (3. SVG), kapak vaadi (aile parolası), TBMM 2/3358 'Komisyonda' 31 Ekim'de yeniden teyit, Madde 50 ayrıntıları (bot bildirimi istisnası, geriye dönük filigran yok, AB etiket simgeleri), Queen Mary deneyinde <5 dk örnek ve %41 sentetik ses, Ticaret Bakanlığı sahte yatırım uyarısı, 'alo yeter mi' iddiası doğrulanamadı notu, 3 yeni SSS."
     },
     {
       "id": "h4-05",
@@ -415,10 +415,6 @@
     }
   ],
   "gunluk": [
-    {
-      "zaman": "2026-10-29T15:04:49Z",
-      "ozet": "h1-03: Makineler nasıl öğrenir taslağı yayımlandı (12 arama, 12 kaynak okundu)."
-    },
     {
       "zaman": "2026-10-29T15:09:22Z",
       "ozet": "h1-04: Teachable Machine uygulaması taslağı yayımlandı (12 arama, 12 kaynak okundu)."
@@ -654,6 +650,10 @@
     {
       "zaman": "2026-10-31T11:19:13Z",
       "ozet": "h4-05: Cilalandı (13 arama, 8 kaynak okundu); kaynak haritası SVG'si, kapak vaadi, YÖK resmî takvimi ve seçicilik rakamları, alışkanlık derlemesi ayrıntısı, AI Plus fiyat teyidi, 3 yeni SSS."
+    },
+    {
+      "zaman": "2026-10-31T11:32:43Z",
+      "ozet": "h4-04: Cilalandı (12 arama, 9 kaynak okundu); AB zaman çizgisi SVG'si, kapak vaadi, TBMM teklifi hâlâ komisyonda teyidi, Madde 50 ayrıntıları, Ticaret Bakanlığı uyarısı, 3 yeni SSS."
     }
   ]
 }
