@@ -330,12 +330,12 @@
         "Ekim 2026 itibarıyla tüketiciye açık ajan özellikleri (ChatGPT, Gemini, Claude, Copilot) — resmi kaynaktan doğrulanmış",
         "Ajanlarla çalışırken insan kontrolü ve güvenlik"
       ],
-      "durum": "gozden_gecirildi",
+      "durum": "uretiliyor",
       "surum": 2,
       "son_guncelleme": "2026-10-30T11:21:08Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Aşama 2: Gemini özelliği yardım sayfasındaki yeni adıyla 'Görevler' (Etkinliği sakla, Kişisel Zekâ, Mac şartları), Claude in Chrome'un 26 Ağustos 2026'da betadan çıkışı, ChatGPT Work'ün ücretsizde sınırlı/masaüstü olduğu (ikincil 2 kaynak), Copilot'un çerez erişimi ve 19 Ekim güncel ABD sınırı, 2026 gerçek istem enjeksiyonu raporları eklendi; 'Gizli yazıyı bul' SVG mini oyun slaytı ve 5 yeni SSS."
+      "sahip": "20261031T0809Z",
+      "sahip_zamani": "2026-10-31T08:09:51Z",
+      "not": "ESKİ DURUM: gozden_gecirildi | Aşama 2: Gemini özelliği yardım sayfasındaki yeni adıyla 'Görevler' (Etkinliği sakla, Kişisel Zekâ, Mac şartları), Claude in Chrome'un 26 Ağustos 2026'da betadan çıkışı, ChatGPT Work'ün ücretsizde sınırlı/masaüstü olduğu (ikincil 2 kaynak), Copilot'un çerez erişimi ve 19 Ekim güncel ABD sınırı, 2026 gerçek istem enjeksiyonu raporları eklendi; 'Gizli yazıyı bul' SVG mini oyun slaytı ve 5 yeni SSS."
     },
     {
       "id": "h4-02",
