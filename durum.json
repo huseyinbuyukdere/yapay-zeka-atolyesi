@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-31T03:25:34Z",
-  "calisma_sayisi": 49,
+  "son_calisma": "2026-10-31T04:25:27Z",
+  "calisma_sayisi": 50,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -254,12 +254,12 @@
         "Fotoğraf düzenleme: arka plan değiştirme, ışık, nesne ekleme/çıkarma",
         "Türkçe metin yazdırma, el/yüz hataları gibi tipik kusurlar ve çözüm ipuçları"
       ],
-      "durum": "uretiliyor",
-      "surum": 2,
-      "son_guncelleme": "2026-10-30T07:21:14Z",
-      "sahip": "20261031T0409Z",
-      "sahip_zamani": "2026-10-31T04:09:05Z",
-      "not": "Önceki durum: gozden_gecirildi. Aşama 3 (cila) sürüyor. Aşama 2: 13 arama, 12 kaynak okundu. Canva kotası yeni yapıya göre düzeltildi (Free: 20 premium/200 standart, görsel premium), Gemini'nin üç modeli, 18 yaş şartı, 1K/2K indirme, Nano Banana 2.1 (API), ChatGPT Images 2.5 yedek araç, Midjourney V8.2 ve Thinking Mode, Firefly Standard fiyatı eklendi; 5 yeni SSS. Midjourney fiyatı yine ikincil kaynaktan."
+      "durum": "cilalandi",
+      "surum": 3,
+      "son_guncelleme": "2026-10-31T04:25:27Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 3 (cila): 12 arama, 8 kaynak okundu. Kapağa vaat ('25 dakika sonra kafanızdaki resmi ekrana getirip tek tek düzelteceksiniz') ve vaadi kapatan kapanış ('Görseli şans değil, tarif belirler'); quiz cevabına iç içe kadraj çerçeveleri SVG'si (3. SVG). Canva ücretsiz kotası daralmış: ayda toplam 20 kullanım (standart+premium aynı kotadan; Canva yardım + Krea, 31.10.2026); Midjourney V8.2 24 Temmuz'dan beri varsayılan (2 ikincil kaynak); Nano Banana 2.1 Gemini'de Google AI planıyla (Google TR sayfası), SynthID+görünür filigran; Firefly ve ChatGPT Images 2.5 yeniden teyit; 2 yeni SSS. Ücretsiz Gemini indirme çözünürlüğünde Google sayfaları çelişiyor (1K/2K), Midjourney resmî sürüm sayfası açılamadı."
     },
     {
       "id": "h3-03",
@@ -630,6 +630,10 @@
     {
       "zaman": "2026-10-31T03:25:34Z",
       "ozet": "h3-01: Cilalandı (15 arama, 14 kaynak okundu); çok modlu SVG slaytı, Lyria 3.5 güncellemesi, 3 yeni SSS."
+    },
+    {
+      "zaman": "2026-10-31T04:25:27Z",
+      "ozet": "h3-02: Cilalandı (12 arama, 8 kaynak okundu); Canva kotası 20 toplam kullanıma, Midjourney V8.2 varsayılana güncellendi, kadraj SVG'si ve vaat-kapanış eklendi."
     }
   ]
 }
