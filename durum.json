@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-31T01:18:05Z",
-  "calisma_sayisi": 47,
+  "son_calisma": "2026-10-31T02:22:20Z",
+  "calisma_sayisi": 48,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -216,12 +216,12 @@
         "KVKK açısından temel dikkat noktaları; kurum politikaları",
         "Haftalık görev: 'Asistanla gerçek bir iş'"
       ],
-      "durum": "uretiliyor",
-      "surum": 2,
-      "son_guncelleme": "2026-10-30T05:18:11Z",
-      "sahip": "20261031T0209Z",
-      "sahip_zamani": "2026-10-31T02:09:04Z",
-      "not": "önceki durum: gozden_gecirildi (cila sürüyor); Aşama 2: 11 arama, 11 kaynak okundu. Ayar/saklama tablosu resmî yardım sayfalarıyla yeniden doğrulandı (ChatGPT web/mobil yolu ve geçici sohbet; Claude'da güncel ad 'Model Improvement', gizli sohbet, işaretli içerik 2 yıl; Gemini'de dış incelemeciler ve 'önce kapat sonra sil'; Copilot yeni uygulama notu ve eğitim dışı gruplar). Slayt 4 'İki gerçek ders' oldu (2025 Paylaş bağlantıları Google'da), KVKK rehberinin bireylere 6 önerisi slayta girdi, NYT saklama kararı, 5 yeni SSS. Türkçe arayüz ayar adları, Copilot yeni uygulama menüleri ve KVKK PDF'i hâlâ doğrulanamadı."
+      "durum": "cilalandi",
+      "surum": 3,
+      "son_guncelleme": "2026-10-31T02:22:20Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 3 (cila): 12 arama, 9 kaynak okundu. Yeni 'Çıkar · sor · geri koy' SVG slaytı (2. çizim), 2026 Claude paylaşım bağlantısı olayı eklendi, Claude ayar adı 'Help Improve our AI models' olarak güncellendi, ChatGPT geçici sohbet Ağustos 2026 değişikliği, Gemini gizlilik merkezi 26 Ekim teyidi, Copilot yeni uygulama belirsizliği notu, 3 yeni SSS, süreler 10 dk'ya yeniden dengelendi. Copilot yeni uygulama menü yolu, Türkçe arayüz ayar adları ve KVKK resmî PDF hâlâ doğrulanamadı."
     },
     {
       "id": "h3-01",
@@ -622,6 +622,10 @@
     {
       "zaman": "2026-10-31T01:18:05Z",
       "ozet": "h2-04: Cila — karar ağacı SVG'si, kapak vaadi/kapanış, mobil ses kaydı ve sesli sohbet, Ekim 2026 kota teyidi (12 arama, 13 kaynak)."
+    },
+    {
+      "zaman": "2026-10-31T02:22:20Z",
+      "ozet": "h2-05: Cilalandı (12 arama, 9 kaynak) — 'Çıkar · sor · geri koy' SVG slaytı, 2026 Claude paylaşım olayı, güncel Claude ayar adı, ChatGPT geçici sohbet değişikliği, Copilot yeni uygulama notu, 3 yeni SSS."
     }
   ]
 }
