@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-31T11:32:43Z",
-  "calisma_sayisi": 58,
+  "son_calisma": "2026-10-31T12:20:05Z",
+  "calisma_sayisi": 59,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -416,10 +416,6 @@
   ],
   "gunluk": [
     {
-      "zaman": "2026-10-29T15:09:22Z",
-      "ozet": "h1-04: Teachable Machine uygulaması taslağı yayımlandı (12 arama, 12 kaynak okundu)."
-    },
-    {
       "zaman": "2026-10-29T15:15:04Z",
       "ozet": "h1-05: Kısa tarih taslağı yayımlandı (17 arama, 19 kaynak okundu)."
     },
@@ -654,6 +650,10 @@
     {
       "zaman": "2026-10-31T11:32:43Z",
       "ozet": "h4-04: Cilalandı (12 arama, 9 kaynak okundu); AB zaman çizgisi SVG'si, kapak vaadi, TBMM teklifi hâlâ komisyonda teyidi, Madde 50 ayrıntıları, Ticaret Bakanlığı uyarısı, 3 yeni SSS."
+    },
+    {
+      "zaman": "2026-10-31T12:20:05Z",
+      "ozet": "Aşama 4 (ekstra 1): notlar/hafta-1-el-notu.md katılımcı el notu yazıldı (öğrendiklerimiz, benzetmeler, araçlar, Türkçe kaynaklar, yapay zekâ avı tablosu; 12 arama, 13 kaynak okundu); h1-06 Kaynaklar slaytına GitHub bağlantısı eklendi (not.html yalnızca hN-NN kimliklerini kabul ediyor). Sıradaki: hafta-2-el-notu."
     }
   ]
 }
