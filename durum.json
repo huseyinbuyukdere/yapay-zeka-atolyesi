@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-31T07:18:26Z",
-  "calisma_sayisi": 53,
+  "son_calisma": "2026-10-31T08:18:04Z",
+  "calisma_sayisi": 54,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -330,12 +330,12 @@
         "Ekim 2026 itibarıyla tüketiciye açık ajan özellikleri (ChatGPT, Gemini, Claude, Copilot) — resmi kaynaktan doğrulanmış",
         "Ajanlarla çalışırken insan kontrolü ve güvenlik"
       ],
-      "durum": "uretiliyor",
-      "surum": 2,
-      "son_guncelleme": "2026-10-30T11:21:08Z",
-      "sahip": "20261031T0809Z",
-      "sahip_zamani": "2026-10-31T08:09:51Z",
-      "not": "ESKİ DURUM: gozden_gecirildi | Aşama 2: Gemini özelliği yardım sayfasındaki yeni adıyla 'Görevler' (Etkinliği sakla, Kişisel Zekâ, Mac şartları), Claude in Chrome'un 26 Ağustos 2026'da betadan çıkışı, ChatGPT Work'ün ücretsizde sınırlı/masaüstü olduğu (ikincil 2 kaynak), Copilot'un çerez erişimi ve 19 Ekim güncel ABD sınırı, 2026 gerçek istem enjeksiyonu raporları eklendi; 'Gizli yazıyı bul' SVG mini oyun slaytı ve 5 yeni SSS."
+      "durum": "cilalandi",
+      "surum": 3,
+      "son_guncelleme": "2026-10-31T08:18:04Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 3 (cila): 12 arama, 10 kaynak okundu. Yeni 'Oku · Hazırla · Yap' yetki merdiveni SVG slaytı (3. SVG, 15 slayt), kapak vaadi ve vaadi kapatan kapanış ('Anahtarı verin, ama son kapıyı hep siz kilitleyin'), notlar akıcılaştırıldı, süreler 20 dk'ya yeniden dengelendi. Düzeltme: Gemini Chrome otomatik tarama ülkeye göre sınırlı (Google Hindistan blogu 7 Eki 2026; ikincile göre ABD+Hindistan). Gemini Görevler, Claude in Chrome, Copilot ile tarama (19 Eki) yeniden teyit; Edge Copilot Modu emekliye ayrıldı; ChatGPT Work ücretsiz-masaüstü 3. ikincil kaynakla teyit; Haziran 2026 BioShocking saldırısı ve 8 Eki Gemini iş ajanı ayrımı eklendi; 3 yeni SSS. ChatGPT Work ücretsiz kotası (OpenAI sayfası) ve Chrome otomatik taramanın Türkiye'de olup olmadığı doğrulanamadı."
     },
     {
       "id": "h4-02",
@@ -646,6 +646,10 @@
     {
       "zaman": "2026-10-31T07:18:26Z",
       "ozet": "h3-05: Cilalandı (18 arama, 12 kaynak okundu); 'üç kapı' SVG'si ve kapak vaadi, Suno'nun Eylül 2026 koşullarıyla sahiplik düzeltmesi, ElevenLabs atfı, TR deepfake teklifi, 3 yeni SSS."
+    },
+    {
+      "zaman": "2026-10-31T08:18:04Z",
+      "ozet": "h4-01: Cila — yetki merdiveni SVG'si, kapak vaadi/kapanış, Chrome otomatik tarama ülke kısıtı düzeltmesi, BioShocking örneği (12 arama, 10 kaynak)."
     }
   ]
 }
