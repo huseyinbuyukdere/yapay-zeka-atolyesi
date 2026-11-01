@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-11-01T08:19:59Z",
-  "calisma_sayisi": 79,
+  "son_calisma": "2026-11-01T08:23:09Z",
+  "calisma_sayisi": 80,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -140,12 +140,12 @@
         "Bilgi kesim tarihi, web araması, 'düşünerek cevap veren' (akıl yürüten) modeller",
         "Ekim 2026 itibarıyla güncel asistanlar ve model aileleri (doğrulanmış)"
       ],
-      "durum": "uretiliyor",
-      "surum": 4,
-      "son_guncelleme": "2026-10-31T17:12:11Z",
-      "sahip": "20261101T0820Z",
-      "sahip_zamani": "2026-11-01T08:20:14Z",
-      "not": "ÖNCEKİ DURUM: cilalandi. Aşama 3 (cila): iki yeni SVG (yetişme akışı, hızlı/düşünen mod yolları; toplam 4), GPT-6 Ekim sürümü OpenAI birincil kaynakla teyit, GPT-6.1 Sol/Terra ve Gemini AI Plus notu, uzun sohbet araştırması, 2 yeni SSS, 6 yeni kaynak."
+      "durum": "cilalandi",
+      "surum": 5,
+      "son_guncelleme": "2026-11-01T08:23:09Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 4 ekstra 5 (ekstra 5 görmemiş son h2-4 konusu, aşama 2 yeniden): 12 arama, 10 sayfa okundu. Quiz'e 4. madde ('Asistan bana hak veriyorsa haklıyımdır' — Science, Mart 2026: 11 asistan kullanıcıyı insanlara göre %49 daha sık onayladı) ve dalkavukluk benzetmesi/paragrafı; tablo 1,5 dk'ya, quiz 2,5 dk'ya dengelendi. 1 Kasım teyitleri: ücretsiz Gemini Flash-Lite (geri adım yok), Argon yalnızca Ultra/AI Pro (AI Studio'da faturalandırma), Claude'da Haiku 5.5'ten sonra yeni model yok, GPT-6.1 Terra sohbet ekranında yok (Work/Codex); Türkiye kullanım bağlamı (TÜİK %37,6, Microsoft %18,9 farklı yöntem); 4 yeni SSS, 8 yeni kaynak. Doğrulanamayan: Copilot ücretsiz model/kota; Terra ve Argon bilgileri ikincil kaynaklardan; TÜİK haber sitelerinden ikisi açılamadı."
     },
     {
       "id": "h2-02",
@@ -416,10 +416,6 @@
   ],
   "gunluk": [
     {
-      "zaman": "2026-10-29T22:18:40Z",
-      "ozet": "h1-04: Gözden geçirildi (8 arama, 7 kaynak okundu); dengesiz veri örneği, güncel erişilebilirlik doğrulaması ve 5 yeni SSS eklendi."
-    },
-    {
       "zaman": "2026-10-29T23:13:21Z",
       "ozet": "h1-05: Gözden geçirildi (11 arama, 9 kaynak okundu); Turing testi ayrıntısı, Deep Blue 1996, AlphaGo 10. yıl ve okuryazarlık hedefi eklendi, 4 yeni SSS."
     },
@@ -654,6 +650,10 @@
     {
       "zaman": "2026-11-01T08:19:59Z",
       "ozet": "h3-01: Aşama 4 ekstra 5 ile yeniden gözden geçirildi (16 arama, 11 sayfa); Deezer yapay zekâ müziği tahmin slaytı ve çubuk grafik SVG'si (%50+ yükleme, %3 dinlenme, %97 ayırt edemedi), Gemini müzik yardım sayfası ayrıntıları, Nano Banana 2.1 GA, AB cezaları, TBMM 2/3358 içeriği, 5 yeni SSS, 10 yeni kaynak."
+    },
+    {
+      "zaman": "2026-11-01T08:23:09Z",
+      "ozet": "h2-01: Aşama 4 ekstra 5 ile yeniden gözden geçirildi (12 arama, 10 sayfa); dalkavukluk quiz maddesi ve benzetmesi (Science 2026, %49), ücretsiz Gemini/Argon/Claude/Terra 1 Kasım teyitleri, Türkiye kullanım bağlamı, 4 yeni SSS, 8 yeni kaynak."
     }
   ]
 }
