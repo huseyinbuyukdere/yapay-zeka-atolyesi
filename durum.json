@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-11-01T04:12:08Z",
-  "calisma_sayisi": 75,
+  "son_calisma": "2026-11-01T05:17:38Z",
+  "calisma_sayisi": 76,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -368,12 +368,12 @@
         "Her meslek için 'yapay zekâya bırakılmayacaklar' satırı",
         "Mesleklere göre güncel ve kaynaklı kullanım örnekleri (Türkiye'den örnekler öncelikli)"
       ],
-      "durum": "uretiliyor",
-      "surum": 3,
-      "son_guncelleme": "2026-10-31T10:17:39Z",
-      "sahip": "20261101T0509Z",
-      "sahip_zamani": "2026-11-01T05:09:31Z",
-      "not": "ÖNCEKİ DURUM: cilalandi (aşama 4 ekstra 5 sürüyor). Aşama 3 (cila): kapak vaadi ve kapanış, 13 dk zaman şeridi SVG'si (4. SVG), slayt 6 notu süreye göre kısaltıldı; Ege Üniv. tez yapay zekâ beyanı (RG 18.10.2026), UYAP AI karar destek, TÜRMOB etik webinarı, Gemini/ChatGPT ücretsiz sürüm koşulları; 3 yeni SSS; TÜİK rakamları yeniden teyit edildi."
+      "durum": "cilalandi",
+      "surum": 4,
+      "son_guncelleme": "2026-11-01T05:17:38Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 4 ekstra 5 (en az kaynaklı konu, aşama 2 yeniden): 12 arama, 7 kaynak okundu. Ticaret Bakanlığı reklam yönetmeliği (RG 33297, 1 Ağustos 2026 yürürlük: doğrulanamayan yorum yasağı, yapay zekâ karakteri bildirimi, dijital kopya ile tavsiye yasağı) ve Reklam Kurulu sahte yorum erişim engeli/2.167.412 TL ceza esnaf istasyonuna; MEBİ kullanıcı sayıları ve Gallup 2026 (öğretmenlerin %18'i resmî yönlendirme almış) öğretmen istasyonuna; TMMOB 1 Nisan 2026 görüşü mühendis istasyonuna; SF Fed küçük işletme notu; 4 yeni SSS, 6 yeni kaynak (toplam 33). Engadget ile ChatGPT ücretsiz koşulları yeniden teyit edildi; Google Gemini sınırlar sayfası bu turda açılamadı; Kızılcahamam soruşturmasının sonucu hâlâ bulunamadı."
     },
     {
       "id": "h4-04",
@@ -415,10 +415,6 @@
     }
   ],
   "gunluk": [
-    {
-      "zaman": "2026-10-29T19:35:20Z",
-      "ozet": "h1-01: Gözden geçirildi (7 arama, 8 kaynak okundu); PNAS 2026 eğitim rakamları düzeltildi, 4 yeni SSS."
-    },
     {
       "zaman": "2026-10-29T20:29:05Z",
       "ozet": "h4-04: Kırmızı çizgi oyunu taslağı yayımlandı (15 arama, 15 kaynak okundu)."
@@ -654,6 +650,10 @@
     {
       "zaman": "2026-11-01T04:12:08Z",
       "ozet": "h2-03: Aşama 4 ekstra 5 ile yeniden gözden geçirildi (12 arama, 10 kaynak); sağlık soruları tahmin slaytı (BMJ Open 2026), Charlotin 31 Ekim verisi (2.246 vaka, 33 hâkim), ChatGPT reklam/GPT-6 Luna, Türkiye hukuki çerçevesi, 4 yeni SSS, 8 yeni kaynak."
+    },
+    {
+      "zaman": "2026-11-01T05:17:38Z",
+      "ozet": "h4-03: Aşama 4 ekstra 5 ile yeniden gözden geçirildi (12 arama, 7 kaynak); sahte yorum yönetmeliği ve Reklam Kurulu yaptırımları, MEBİ, Gallup 2026 öğretmen yönlendirmesi, TMMOB görüşü, 4 yeni SSS, 6 yeni kaynak."
     }
   ]
 }
