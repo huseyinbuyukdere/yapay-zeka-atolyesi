@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-11-01T07:12:28Z",
-  "calisma_sayisi": 78,
+  "son_calisma": "2026-11-01T08:19:59Z",
+  "calisma_sayisi": 79,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -235,12 +235,12 @@
         "Metinden görsele, görselden videoya, metinden müziğe; çok modlu modeller",
         "Görünmez filigranlar (ör. SynthID) ve içerik kimlik bilgileri (C2PA) — basit anlatım"
       ],
-      "durum": "uretiliyor",
-      "surum": 4,
-      "son_guncelleme": "2026-10-31T18:19:26Z",
-      "sahip": "20261101T0810Z",
-      "sahip_zamani": "2026-11-01T08:10:03Z",
-      "not": "ÖNCEKİ DURUM: cilalandi. Aşama 3 (cila): 15 arama, 14 kaynak okundu. Yeni 'Çok modlu model: her dili konuşan tercüman' SVG slaytı (3. SVG, 19 slayt), kapak vaadi ('30 dakika sonra sihri anlatıp videoya Nereden geldin? diye soracaksınız'), süreler tam 30 dk'ya dengelendi. Müzik bölümü Lyria 3.5'e güncellendi (4 Eylül 2026, tüm kullanıcılar, 3 dk'ya kadar; Google Blog + TR ürün sayfası), Omni ücretsiz kampanyanın bittiği, Nano Banana 2 ayrıntıları, Gemini doğrulama günlük toplam sınırları, Suno davası OECD kaydı, Veo 4 söylentisi eklendi; 3 yeni SSS. Lyria 3.5'in ücretsiz kotası ve Türkçe söz desteği, Nano Banana 2.1'in Gemini uygulamasına gelişi, TBMM video etiketi teklifinin durumu doğrulanamadı; Gemini video ürün sayfası bu turda açılamadı."
+      "durum": "cilalandi",
+      "surum": 5,
+      "son_guncelleme": "2026-11-01T08:19:59Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 4 ekstra 5 (h2-4 arasında en kısa notlu ve ekstra 5 görmemiş konu, aşama 2 yeniden): 16 arama, 11 sayfa okundu. Yeni 11. slayt: 'Bir müzik platformuna her gün yüklenen şarkıların kaçı yapay zekâ?' tahmin oyunu ve çubuk grafik SVG'si (Deezer: Oca 2025 ~%10 → Tem 2026 %50+; dinlenme payı ~%3; Deezer–Ipsos %97 ayırt edemedi), toplam 20 slayt, süreler 30 dk'ya yeniden dengelendi. Gemini müzik yardım sayfasından kısa (~1 dk)/tam (~2-3 dk, Pro model) seçimi ve etkinlik ayarı şartı; Nano Banana 2.1'in 6 Ekim API/Cloud GA'sı ve NB2'nin kaldırılacağı; AB cezaları (CNN Türk); TBMM 2/3358 içeriği (Webtekno) ve 4. hafta notundaki 'Komisyonda' teyidiyle Türkiye satırı; insan gözü %53,76 deneyi (arXiv); 6. benzetme, 5 yeni SSS, 10 yeni kaynak. Doğrulanamayan: NB 2.1'in Gemini uygulamasına gelişi, Lyria 3.5 ücretsiz kota ve Türkçe söz desteği, Ocak 2026 KVKK teklifinin 2/3358 ile ilişkisi; TBMM ve A Haber sayfaları bu turda açılamadı."
     },
     {
       "id": "h3-02",
@@ -415,10 +415,6 @@
     }
   ],
   "gunluk": [
-    {
-      "zaman": "2026-10-29T21:18:33Z",
-      "ozet": "h1-03: Gözden geçirildi (13 arama, 9 kaynak okundu); husky deneyi 'bilerek kurulmuş tuzak' olarak düzeltildi, 2026 önyargı örneği ve 4 yeni SSS eklendi."
-    },
     {
       "zaman": "2026-10-29T22:18:40Z",
       "ozet": "h1-04: Gözden geçirildi (8 arama, 7 kaynak okundu); dengesiz veri örneği, güncel erişilebilirlik doğrulaması ve 5 yeni SSS eklendi."
@@ -654,6 +650,10 @@
     {
       "zaman": "2026-11-01T07:12:28Z",
       "ozet": "h4-04: Aşama 4 ekstra 5 ile yeniden gözden geçirildi (12 arama, 8 sayfa okundu); TBMM teklifi 1 Kasım'da yine 'Komisyonda', 2026 sesli dolandırıcılık deneyi (ikna > ses), İtalya banka vakası, Osmaniye 9 il operasyonu, AB kılavuzu 190 imzacı, Ulusal Yapay Zekâ Kurulu, 4 yeni SSS, 7 yeni kaynak."
+    },
+    {
+      "zaman": "2026-11-01T08:19:59Z",
+      "ozet": "h3-01: Aşama 4 ekstra 5 ile yeniden gözden geçirildi (16 arama, 11 sayfa); Deezer yapay zekâ müziği tahmin slaytı ve çubuk grafik SVG'si (%50+ yükleme, %3 dinlenme, %97 ayırt edemedi), Gemini müzik yardım sayfası ayrıntıları, Nano Banana 2.1 GA, AB cezaları, TBMM 2/3358 içeriği, 5 yeni SSS, 10 yeni kaynak."
     }
   ]
 }
