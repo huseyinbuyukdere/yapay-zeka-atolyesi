@@ -292,12 +292,12 @@
         "Çıktı listesi: slogan ve tanıtım metni, afiş, 30 sn jingle, 5-8 sn video, 3 slaytlık sunum (Gamma veya Canva)",
         "Sunum ve salon oylaması için değerlendirme ölçütleri; sunucu için sorun giderme ipuçları"
       ],
-      "durum": "cilalandi",
+      "durum": "uretiliyor",
       "surum": 4,
       "son_guncelleme": "2026-10-31T18:19:26Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Aşama 3 cila: 'Tek mesaj, beş çıktı' pusula SVG slaytı (2. SVG), kapak vaadi, Canva Free kotası 20 toplam kullanıma düzeltildi, Suno indirme kısıtı ve bağlantıdan çalma B planı, YouTube Create'in Türkiye'de sunulduğu teyidi, 2 yeni SSS."
+      "sahip": "20261101T0209Z",
+      "sahip_zamani": "2026-11-01T02:09:02Z",
+      "not": "[önceki durum: cilalandi] Aşama 3 cila: 'Tek mesaj, beş çıktı' pusula SVG slaytı (2. SVG), kapak vaadi, Canva Free kotası 20 toplam kullanıma düzeltildi, Suno indirme kısıtı ve bağlantıdan çalma B planı, YouTube Create'in Türkiye'de sunulduğu teyidi, 2 yeni SSS."
     },
     {
       "id": "h3-05",
