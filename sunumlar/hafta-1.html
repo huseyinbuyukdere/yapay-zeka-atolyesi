@@ -1,0 +1,1783 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>1. Hafta: Yapay zekâya merhaba · Yapay Zekâ Atölyesi</title>
+  <meta name="description" content="1. haftanın tüm bölümleri tek sunumda: insan mı yapay zekâ mı oyunu, yapay zekâ nedir, makineler nasıl öğrenir, Teachable Machine uygulaması, kısa tarih ve bugün yapay zekâ nerede.">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css">
+  <link rel="stylesheet" href="../assets/tema.css">
+  <style>
+    /* h1-01 */
+    .ornek-no { font-size: 1.1em; font-weight: 700; color: var(--turkuaz); }
+    .cerceve { border: 4px dashed var(--cizgi); border-radius: 24px; padding: 40px 30px; margin: 20px auto; max-width: 820px; }
+    .cerceve .simge { font-size: 110px; line-height: 1; display: block; }
+    .metin-ornek { font-family: var(--r-heading-font); font-size: 1.6em; font-style: italic; }
+    .cevap-tablo td, .cevap-tablo th { font-size: .8em; }
+    svg text { font-family: inherit; }
+  
+    /* h1-02 */
+    .ornek-simge { font-size: 120px; line-height: 1; margin: 10px 0; }
+  
+    /* h1-03 */
+    .ceviri { font-size: 1.15em; line-height: 1.7; }
+  
+    /* h1-04 */
+    .dugme { display: inline-block; padding: 2px 12px; border-radius: 10px; background: var(--turkuaz-acik); color: var(--murekkep); font-weight: 700; }
+  
+    /* h1-05 */
+    .sira { display: grid; grid-template-columns: 1fr 1fr; gap: 14px 30px; text-align: left; font-size: .9em; }
+  
+    /* h1-06 */
+    section[data-bolum="6"] table td, section[data-bolum="6"] table th { font-size: .7em; }
+    .vaat { margin-top: 1.2em; font-size: .8em; color: var(--turkuaz); font-weight: 600; }
+  
+    /* birleşik sunum */
+    .metin-ornek.siir { font-size: 1.35em; line-height: 1.5; }
+    .metin-ornek.fikra { font-size: 1.05em; line-height: 1.45; font-style: normal; max-width: 1050px; }
+    .cevap-tablo td, .cevap-tablo th { font-size: .66em; padding: .25em .6em; }
+  </style>
+</head>
+<body>
+  <div class="altbilgi" id="altbilgi">Yapay Zekâ Atölyesi · 1. Hafta</div>
+  <div class="reveal">
+    <div class="slides">
+
+      <section data-bolum="0" class="kapak">
+        <div class="cini" aria-hidden="true"></div>
+        <span class="etiket">1. Hafta · 2 saat</span>
+        <h1>Yapay zekâya merhaba</h1>
+        <p class="alt">Nedir, nasıl öğrenir, nerelerde kullanılır? Bugün tanışıyoruz, deniyoruz ve kendi küçük yapay zekâmızı eğitiyoruz.</p>
+        <p class="kucuk">Kod yok · formül yok · merak var</p>
+        <aside class="notes">
+          Ne söyle: Hoş geldiniz! Bugün dört haftalık yolculuğumuzun ilk günü. İki saat boyunca yapay zekâyla tanışacağız: ne olduğunu, nasıl öğrendiğini, nereden geldiğini ve bugün nerede olduğunu konuşacağız; arada da kendi küçük yapay zekânızı eğiteceksiniz. Kod yok, formül yok. Tek ihtiyacımız merak.
+          Süre: 30 sn.
+          Dikkat: Kendini bir cümleyle tanıt, sonra hemen akış slaytına geç. "S" tuşu konuşmacı notlarını ayrı pencerede açar.
+        </aside>
+      </section>
+
+      <section data-bolum="0">
+        <span class="etiket">Bugünün akışı</span>
+        <h2>İki saat, altı durak</h2>
+        <ul class="zaman">
+          <li><span class="yil">15 dk</span> 🎭 İnsan mı, yapay zekâ mı? (oyun)</li>
+          <li><span class="yil">20 dk</span> 🍳 Yapay zekâ nedir?</li>
+          <li><span class="yil">20 dk</span> 🐱 Makineler nasıl öğrenir?</li>
+          <li><span class="yil">10 dk</span> ☕ Mola</li>
+          <li><span class="yil">20 dk</span> 💻 Uygulama: Kendi modelini eğit</li>
+          <li><span class="yil">20 dk</span> 📜 75 yılda yapay zekâ</li>
+          <li><span class="yil">15 dk</span> 🔍 Bugün yapay zekâ nerede?</li>
+        </ul>
+        <aside class="notes">
+          Ne söyle: Bugünün akışı bu. Bir oyunla başlıyoruz, sonra yapay zekânın ne olduğunu ve nasıl öğrendiğini konuşuyoruz. Ortada on dakika mola. Moladan sonra elinizi kirleteceksiniz: Bilgisayarı olanlar kendi küçük modelini eğitecek, olmayanlar bir grubun yanına katılacak. Sonra kısa bir tarih yolculuğu ve bugün yapay zekânın hayatımızda nerede olduğu. Sonunda da size bir haftalık görev vereceğim.
+          Süre: 30 sn.
+          Dikkat: Saatleri okuma; sadece sırayı söyle. Toplam 110 dakika + 10 dakika mola.
+        </aside>
+      </section>
+
+      <!-- 1. KAPAK -->
+      <section data-bolum="1" class="kapak">
+        <div class="cini" aria-hidden="true"></div>
+        <span class="etiket">Bölüm 1 / 6 · 15 dakika</span>
+        <h1>İnsan mı, yapay zekâ mı?</h1>
+        <p class="alt">Altı örnek, tek soru: Gözünüz sizi ne kadar kolay kandırabilir?</p>
+        <p class="fragment kucuk">On beş dakika sonra gözünüze değil, soracağınız tek bir soruya güveneceksiniz.</p>
+        <aside class="notes">
+          Ne söyle: Hoş geldiniz! Dört hafta boyunca yapay zekâyı birlikte tanıyacak, deneyecek ve onunla bir şeyler üreteceğiz. Ama ders anlatarak değil, bir oyunla başlıyoruz. Size altı kısa metin göstereceğim; her birinde tek bir karar vereceksiniz: Bunu bir insan mı yaptı, yoksa yapay zekâ mı? Yanılmak tamamen serbest, hatta beklenen bir şey. Size bir söz veriyorum: On beş dakika sonra gözünüzden çok, soracağınız tek bir soruya güveneceksiniz. O soruyu en sonda birlikte bulacağız.
+          Süre: 1 dk.
+          Salona sor: "Bugün, buraya gelene kadar bir yapay zekâ ile karşılaştığını düşünen el kaldırsın."
+          Dikkat: Sınav havası yaratma. "Oyun" kelimesini vurgula.
+        </aside>
+      </section>
+
+      <!-- 2. BÜYÜK SORU -->
+      <section data-bolum="1" class="soru">
+        <span class="etiket kiremit">Bugünün sorusu</span>
+        <p class="buyuk">Altı örnekten kaçını doğru bileceksiniz?</p>
+        <p class="ipucu">Aklınızda bir sayı tutun</p>
+        <aside class="notes">
+          Ne söyle: Başlamadan önce kendinize bir tahmin yapın. Altıda kaç? Aklınızda tutun, sonunda karşılaştıracağız. Çoğu kişi 4 ya da 5 der; görelim.
+          Süre: 30 sn.
+          Salona sor: "Altıda altı diyen var mı?" Gülümseyerek el kaldırtın.
+          Dikkat: Beklenen tahmin yüksek olur; bu, oyunun sonundaki şaşkınlığı güçlendirir.
+        </aside>
+      </section>
+
+      <!-- 3. KURALLAR -->
+      <section data-bolum="1">
+        <span class="etiket">Oyunun kuralları</span>
+        <h2>Nasıl oynuyoruz?</h2>
+        <ol class="adimlar">
+          <li class="fragment">Her örneği <strong>birlikte okuyoruz</strong></li>
+          <li class="fragment">🙋 Önce <strong>insan</strong> diyenler el kaldırır</li>
+          <li class="fragment">🤖 Sonra <strong>yapay zekâ</strong> diyenler</li>
+          <li class="fragment">Cevaplar en sonda!</li>
+        </ol>
+        <aside class="notes">
+          Ne söyle: Kurallar basit. Ekrana iki dörtlük, iki atasözü ve iki fıkra gelecek. Ben yüksek sesle okuyacağım, siz bir an düşüneceksiniz; sosyal medyada bir gönderiye baktığımız kadar. Sonra önce "insan yazdı" diyenler el kaldıracak, sonra "yapay zekâ yazdı" diyenler. Telefon, uygulama, kod yok. Cevapları en sona saklıyorum.
+          Süre: 30 sn.
+          Dikkat: Kimseyi tek tek sorgulama; el sayısını kabaca söyle ("Çoğunluk insan dedi") ve devam et.
+        </aside>
+      </section>
+
+      <!-- 4. ÖRNEK 1 -->
+      <section data-bolum="1">
+        <p class="ornek-no">Örnek 1 / 6 · Dörtlük</p>
+        <p class="metin-ornek siir">Gönül bir bahçe gibi<br>Sevgiyle sulanınca<br>Dikenler de gül olur<br>Hiç kimse yalnız kalmaz</p>
+        <p class="kucuk">Eski bir halk şairi mi, yapay zekâ mı?</p>
+        <aside class="notes">
+          Ne söyle: İlk örneğimiz bir dörtlük. Yüksek sesle okuyorum, siz de ekrandan takip edin. (Oku.) Eski bir halk şairinin, bir tekke şairinin sözü olabilir mi? Yoksa yapay zekâya "Eski bir halk şairi gibi dörtlük yaz" mı dedik? İnsan diyenler el kaldırsın... Şimdi yapay zekâ diyenler.
+          Süre: 1 dk.
+          Sunucuya (cevap, sakla): Yapay zekâ. Bu dörtlük bu sunum için yapay zekâya yazdırıldı. 7'li hece ölçüsüne ve tasavvuf şiirinin kelimelerine (gönül, gül, diken) bilerek benzetildi.
+          Dikkat: Cevabı yüz ifadenle belli etme; el sayısını kabaca söyle ("Yarı yarıya!") ve geç.
+        </aside>
+      </section>
+
+      <!-- 5. ÖRNEK 2 -->
+      <section data-bolum="1">
+        <p class="ornek-no">Örnek 2 / 6 · Dörtlük</p>
+        <p class="metin-ornek siir">Gelin tanış olalım<br>İşi kolay kılalım<br>Sevelim sevilelim<br>Dünya kimseye kalmaz</p>
+        <p class="kucuk">Eski bir halk şairi mi, yapay zekâ mı?</p>
+        <aside class="notes">
+          Ne söyle: İkinci dörtlük. Dikkat: Biri insan, biri yapay zekâ olmak zorunda değil; ikisi de insan, ikisi de yapay zekâ olabilir. (Oku.) İnsan diyenler el kaldırsın... Yapay zekâ diyenler.
+          Süre: 1 dk.
+          Sunucuya (cevap, sakla): İnsan. Yunus Emre'nin çok bilinen ilahisinden. Salonda tanıyan çıkarsa "Tanıdınız, çünkü daha önce duydunuz; peki ilkini neden ayıramadık?" diye sor.
+          Dikkat: "İkisi de aynı olabilir" demek, salonun "biri mutlaka sahte" kestirmesini bozar.
+        </aside>
+      </section>
+
+      <!-- 6. ÖRNEK 3 -->
+      <section data-bolum="1">
+        <p class="ornek-no">Örnek 3 / 6 · Kısa metin</p>
+        <p class="metin-ornek">“Kuru gayret çarık eskitir.”</p>
+        <p class="kucuk">Gerçek bir atasözü mü, yapay zekâ mı yazdı?</p>
+        <aside class="notes">
+          Ne söyle: Şimdi metne geçiyoruz. Bu cümle bir atasözü gibi duruyor. Ama gerçek bir Türk atasözü mü, yoksa yapay zekâya "atasözü gibi bir cümle yaz" dedik mi? İnsan diyenler el kaldırsın... Yapay zekâ diyenler.
+          Süre: 1 dk.
+          Sunucuya (cevap): Gerçek bir Türk atasözü. Anlamı kabaca: Plansız, sonuçsuz çaba insanı boşuna yorar.
+          Dikkat: Cevabı şimdi söyleme.
+        </aside>
+      </section>
+
+      <!-- 7. ÖRNEK 4 -->
+      <section data-bolum="1">
+        <p class="ornek-no">Örnek 4 / 6 · Kısa metin</p>
+        <p class="metin-ornek">“Acele eden ipi düğümler, sabreden çözer.”</p>
+        <p class="kucuk">Gerçek bir atasözü mü, yapay zekâ mı yazdı?</p>
+        <aside class="notes">
+          Ne söyle: Bir cümle daha. Kulağa çok tanıdık geliyor, değil mi? Annenizden, babaannenizden duymuş olabilir misiniz? İnsan diyenler el kaldırsın... Yapay zekâ diyenler.
+          Süre: 1 dk.
+          Sunucuya (cevap): Bu cümle bu sunum için yapay zekâyla yazıldı. Gerçek bir atasözü değil; benzer sözler internette bulunabilir.
+          Dikkat: "Tanıdık gelmesi" tam da yanılmanın sebebi; bunu cevap slaytında kullan.
+        </aside>
+      </section>
+
+      <!-- 8. ÖRNEK 5 -->
+      <section data-bolum="1">
+        <p class="ornek-no">Örnek 5 / 6 · Fıkra</p>
+        <p class="metin-ornek fikra">Hoca'nın eşeği kaybolmuş. Bir yandan arıyor, bir yandan “Şükürler olsun!” diyormuş. “Eşeğin kayıp, neye şükrediyorsun?” demişler. “İyi ki üstünde değildim, yoksa ben de kaybolurdum!”</p>
+        <p class="kucuk">Gerçek bir Nasreddin Hoca fıkrası mı, yapay zekâ mı yazdı?</p>
+        <aside class="notes">
+          Ne söyle: Şimdi biraz gülelim. Nasreddin Hoca'yı hepimiz biliriz; Akşehir'in Hoca'sı. Bu fıkra gerçekten anlatılagelen bir Hoca fıkrası mı, yoksa yapay zekâya "Nasreddin Hoca fıkrası yaz" mı dedik? (Oku.) İnsan diyenler... Yapay zekâ diyenler...
+          Süre: 1 dk.
+          Sunucuya (cevap, sakla): İnsan. Halk arasında anlatılagelen, bilinen bir Nasreddin Hoca fıkrası (burada kısaltılarak aktarıldı).
+          Dikkat: Gülen olursa güzel; ama gülmek cevap değildir, bir sonraki de güldürebilir.
+        </aside>
+      </section>
+
+      <!-- 9. ÖRNEK 6 -->
+      <section data-bolum="1">
+        <p class="ornek-no">Örnek 6 / 6 · Fıkra</p>
+        <p class="metin-ornek fikra">Hoca pazarda yumurta satıyormuş. Biri sormuş: “Hocam, bunlar taze mi?” Hoca demiş ki: “Tazesi bu sepette. Daha tazesi tavuğun altında; acelen yoksa onu bekle!”</p>
+        <p class="kucuk">Gerçek bir Nasreddin Hoca fıkrası mı, yapay zekâ mı yazdı?</p>
+        <aside class="notes">
+          Ne söyle: Son örnek, yine bir Hoca fıkrası. (Oku.) Bunu çocukken dinlemiş miydiniz? İnsan diyenler el kaldırsın... Yapay zekâ diyenler...
+          Süre: 1 dk.
+          Sunucuya (cevap, sakla): Yapay zekâ. Bu fıkra bu sunum için yapay zekâya yazdırıldı; Hoca'nın hazırcevap üslubu taklit edildi.
+          Dikkat: Oylama bitince hemen cevaplara geç.
+        </aside>
+      </section>
+
+      <!-- 10. CEVAPLAR -->
+      <section data-bolum="1">
+        <span class="etiket altin">Cevaplar</span>
+        <h2>Bakalım kaç tane bildik?</h2>
+        <table class="cevap-tablo">
+          <tr><th>Örnek</th><th>Cevap</th></tr>
+          <tr class="fragment"><td>1 · “Gönül bir bahçe gibi…”</td><td>🤖 Yapay zekâ</td></tr>
+          <tr class="fragment"><td>2 · “Gelin tanış olalım…”</td><td>🙋 İnsan · Yunus Emre</td></tr>
+          <tr class="fragment"><td>3 · “Kuru gayret çarık eskitir.”</td><td>🙋 İnsan · gerçek atasözü</td></tr>
+          <tr class="fragment"><td>4 · “Acele eden ipi düğümler…”</td><td>🤖 Yapay zekâ</td></tr>
+          <tr class="fragment"><td>5 · Eşeği kaybolan Hoca</td><td>🙋 İnsan · halk fıkrası</td></tr>
+          <tr class="fragment"><td>6 · Taze yumurta</td><td>🤖 Yapay zekâ</td></tr>
+        </table>
+        <aside class="notes">
+          Ne söyle: Şimdi cevaplar. Her satırda önce "kim ne demişti" hatırlayalım, sonra doğru cevabı açalım. Birinci dörtlüğü yapay zekâ yazdı; ikincisi Yunus Emre'nin. Üçüncü cümle gerçek bir atasözü; dördüncüyü yapay zekâ yazdı. Beşinci fıkra halk arasında anlatılan gerçek bir Hoca fıkrası; altıncıyı yapay zekâ yazdı. Yani üç insan, üç makine. Çoğunuz dördüncüye ya da altıncıya "gerçek" dediyse hiç şaşırmayın: Tanıdık gelmesi, makinenin bizim atasözlerimizin, şiirimizin, fıkramızın "sesini" çok iyi taklit ettiğini gösteriyor.
+          Süre: 1,5 dk.
+          Salona sor: "Altıda altı yapan var mı? Alkışlayalım! Üçün altında kalan? En dürüst sonuç sizinki." Başta tuttuğunuz sayıyla karşılaştırın.
+          Dikkat: Kişi kişi skor sorma. Üç-üç dağılımı bilerek seçildi; "Hep yarısı mı?" diye soran olursa evet de.
+        </aside>
+      </section>
+
+      <!-- 11. NEDEN YANILDIK -->
+      <section data-bolum="1">
+        <h2>Neden yanıldık?</h2>
+        <div class="kartlar">
+          <div class="kart fragment"><span class="simge" aria-hidden="true">✨</span><h3>Fazla düzgün</h3><p>Pürüzsüz ve anlaşılır olanı “insan işi” sanıyoruz</p></div>
+          <div class="kart fragment turkuaz"><span class="simge" aria-hidden="true">👂</span><h3>Tanıdık geliyor</h3><p>Makine binlerce örneğin ortak sesini taklit ediyor</p></div>
+          <div class="kart fragment altin"><span class="simge" aria-hidden="true">⏱️</span><h3>Acele ediyoruz</h3><p>Bir bakışta karar, tıpkı sosyal medyada</p></div>
+        </div>
+        <aside class="notes">
+          Ne söyle: Peki neden bu kadar zorlandık? Üç sebep var. Birincisi, makinenin işi çoğu zaman fazla düzgün ve biz düzgün, anlaşılır olanı insan işi sanıyoruz. Pastanedeki kusursuz pasta ile evde yapılan biraz yamuk pastayı düşünün; ama dikkat, makine artık istenirse ev pastası kadar yamuk da yapabiliyor. İkincisi, makine binlerce örnekten öğrendiği için kulağımıza tanıdık gelen şeyi üretiyor; dördüncü cümle ve altıncı fıkra tam da bu yüzden "atasözü gibi" geldi. Üçüncüsü, acele ediyoruz: Bir bakışta karar verdik, tıpkı telefonda parmağımızla kaydırırken yaptığımız gibi.
+          Süre: 1 dk.
+          Salona sor: "Karar verirken neye baktınız?" İki-üç kişiye söz ver.
+          Dikkat: Kusursuzluğu kesin bir ipucu gibi anlatma.
+        </aside>
+      </section>
+
+      <!-- 12. ARAŞTIRMALAR -->
+      <section data-bolum="1">
+        <h2>Sadece biz değil: araştırmalar</h2>
+        <svg role="img" aria-label="Araştırmalarda insanların doğruluk oranları: yapay zekâ yüzlerinde yüzde 48, şiirde yüzde 46,6. Yazı-tura yüzde 50. Turing testinde GPT-4.5 yüzde 73 oranında insan sanıldı." viewBox="0 0 900 330" width="900" height="330">
+          <line x1="250" y1="20" x2="250" y2="250" stroke="var(--cizgi)" stroke-width="3"/>
+          <line x1="250" y1="250" x2="850" y2="250" stroke="var(--cizgi)" stroke-width="3"/>
+          <line x1="550" y1="10" x2="550" y2="250" stroke="var(--kiremit)" stroke-width="3" stroke-dasharray="10 8"/>
+          <text x="550" y="285" text-anchor="middle" font-size="22" fill="var(--kiremit)">🪙 yazı-tura (%50)</text>
+          <text x="235" y="65" text-anchor="end" font-size="24" fill="var(--murekkep)">Yüz fotoğrafı</text>
+          <rect x="250" y="40" width="288" height="40" rx="8" fill="var(--turkuaz)"/>
+          <text x="548" y="68" font-size="22" fill="var(--murekkep)" dx="8">%48 doğru</text>
+          <text x="235" y="135" text-anchor="end" font-size="24" fill="var(--murekkep)">Şiir</text>
+          <rect x="250" y="110" width="280" height="40" rx="8" fill="var(--turkuaz)"/>
+          <text x="540" y="138" font-size="22" fill="var(--murekkep)" dx="8">%46,6 doğru</text>
+          <text x="235" y="205" text-anchor="end" font-size="24" fill="var(--murekkep)">Sohbet</text>
+          <rect x="250" y="180" width="438" height="40" rx="8" fill="var(--altin)"/>
+          <text x="676" y="208" text-anchor="end" font-size="22" fill="var(--murekkep)">%73 “insan” sanıldı</text>
+          <text x="550" y="320" text-anchor="middle" font-size="18" fill="var(--murekkep-acik)">PNAS 2022 · Scientific Reports 2024 · arXiv 2025</text>
+        </svg>
+        <aside class="notes">
+          Ne söyle: Sadece biz değil. 2022'de yapılan bir araştırmada insanlar gerçek ve yapay zekâ yüzlerini yüzde 48 doğrulukla ayırt edebildi; yani yazı-tura düzeyinde. 2023'teki bir başka çalışmada en çok yanılanların, en emin olanlar olduğu görüldü. 2024'teki bir şiir araştırmasında doğruluk yüzde 46,6'da kaldı; insanlar anlaşılır ve kafiyeli şiirleri insan işi sandı. 2025'te ise beş dakikalık bir sohbet testinde bir yapay zekâ, karşısındakiler tarafından gerçek insanlardan daha sık "insan" seçildi: yüzde 73. Ve dikkat edin: Bunların hepsi bugünkünden daha eski araçlarla yapıldı.
+          Süre: 1 dk.
+          Salona sor: "Kendinden çok emin olup yanılan var mı?" (Gülümseyerek.)
+          Dikkat: "Makine insandan iyi şiir yazıyor" deme; doğrusu "kimin yazdığını bilmeden daha çok beğendiler". Ses araştırması da var (klon seslerin %58'i gerçek sanıldı); vakit varsa ekle, yoksa 4. haftaya bırak.
+        </aside>
+      </section>
+
+      <!-- 13. VURGU -->
+      <section data-bolum="1" class="vurgu">
+        <p class="buyuk">Göze değil, kaynağa güvenelim.</p>
+        <div class="fragment">
+          <p class="kucuk">İyi haber: Ayırt etmek öğrenilebiliyor.</p>
+          <svg role="img" aria-label="Kısa bir eğitimden önce yapay zekâ yüzlerini bulma başarısı yaklaşık yüzde 40, eğitimden sonra yaklaşık yüzde 80. PNAS, 2026." viewBox="0 0 760 190" width="760" height="190">
+            <text x="150" y="58" text-anchor="end" font-size="24" fill="var(--murekkep)">Eğitimden önce</text>
+            <rect x="165" y="30" width="200" height="40" rx="8" fill="var(--kiremit)"/>
+            <text x="375" y="58" font-size="24" fill="var(--murekkep)">~%40</text>
+            <text x="150" y="128" text-anchor="end" font-size="24" fill="var(--murekkep)">Eğitimden sonra</text>
+            <rect x="165" y="100" width="400" height="40" rx="8" fill="var(--turkuaz)"/>
+            <text x="575" y="128" font-size="24" fill="var(--murekkep)">~%80 🎯</text>
+            <text x="380" y="178" text-anchor="middle" font-size="18" fill="var(--murekkep-acik)">Yapay yüz bulma görevi · PNAS, 2026</text>
+          </svg>
+        </div>
+        <aside class="notes">
+          Ne söyle: Buradan çıkaracağımız ders şu: Gözümüz artık tek başına yeterli değil, bu yüzden göze değil kaynağa güveneceğiz. Kalpazanlar ustalaşınca bankalar filigran ve güvenlik şeridi gibi işaretlere geçti; biz de "Bu nereden geldi, ilk kim paylaştı?" diye sormayı alışkanlık hâline getireceğiz. Ama karamsar olmayın: Avustralya Ulusal Üniversitesi'nin 2026 yazında yayımlanan araştırmasında kısa bir eğitim, yapay zekâ yüzlerini ayırt etme başarısını yaklaşık yüzde 40'tan yüzde 80'e çıkardı. Öğretilen ipuçlarından biri şu: Yapay zekâ yüzleri genellikle fazla simetrik, fazla orantılı ve fazla çekici; ama daha az ifadeli ve daha az akılda kalıcı.
+          Süre: 1 dk.
+          Dikkat: Korkutma. Mesaj "hiçbir şeye güvenemeyiz" değil, "nasıl kontrol edeceğimizi öğreneceğiz". Eğitimin kalıcılığı henüz bilinmiyor; "artık hepimiz uzmanız" deme. Çalışma tek bir tür yapay yüzle (StyleGAN) yapıldı; yeni araçlarda da işe yarayıp yaramadığı henüz test edilmedi. İngiltere'de Reading Üniversitesi'nin 2025 çalışmasında beş dakikalık eğitim de fark yarattı ama etkisi sonradan yeniden ölçülmedi.
+        </aside>
+      </section>
+
+      <!-- 14. YOL HARİTASI -->
+      <section data-bolum="1">
+        <h2>Dört hafta, dört adım</h2>
+        <svg role="img" aria-label="Dört haftalık yol haritası: 1. hafta yapay zekâya merhaba, 2. hafta sohbet asistanlarıyla düşünmek, 3. hafta üretken yapay zekâ atölyesi, 4. hafta kendi işinde yapay zekâ." viewBox="0 0 1100 300" width="1100" height="300">
+          <path d="M80 150 C 260 40, 380 260, 550 150 S 840 40, 1020 150" fill="none" stroke="var(--cizgi)" stroke-width="10" stroke-linecap="round"/>
+          <g class="fragment">
+            <circle cx="80" cy="150" r="46" fill="var(--turkuaz)"/>
+            <text x="80" y="164" text-anchor="middle" font-size="40" fill="#fff">1</text>
+            <text x="80" y="240" text-anchor="middle" font-size="22" fill="var(--murekkep)">Yapay zekâya</text>
+            <text x="80" y="268" text-anchor="middle" font-size="22" fill="var(--murekkep)">merhaba 👋</text>
+          </g>
+          <g class="fragment">
+            <circle cx="390" cy="175" r="46" fill="var(--altin)"/>
+            <text x="390" y="189" text-anchor="middle" font-size="40" fill="#fff">2</text>
+            <text x="390" y="70" text-anchor="middle" font-size="22" fill="var(--murekkep)">Sohbet asistanlarıyla</text>
+            <text x="390" y="98" text-anchor="middle" font-size="22" fill="var(--murekkep)">düşünmek 💬</text>
+          </g>
+          <g class="fragment">
+            <circle cx="710" cy="110" r="46" fill="var(--kiremit)"/>
+            <text x="710" y="124" text-anchor="middle" font-size="40" fill="#fff">3</text>
+            <text x="710" y="210" text-anchor="middle" font-size="22" fill="var(--murekkep)">Üretken yapay zekâ</text>
+            <text x="710" y="238" text-anchor="middle" font-size="22" fill="var(--murekkep)">atölyesi 🎨</text>
+          </g>
+          <g class="fragment">
+            <circle cx="1020" cy="150" r="46" fill="var(--turkuaz)"/>
+            <text x="1020" y="164" text-anchor="middle" font-size="40" fill="#fff">4</text>
+            <text x="1020" y="240" text-anchor="middle" font-size="22" fill="var(--murekkep)">Kendi işinde</text>
+            <text x="1020" y="268" text-anchor="middle" font-size="22" fill="var(--murekkep)">yapay zekâ 🧰</text>
+          </g>
+        </svg>
+        <aside class="notes">
+          Ne söyle: Önümüzde dört hafta var. Bugün yapay zekâyla tanışıyoruz: ne olduğu, nasıl öğrendiği; hatta birazdan kendi küçük modelinizi eğiteceksiniz. İkinci hafta sohbet asistanlarıyla düşünmeyi, iyi talimat yazmayı ve uydurma bilgiyi yakalamayı öğreneceğiz. Üçüncü hafta üretme haftası: görsel, müzik, video; bugünkü oyunun örneklerini artık siz yapacaksınız. Dördüncü hafta yapay zekâyı kendi işinize, mesleğinize taşıyacak ve sorumlu kullanımı konuşacağız.
+          Süre: 1,5 dk.
+          Dikkat: Her haftayı tek cümlede tut; ayrıntıya girme. Kod ve formül olmadığını hatırlat. Akılda kalsın diye dört kelimeyle de söyleyebilirsin: Tanı, konuş, üret, işine taşı. Final bölümünde aynı dört kelimeyle kapanış yapılıyor.
+        </aside>
+      </section>
+
+      <!-- 15. BEKLENTİ -->
+      <section data-bolum="1">
+        <span class="etiket altin">Sıra sizde</span>
+        <h2>Bu atölyeden tek bir şey alıp gidecek olsanız, ne olsun?</h2>
+        <p class="kucuk">Tek kelime · sesli söyleyin</p>
+        <aside class="notes">
+          Ne söyle: Son olarak sizi dinlemek istiyorum. Bu dört haftanın sonunda elinizde tek bir şey kalacak olsa, bu ne olsun? Tek kelime ya da kısa bir ifade, sesli söyleyin. İşimde zaman kazanmak, çocuğuma yardım etmek, korkmamak, merak... Ne olursa.
+          Süre: 1 dk.
+          Salona sor: Beş-altı kişiden kelime al. Duyduğun iki-üç kelimeyi tekrar et ve hangi haftada karşılık bulacağını söyle.
+          Dikkat: Söylenen kelimeleri bir kâğıda not al (isimsiz); 4. haftadaki kapanışta "başta bunu istemiştiniz" diye geri dönebilirsin.
+          Köprü (sonraki bölüme geçerken): Bugünden aklınızda tek bir cümle kalsın: Göz yanılır, ama "Bu nereden geldi?" sorusu yanıltmaz. Açılışta söz verdiğim soru buydu. Köprü cümlesi: Bu makineler bizi bu kadar kolay şaşırtabiliyorsa, önce şunu konuşmamız lazım: Yapay zekâ dediğimiz şey aslında ne? Gelin, bir yemek tarifi kitabı ile bir usta-çırak ilişkisinden başlayalım.
+        </aside>
+      </section>
+
+      <!-- 1. KAPAK -->
+      <section data-bolum="2" class="kapak">
+        <div class="cini" aria-hidden="true"></div>
+        <span class="etiket">Bölüm 2 / 6 · 20 dakika</span>
+        <h1>Yapay zekâ nedir?</h1>
+        <p class="alt">Sihir değil, robot değil: örneklerden öğrenen bir çırak.</p>
+        <p class="kucuk">🎯 20 dakika sonra her cihaza bakıp “Bu yapay zekâ mı?” sorusunu gerekçesiyle cevaplayacaksınız.</p>
+        <aside class="notes">
+          Ne söyle: Az önce altı örnekte bizi şaşırtan şeyin adı yapay zekâ. Peki tam olarak nedir? Size bir söz veriyorum: Yirmi dakika sonra evinizdeki, cebinizdeki herhangi bir cihaza bakıp "Bu yapay zekâ mı, değil mi?" diye soracak ve gerekçesiyle cevap verebileceksiniz. Formül yok, kod yok; bir yemek tarifi ve bir çırak var.
+          Süre: 1 dk.
+          Dikkat: Açılış oyunundan sıcak bir köprü kur; enerjiyi düşürme. Vaadi yüksek sesle söyle; 14. slaytta bu vaadi yerine getireceksin.
+        </aside>
+      </section>
+
+      <!-- 2. BÜYÜK SORU -->
+      <section data-bolum="2" class="soru">
+        <span class="etiket kiremit">Bugünün sorusu</span>
+        <p class="buyuk">“Yapay zekâ” deyince aklınıza ilk gelen kelime ne?</p>
+        <p class="ipucu">Yüksek sesle, tek kelime</p>
+        <aside class="notes">
+          Ne söyle: Düşünmeden, aklınıza ilk gelen kelimeyi yüksek sesle söyleyin. Doğru ya da yanlış cevap yok; sadece bu salonun yapay zekâ hakkındaki ilk izlenimini görmek istiyorum.
+          Süre: 1,5 dk.
+          Salona sor: Altı-yedi kişiden kelime al. Robot, ChatGPT, film, gelecek, korku, kolaylık gibi kelimeler gelecek. Zıt kelimeleri yan yana oku: "Birimiz korku dedi, birimiz kolaylık. İkisi de anlaşılır; bugün ikisinin arasında bir yer bulacağız."
+          Dikkat: Korku dile getirilirse küçümseme; 9. slaytta döneceğini söyle.
+        </aside>
+      </section>
+
+      <!-- 3. TANIM -->
+      <section data-bolum="2">
+        <span class="etiket">Tek cümlelik tanım</span>
+        <h2>Yapay zekâ</h2>
+        <p class="buyuk" style="font-size:1.25em">Bilgisayarın, insan zekâsı gerektirdiğini düşündüğümüz işleri yapabilmesi.</p>
+        <p class="fragment">👀 tanımak · 💬 anlamak · 🔮 tahmin etmek · ⚖️ karar vermek · 🎨 üretmek</p>
+        <aside class="notes">
+          Ne söyle: En sade hâliyle yapay zekâ, bilgisayarın normalde insan zekâsı gerektirdiğini düşündüğümüz işleri yapabilmesidir: Bir yüzü tanımak, bir cümleyi anlamak, yarın trafiğin nasıl olacağını tahmin etmek, bir e-postanın sahte olup olmadığına karar vermek, hatta bir resim üretmek. Türkiye'nin Ulusal Yapay Zekâ Stratejisi de benzer bir tanım yapıyor ve önemli bir not düşüyor: Yapay zekâ beyinden ilham alır ama beyin gibi çalışmaz.
+          Süre: 1,5 dk.
+          Dikkat: "Düşünen makine" ifadesini kullanma; tartışmalı.
+        </aside>
+      </section>
+
+      <!-- 4. BENZETME -->
+      <section data-bolum="2">
+        <span class="etiket">Benzetme</span>
+        <h2>Tarif kitabı mı, çırak mı?</h2>
+        <svg role="img" aria-label="İki yol. Üstte tarif kitabı: insanın yazdığı kurallar ve malzeme girer, program uygular, cevap çıkar. Altta çırak: örnekler ve doğru sonuçlar girer, sistem öğrenir, kuralı kendisi çıkarır." viewBox="0 0 1000 400" width="1000" height="400">
+          <defs>
+            <marker id="ok4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="var(--murekkep-acik)"/></marker>
+          </defs>
+          <text x="20" y="40" font-size="26" font-weight="700" fill="var(--murekkep)">📖 Tarif kitabı (klasik program)</text>
+          <rect x="20" y="62" width="270" height="100" rx="18" fill="var(--kagit-koyu)" stroke="var(--cizgi)" stroke-width="3"/>
+          <text x="155" y="104" text-anchor="middle" font-size="22" fill="var(--murekkep)">Kuralı insan yazar</text>
+          <text x="155" y="136" text-anchor="middle" font-size="20" fill="var(--murekkep-acik)">+ malzeme</text>
+          <line x1="295" y1="112" x2="385" y2="112" stroke="var(--murekkep-acik)" stroke-width="4" marker-end="url(#ok4)"/>
+          <rect x="395" y="62" width="230" height="100" rx="18" fill="var(--altin-acik)" stroke="var(--altin)" stroke-width="3"/>
+          <text x="510" y="120" text-anchor="middle" font-size="24" font-weight="700" fill="var(--murekkep)">⚙️ Uygular</text>
+          <line x1="630" y1="112" x2="720" y2="112" stroke="var(--murekkep-acik)" stroke-width="4" marker-end="url(#ok4)"/>
+          <rect x="730" y="62" width="250" height="100" rx="18" fill="var(--kagit-koyu)" stroke="var(--cizgi)" stroke-width="3"/>
+          <text x="855" y="120" text-anchor="middle" font-size="24" fill="var(--murekkep)">🍚 Cevap</text>
+          <g class="fragment">
+            <text x="20" y="238" font-size="26" font-weight="700" fill="var(--murekkep)">🧑‍🍳 Çırak (yapay zekâ)</text>
+            <rect x="20" y="260" width="270" height="100" rx="18" fill="var(--kagit-koyu)" stroke="var(--cizgi)" stroke-width="3"/>
+            <text x="155" y="302" text-anchor="middle" font-size="22" fill="var(--murekkep)">Yüzlerce örnek</text>
+            <text x="155" y="334" text-anchor="middle" font-size="20" fill="var(--murekkep-acik)">+ doğru sonuçlar</text>
+            <line x1="295" y1="310" x2="385" y2="310" stroke="var(--murekkep-acik)" stroke-width="4" marker-end="url(#ok4)"/>
+            <rect x="395" y="260" width="230" height="100" rx="18" fill="var(--turkuaz-acik)" stroke="var(--turkuaz)" stroke-width="3"/>
+            <text x="510" y="318" text-anchor="middle" font-size="24" font-weight="700" fill="var(--murekkep)">🔁 Öğrenir</text>
+            <line x1="630" y1="310" x2="720" y2="310" stroke="var(--murekkep-acik)" stroke-width="4" marker-end="url(#ok4)"/>
+            <rect x="730" y="260" width="250" height="100" rx="18" fill="var(--turkuaz)"/>
+            <text x="855" y="304" text-anchor="middle" font-size="22" font-weight="700" fill="#fff">Kuralı kendisi</text>
+            <text x="855" y="334" text-anchor="middle" font-size="22" font-weight="700" fill="#fff">çıkarır</text>
+          </g>
+        </svg>
+        <aside class="notes">
+          Ne söyle: Eski usul bir bilgisayar programı tarif kitabı gibidir. Tarifi insan yazar: "Suyu kaynat, iki bardak pirinç ekle, on beş dakika pişir." Program bu tarifi harfiyen uygular ve cevabı verir. Kitapta yazmayan bir şey olursa, mesela pirinç farklıysa, ne yapacağını bilemez. (İleri.) Bugünkü yapay zekânın çoğu ise bir çırak gibidir. Ona tarif vermeyiz; ustasını yüzlerce kez izletir, sonuçları gösteririz. Çırak dener, yanılır, düzeltir ve sonunda kuralı kendisi çıkarır. Dikkat edin, oklar aynı yöne gidiyor ama kutuların yeri değişti: Üstte kural bizden geliyor, altta kural makineden çıkıyor.
+          Süre: 1,5 dk.
+          Dikkat (benzetmenin sınırı): Çırak neden öyle yaptığını anlatabilir, makine çoğu zaman anlatamaz. Çırak birkaç örnekten öğrenir; makine binlerce, milyonlarca örneğe ihtiyaç duyar.
+        </aside>
+      </section>
+
+      <!-- 5. İKİ SÜTUN -->
+      <section data-bolum="2">
+        <h2>Örnek: spam filtresi</h2>
+        <div class="iki-sutun">
+          <div><h3>📖 Kuralı biz yazarız</h3><ul><li>“Bedava” geçiyorsa spam</li><li>Dolandırıcı kelimeyi değiştirir</li><li class="fragment">Kural kitabı hep eksik kalır</li></ul></div>
+          <div class="fragment"><h3>🧑‍🎓 Örnekten öğrenir</h3><ul><li>Milyonlarca “spam” ve “spam değil” örneği</li><li>Ortak işaretleri kendi bulur</li><li>Yeni hileleri de yakalayabilir</li></ul></div>
+        </div>
+        <aside class="notes">
+          Ne söyle: Şimdi bu iki yolu gerçek bir örnekte görelim: e-postadaki spam filtresi. Kuralı biz yazmaya kalksak "İçinde 'bedava' geçiyorsa spam" deriz. Dolandırıcı ertesi gün "b3dava" yazar, kural çöker. Kural kitabı hep eksik kalır. Örnekten öğrenen sisteme ise milyonlarca "bu spam", "bu spam değil" örneği gösteririz; ortak işaretleri kendisi bulur. Google 2017'de, Gmail'in bu yöntemle spam ve oltalama e-postalarını yüzde 99,9'un üzerinde doğrulukla dışarıda tuttuğunu açıklamıştı.
+          Süre: 1 dk.
+          Salona sor: "Siz bir spam kuralı yazsanız ne yazardınız?" Bir iki cevap al.
+          Dikkat: Yüzde 99,9 Google'ın 2017'deki kendi açıklaması, bağımsız doğrulama yok; "hiç spam gelmez" anlamına gelmez.
+        </aside>
+      </section>
+
+      <!-- 6. İÇ İÇE HALKALAR -->
+      <section data-bolum="2">
+        <h2>İç içe halkalar</h2>
+        <svg role="img" aria-label="İç içe dört halka: en dışta yapay zekâ, içinde makine öğrenmesi, onun içinde derin öğrenme, en içte üretken yapay zekâ." viewBox="0 0 1000 470" width="1000" height="470">
+          <ellipse cx="500" cy="240" rx="480" ry="225" fill="var(--turkuaz-acik)" stroke="var(--turkuaz)" stroke-width="4"/>
+          <text x="500" y="52" text-anchor="middle" font-size="30" font-weight="700" fill="var(--murekkep)">Yapay zekâ</text>
+          <text x="500" y="84" text-anchor="middle" font-size="20" fill="var(--murekkep-acik)">akıllı davranan her sistem · ör. satranç programı</text>
+          <g class="fragment">
+            <ellipse cx="500" cy="280" rx="360" ry="168" fill="var(--altin-acik)" stroke="var(--altin)" stroke-width="4"/>
+            <text x="500" y="148" text-anchor="middle" font-size="28" font-weight="700" fill="var(--murekkep)">Makine öğrenmesi</text>
+            <text x="500" y="178" text-anchor="middle" font-size="20" fill="var(--murekkep-acik)">kuralı örneklerden çıkarır · ör. spam filtresi</text>
+          </g>
+          <g class="fragment">
+            <ellipse cx="500" cy="320" rx="240" ry="118" fill="var(--kiremit-acik)" stroke="var(--kiremit)" stroke-width="4"/>
+            <text x="500" y="244" text-anchor="middle" font-size="26" font-weight="700" fill="var(--murekkep)">Derin öğrenme</text>
+            <text x="500" y="272" text-anchor="middle" font-size="19" fill="var(--murekkep-acik)">çok katmanlı sinir ağları · ör. yüz tanıma</text>
+          </g>
+          <g class="fragment">
+            <ellipse cx="500" cy="365" rx="140" ry="62" fill="var(--turkuaz)" />
+            <text x="500" y="360" text-anchor="middle" font-size="24" font-weight="700" fill="#fff">Üretken YZ</text>
+            <text x="500" y="390" text-anchor="middle" font-size="18" fill="#fff">ChatGPT, Gemini, Claude</text>
+          </g>
+        </svg>
+        <aside class="notes">
+          Ne söyle: Haberlerde dört kelimeyi sürekli duyuyoruz: yapay zekâ, makine öğrenmesi, derin öğrenme, üretken yapay zekâ. Bunlar birbirinin rakibi değil; matruşka bebekler gibi iç içe. En dışta yapay zekâ: akıllı davranan her sistem. İçinde makine öğrenmesi: kuralı örneklerden çıkaranlar, yani çıraklar. Onun içinde derin öğrenme: çok katmanlı yapay sinir ağlarıyla öğrenenler; bir sonraki bölümde bunu ses mikseri benzetmesiyle anlatacağım. En içte üretken yapay zekâ: yeni metin, resim, ses üretenler. ChatGPT, Gemini, Claude burada.
+          Süre: 2,5 dk.
+          Salona sor: "Açılıştaki atasözünü yazan sistem hangi halkada?" (Cevap: en içte, üretken yapay zekâ.)
+          Dikkat: En içteki halka "en akıllı" demek değil; sadece daha özel bir yöntem. Sınırlar keskin değil.
+        </aside>
+      </section>
+
+      <!-- 7. DAR VE GENEL -->
+      <section data-bolum="2">
+        <h2>Dar yapay zekâ ve genel yapay zekâ</h2>
+        <div class="iki-sutun">
+          <div><h3>🔪 Dar yapay zekâ</h3><ul><li>Belirli işlerde çok iyi</li><li><strong>Bugün her yerde</strong></li></ul></div>
+          <div class="fragment"><h3>🧠 Genel yapay zekâ (AGI)</h3><ul><li>Her işi insan kadar iyi</li><li><strong>Tanımı bile tartışmalı</strong></li></ul></div>
+        </div>
+        <aside class="notes">
+          Ne söyle: Bugün kullandığımız yapay zekânın neredeyse tamamı "dar" yapay zekâdır: belirli işler için bilenmiş çok iyi bıçaklar gibi. Biri yüz tanır, biri çeviri yapar, biri yol tarifi verir. Sohbet asistanları bu bıçakları tek bir İsviçre çakısında topladı; bu yüzden kafalar karışıyor. Genel yapay zekâ, kısaca AGI, ise her işi, hatta hiç görmediği işleri bile insan kadar iyi yapabilen bir sistem fikri. Sorun şu: Ortak bir tanımı ya da testi yok. IBM de bunu hâlâ teorik bir düzey olarak tanımlıyor.
+          Süre: 2 dk.
+          Dikkat: "Sohbet asistanları AGI'dır" ya da "asla AGI olmaz" gibi kesin hüküm verme.
+        </aside>
+      </section>
+
+      <!-- 8. AGI TARTIŞMASI -->
+      <section data-bolum="2">
+        <span class="etiket altin">Güncel · Eylül–Ekim 2026</span>
+        <h2>“AGI geldi mi?” tartışması</h2>
+        <ul class="zaman">
+          <li class="fragment"><span class="yil">2025</span> Araştırmacıların %76'sı: “Büyütmek yetmez”</li>
+          <li class="fragment"><span class="yil">Eyl. 2026</span> Yeni model; şirket başkanı: “AGI çağına hoş geldiniz”</li>
+          <li class="fragment"><span class="yil">Aynı test</span> Şirketin düzeneği %99,9 · standart düzenek %62,7</li>
+          <li class="fragment"><span class="yil">Ekim 2026</span> Bağımsız ölçüm: bazı işlerde ileri, bazılarında geri</li>
+        </ul>
+        <aside class="notes">
+          Ne söyle: Bu tartışma şu an çok sıcak. 2025'te 475 yapay zekâ araştırmacısıyla yapılan bir ankette dörtte üçü, bugünkü sistemleri sadece büyütmenin genel yapay zekâya götürmeyeceğini söyledi. (İleri.) Eylül 2026'da OpenAI yeni modeli GPT-6 Astra'yı tanıttı. Şirketin başkanı Greg Brockman basın toplantısını "AGI çağına hoş geldiniz" diye bitirdi; ama kararı kullanıcılara bıraktı. Birkaç gün sonra Nvidia'nın CEO'su Jensen Huang da "AGI geldi" diye paylaşım yaptı. (İleri.) İşin ilginç yanı şu: Zor bir bulmaca testinde model, şirketin kendi kurduğu düzenekle yüzde 99,9, testi hazırlayanların standart düzeneğiyle yüzde 62,7 aldı. Kendi hazırladığınız sınavdan tam not almak gibi. Testi hazırlayanlar da "Buna AGI demek için kanıtımız yok" dedi. (İleri.) Ekim ayında bağımsız ölçüm yapan kuruluşlar ise karışık bir tablo buldu: Model bazı işlerde ilerlemiş, bazılarında gerilemiş; genel puanı bir önceki modelle aynı. Yani cevap, AGI'yı nasıl tanımladığınıza ve nasıl ölçtüğünüze bağlı.
+          Süre: 2 dk.
+          Salona sor: "Sizce bir makineye 'genel zekâ' demek için ne görmemiz gerekir?" Bir iki cevap al, yorum yapmadan teşekkür et.
+          Dikkat: Kişilerin sözünü aktar, yorumlama ve küçümseme. Tartışma uzarsa "arada sürdürelim" de. Soran olursa: Nvidia, OpenAI'a yatırım yapmış ve onun çip tedarikçisi; yani açıklamanın ticari bir boyutu da var.
+        </aside>
+      </section>
+
+      <!-- 9. TERAZİ -->
+      <section data-bolum="2">
+        <h2>Abartı ile korku arasında</h2>
+        <svg role="img" aria-label="Bir terazi: sol kefede abartı (her şeyi bilir), sağ kefede korku (bizi yok edecek), ortada denge: güçlü ama hata yapabilen bir araç." viewBox="0 0 1000 380" width="1000" height="380">
+          <polygon points="500,90 470,330 530,330" fill="var(--cizgi)"/>
+          <rect x="400" y="330" width="200" height="22" rx="8" fill="var(--murekkep-acik)"/>
+          <line x1="140" y1="100" x2="860" y2="100" stroke="var(--murekkep)" stroke-width="8" stroke-linecap="round"/>
+          <circle cx="500" cy="100" r="16" fill="var(--altin)"/>
+          <line x1="180" y1="100" x2="140" y2="200" stroke="var(--murekkep-acik)" stroke-width="3"/>
+          <line x1="180" y1="100" x2="300" y2="200" stroke="var(--murekkep-acik)" stroke-width="3"/>
+          <path d="M120 200 Q220 260 320 200 Z" fill="var(--kiremit-acik)" stroke="var(--kiremit)" stroke-width="3"/>
+          <text x="220" y="296" text-anchor="middle" font-size="26" font-weight="700" fill="var(--murekkep)">🎈 Abartı</text>
+          <text x="220" y="326" text-anchor="middle" font-size="20" fill="var(--murekkep-acik)">“Her şeyi bilir”</text>
+          <line x1="820" y1="100" x2="700" y2="200" stroke="var(--murekkep-acik)" stroke-width="3"/>
+          <line x1="820" y1="100" x2="860" y2="200" stroke="var(--murekkep-acik)" stroke-width="3"/>
+          <path d="M680 200 Q780 260 880 200 Z" fill="var(--kiremit-acik)" stroke="var(--kiremit)" stroke-width="3"/>
+          <text x="780" y="296" text-anchor="middle" font-size="26" font-weight="700" fill="var(--murekkep)">😱 Korku</text>
+          <text x="780" y="326" text-anchor="middle" font-size="20" fill="var(--murekkep-acik)">“Bizi yok edecek”</text>
+          <g class="fragment">
+            <rect x="330" y="10" width="340" height="56" rx="28" fill="var(--turkuaz)"/>
+            <text x="500" y="47" text-anchor="middle" font-size="24" font-weight="700" fill="#fff">⚖️ Güçlü ama hata yapabilir</text>
+          </g>
+        </svg>
+        <aside class="notes">
+          Ne söyle: Haberlerde yapay zekâ ya her şeyi bilen bir dâhi ya da bizi yok edecek bir tehdit olarak anlatılıyor. İkisi de bize yardımcı olmuyor. Bu atölyedeki bakışımız şu: Yapay zekâ güçlü bir araç ama hata yapabilir; bu yüzden onu tanıyacak, deneyecek ve kontrol etmeyi öğreneceğiz. Başta "korku" diyen arkadaşımız haklı olarak dikkatli; "kolaylık" diyen de haklı olarak umutlu.
+          Süre: 1 dk.
+          Dikkat: Ciddi riskleri yok sayma; "4. haftada sorumlu kullanımı ayrıntılı konuşacağız" de.
+        </aside>
+      </section>
+
+      <!-- 10. OYLAMA: HESAP MAKİNESİ -->
+      <section data-bolum="2">
+        <span class="etiket altin">Oylama · Bu yapay zekâ mı?</span>
+        <div class="ornek-simge" aria-hidden="true">🧮</div>
+        <h2>Hesap makinesi</h2>
+        <div class="secenekler">
+          <div class="uygun">✅ Evet</div>
+          <div class="dikkat">⚠️ Kısmen</div>
+          <div class="asla">⛔ Hayır</div>
+        </div>
+        <p class="fragment kucuk">⛔ Hayır: Her kuralı insan yazdı; hiçbir şey öğrenmiyor.</p>
+        <aside class="notes">
+          Ne söyle: Şimdi oylama. Dört nesne göstereceğim; her biri için "Bu yapay zekâ mı?" diye soracağım. Ölçütümüz tek bir soru: Kuralı insan mı yazdı, yoksa sistem örneklerden mi öğrendi? İlki hesap makinesi. Çok hızlı ve hiç yanılmıyor, ama yapay zekâ mı?
+          Süre: 1 dk.
+          Cevap: Hayır. Her işlem insan tarafından yazılmış bir kurala dayanıyor. Avrupa Birliği'nin yapay zekâ yasasına dair kılavuz da yalnızca insanın yazdığı kurallarla çalışan sistemleri ve temel veri işlemeyi büyük ölçüde tanım dışında tutuyor.
+          Dikkat: "Akıllı görünmek" ile "yapay zekâ olmak" farkını vurgula.
+        </aside>
+      </section>
+
+      <!-- 11. OYLAMA: NAVİGASYON -->
+      <section data-bolum="2">
+        <span class="etiket altin">Oylama · Bu yapay zekâ mı?</span>
+        <div class="ornek-simge" aria-hidden="true">🗺️</div>
+        <h2>Navigasyon uygulaması</h2>
+        <div class="secenekler">
+          <div class="uygun">✅ Evet</div>
+          <div class="dikkat">⚠️ Kısmen</div>
+          <div class="asla">⛔ Hayır</div>
+        </div>
+        <p class="fragment kucuk">✅/⚠️ Yolu bulmak klasik hesap; “kaç dakikada varırım?” tahmini yapay zekâ.</p>
+        <aside class="notes">
+          Ne söyle: İkincisi navigasyon. Telefonunuz size "Kırk iki dakikada varırsınız" diyor. Bu yapay zekâ mı?
+          Süre: 1 dk.
+          Cevap: Kısmen, hatta büyük ölçüde evet. En kısa yolu bulan kısım eski usul bir hesaplama. Ama varış süresini tahmin eden kısım, canlı ve geçmiş trafik verisinden öğrenen bir yapay sinir ağı. Google DeepMind'ın 2020'deki açıklamasına göre bu yöntem bazı şehirlerde tahmin doğruluğunu yüzde 50'ye varan oranda artırdı.
+          Dikkat: "Kısmen" diyenleri takdir et: Yapay zekâ çoğu zaman bir sistemin içindeki bir parçadır.
+        </aside>
+      </section>
+
+      <!-- 12. OYLAMA: SPAM -->
+      <section data-bolum="2">
+        <span class="etiket altin">Oylama · Bu yapay zekâ mı?</span>
+        <div class="ornek-simge" aria-hidden="true">📧</div>
+        <h2>E-postadaki spam filtresi</h2>
+        <div class="secenekler">
+          <div class="uygun">✅ Evet</div>
+          <div class="dikkat">⚠️ Kısmen</div>
+          <div class="asla">⛔ Hayır</div>
+        </div>
+        <p class="fragment kucuk">✅ Evet: Milyonlarca örnekten öğreniyor.</p>
+        <aside class="notes">
+          Ne söyle: Üçüncüsü, az önce konuştuğumuz spam filtresi. Kolay soru, değil mi?
+          Süre: 45 sn.
+          Cevap: Evet. Milyonlarca örnekten öğrenen bir makine öğrenmesi sistemi. Siz "spam değil" ya da "spam bildir" düğmesine bastıkça ona yeni örnek de vermiş oluyorsunuz.
+          Dikkat: Bu son not, bir sonraki bölümdeki "veri" konusuna güzel bir köprü.
+        </aside>
+      </section>
+
+      <!-- 13. OYLAMA: TERMOSTAT -->
+      <section data-bolum="2">
+        <span class="etiket altin">Oylama · Bu yapay zekâ mı?</span>
+        <div class="ornek-simge" aria-hidden="true">🌡️</div>
+        <h2>Kombi termostatı</h2>
+        <div class="secenekler">
+          <div class="uygun">✅ Evet</div>
+          <div class="dikkat">⚠️ Kısmen</div>
+          <div class="asla">⛔ Hayır</div>
+        </div>
+        <p class="fragment kucuk">⚠️ Duruma göre: “21 dereceye düşünce yak” kural; alışkanlığınızı öğreneni yapay zekâ.</p>
+        <aside class="notes">
+          Ne söyle: Sonuncusu evdeki kombi termostatı. Duvarda duran o küçük kutu. Evet mi, hayır mı?
+          Süre: 1 dk.
+          Cevap: Duruma göre. Klasik termostat "21 dereceye düşünce yak" kuralıyla çalışır; kuralı biz yazdık, yapay zekâ değil. Ama "öğrenen" termostatlar da var: Google'ın yardım sayfasına göre bu cihazlar birkaç gün içinde tercih ettiğiniz sıcaklıkları izleyip yaklaşık bir haftada kendi programını kuruyor. Bu özellik kapatılırsa öğrenme duruyor; yani aynı cihaz bile ayara göre çırak ya da tarif kitabı olabiliyor.
+          Dikkat: Belirli bir markayı övme; örnek olarak an.
+        </aside>
+      </section>
+
+      <!-- 14. VURGU -->
+      <section data-bolum="2" class="vurgu">
+        <p class="buyuk">Kuralı biz yazıyorsak program; örnekten öğreniyorsa yapay zekâ.</p>
+        <p class="fragment kucuk">📖 Tarif kitabı mı, 🧑‍🍳 çırak mı? Bu hafta her cihaza bu soruyu sorun.</p>
+        <aside class="notes">
+          Ne söyle: Başta size bir söz vermiştim. İşte o ölçüt, tek cümle: Kuralı biz yazıyorsak bu bir programdır; sistem kuralı örneklerden kendisi çıkarıyorsa yapay zekâdır. (İleri.) Bu hafta telefonunuza, arabanıza, bankanızın uygulamasına bakarken içinizden sorun: Bu bir tarif kitabı mı, yoksa bir çırak mı? Bu basit soruyla hafta boyunca etrafınızdaki yapay zekâları avlayacaksınız.
+          Süre: 1,5 dk.
+          Dikkat: Bu ölçüt bir başlangıç kestirmesidir; bazı klasik yapay zekâ sistemleri (ör. eski satranç programları, uzman sistemler) da kurallarla ve bilgi tabanlarıyla çalışır. AB'nin tanımı da bu "bilgi tabanlı" sistemleri dışlamıyor. Soran olursa bunu dürüstçe söyle.
+          Köprü (sonraki bölüme geçerken): Yapay zekânın çoğunun bir çırak gibi örnekten öğrendiğini söyledik. Peki bu çırak nasıl öğreniyor? Bir çocuğa kediyi nasıl öğrettiğimizi düşünerek başlayalım.
+        </aside>
+      </section>
+
+      <!-- 1. KAPAK -->
+      <section data-bolum="3" class="kapak">
+        <div class="cini" aria-hidden="true"></div>
+        <span class="etiket">Bölüm 3 / 6 · 20 dakika</span>
+        <h1>Makineler nasıl öğrenir?</h1>
+        <p class="alt">Bir çocuğa kediyi öğretebiliyorsanız, makine öğrenmesini de anlarsınız.</p>
+        <aside class="notes">
+          Ne söyle: Bir önceki bölümde yapay zekânın çoğunun bir çırak gibi örnekten öğrendiğini söyledik. Şimdi o çırağın kafasının içine bakacağız. Söz veriyorum, tek bir formül görmeyeceksiniz. Elimizde sadece bir çocuk, bir kedi ve bir ses mikseri olacak.
+          Süre: 45 sn.
+          Dikkat: Teknik korkuyu baştan kır: "Formül yok" sözünü yüksek sesle ver.
+        </aside>
+      </section>
+
+      <!-- 2. BÜYÜK SORU -->
+      <section data-bolum="3" class="soru">
+        <span class="etiket kiremit">Bugünün sorusu</span>
+        <p class="buyuk">Üç yaşındaki bir çocuğa “kedi”yi nasıl öğretirsiniz?</p>
+        <p class="ipucu">Kuralını söyleyebilir misiniz?</p>
+        <aside class="notes">
+          Ne söyle: Bir deneme yapalım. Kediyi bana kurallarla tarif edin. Dört ayaklı... tüylü... kuyruklu... bıyıklı... Peki köpekte de bunlar yok mu? Farkı tam olarak ne? Görüyorsunuz, kuralı yazmak çok zor. Ama hepimiz çocukken kediyi öğrendik. Nasıl?
+          Süre: 1,25 dk.
+          Salona sor: "Kediyi tarif edin." Gelen her özelliğe "köpekte de var mı?" diye karşılık ver.
+          Beklenen cevap: "Göstererek öğrettik." Bu cevap gelince bir sonraki slayta geç.
+        </aside>
+      </section>
+
+      <!-- 3. BENZETME -->
+      <section data-bolum="3">
+        <span class="etiket">Benzetme</span>
+        <h2>Kural değil, örnek</h2>
+        <div class="benzetme">
+          <span class="simge" aria-hidden="true">🐱</span>
+          <p>“Bak, kedi.” “Bu da kedi.” “Hayır, o köpek.” Yüzlerce örnek ve birkaç düzeltmeden sonra çocuk hiç görmediği kediyi de tanır.</p>
+        </div>
+        <aside class="notes">
+          Ne söyle: Çocuğa kural anlatmayız; örnek gösteririz. "Bak, kedi." "Bu da kedi." Köpeğe kedi derse "Hayır, o köpek" deriz. Bir süre sonra çocuk hiç görmediği bir kediyi de tanır. Makine öğrenmesi tam olarak budur: Örneklerden ortak işaretleri bulmak ve yeni bir şey görünce tahmin etmek.
+          Süre: 1,5 dk.
+          Dikkat (benzetmenin sınırı): Çocuk birkaç kediyle öğrenir, makine çoğu zaman binlercesini ister. Çocuk kediyi koklar, sever; makine yalnızca ona gösterilen veriyi bilir.
+        </aside>
+      </section>
+
+      <!-- 4. DÖNGÜ -->
+      <section data-bolum="3">
+        <h2>Öğrenme döngüsü</h2>
+        <svg role="img" aria-label="Dört adımlı döngü: veri, örüntü, tahmin, geri bildirim; geri bildirimden tekrar veriye dönülür." viewBox="0 0 1000 440" width="1000" height="440">
+          <defs>
+            <marker id="ok" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="var(--murekkep-acik)"/></marker>
+          </defs>
+          <path d="M330 95 L620 95" stroke="var(--murekkep-acik)" stroke-width="5" fill="none" marker-end="url(#ok)"/>
+          <path d="M800 160 L800 270" stroke="var(--murekkep-acik)" stroke-width="5" fill="none" marker-end="url(#ok)"/>
+          <path d="M620 345 L330 345" stroke="var(--murekkep-acik)" stroke-width="5" fill="none" marker-end="url(#ok)"/>
+          <path d="M200 270 L200 160" stroke="var(--murekkep-acik)" stroke-width="5" fill="none" marker-end="url(#ok)"/>
+          <rect x="70" y="40" width="260" height="110" rx="24" fill="var(--turkuaz)"/>
+          <text x="200" y="88" text-anchor="middle" font-size="34" fill="#fff">📚 Veri</text>
+          <text x="200" y="125" text-anchor="middle" font-size="20" fill="#fff">bir sürü kedi fotoğrafı</text>
+          <g class="fragment">
+            <rect x="670" y="40" width="260" height="110" rx="24" fill="var(--altin)"/>
+            <text x="800" y="88" text-anchor="middle" font-size="34" fill="#fff">🔍 Örüntü</text>
+            <text x="800" y="125" text-anchor="middle" font-size="20" fill="#fff">ortak işaretler</text>
+          </g>
+          <g class="fragment">
+            <rect x="670" y="290" width="260" height="110" rx="24" fill="var(--kiremit)"/>
+            <text x="800" y="338" text-anchor="middle" font-size="34" fill="#fff">🔮 Tahmin</text>
+            <text x="800" y="375" text-anchor="middle" font-size="20" fill="#fff">“Bu bir kedi!”</text>
+          </g>
+          <g class="fragment">
+            <rect x="70" y="290" width="260" height="110" rx="24" fill="var(--murekkep-acik)"/>
+            <text x="200" y="338" text-anchor="middle" font-size="30" fill="#fff">✅❌ Geri bildirim</text>
+            <text x="200" y="375" text-anchor="middle" font-size="20" fill="#fff">doğru mu, yanlış mı?</text>
+          </g>
+          <text x="500" y="230" text-anchor="middle" font-size="26" fill="var(--murekkep)" class="fragment">🔁 milyonlarca kez</text>
+        </svg>
+        <aside class="notes">
+          Ne söyle: Makinenin öğrenmesi dört adımlı bir döngü. Önce veri: bir sürü örnek, mesela kedi fotoğrafları. Makine bunlarda ortak işaretleri, yani örüntüleri arar. Sonra yeni bir fotoğraf görünce tahmin yapar: "Bu bir kedi." Ardından geri bildirim gelir: doğru mu, yanlış mı? Yanlışsa kendini biraz düzeltir ve döngü yeniden başlar. Bu döngü milyonlarca kez döner.
+          Süre: 1,5 dk.
+          Dikkat: "Örüntü" kelimesini "ortak işaret" diye tekrar tekrar sadeleştir.
+        </aside>
+      </section>
+
+      <!-- 5. SES MİKSERİ -->
+      <section data-bolum="3">
+        <span class="etiket">Benzetme</span>
+        <h2>Yapay sinir ağı: dev bir ses mikseri</h2>
+        <svg role="img" aria-label="Sürgülü düğmeleri olan bir ses mikseri çizimi; her düğme bir ayar. Altta: GPT-3'te yaklaşık 175 milyar ayar vardı." viewBox="0 0 1000 340" width="1000" height="340">
+          <rect x="40" y="20" width="920" height="240" rx="22" fill="var(--kagit-koyu)" stroke="var(--cizgi)" stroke-width="3"/>
+          <g>
+            <line x1="110" y1="50" x2="110" y2="230" stroke="var(--cizgi)" stroke-width="8" stroke-linecap="round"/><rect x="88" y="150" width="44" height="26" rx="6" fill="var(--turkuaz)"/>
+            <line x1="200" y1="50" x2="200" y2="230" stroke="var(--cizgi)" stroke-width="8" stroke-linecap="round"/><rect x="178" y="80" width="44" height="26" rx="6" fill="var(--turkuaz)"/>
+            <line x1="290" y1="50" x2="290" y2="230" stroke="var(--cizgi)" stroke-width="8" stroke-linecap="round"/><rect x="268" y="190" width="44" height="26" rx="6" fill="var(--altin)"/>
+            <line x1="380" y1="50" x2="380" y2="230" stroke="var(--cizgi)" stroke-width="8" stroke-linecap="round"/><rect x="358" y="120" width="44" height="26" rx="6" fill="var(--turkuaz)"/>
+            <line x1="470" y1="50" x2="470" y2="230" stroke="var(--cizgi)" stroke-width="8" stroke-linecap="round"/><rect x="448" y="60" width="44" height="26" rx="6" fill="var(--kiremit)"/>
+            <line x1="560" y1="50" x2="560" y2="230" stroke="var(--cizgi)" stroke-width="8" stroke-linecap="round"/><rect x="538" y="170" width="44" height="26" rx="6" fill="var(--turkuaz)"/>
+            <line x1="650" y1="50" x2="650" y2="230" stroke="var(--cizgi)" stroke-width="8" stroke-linecap="round"/><rect x="628" y="100" width="44" height="26" rx="6" fill="var(--altin)"/>
+            <line x1="740" y1="50" x2="740" y2="230" stroke="var(--cizgi)" stroke-width="8" stroke-linecap="round"/><rect x="718" y="140" width="44" height="26" rx="6" fill="var(--turkuaz)"/>
+            <line x1="830" y1="50" x2="830" y2="230" stroke="var(--cizgi)" stroke-width="8" stroke-linecap="round"/><rect x="808" y="75" width="44" height="26" rx="6" fill="var(--kiremit)"/>
+            <text x="910" y="150" text-anchor="middle" font-size="40" fill="var(--murekkep-acik)">…</text>
+          </g>
+          <text x="500" y="310" text-anchor="middle" font-size="26" fill="var(--murekkep)" class="fragment">Her düğme bir ayar · GPT-3'te (2020) yaklaşık <tspan font-weight="700">175 milyar</tspan> ayar vardı</text>
+        </svg>
+        <aside class="notes">
+          Ne söyle: Peki makine bu ortak işaretleri nerede tutuyor? Bir düğün orkestrasının ses masasını düşünün. Her düğme bir sesi biraz açar ya da kısar; doğru ayarda müzik harika çıkar. Yapay sinir ağı da böyle düğmelerden oluşan dev bir mikser. Bu düğmelere "ağırlık" ya da "ayar" diyoruz. Ne kadar çok mu? 2020'de tanıtılan GPT-3'te yaklaşık 175 milyar ayar vardı. Milyar!
+          Süre: 1,25 dk.
+          Salona sor: "Bir düğün mikserinde kaç düğme vardır sizce?" (Birkaç düzine.) "Bu modelde 175 milyar."
+          Dikkat: 175 milyar sayısı GPT-3'e ait; bugünkü modeller için şirketler çoğu zaman sayı açıklamıyor. Güncel bir model için sayı uydurma.
+        </aside>
+      </section>
+
+      <!-- 6. EĞİTİM ADIMLARI -->
+      <section data-bolum="3">
+        <h2>Eğitim = düğmeleri azar azar çevirmek</h2>
+        <div style="display:grid;grid-template-columns:1.1fr 1fr;gap:.8em;align-items:center">
+          <ol class="adimlar" style="font-size:.85em">
+            <li class="fragment">Bir fotoğraf göster, makine tahmin etsin</li>
+            <li class="fragment">Cevaba bak: Ne kadar yanıldı?</li>
+            <li class="fragment">Bütün düğmeleri <strong>biraz</strong> doğru yöne çevir</li>
+            <li class="fragment">Tekrarla, tekrarla, tekrarla… 🔁</li>
+          </ol>
+          <svg class="fragment" role="img" aria-label="Hata eğrisi: Eğitim ilerledikçe hata yüksekten başlayıp inişli çıkışlı biçimde azalıyor ve sonunda düşük bir düzeyde yatay seyrediyor." viewBox="0 0 520 380" width="520" height="380">
+            <line x1="60" y1="30" x2="60" y2="320" stroke="var(--murekkep-acik)" stroke-width="4"/>
+            <line x1="60" y1="320" x2="500" y2="320" stroke="var(--murekkep-acik)" stroke-width="4"/>
+            <text x="34" y="175" text-anchor="middle" font-size="22" fill="var(--murekkep)" transform="rotate(-90 34 175)">Hata</text>
+            <text x="490" y="356" text-anchor="end" font-size="22" fill="var(--murekkep)">Tekrar sayısı →</text>
+            <path d="M70 60 C 110 70, 120 150, 150 140 S 190 200, 215 190 S 260 240, 290 235 S 350 270, 380 268 S 450 282, 495 280" stroke="var(--kiremit)" stroke-width="7" fill="none" stroke-linecap="round"/>
+            <circle cx="72" cy="60" r="11" fill="var(--kiremit)"/>
+            <text x="92" y="52" font-size="22" fill="var(--murekkep)">Başta: “Kedi mi? Araba!” 🙃</text>
+            <circle cx="493" cy="280" r="11" fill="var(--turkuaz)"/>
+            <text x="470" y="309" text-anchor="end" font-size="22" fill="var(--murekkep)">Sonda: çoğunlukla doğru 🙂</text>
+          </svg>
+        </div>
+        <aside class="notes">
+          Ne söyle: Başlangıçta düğmeler rastgele durur; makine kediye "araba" diyebilir. Eğitim şöyle işler: Bir fotoğraf gösteririz, makine tahmin eder. Doğru cevaba bakarız ve ne kadar yanıldığını ölçeriz. Sonra bütün düğmeleri, hatayı biraz azaltacak yönde azıcık çeviririz. Ve bunu milyonlarca kez tekrarlarız. (İleri, eğri açılır.) Bakın, hata önce hızla düşüyor, arada biraz zıplıyor, sonra yavaşça yerine oturuyor. Düğmeleri bir insan çevirmiyor; bunu otomatik bir yöntem yapıyor.
+          Süre: 1,25 dk.
+          Dikkat: "Gradyan", "geri yayılım" gibi terimleri kullanma. Soran olursa: "Bunun matematiksel bir yöntemi var; özü hatayı azaltacak yöne küçük adımlar atmak."
+        </aside>
+      </section>
+
+      <!-- 7. EĞİTİM VE KULLANIM -->
+      <section data-bolum="3">
+        <h2>Eğitim ile kullanım farkı</h2>
+        <div class="iki-sutun">
+          <div><h3>🚗 Sürücü kursu = eğitim</h3><ul><li>Bir kez, uzun sürer</li><li>Hata yap, düzelt</li><li>Düğmeler değişir</li></ul></div>
+          <div class="fragment"><h3>🛣️ Araba kullanmak = kullanım</h3><ul><li>Her gün, saniyeler içinde</li><li>Öğrendiğini uygula</li><li>Düğmeler sabit kalır</li></ul></div>
+        </div>
+        <aside class="notes">
+          Ne söyle: Ehliyet almak için aylarca kursa gideriz; hata yaparız, hoca düzeltir. Bu eğitimdir. Ehliyeti aldıktan sonra her gün araba kullanırız ve her seferinde baştan öğrenmeyiz. Yapay zekâda da öyle: Eğitim bir kez yapılır, uzun sürer ve pahalıdır. Siz bir sohbet asistanına soru sorduğunuzda ise eğitilmiş model sadece kullanılır; teknik adı "çıkarım". Bu sırada düğmeler değişmez.
+          Süre: 1,5 dk.
+          Dikkat (benzetmenin sınırı): İnsan araba kullandıkça gelişir; çoğu yapay zekâ modeli kullanım sırasında kendi ayarlarını değiştirmez. Sohbet asistanının sohbeti "hatırlaması" başka bir özellik; 2. haftada konuşacağız.
+        </aside>
+      </section>
+
+      <!-- 8. ÜÇ ÖĞRENME TÜRÜ -->
+      <section data-bolum="3">
+        <h2>Üç öğrenme yolu</h2>
+        <div class="kartlar">
+          <div class="kart fragment"><span class="simge" aria-hidden="true">📝</span><h3>Denetimli</h3><p>Cevap anahtarlı test: her örneğin doğrusu yazılı</p></div>
+          <div class="kart fragment turkuaz"><span class="simge" aria-hidden="true">🧦</span><h3>Denetimsiz</h3><p>Karışık çorap çekmecesi: benzerleri kendi grupla</p></div>
+          <div class="kart fragment altin"><span class="simge" aria-hidden="true">🐶</span><h3>Pekiştirmeli</h3><p>Ödülle numara öğrenen köpek: dene, kazan, öğren</p></div>
+        </div>
+        <aside class="notes">
+          Ne söyle: Makineler üç ana yoldan öğrenir. Birincisi denetimli öğrenme: cevap anahtarlı bir test kitabı gibi. Her örneğin yanında doğru cevap yazılı: "Bu spam", "Bu kedi". İkincisi denetimsiz öğrenme: karışık bir çorap çekmecesini sıralamak gibi. Kimse etiket vermez; makine benzerleri kendisi gruplar, grupları biz yorumlarız. Alışveriş sitelerindeki "birlikte sık alınanlar" bu türden. Üçüncüsü pekiştirmeli öğrenme: ödülle numara öğrenen köpek gibi. Deneme yanılma, doğruya ödül. DeepMind'ın AlphaGo Zero'su Go oyununu hiç bilmeden kendisiyle oynayarak öğrendi ve üç günde eski şampiyon sürümü 100'e 0 yendi.
+          Süre: 2 dk.
+          Dikkat: Türlerin sınırları keskin değil. "ChatGPT hangisi?" diye sorulursa: Hepsinden biraz; önce dev metin yığınından etiketsiz öğreniyor, sonra cevap anahtarlı örneklerle ve insan geri bildirimiyle ince ayar yapılıyor.
+        </aside>
+      </section>
+
+      <!-- 9. MİNİ QUIZ -->
+      <section data-bolum="3">
+        <span class="etiket altin">Mini quiz · parmağınızla gösterin</span>
+        <h2>Hangi öğrenme yolu? 1 · 2 · 3</h2>
+        <ul>
+          <li>🩻 Etiketli röntgenlerden hastalık tanımak <span class="fragment"><strong>→ 1 Denetimli</strong></span></li>
+          <li>🛒 Müşterileri alışverişe göre kendiliğinden gruplamak <span class="fragment"><strong>→ 2 Denetimsiz</strong></span></li>
+          <li>🎮 Oyunu kendisiyle oynayıp kazandıkça öğrenmek <span class="fragment"><strong>→ 3 Pekiştirmeli</strong></span></li>
+        </ul>
+        <aside class="notes">
+          Ne söyle: Küçük bir quiz. Ben örneği okuyacağım, siz parmağınızla gösterin: Bir parmak denetimli, iki parmak denetimsiz, üç parmak pekiştirmeli. Hazır mısınız?
+          Süre: 1,5 dk.
+          Salona sor: Her örnekten sonra "Herkes parmağını kaldırsın!" de, sonra cevabı aç.
+          Dikkat: Yanlış cevap verenleri düzeltirken benzetmeye geri dön: "Röntgenin yanında doktorun yazdığı cevap var; demek ki cevap anahtarlı test."
+        </aside>
+      </section>
+
+      <!-- 10. HUSKY Mİ KURT MU -->
+      <section data-bolum="3">
+        <span class="etiket kiremit">Bilerek kurulmuş bir tuzak</span>
+        <h2>Husky mi, kurt mu?</h2>
+        <svg role="img" aria-label="İki çerçeve. Solda eğitim fotoğrafları: kurtların hepsi karlı zeminde. Sağda yeni fotoğraf: karda duran bir husky; makine 'kurt' diyor çünkü kara bakıyor." viewBox="0 0 1000 330" width="1000" height="330">
+          <rect x="30" y="20" width="420" height="250" rx="20" fill="var(--kagit-koyu)" stroke="var(--cizgi)" stroke-width="3"/>
+          <rect x="30" y="190" width="420" height="80" rx="0" fill="#fff" stroke="var(--cizgi)" stroke-width="3"/>
+          <text x="240" y="60" text-anchor="middle" font-size="24" fill="var(--murekkep)">Eğitimdeki kurtlar</text>
+          <text x="150" y="175" text-anchor="middle" font-size="70">🐺</text>
+          <text x="330" y="175" text-anchor="middle" font-size="70">🐺</text>
+          <text x="240" y="245" text-anchor="middle" font-size="26" fill="var(--murekkep-acik)">❄️ hep kar ❄️</text>
+          <defs><marker id="ok2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="var(--murekkep-acik)"/></marker></defs>
+          <path d="M470 145 L530 145" stroke="var(--murekkep-acik)" stroke-width="5" marker-end="url(#ok2)"/>
+          <rect x="550" y="20" width="420" height="250" rx="20" fill="var(--kagit-koyu)" stroke="var(--cizgi)" stroke-width="3"/>
+          <rect x="550" y="190" width="420" height="80" fill="#fff" stroke="var(--cizgi)" stroke-width="3"/>
+          <text x="760" y="60" text-anchor="middle" font-size="24" fill="var(--murekkep)">Yeni fotoğraf</text>
+          <text x="760" y="175" text-anchor="middle" font-size="70">🐕</text>
+          <text x="760" y="245" text-anchor="middle" font-size="26" fill="var(--murekkep-acik)">❄️ kar ❄️</text>
+          <ellipse class="fragment" cx="760" cy="232" rx="190" ry="36" fill="none" stroke="var(--kiremit)" stroke-width="6" stroke-dasharray="14 10"/>
+          <text class="fragment" x="760" y="315" text-anchor="middle" font-size="28" fill="var(--kiremit)" font-weight="700">Makine: “Kar var, demek ki kurt!”</text>
+        </svg>
+        <aside class="notes">
+          Ne söyle: 2016'da araştırmacılar bilerek küçük bir tuzak kurdu. Kurtları husky köpeklerinden ayıracak bir modeli sadece 20 fotoğrafla eğittiler ve bu fotoğrafları özenle seçtiler. Soldakiler eğitimdeki kurtlar; sağda yeni bir fotoğraf: karda duran bir husky. Model ona "kurt" dedi. Neden? Önce siz tahmin edin. ... (İleri.) Bütün kurt fotoğraflarının arka planında kar vardı. Model hayvana değil, kara bakmayı öğrenmişti. Sınavda konuyu anlamadan "uzun şık genelde doğrudur" diye puan toplayan öğrenci gibi: Doğru cevabı yanlış sebeple veriyordu. Araştırmacılar, modelin neye baktığı gösterilince insanların bu hileyi çok daha kolay fark ettiğini gördü.
+          Süre: 2 dk.
+          Salona sor: "Sizce makine neye bakıyordu?" Cevapları dinle, sonra fragment'ı aç.
+          Dikkat: Bu bir ürün hatası değil, ders amaçlı bir deneydi; "bir şirketin modeli kurtları kardan tanıdı" deme. Gerçek hayattaki karşılığı bir sonraki slayttaki cilt kanseri örneği. Bu, Teachable Machine uygulamasının da ana dersi: "Birazdan aynısını kendi gözünüzle göreceksiniz" de.
+        </aside>
+      </section>
+
+      <!-- 11. ÖNYARGI ÖRNEKLERİ -->
+      <section data-bolum="3">
+        <h2>Veri eksikse, makine önyargılı olur</h2>
+        <ul class="zaman">
+          <li class="fragment"><span class="yil">2014–17</span> Erkek ağırlıklı verilerle eğitilen işe alım aracı kadınlara düşük puan verdi</li>
+          <li class="fragment"><span class="yil">2018</span> Yüz analizi hatası: koyu tenli kadınlarda %34,7, açık tenli erkeklerde %0,8</li>
+          <li class="fragment"><span class="yil">2021</span> Cilt kanseri modeli renkli bir etiketi “iyi huylu” işareti sandı</li>
+          <li class="fragment"><span class="yil">2026</span> Sohbet asistanları milliyete göre farklı öneriler verdi</li>
+        </ul>
+        <aside class="notes">
+          Ne söyle: Kar hikâyesi komik ama aynı şey ciddi işlerde de oluyor. Amazon'un denediği bir işe alım aracı, çoğu erkeklerden gelen on yıllık başvurularla eğitildi ve içinde "kadın" kelimesi geçen özgeçmişlere düşük puan vermeyi öğrendi; şirket projeyi kapattı. 2018'deki bir araştırmada ticari yüz analiz sistemleri koyu tenli kadınlarda yüzde 34,7'ye varan oranda yanılırken açık tenli erkeklerde hata en fazla yüzde 0,8 idi; çünkü eğitim verilerinin çoğu açık tenli insanlardandı. 2021'de bir cilt kanseri modelinin "kar"ı da bulundu: İyi huylu ben fotoğraflarının neredeyse yarısında renkli bir ölçüm etiketi vardı, kötü huylularda hiç yoktu. Model bu etiketi "iyi huylu" işareti sandı; kötü huylu bir görüntüye etiket eklenince çoğunu "iyi huylu" diye yanlış tanıdı. Ve konu eskimedi: Ağustos 2026'da Fransa'da kullanıcılar "… biriyle yalnızım" cümlesini yalnızca milliyeti değiştirerek yazdı. Google'ın yapay zekâ özetleri, birine çay ya da kahve önerirken diğerine polisin numarasını verdi; bir Fransız teknoloji sitesinin testinde üç büyük sohbet asistanı da benzer bir eğilim gösterdi. Google sonuçların olması gerektiği gibi olmadığını kabul etti ve birkaç gün içinde ayar yaptı.
+          Süre: 2,5 dk.
+          Dikkat: Kimseyi kötü niyetli ilan etme; mesaj "veri dünyayı eşitsizlikleriyle birlikte yansıtır". Milliyet örneğini saygılı ve kısa anlat; hangi milliyete ne denildiğini sayma. Zaman daralırsa 2018 yüz analizi örneğini kısa geç.
+        </aside>
+      </section>
+
+      <!-- 12. TÜRKÇE ÖRNEK -->
+      <section data-bolum="3">
+        <span class="etiket altin">Tahmin edin</span>
+        <h2>Türkçe'nin cinsiyetsiz “o”su</h2>
+        <p class="ceviri">🇹🇷 “O bir doktor. O bir hemşire.”</p>
+        <p class="ceviri fragment">🔁 Eski çeviri: “<strong>He</strong> is a doctor. <strong>She</strong> is a nurse.”</p>
+        <p class="fragment kucuk">2018'den beri iki seçenek gösteriliyor (Google Research)</p>
+        <aside class="notes">
+          Ne söyle: Türkçe'de "o" zamirinin cinsiyeti yok. Peki bir çeviri programı "O bir doktor. O bir hemşire." cümlelerini İngilizce'ye nasıl çevirirdi? Tahmin edin. ... Google'ın 2018'deki açıklamasına göre sistem doktoru erkek, hemşireyi kadın olarak çeviriyordu. Kimse ona böyle bir kural yazmadı; makine bunu okuduğu milyonlarca metinden öğrendi. Google bu yüzden Türkçe'den İngilizce'ye çeviride iki seçeneği birden göstermeye başladı.
+          Süre: 1,5 dk.
+          Salona sor: "Sizce çeviri ne yazdı?" Tahminleri al.
+          Dikkat: Canlı deneme yaparsan bugünkü sonuç farklı çıkabilir; slayttaki bilgi 2018 durumudur.
+        </aside>
+      </section>
+
+      <!-- 13. VURGU -->
+      <section data-bolum="3" class="vurgu">
+        <p class="buyuk">Makine, ona ne gösterirsek onu öğrenir.</p>
+        <p class="fragment kucuk">🧐 Biz de makineden öğreniyoruz. O yüzden son söz, sorgulayan insanda.</p>
+        <aside class="notes">
+          Ne söyle: Başta size bir söz vermiştim: Kediyi öğretebiliyorsanız makine öğrenmesini de anlarsınız. İşte bütün bölüm tek cümlede: Makine, ona ne gösterirsek onu öğrenir. Örnekler çeşitliyse iyi öğrenir; eksik ya da tek düzeyse kar gibi saçma işaretlere tutunur, hatta önyargılı olur. (İleri.) Bir şey daha: Washington Üniversitesi'nin 2025'teki bir deneyinde insanlar işe alımda yapay zekânın önerisini izledi; öneri belirgin biçimde yanlıysa insanların seçimleri de yaklaşık yüzde 90 oranında makineyle aynı yönde gitti. Yani makine bizden öğreniyor, biz de makineden. O yüzden son söz, cevabı sorgulayan insanda olmalı.
+          Süre: 1 dk.
+          Dikkat: Kısa tut; enerjiyi uygulamaya sakla. Deney ABD'de, çevrim içi 528 katılımcıyla ve canlandırılmış önerilerle yapıldı; "herkes böyle yapar" diye genelleme.
+          Köprü (sonraki bölüme geçerken): Şimdi sıra sizde. Birazdan kendi küçük modelinizi eğiteceksiniz. Önce bilerek az ve tek düze veriyle başlayacağız; makinenin nasıl "kopya çektiğini" kendi gözünüzle göreceksiniz.
+        </aside>
+      </section>
+
+      <section data-bolum="mola" class="vurgu">
+        <p class="buyuk">☕ 10 dakika mola</p>
+        <p class="kucuk">Dönüşte: Kendi yapay zekânızı eğitiyoruz. Kameralı bilgisayarlar açılsın, tarayıcı hazır olsun.</p>
+        <aside class="notes">
+          Ne söyle: Şimdi on dakika mola. Çayınızı alın; dönünce sıra sizde, kendi yapay zekânızı eğiteceksiniz. Bilgisayarı olanlar molada açsın ve internete bağlansın; bilgisayarı olmayanlar bir bilgisayarın etrafında gruplansın.
+          Süre: 10 dk (55. dakikada).
+          Dikkat: Molada teachablemachine.withgoogle.com adresini kendi bilgisayarında aç, kamera iznini dene; projeksiyonda bir örnek hazır dursun. Grupları molada ayarlamak dönüşte 3-4 dakika kazandırır.
+        </aside>
+      </section>
+
+      <!-- 1. KAPAK -->
+      <section data-bolum="4" class="kapak">
+        <div class="cini" aria-hidden="true"></div>
+        <span class="etiket">Bölüm 4 / 6 · 20 dakika · Uygulama</span>
+        <h1>Kendi yapay zekânı eğit</h1>
+        <p class="alt">Kod yok, kurulum yok. Önce makinenizi yanıltacaksınız, sonra kendi ellerinizle düzelteceksiniz.</p>
+        <aside class="notes">
+          Ne söyle: Şimdiye kadar hep konuştuk; şimdi sıra sizde. Önümüzdeki yirmi dakikada her grup kendi yapay zekâ modelini eğitecek. Kod yazmayacağız, hiçbir şey kurmayacağız; bir tarayıcı ve bir kamera yeter. Size şimdiden bir sır vereyim: İlk denemede modeliniz yanılacak. Bunu bilerek yapacağız. Çünkü bugünün asıl dersi, o hatayı nasıl düzelteceğinizde saklı.
+          Süre: 1 dk.
+          Salona sor: "Daha önce bir makineye bir şey öğreten oldu mu?" (Genelde kimse; "bugün olacaksınız" de.)
+          Dikkat: Heyecanı yüksek tut; teknik kaygıyı "kod yok, kurulum yok" diyerek kır.
+        </aside>
+      </section>
+
+      <!-- 2. HAZIRLIK -->
+      <section data-bolum="4">
+        <h2>Neye ihtiyacımız var?</h2>
+        <div class="kartlar">
+          <div class="kart fragment"><span class="simge" aria-hidden="true">💻</span><h3>Kameralı bilgisayar</h3><p>Chrome ya da güncel bir tarayıcı</p></div>
+          <div class="kart fragment turkuaz"><span class="simge" aria-hidden="true">✏️📱</span><h3>Üç “sınıf”</h3><p>Kalem, telefon ve boş masa</p></div>
+          <div class="kart fragment altin"><span class="simge" aria-hidden="true">👥</span><h3>İkili, üçlü gruplar</h3><p>Biri tutar, biri tıklar</p></div>
+        </div>
+        <aside class="notes">
+          Ne söyle: Her grup için kameralı bir bilgisayar yeter. Masanızda bir kalem, bir telefon ve boş bir alan olsun. Neden boş masa? Çünkü model her zaman bir cevap verir; "hiçbiri" diye bir seçeneği yoktur. Boş masa sınıfı, ortada bir şey yokken saçmalamasını önler. İkişer, üçer kişilik gruplar olalım: Biri nesneyi tutsun, biri tıklasın.
+          Süre: 1 dk.
+          Dikkat: Kamerası olmayanları kameralı bir gruba yönlendir. Yüzünü kaydetmek istemeyenler kamerayı masaya çevirebilir; bunu baştan söyle.
+        </aside>
+      </section>
+
+      <!-- 3. YOL HARİTASI: DÖNGÜ SVG -->
+      <section data-bolum="4">
+        <h2>Bugünkü yolumuz</h2>
+        <svg role="img" aria-label="Dört adımlı döngü: Topla, eğit, dene, düzelt. Düzelt adımından yeniden toplaya dönen ok, bu döngünün iki kez yapılacağını gösteriyor." viewBox="0 0 1000 400" width="1000" height="400">
+          <defs>
+            <marker id="ok" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--murekkep-acik)"/></marker>
+          </defs>
+          <g font-size="28" font-weight="700" text-anchor="middle" fill="var(--murekkep)">
+            <g><rect x="40" y="140" width="190" height="110" rx="22" fill="var(--turkuaz-acik)" stroke="var(--turkuaz)" stroke-width="3"/><text x="135" y="188">📸 Topla</text><text x="135" y="225" font-size="20" font-weight="400">örnek kareler</text></g>
+            <g class="fragment"><rect x="290" y="140" width="190" height="110" rx="22" fill="var(--altin-acik)" stroke="var(--altin)" stroke-width="3"/><text x="385" y="188">⚙️ Eğit</text><text x="385" y="225" font-size="20" font-weight="400">tek düğme</text></g>
+            <g class="fragment"><rect x="540" y="140" width="190" height="110" rx="22" fill="var(--kiremit-acik)" stroke="var(--kiremit)" stroke-width="3"/><text x="635" y="188">🔍 Dene</text><text x="635" y="225" font-size="20" font-weight="400">zorla, yanılt</text></g>
+            <g class="fragment"><rect x="790" y="140" width="190" height="110" rx="22" fill="var(--turkuaz-acik)" stroke="var(--turkuaz)" stroke-width="3"/><text x="885" y="188">🔧 Düzelt</text><text x="885" y="225" font-size="20" font-weight="400">veriyi zenginleştir</text></g>
+          </g>
+          <g stroke="var(--murekkep-acik)" stroke-width="3" fill="none" marker-end="url(#ok)">
+            <line x1="232" y1="195" x2="284" y2="195"/>
+            <line x1="482" y1="195" x2="534" y2="195"/>
+            <line x1="732" y1="195" x2="784" y2="195"/>
+            <path class="fragment" d="M885 254 C885 360, 135 360, 135 258"/>
+          </g>
+          <text x="510" y="385" text-anchor="middle" font-size="22" fill="var(--murekkep-acik)">Bu döngüyü bugün iki kez döneceğiz: önce kötü veriyle, sonra iyi veriyle.</text>
+          <text x="510" y="80" text-anchor="middle" font-size="24" fill="var(--murekkep-acik)">Önceki bölümdeki “veri → örüntü → tahmin” döngüsü, şimdi sizin elinizde</text>
+        </svg>
+        <aside class="notes">
+          Ne söyle: Bugün dört adımlı bir döngüyü yaşayacağız. Önce toplayacağız: kameraya örnekler göstereceğiz. Sonra tek bir düğmeyle eğiteceğiz. Sonra deneyeceğiz; hatta makineyi bilerek zorlayıp yanıltacağız. Ve son olarak düzelteceğiz. Bu döngüyü iki kez döneceğiz: birinci turda bilerek kötü veriyle, ikinci turda iyi veriyle. Gerçek yapay zekâ ekipleri de bütün gün tam olarak bunu yapıyor.
+          Süre: 30 sn.
+          Dikkat: Burada oyalanma; ayrıntı uygulamada. Okları tek tek açarken sadece adların üstünden geç.
+        </aside>
+      </section>
+
+      <!-- 4. ADIM 1 -->
+      <section data-bolum="4">
+        <div class="uygulama-kutu">
+          <span class="sure">⏱ 1,5 dk</span>
+          <h2>Adım 1: Projeyi aç</h2>
+          <ol class="adimlar">
+            <li><strong>teachablemachine.withgoogle.com</strong></li>
+            <li><span class="dugme">Get Started</span> → <span class="dugme">Image Project</span></li>
+            <li><span class="dugme">Standard image model</span></li>
+          </ol>
+        </div>
+        <aside class="notes">
+          Ne söyle: Tarayıcıya teachablemachine.withgoogle.com yazın. "Get Started", yani "Başla" düğmesine tıklayın. Karşınıza üç seçenek çıkacak: görsel, ses ve poz. "Image Project", yani görsel projesini, sonra "Standard image model"i seçin. Ekranda iki kutu göreceksiniz: Class 1 ve Class 2. Bunlar sınıflarımız. Sınıf, modelin birbirinden ayırmayı öğreneceği bir kutu, bir etiket demek: Her kutuya bir nesnenin fotoğraflarını dolduracağız.
+          Süre: 1,5 dk.
+          Dikkat: Arayüz İngilizce; her düğmeyi hem İngilizce hem Türkçe söyle. Projeksiyonda kendi ekranında adım adım göster, sonra "Herkes burada mı?" diye sor.
+        </aside>
+      </section>
+
+      <!-- 5. ADIM 2 - 1. TUR -->
+      <section data-bolum="4">
+        <div class="uygulama-kutu">
+          <span class="sure">⏱ 3 dk</span>
+          <h2>Adım 2: 1. tur, bilerek az veri</h2>
+          <ol class="adimlar">
+            <li>Sınıflara isim ver: <strong>Kalem · Telefon · Boş masa</strong> (<span class="dugme">Add a class</span>)</li>
+            <li><span class="dugme">Webcam</span> → kamera iznine “İzin ver”</li>
+            <li><span class="dugme">Hold to Record</span>: sadece 1-2 saniye, <strong>tek açı</strong></li>
+          </ol>
+        </div>
+        <aside class="notes">
+          Ne söyle: "Class 1" yazısına tıklayıp "Kalem" yazın, "Class 2"yi "Telefon" yapın. Aşağıdaki "Add a class" ile üçüncü sınıfı ekleyip "Boş masa" yazın. Şimdi kalem sınıfında "Webcam"e tıklayın; tarayıcı kamera izni isteyecek, izin verin. Kalemi kameraya hep aynı açıdan, aynı elle tutun ve "Hold to Record", yani "basılı tut ve kaydet" düğmesine sadece bir-iki saniye basın. Yaklaşık on, on beş kare yeter. Aynısını telefon ve boş masa için yapın. Evet, bilerek az ve tek düze veri topluyoruz.
+          Süre: 3 dk.
+          Dikkat: Hevesli gruplar baştan çok kayıt yapabilir. O gruplara 5. adımda zor test için farklı renkte bir kalem ver. Kamera açılmazsa 11. slayttaki sorun gidermeye bak.
+        </aside>
+      </section>
+
+      <!-- 6. ADIM 3 -->
+      <section data-bolum="4">
+        <div class="uygulama-kutu">
+          <span class="sure">⏱ 2,5 dk</span>
+          <h2>Adım 3: Eğit ve zorla</h2>
+          <ol class="adimlar">
+            <li><span class="dugme">Train Model</span> · sekmeyi değiştirme!</li>
+            <li><strong>Preview</strong>: önce aynı açıdan göster ✅</li>
+            <li>Sonra zorla: yan çevir, başka kalem, başka el, başka ışık 🤔</li>
+          </ol>
+        </div>
+        <aside class="notes">
+          Ne söyle: Şimdi "Train Model", yani "modeli eğit" düğmesine basın. Eğitim bitene kadar sekmeyi değiştirmeyin; sayfa donmuş gibi görünebilir ama çalışıyor. Bittiğinde sağda "Preview", yani önizleme bölümü açılacak. Önce kalemi eğittiğiniz açıdan gösterin: Büyük ihtimalle doğru bilecek. Şimdi zorlayın: kalemi yan çevirin, başka renkte bir kalem gösterin, arkadaşınız tutsun, kalemi masanın başka yerine koyun. Ne oluyor?
+          Süre: 2,5 dk.
+          Dikkat: Model yanıldığında "Harika, tam istediğimiz bu!" de. Katılımcılar yanlış bir şey yaptıklarını düşünmesin. Yanlış cevaba yüzde 100 emin olması da tipik; bunu göster.
+        </aside>
+      </section>
+
+      <!-- 7. BÜYÜK SORU -->
+      <section data-bolum="4" class="soru">
+        <span class="etiket kiremit">Hemen tartışalım</span>
+        <p class="buyuk">Model neden yanıldı?</p>
+        <p class="ipucu">Ona ne gösterdik, ne göstermedik?</p>
+        <aside class="notes">
+          Ne söyle: Modeliniz nerede yanıldı? Neden olabilir? ... Evet: Ona kalemi sadece tek açıdan, tek ışıkta, tek elde gösterdik. Bir önceki bölümdeki husky ve kar deneyini hatırlayın: Model belki kaleme değil, elinize ya da arka plandaki şeylere bakıyordu. Çırağa tek bir tencerede tek bir pilav yapmayı gösterip başka mutfakta şaşırmasına benziyor.
+          Süre: 1 dk.
+          Salona sor: Önce el kaldırma: "Modeli en az bir kez yanılan?" (Neredeyse herkes.) Sonra üç-dört gruba "Sizinki nerede yanıldı?" diye sor.
+          Dikkat: Kısa tut; asıl ders ikinci turda gelecek.
+        </aside>
+      </section>
+
+      <!-- 8. ADIM 4 - 2. TUR -->
+      <section data-bolum="4">
+        <div class="uygulama-kutu">
+          <span class="sure">⏱ 3,5 dk</span>
+          <h2>Adım 4: 2. tur, çok ve çeşitli veri</h2>
+          <ol class="adimlar">
+            <li><span class="dugme">Hold to Record</span>: 8-10 saniye basılı tut</li>
+            <li>Bu arada nesneyi <strong>döndür, yaklaştır, uzaklaştır</strong></li>
+            <li>Farklı el, farklı yer, farklı ışık</li>
+            <li>Yeniden eğit, yeniden zorla 💪</li>
+          </ol>
+        </div>
+        <aside class="notes">
+          Ne söyle: Şimdi modeli düzeltelim. Her sınıfa yeni kayıt ekleyin. Bu sefer "Hold to Record"a sekiz-on saniye basılı tutun ve bu sırada nesneyi döndürün, yaklaştırıp uzaklaştırın. Kalemi bir de arkadaşınız tutsun, masanın farklı yerlerinde gösterin. Boş masa için de kamerayı biraz oynatın. Böylece her sınıfta birkaç yüz çeşitli kare olacak. Sonra yeniden "Train Model" ve aynı zor testler.
+          Süre: 3,5 dk.
+          Dikkat: Süre daralırsa yalnızca kalem sınıfını çeşitlendirmek de dersi verir. Masaları dolaş: Boş masa sınıfı eklenmiş mi, doğru kamera seçili mi?
+        </aside>
+      </section>
+
+      <!-- 9. KARŞILAŞTIRMA SVG -->
+      <section data-bolum="4">
+        <h2>Ne değişti?</h2>
+        <svg role="img" aria-label="Solda birinci tur: aynı açıdan çekilmiş birkaç kalem görüntüsü, model şaşırıyor. Sağda ikinci tur: farklı açı ve ışıkta çok sayıda kalem görüntüsü, model tanıyor." viewBox="0 0 1100 400" width="1100" height="400">
+          <rect x="20" y="20" width="500" height="340" rx="24" fill="var(--kiremit-acik)" stroke="var(--kiremit)" stroke-width="3"/>
+          <text x="270" y="64" text-anchor="middle" font-size="28" font-weight="700" fill="var(--murekkep)">1. tur: az ve tek düze</text>
+          <g fill="var(--kiremit)">
+            <rect x="110" y="110" width="140" height="18" rx="9"/>
+            <rect x="110" y="150" width="140" height="18" rx="9"/>
+            <rect x="110" y="190" width="140" height="18" rx="9"/>
+            <rect x="290" y="110" width="140" height="18" rx="9"/>
+            <rect x="290" y="150" width="140" height="18" rx="9"/>
+          </g>
+          <text x="270" y="270" text-anchor="middle" font-size="26" fill="var(--murekkep)">~10 kare · hep aynı açı</text>
+          <text x="270" y="320" text-anchor="middle" font-size="30" fill="var(--murekkep)">🤔 Yan çevirince şaşırıyor</text>
+          <g class="fragment">
+            <rect x="580" y="20" width="500" height="340" rx="24" fill="var(--turkuaz-acik)" stroke="var(--turkuaz)" stroke-width="3"/>
+            <text x="830" y="64" text-anchor="middle" font-size="28" font-weight="700" fill="var(--murekkep)">2. tur: çok ve çeşitli</text>
+            <g fill="var(--turkuaz)">
+              <rect x="640" y="110" width="120" height="16" rx="8"/>
+              <rect x="790" y="96" width="16" height="110" rx="8"/>
+              <rect x="840" y="120" width="110" height="16" rx="8" transform="rotate(30 895 128)"/>
+              <rect x="960" y="110" width="80" height="14" rx="7"/>
+              <rect x="650" y="170" width="100" height="22" rx="11" opacity=".7"/>
+              <rect x="840" y="180" width="130" height="16" rx="8" transform="rotate(-25 905 188)"/>
+              <rect x="985" y="150" width="16" height="70" rx="8" opacity=".7"/>
+              <rect x="700" y="215" width="90" height="14" rx="7"/>
+            </g>
+            <text x="830" y="270" text-anchor="middle" font-size="26" fill="var(--murekkep)">yüzlerce kare · açı, ışık, el, yer</text>
+            <text x="830" y="320" text-anchor="middle" font-size="30" fill="var(--murekkep)">😊 Yeni durumlarda da tanıyor</text>
+          </g>
+          <text x="550" y="392" text-anchor="middle" font-size="20" fill="var(--murekkep-acik)">Aynı model, aynı düğme. Değişen tek şey: veri.</text>
+        </svg>
+        <aside class="notes">
+          Ne söyle: İki turu karşılaştıralım. Model aynı, düğmeler aynı, yöntem aynı. Değişen tek şey veri. Birinci turda on kare, hep aynı açı: Model kaleme değil, o tek görüntüye alıştı. İkinci turda yüzlerce kare, farklı açılar, eller, ışıklar: Model kalemin "kalem olma hâlini" daha iyi yakaladı.
+          Süre: 1 dk.
+          Salona sor: "Sizde ne değişti? Hâlâ yanıldığı bir durum var mı?"
+          Dikkat: Hâlâ yanıldığı durumlar olması normal; kalem ile telefon benzer şekillerdeyse karışabilir. Rehberler de çok benzer nesneleri ayırmanın çok daha fazla veri gerektirdiğini söylüyor.
+        </aside>
+      </section>
+
+      <!-- 10. DERSLER -->
+      <section data-bolum="4">
+        <h2>Bugünün üç dersi</h2>
+        <div class="kartlar">
+          <div class="kart fragment"><span class="simge" aria-hidden="true">📦</span><h3>Miktar</h3><p>10 kare az, yüzlerce kare daha iyi</p></div>
+          <div class="kart fragment turkuaz"><span class="simge" aria-hidden="true">🌈</span><h3>Çeşitlilik</h3><p>Sayıdan önemlisi: farklı açı, ışık, el</p></div>
+          <div class="kart fragment altin"><span class="simge" aria-hidden="true">⚖️</span><h3>Önyargı</h3><p>Görmediği durumda yanılır, ama emin görünür</p></div>
+        </div>
+        <aside class="notes">
+          Ne söyle: Bugün üç şeyi kendi ellerinizle gördünüz. Bir: miktar. On kare az, yüzlerce kare daha iyi. İki: çeşitlilik. Sayıdan bile önemli; yüzlerce kareyi aynı açıdan çekseydik yine şaşırırdı. Üç: önyargı. Model görmediği durumda yanılıyor, üstelik çoğu zaman çok emin görünüyor. Şimdi düşünün: "Boş masa" sınıfına hep bu masayı gösterdik. Başka bir masada ne olur? İşe alım ya da yüz tanıma örneklerindeki sorun da tam buydu: Verideki eksik, makinede önyargı olarak ortaya çıktı. Bir de denge var: Bir sınıfa çok, diğerine az kare verirseniz model çok gördüğüne kayar. Sınıfların altındaki kare sayılarına bir bakın.
+          Süre: 2 dk.
+          Salona sor: "Boş masa sınıfına hep bu masayı gösterdik; başka bir masada ne olur?"
+          Dikkat: Ekrandaki yüzde çubuğu "benzerlik" gösterir, doğruluk garantisi değildir.
+        </aside>
+      </section>
+
+      <!-- 11. SORUN GİDERME -->
+      <section data-bolum="4">
+        <h2>Takıldıysanız</h2>
+        <div class="iki-sutun">
+          <div><h3>📷 Kamera açılmıyor</h3><ul><li>Adres çubuğundaki kamera simgesi → izin ver</li><li>Chrome: Ayarlar → Gizlilik ve güvenlik → Site ayarları → Kamera</li></ul></div>
+          <div><h3>🐢 Çok yavaş</h3><ul><li>Diğer sekmeleri kapat</li><li>Eğitim sekmesini önde tut</li><li>Kamera yoksa: grubu birleştir</li></ul></div>
+        </div>
+        <aside class="notes">
+          Ne söyle: Kamera açılmıyorsa adres çubuğundaki kamera simgesine tıklayıp izin verin. Daha önce "engelle" dediyseniz Chrome'da Ayarlar, Gizlilik ve güvenlik, Site ayarları, Kamera yolundan bu siteyi "İzin ver"e çevirin. Bilgisayarın kendi gizlilik ayarları da tarayıcıyı engelliyor olabilir. Bilgisayar sizden ayrıca izin isterse "Ayarları aç" deyip kamerayı açın; sonra tarayıcıyı kapatıp yeniden açmanız gerekebilir. Bilgisayar yavaşsa diğer sekmeleri kapatın ve eğitim sekmesini önde tutun.
+          Süre: 30 sn (sorun çıkmadıysa atla; masaları dolaşırken birebir çöz).
+          Dikkat: Kurum bilgisayarlarında kamera iznini yönetici kilitlemiş olabilir; o zaman kameralı başka bir gruba katıl. Telefonla kullanım resmî kaynaklarda doğrulanamadı; prova etmediysen önerme. App Store'daki aynı adlı uygulama Google'ın değil, üçüncü taraf bir uygulama.
+        </aside>
+      </section>
+
+      <!-- 12. QUICK DRAW -->
+      <section data-bolum="4">
+        <span class="etiket altin">Erken bitenlere · kamerası olmayanlara</span>
+        <h2>Bonus: Quick, Draw!</h2>
+        <div class="benzetme">
+          <span class="simge" aria-hidden="true">✍️</span>
+          <p><strong>quickdraw.withgoogle.com</strong> · 20 saniyede çiz, yapay zekâ tahmin etsin.</p>
+        </div>
+        <svg class="fragment" role="img" aria-label="İki daire. Soldaki saat yönünün tersine çizilmiş: ABD'deki çizimlerin yüzde 86'sı böyle. Sağdaki saat yönünde çizilmiş: Japonya'daki çizimlerin yüzde 80'i böyle." viewBox="0 0 900 230" width="900" height="230">
+          <defs><marker id="uc" viewBox="0 0 10 10" refX="3" refY="5" markerUnits="userSpaceOnUse" markerWidth="26" markerHeight="26" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="var(--murekkep)"/></marker></defs>
+          <path d="M260 40 A70 70 0 1 0 330 110" fill="none" stroke="var(--turkuaz)" stroke-width="9" marker-end="url(#uc)"/>
+          <text x="260" y="215" text-anchor="middle" font-size="24" fill="var(--murekkep)">ABD: %86 saat yönü tersine ↺</text>
+          <path d="M640 40 A70 70 0 1 1 570 110" fill="none" stroke="var(--kiremit)" stroke-width="9" marker-end="url(#uc)"/>
+          <text x="640" y="215" text-anchor="middle" font-size="24" fill="var(--murekkep)">Japonya: %80 saat yönünde ↻</text>
+        </svg>
+        <aside class="notes">
+          Ne söyle: Erken bitirenler ya da kamerası olmayanlar için eğlenceli bir oyun: Quick, Draw! Ekrana bir kelime gelir, siz 20 saniyede çizersiniz, yapay zekâ tahmin etmeye çalışır. Google 2016'da başlattı; toplanan çizimlerden 345 kategoride 50 milyonu araştırmacılarla açıkça paylaşıldı. Oyun sonunda tanıyamadığı çizimde "başkaları bunu nasıl çizmiş" örneklerine bakın: Makine çoğunluğun nasıl çizdiğini öğrenmiş. Bu verilerden çıkan şaşırtıcı bir bulgu da var: Bir gazetecilik ekibi 2017'de yüz bini aşkın daireyi incelemiş. ABD'deki dairelerin yüzde 86'sı saat yönünün tersine çizilmiş; Japonya'da ise yüzde 80'i saat yönünde. Araştırmacılar bunu yazı sistemindeki kalem sırası alışkanlığına bağlıyor. Yani "bir daire nasıl çizilir" bile kültürden kültüre değişiyor; verisi tek bir ülkeden gelen model başka ülkede şaşırabilir.
+          Süre: 1,5 dk.
+          Salona sor: "Siz daireyi hangi yöne çizersiniz? Havada parmağınızla çizin." (Türkiye için veri vermedik; salonun hâli eğlenceli bir mini anket olur.)
+          Dikkat: Arayüzde Türkçe seçeneği yok; kelimeler İngilizce gelir, grup arkadaşı çevirebilir. Site, çizimleri açık veri setine eklemeyi teklif ediyor; bunu katılımcılara söyle.
+        </aside>
+      </section>
+
+      <!-- 13. VURGU -->
+      <section data-bolum="4" class="vurgu">
+        <p class="buyuk">Makineyi yanılttınız, sonra düzelttiniz.</p>
+        <p class="fragment" style="font-size:1.4em">Düğmeye dokunmadınız, <strong>veriyi</strong> değiştirdiniz.</p>
+        <aside class="notes">
+          Ne söyle: Tebrikler! Başta size söz vermiştim: Önce makinenizi yanıltacaktınız, sonra düzeltecektiniz. İkisini de yaptınız. Fark ettiyseniz hiçbir ayarı elle değiştirmediniz. Bütün farkı veri yarattı. Bugünden aklınızda tek bir cümle kalsın: Makine, ona ne gösterirseniz onu görür. Büyük yapay zekâlarda da fikir aynı; sadece ölçek çok, çok daha büyük. Ve Google'a göre bu araçta örnekleriniz bilgisayarınızda kaldı; Drive'a kaydetmedikçe hiçbir yere yüklenmedi.
+          Süre: 30 sn.
+          Dikkat: "ChatGPT de tam böyle eğitildi" deme; "fikir aynı, ölçek çok farklı" de.
+          Köprü (sonraki bölüme geçerken): Bugün beş dakikada yaptığımız şey, 75 yıl önce bir hayaldi. Şimdi bu hayalin nasıl başladığına, nasıl birkaç kez "kışa" girdiğine ve nasıl bugüne geldiğine bakalım.
+        </aside>
+      </section>
+
+      <!-- 1. KAPAK -->
+      <section data-bolum="5" class="kapak">
+        <div class="cini" aria-hidden="true"></div>
+        <span class="etiket">Bölüm 5 / 6 · 20 dakika</span>
+        <h1>75 yılda yapay zekâ</h1>
+        <p class="alt">Bir sorudan Nobel ödülüne: iki kış, üç sıçrama ve bir lunapark treni.</p>
+        <p class="fragment" style="font-size:.8em">Vaat: 20 dakika sonra ChatGPT'nin neden “birden” çıkmadığını tek cümleyle anlatabileceksiniz.</p>
+        <aside class="notes">
+          Ne söyle: Az önce beş dakikada bir makineye kalemi öğrettiniz. Bu, 75 yıl önce sadece bir hayaldi. Şimdi o hayalin hikâyesini anlatacağım: büyük heyecanlar, sert düşüşler, satranç ve Go maçları, bir sekreter, bir Nobel ödülü. Tarih dersi değil, bir macera hikâyesi. Size bir de söz veriyorum: Yirmi dakika sonra, biri size "Bu ChatGPT nereden çıktı birden?" diye sorduğunda, tek cümleyle cevap verebileceksiniz.
+          Süre: 45 sn.
+          Dikkat: Enerjiyi uygulamadan sonra yeniden topla; ilk cümleyi ayakta, salona dönerek söyle.
+        </aside>
+      </section>
+
+      <!-- 2. BÜYÜK SORU -->
+      <section data-bolum="5" class="soru">
+        <span class="etiket kiremit">Tahmin edin</span>
+        <p class="buyuk">Yapay zekâ kaç yaşında?</p>
+        <p class="ipucu">5 · 20 · 50 · 75?</p>
+        <aside class="notes">
+          Ne söyle: Sizce yapay zekâ kaç yaşında? ChatGPT'yi düşünenler beş der. Siri'yi hatırlayanlar on beş der. Ama cevap: Yaklaşık 75 yaşında. Fikir, 1950'de bir soruyla başladı.
+          Süre: 1 dk.
+          Salona sor: El kaldırarak tahmin topla: 5 diyenler, 20 diyenler, 50, 75.
+          Dikkat: Kimin bildiğini kutla; bilmeyenlere "çoğu kişi böyle düşünüyor" de.
+        </aside>
+      </section>
+
+      <!-- 3. BAŞLANGIÇ -->
+      <section data-bolum="5">
+        <h2>Bir soruyla başladı</h2>
+        <ul class="zaman">
+          <li class="fragment"><span class="yil">1950</span> Alan Turing: “Makineler düşünebilir mi?”</li>
+          <li class="fragment"><span class="yil">1956</span> Dartmouth yaz atölyesi: “yapay zekâ” adı konuyor</li>
+          <li class="fragment"><span class="yil">1966</span> ELIZA: ilk ünlü sohbet programı</li>
+        </ul>
+        <aside class="notes">
+          Ne söyle: 1950'de İngiliz matematikçi Alan Turing bir makaleye şu soruyla başladı: "Makineler düşünebilir mi?" Bu soruyu cevaplamak yerine bir oyun önerdi: Makine, yazışarak bir insanı kendisinin insan olduğuna inandırabilir mi? Açılış oyunumuzu hatırlayın; işte onun atası. 1956'da ABD'deki Dartmouth Koleji'nde bir grup bilim insanı yaz boyunca toplandı ve bu alana bir isim verdi: yapay zekâ. 1966'da MIT'de ELIZA adlı ilk ünlü sohbet programı yazıldı. Küçük bir not: Turing'in oyunu bugün hâlâ deneniyor. 2025'te ABD'deki bir üniversitenin deneyinde, insan gibi davranması istenen bir sohbet modeli beş dakikalık yazışmalarda yüzde 73 oranında insan sanıldı.
+          Süre: 1,25 dk.
+          Dikkat: Turing'in hayat hikâyesine girme; zaman yetmez.
+        </aside>
+      </section>
+
+      <!-- 4. ELIZA HİKÂYESİ -->
+      <section data-bolum="5">
+        <span class="etiket">Küçük bir hikâye · 1966</span>
+        <h2>ELIZA ve sekreter</h2>
+        <div class="benzetme">
+          <span class="simge" aria-hidden="true">💬</span>
+          <p>Programın yapılışını aylarca izleyen sekreter, birkaç cümle yazıştıktan sonra yaratıcısına sordu: “Odadan çıkar mısınız?”</p>
+        </div>
+        <aside class="notes">
+          Ne söyle: ELIZA bir psikoterapisti taklit ediyordu: Sizin cümlenizi alıp soruya çeviriyordu. "Annemle sorunum var" derseniz "Bana annenizden bahseder misiniz?" diyordu. Çok basit bir programdı. Yaratıcısı Joseph Weizenbaum'un anlattığına göre, programın yapılışını aylarca izleyen ve ne olduğunu çok iyi bilen sekreteri, birkaç cümle yazıştıktan sonra ondan odadan çıkmasını istedi. Makineye sırrını anlatmak istiyordu! İnsanların makinelere duygu yükleme eğilimine bugün "ELIZA etkisi" deniyor.
+          Süre: 1 dk.
+          Dikkat: Sekreterin adı bilinmiyor; hikâyeyi Weizenbaum'un kendi anlatımı olarak aktar. Bu eğilim bugünkü güçlü sohbet asistanlarında çok daha önemli; 2. haftaya köprü.
+        </aside>
+      </section>
+
+      <!-- 5. KIŞLAR SVG -->
+      <section data-bolum="5">
+        <h2>Lunapark treni: yapay zekâ kışları</h2>
+        <svg role="img" aria-label="Zamanla inip çıkan bir eğri: 1960'larda heyecan, yaklaşık 1974-1980 birinci kış, 1980'lerde uzman sistemlerle yükseliş, 1980'lerin sonundan 1990'ların ortasına ikinci kış, 2012'den sonra büyük yükseliş." viewBox="0 0 1100 410" width="1100" height="410">
+          <line x1="60" y1="340" x2="1060" y2="340" stroke="var(--cizgi)" stroke-width="3"/>
+          <path d="M60 300 C 150 120, 220 110, 280 280 S 380 300, 460 170 S 560 140, 620 300 S 760 300, 840 220 S 960 30, 1060 20" fill="none" stroke="var(--turkuaz)" stroke-width="8" stroke-linecap="round"/>
+          <text x="170" y="100" text-anchor="middle" font-size="22" fill="var(--murekkep)">🎉 ilk heyecan</text>
+          <g class="fragment">
+            <rect x="215" y="285" width="140" height="44" rx="12" fill="var(--kiremit-acik)"/>
+            <text x="285" y="314" text-anchor="middle" font-size="20" fill="var(--murekkep)">❄️ 1. kış</text>
+            <text x="285" y="400" text-anchor="middle" font-size="18" fill="var(--murekkep-acik)">~1974–1980</text>
+          </g>
+          <text x="470" y="92" text-anchor="middle" font-size="22" fill="var(--murekkep)" class="fragment">📚 uzman sistemler</text>
+          <g class="fragment">
+            <rect x="555" y="285" width="140" height="44" rx="12" fill="var(--kiremit-acik)"/>
+            <text x="625" y="314" text-anchor="middle" font-size="20" fill="var(--murekkep)">❄️ 2. kış</text>
+            <text x="625" y="400" text-anchor="middle" font-size="18" fill="var(--murekkep-acik)">~1987–1990'ların ortası</text>
+          </g>
+          <g class="fragment">
+            <text x="790" y="120" text-anchor="middle" font-size="24" font-weight="700" fill="var(--murekkep)">🚀 derin öğrenme</text>
+            <text x="930" y="400" text-anchor="middle" font-size="18" fill="var(--murekkep-acik)">2012 → bugün</text>
+          </g>
+        </svg>
+        <aside class="notes">
+          Ne söyle: Yapay zekânın tarihi düz bir merdiven değil, bir lunapark treni. İlk yıllarda büyük vaatler verildi: "Birkaç yılda makineler insan gibi düşünecek." Vaatler tutmayınca para kesildi; buna "yapay zekâ kışı" deniyor. İlki yaklaşık 1974-1980 arası. 1980'lerde "uzman sistemler" denen, kuralları elle yazılmış programlarla yeni bir heyecan geldi; bunlar pahalı ve kırılgan çıkınca 1980'lerin sonunda ikinci kış başladı. Ve 2012'den sonra, bugün yaşadığımız büyük yükseliş.
+          Süre: 1,5 dk.
+          Dikkat: Kış tarihleri kaynaktan kaynağa biraz değişir; "yaklaşık" de. Ders slaytı (12) için zemin hazırlıyorsun.
+        </aside>
+      </section>
+
+      <!-- 6. MAKİNELER OYUNLARI KAZANIYOR -->
+      <section data-bolum="5">
+        <h2>Makineler sahneye çıkıyor</h2>
+        <ul class="zaman">
+          <li class="fragment"><span class="yil">1997</span> ♟️ Deep Blue, satranç şampiyonu Kasparov'u yendi</li>
+          <li class="fragment"><span class="yil">2011</span> 🎤 Watson bilgi yarışmasını kazandı · 📱 Siri telefonlara geldi</li>
+          <li class="fragment"><span class="yil">2012</span> 🖼️ AlexNet: derin öğrenme görmeyi öğrendi</li>
+        </ul>
+        <aside class="notes">
+          Ne söyle: 1997'de IBM'in Deep Blue'su dünya satranç şampiyonu Garry Kasparov'u yendi. Ama ilginç bir ayrıntı: Bir yıl önce, 1996'da, ilk maçı Kasparov kazanmıştı. Makine ancak ikinci denemede kazandı. Ve dikkat: Deep Blue öğrenmiyordu; saniyede yaklaşık 200 milyon pozisyonu hesaplayan bir kaba kuvvet makinesiydi, yani bizim "tarif kitabı"mız. 2011'de IBM Watson, ABD'nin ünlü bilgi yarışması Jeopardy'de iki efsane yarışmacıyı geride bıraktı. Aynı yıl Apple, Siri'yi iPhone'lara getirdi; yapay zekâ ilk kez milyonların cebine girdi. Asıl kırılma 2012'de geldi: AlexNet adlı derin bir sinir ağı, görüntü tanıma yarışmasında rakiplerini açık farkla geçti. Ve bunu iki oyun bilgisayarı grafik kartıyla eğitilerek yaptı.
+          Süre: 2,25 dk.
+          Dikkat: Deep Blue ile AlexNet arasındaki farkı (kural ve öğrenme) vurgula; ilk bölümle bağ kur.
+        </aside>
+      </section>
+
+      <!-- 7. DERİN ÖĞRENME YÜKSELİŞİ -->
+      <section data-bolum="5">
+        <h2>Derin öğrenmenin yükselişi</h2>
+        <ul class="zaman">
+          <li class="fragment"><span class="yil">2016</span> ⚫⚪ AlphaGo, Go ustası Lee Sedol'u 4-1 yendi</li>
+          <li class="fragment"><span class="yil">2017</span> 🔤 Transformer: bugünkü sohbet asistanlarının motoru</li>
+          <li class="fragment"><span class="yil">2020</span> 🧬 AlphaFold: proteinlerin şeklini tahmin etti</li>
+        </ul>
+        <aside class="notes">
+          Ne söyle: 2016'da Seul'de tarihî bir maç oldu. DeepMind'ın AlphaGo'su, satrançtan çok daha karmaşık sayılan Go oyununun ustası Lee Sedol'u 4-1 yendi. İkinci oyundaki 37. hamle, uzmanların "bir insan bunu asla oynamaz" dediği bir hamleydi. Ama hikâyenin güzel tarafı şu: Lee Sedol dördüncü oyunu kendi parlak 78. hamlesiyle kazandı; makineyi şaşırtan bir insan hamlesi. 2017'de Google'daki sekiz araştırmacı "Transformer" adlı yeni bir yöntem yayımladı; ChatGPT'deki T harfi bu. 2020'de AlphaFold, bilim insanlarının yaklaşık 50 yıldır uğraştığı bir problemi, proteinlerin üç boyutlu şeklini tahmin etmeyi büyük ölçüde çözdü. Hikâyenin bir de mutlu sonu var: Mart 2026'da, maçın onuncu yılında, Lee Sedol aynı Seul otelinde bu kez bir yapay zekâ ajanıyla birlikte bir Go programı yaptı. Nisan'da da DeepMind'ın kurucusu Demis Hassabis ona Seul'de bir teşekkür plaketi verdi. Yani rakipler, on yıl sonra ortak oldu.
+          Süre: 2,25 dk.
+          Dikkat: Lee Sedol'un galibiyetini mutlaka anlat; salonda sıcak bir duygu bırakır. Transformer'ın teknik ayrıntısına girme; 2. haftada.
+        </aside>
+      </section>
+
+      <!-- 8. HERKESİN CEBİNDE -->
+      <section data-bolum="5">
+        <h2>Herkesin cebinde</h2>
+        <ul class="zaman">
+          <li class="fragment"><span class="yil">2022</span> 💬 ChatGPT: iki ayda 100 milyon kullanıcı</li>
+          <li class="fragment"><span class="yil">2024</span> 🏅 Fizik ve kimya Nobelleri yapay zekâ çalışmalarına</li>
+          <li class="fragment"><span class="yil">2025–26</span> 🤖 Ajanlar: konuşmaktan iş yapmaya</li>
+        </ul>
+        <aside class="notes">
+          Ne söyle: Kasım 2022'nin sonunda ChatGPT herkese açıldı ve çok hızlı yayıldı; ne kadar hızlı olduğunu birazdan küçük bir tahmin oyunuyla göreceğiz. 2024'te Nobel komitesi bile yapay zekâyı konuştu: Fizik Nobeli yapay sinir ağlarının temellerini atan Hopfield ve Hinton'a, Kimya Nobeli'nin yarısı AlphaFold'u geliştiren Hassabis ve Jumper'a verildi. Ve bugün, 2025-2026'da, "ajanlar" dönemindeyiz: Yapay zekâ artık sadece cevap vermiyor, form dolduruyor, tablo hazırlıyor, iş yapıyor.
+          Süre: 1,5 dk.
+          Salona sor: "ChatGPT'yi ya da benzer bir asistanı ilk ne zaman denediniz?"
+          Dikkat: Nobel ödüllerinin insanlara verildiğini vurgula, makineye değil. Ajanların ayrıntısı 4. haftada.
+        </aside>
+      </section>
+
+      <!-- 9. TAHMİN: 100 MİLYON -->
+      <section data-bolum="5">
+        <span class="etiket altin">Tahmin oyunu</span>
+        <h2>100 milyon kullanıcıya kaç ayda?</h2>
+        <svg role="img" aria-label="Yatay çubuk grafik: 100 milyon aylık kullanıcıya ulaşma süresi. Instagram yaklaşık 2,5 yıl, TikTok yaklaşık 9 ay, ChatGPT yaklaşık 2 ay." viewBox="0 0 1000 320" width="1000" height="320">
+          <text x="190" y="62" text-anchor="end" font-size="28" fill="var(--murekkep)">📸 Instagram</text>
+          <rect x="210" y="30" width="720" height="48" rx="10" fill="var(--kiremit-acik)"/>
+          <text x="915" y="63" text-anchor="end" font-size="24" font-weight="700" fill="var(--murekkep)">~2,5 yıl</text>
+          <text x="190" y="162" text-anchor="end" font-size="28" fill="var(--murekkep)">🎵 TikTok</text>
+          <rect x="210" y="130" width="216" height="48" rx="10" fill="var(--altin-acik)"/>
+          <text x="440" y="163" font-size="24" font-weight="700" fill="var(--murekkep)">~9 ay</text>
+          <text x="190" y="262" text-anchor="end" font-size="28" fill="var(--murekkep)">💬 ChatGPT</text>
+          <text x="230" y="263" font-size="32" font-weight="700" fill="var(--kiremit)">?</text>
+          <g class="fragment">
+            <rect x="210" y="230" width="48" height="48" rx="10" fill="var(--turkuaz)"/>
+            <text x="272" y="263" font-size="24" font-weight="700" fill="var(--turkuaz)">~2 ay!</text>
+          </g>
+        </svg>
+        <p class="kucuk">UBS tahmini, Şubat 2023 (Reuters)</p>
+        <aside class="notes">
+          Ne söyle: Küçük bir tahmin oyunu. Instagram, 100 milyon aylık kullanıcıya yaklaşık iki buçuk yılda ulaştı. TikTok ise yaklaşık dokuz ayda. Peki ChatGPT kaç ayda? Bir sayı söyleyin! (Birkaç tahmin al.) Cevap: yaklaşık iki ay. Bir banka analizine göre o güne kadar en hızlı yayılan tüketici uygulaması oldu. Yani 75 yıl yavaş yavaş pişen yemek, masaya gelince iki ayda bitti.
+          Süre: 1 dk.
+          Salona sor: "ChatGPT kaç ayda 100 milyona ulaştı sizce?" Üç-dört tahmin al, sonra çubuğu aç.
+          Dikkat: Bu bir tahmindir, şirketin resmî sayısı değil; "bir analize göre" de. Kullanıcı sayısını övünç ya da korku malzemesi yapma.
+        </aside>
+      </section>
+
+      <!-- 10. ÜÇ İTİCİ GÜÇ -->
+      <section data-bolum="5">
+        <h2>Neden şimdi? Üç itici güç</h2>
+        <svg role="img" aria-label="Kesişen üç daire: Veri (internet), İşlem gücü (grafik kartları) ve Yöntem (derin öğrenme). Üçünün kesiştiği ortada 2012, AlexNet yazıyor." viewBox="0 0 900 480" width="840" height="448">
+          <g class="fragment">
+            <circle cx="340" cy="170" r="150" fill="var(--altin-acik)" fill-opacity=".85" stroke="var(--altin)" stroke-width="4"/>
+            <text x="290" y="130" text-anchor="middle" font-size="30" font-weight="700" fill="var(--murekkep)">🌐 Veri</text>
+            <text x="290" y="165" text-anchor="middle" font-size="20" fill="var(--murekkep-acik)">internet</text>
+          </g>
+          <g class="fragment">
+            <circle cx="560" cy="170" r="150" fill="var(--turkuaz-acik)" fill-opacity=".85" stroke="var(--turkuaz)" stroke-width="4"/>
+            <text x="595" y="130" text-anchor="middle" font-size="26" font-weight="700" fill="var(--murekkep)">🎮 İşlem gücü</text>
+            <text x="595" y="165" text-anchor="middle" font-size="20" fill="var(--murekkep-acik)">grafik kartları</text>
+          </g>
+          <g class="fragment">
+            <circle cx="450" cy="320" r="150" fill="var(--kiremit-acik)" fill-opacity=".85" stroke="var(--kiremit)" stroke-width="4"/>
+            <text x="450" y="405" text-anchor="middle" font-size="30" font-weight="700" fill="var(--murekkep)">💡 Yöntem</text>
+            <text x="450" y="438" text-anchor="middle" font-size="20" fill="var(--murekkep-acik)">derin öğrenme</text>
+          </g>
+          <g class="fragment">
+            <circle cx="450" cy="225" r="46" fill="var(--kagit)" stroke="var(--murekkep)" stroke-width="3"/>
+            <text x="450" y="222" text-anchor="middle" font-size="22" font-weight="700" fill="var(--murekkep)">⚡ 2012</text>
+            <text x="450" y="246" text-anchor="middle" font-size="16" fill="var(--murekkep)">AlexNet</text>
+          </g>
+        </svg>
+        <aside class="notes">
+          Ne söyle: Peki fikir 75 yaşındaysa, patlama neden şimdi oldu? Ampulü düşünün: İcat edildiğinde herkesin evine hemen girmedi; şebeke, santral, ucuz kablo gerekti. Yapay zekâ için de üç malzemenin aynı tencerede buluşması gerekiyordu. Bir: veri. İnternet sayesinde milyarlarca metin ve görsel. İki: işlem gücü. İlginçtir, bilgisayar oyunları için yapılan grafik kartları bu işe çok uygun çıktı. Üç: yöntem, yani derin öğrenme. Ortadaki küçük daireye bakın: 2012'de AlexNet, bu üç malzemenin ilk kez birlikte piştiği an. Transformer da 2017'de bu tencereye eklenen en güçlü baharat oldu.
+          Süre: 1 dk.
+          Dikkat: "Makine öğrenmesi örnekten öğrenir" bilgisinin burada "veri" olarak geri döndüğünü hatırlat.
+        </aside>
+      </section>
+
+      <!-- 11. SIRALAMA OYUNU -->
+      <section data-bolum="5">
+        <span class="etiket altin">Ekip oyunu · 1 dakika</span>
+        <h2>Hangisi önce? Sıraya koyun</h2>
+        <div class="sira">
+          <p><strong>A)</strong> Bilgisayar satranç şampiyonunu yendi</p>
+          <p><strong>B)</strong> Sesli asistan telefonlara geldi</p>
+          <p><strong>C)</strong> Bilgisayar Go ustasını yendi</p>
+          <p><strong>D)</strong> “Yapay zekâ” adı ilk kez kullanıldı</p>
+        </div>
+        <p class="fragment"><strong>D (1956) → A (1997) → B (2011) → C (2016)</strong></p>
+        <aside class="notes">
+          Ne söyle: Şimdi küçük bir hafıza oyunu. Masanızla birlikte bu dört olayı sıraya koyun. Bir dakikanız var. Kâğıda yazın ya da parmaklarınızla gösterin.
+          Süre: 2 dk.
+          Cevap: D, yani "yapay zekâ" adı, 1955-56. Sonra A, satranç, 1997. Sonra B, Siri, 2011. Sonra C, Go, 2016.
+          Salona sor (zaman kalırsa): "ChatGPT mi önce, AlphaFold mu?" Cevap: AlphaFold 2020, ChatGPT 2022. Çoğu kişi ChatGPT'yi daha eski sanar.
+          Dikkat: Doğru bilen masayı alkışlat.
+        </aside>
+      </section>
+
+      <!-- 12. KIŞLARDAN DERS -->
+      <section data-bolum="5">
+        <h2>Kışlardan çıkan ders</h2>
+        <div class="iki-sutun">
+          <div><h3>🎈 Abartı</h3><ul><li>“Birkaç yılda insan gibi düşünecek”</li><li>Vaatler yetenekten hızlı</li><li>Sonra hayal kırıklığı</li></ul></div>
+          <div class="fragment"><h3>🧭 Gerçekçi bakış</h3><ul><li>Ne yapabildiğine bak</li><li>Kendin dene, kontrol et</li><li>Ne heyecana ne korkuya kapıl</li></ul></div>
+        </div>
+        <aside class="notes">
+          Ne söyle: Tarihten çıkan en önemli ders şu: Kışlar, vaatler gerçek yeteneklerin önüne geçtiğinde geldi. Bugün de "yapay zekâ her şeyi yapacak" diyenler var, "hiçbir şey yapamıyor, balon" diyenler de. İkisine de kapılmayalım. Bu atölyedeki yaklaşımımız: Ne yapabildiğine kendi gözümüzle bakalım, deneyelim ve kontrol edelim.
+          Süre: 1 dk.
+          Dikkat: "Yeni bir kış gelecek" ya da "asla gelmeyecek" gibi tahminde bulunma; kimse kesin bilemez.
+        </aside>
+      </section>
+
+      <!-- 13. EKİM 2026 TABLOSU -->
+      <section data-bolum="5">
+        <span class="etiket">Ekim 2026 itibarıyla</span>
+        <h2>Bugünün büyük model aileleri</h2>
+        <div class="kartlar">
+          <div class="kart fragment"><span class="simge" aria-hidden="true">🟢</span><h3>GPT</h3><p>OpenAI · ChatGPT</p></div>
+          <div class="kart turkuaz fragment"><span class="simge" aria-hidden="true">🔷</span><h3>Gemini</h3><p>Google</p></div>
+          <div class="kart altin fragment"><span class="simge" aria-hidden="true">🟠</span><h3>Claude</h3><p>Anthropic</p></div>
+          <div class="kart kiremit fragment"><span class="simge" aria-hidden="true">🔓</span><h3>Açık modeller</h3><p>Meta Llama ve diğerleri</p></div>
+        </div>
+        <aside class="notes">
+          Ne söyle: Bugün sohbet asistanlarının arkasında birkaç büyük model ailesi var. OpenAI'ın GPT ailesi ChatGPT'yi çalıştırıyor; şirket Eylül 2026'nın başında GPT-6 Astra adlı yeni modelini duyurdu ve önce kurumlara, sonra ücretli ChatGPT kullanıcılarına açıyor. Google'ın Gemini'si, Anthropic'in Claude'u var. Bir de indirip kendi bilgisayarınızda çalıştırabileceğiniz açık modeller var; Meta'nın Llama'sı bunların bilinen bir örneği. Hangisi ne işe yarar, hangisi ücretsiz; bunları gelecek hafta ayrıntılı ve güncel olarak konuşacağız.
+          Süre: 1 dk.
+          Dikkat: Sürüm numaralarını ezberletme; çok hızlı değişiyor. Belirli bir markayı övme ya da yerme. Simgeler marka logosu değil, sadece renk işareti.
+        </aside>
+      </section>
+
+      <!-- 14. TÜRKİYE -->
+      <section data-bolum="5">
+        <span class="etiket kiremit">Türkiye · 2026</span>
+        <h2>Türkiye'den iki gelişme</h2>
+        <div class="iki-sutun">
+          <div><h3>📜 Eylem Planı 2026-2030</h3><ul><li>Resmî Gazete, 18 Ağustos 2026</li><li>“Fark Et, İstifade Et, Üret ve Yönet”</li><li>Hedef: 2 yılda 5 milyon kişiye okuryazarlık</li></ul></div>
+          <div class="fragment"><h3>🇹🇷 BİLGE</h3><ul><li>TÜBİTAK'ın Türkçe dil modeli, Haziran 2026'da tanıtıldı</li><li>Genel kullanıma açık değil: sahtelerine dikkat</li></ul></div>
+        </div>
+        <aside class="notes">
+          Ne söyle: Türkiye'den iki gelişme. Birincisi: Türkiye Yapay Zekâ Eylem Planı 2026-2030, 18 Ağustos 2026'da Resmî Gazete'de yayımlandı. Koordinasyonu Sanayi ve Teknoloji Bakanlığı yapıyor. Planın ilkeleri "Fark Et, İstifade Et, Üret ve Yönet". Hedefler arasında toplumda yapay zekâ farkındalığını artırmak (bakanlık açıklamalarına göre iki yılda 5 milyon kişiye yapay zekâ okuryazarlığı eğitimi), nitelikli insan yetiştirmek ve kamu ile özel sektörde kullanımı yaygınlaştırmak var. İkincisi: TÜBİTAK BİLGEM'in geliştirdiği Türkçe büyük dil modeli BİLGE, Haziran 2026'da tanıtıldı. Ama TÜBİTAK, BİLGE'nin henüz genel kullanıma açık olmadığını ve bu adı kullanan başka uygulamaların resmî olmadığını açıkladı. Bakan, Temmuz'da modelin "yakın zamanda" geliştiricilere açılacağını, 7 Ekim'de de araştırmacı ve girişimcilerle buluşturulacağını söyledi; ama Ekim sonu itibarıyla genel kullanıma açıldığına dair resmî bir duyuru bulamadık. Yani "BİLGE" diye karşınıza çıkan bir uygulamaya hemen güvenmeyin.
+          Süre: 1,25 dk.
+          Dikkat: Olgu olarak anlat; övgü ya da eleştiri katma. BİLGE'nin durumu değişmiş olabilir: Oturum sabahı TÜBİTAK'ın resmî kanallarını kontrol et. Parametre sayısı verme; haberlerde farklı rakamlar geçiyor. Atölyenin planla resmî bir bağı olmadığını belirt.
+        </aside>
+      </section>
+
+      <!-- 15. VURGU -->
+      <section data-bolum="5" class="vurgu">
+        <p class="buyuk">ChatGPT bir gecede gelmedi: 75 yıllık bir merak, iki kış ve üç malzeme.</p>
+        <p class="fragment">Şimdi onu tanıma sırası bizde.</p>
+        <aside class="notes">
+          Ne söyle: Başta size bir söz vermiştim; işte o tek cümle: ChatGPT bir gecede gelmedi. Arkasında 75 yıllık bir merak, iki sert kış ve aynı tencerede buluşan üç malzeme var: veri, işlem gücü ve yöntem. Bu hayal son on yılda hepimizin cebine girdi. Şimdi onu tanıma, sorgulama ve akıllıca kullanma sırası bizde.
+          Süre: 30 sn.
+          Dikkat: Kısa ve sakin söyle; sonraki bölüme geçiş.
+          Köprü (sonraki bölüme geçerken): Tarih bugüne geldi. Peki bu teknoloji şu anda hayatımızın neresinde? Cebinizdeki telefondan bankanıza, tarladan hastaneye, birlikte bakalım.
+        </aside>
+      </section>
+
+      <!-- 1. KAPAK -->
+      <section data-bolum="6" class="kapak">
+        <div class="cini" aria-hidden="true"></div>
+        <span class="etiket">Bölüm 6 / 6 · 15 dakika</span>
+        <h1>Bugün yapay zekâ nerede?</h1>
+        <p class="alt">Cevap: Tam şu an, cebinizde. Siz fark etmeden.</p>
+        <p class="vaat fragment">🔍 15 dakika sonra cebinizdeki görünmez yardımcıları tek tek sayabileceksiniz.</p>
+        <aside class="notes">
+          Ne söyle: Yetmiş beş yıllık tarihi bugüne kadar getirdik. Şimdi soruyu tersine çeviriyorum: Bu teknoloji şu anda hayatımızın neresinde? Cevap sizi şaşırtabilir, çünkü yapay zekâ çoğu zaman kendini tanıtmıyor. Size bir söz veriyorum: On beş dakika sonra cebinizdeki görünmez yardımcıları tek tek sayabileceksiniz.
+          Süre: 30 sn.
+          Dikkat: Haftanın son bölümü; enerjiyi yüksek tut, sondaki görevi anlatmaya mutlaka zaman bırak.
+        </aside>
+      </section>
+
+      <!-- 2. BÜYÜK SORU -->
+      <section data-bolum="6" class="soru">
+        <span class="etiket kiremit">Tahmin edin</span>
+        <p class="buyuk">Bugün sabahtan beri kaç kez yapay zekâ ile karşılaştınız?</p>
+        <p class="ipucu">0 · 5 · 20 · daha fazla?</p>
+        <aside class="notes">
+          Ne söyle: Bugün sabahtan beri kaç kez yapay zekâ ile karşılaştınız? Sıfır diyenler bir el kaldırsın. Beş diyenler? Yirmi? Daha fazla? Tahmininizi aklınızda tutun, çünkü şimdi sıradan bir günü birlikte gezeceğiz.
+          Süre: 1 dk.
+          Salona sor: El kaldırarak tahmin topla; en kalabalık grubu yüksek sesle söyle.
+          Dikkat: "Sıfır" diyenler genelde sohbet asistanlarını düşünüyor. Onlara gülümseyerek "birazdan bakalım" de; kimseyi düzeltme.
+        </aside>
+      </section>
+
+      <!-- 3. BİR GÜN SVG -->
+      <section data-bolum="6">
+        <h2>Sıradan bir gün</h2>
+        <svg role="img" aria-label="Bir günün zaman çizgisi: 07.00 yüzle telefon kilidi, 08.30 navigasyonda varış tahmini, 10.00 spam filtresi, 13.00 kart ödemesinde dolandırıcılık kontrolü, 19.00 alışveriş önerileri, 22.00 dizi önerisi." viewBox="0 0 1150 360" width="1150" height="360">
+          <line x1="50" y1="180" x2="1100" y2="180" stroke="var(--cizgi)" stroke-width="8" stroke-linecap="round"/>
+          <g class="fragment">
+            <circle cx="110" cy="180" r="18" fill="var(--turkuaz)"/>
+            <text x="110" y="120" text-anchor="middle" font-size="46">📱</text>
+            <text x="110" y="232" text-anchor="middle" font-size="22" font-weight="700" fill="var(--murekkep)">07.00</text>
+            <text x="110" y="262" text-anchor="middle" font-size="19" fill="var(--murekkep-acik)">yüzle kilit</text>
+          </g>
+          <g class="fragment">
+            <circle cx="300" cy="180" r="18" fill="var(--altin)"/>
+            <text x="300" y="120" text-anchor="middle" font-size="46">🗺️</text>
+            <text x="300" y="232" text-anchor="middle" font-size="22" font-weight="700" fill="var(--murekkep)">08.30</text>
+            <text x="300" y="262" text-anchor="middle" font-size="19" fill="var(--murekkep-acik)">varış tahmini</text>
+          </g>
+          <g class="fragment">
+            <circle cx="490" cy="180" r="18" fill="var(--kiremit)"/>
+            <text x="490" y="120" text-anchor="middle" font-size="46">📧</text>
+            <text x="490" y="232" text-anchor="middle" font-size="22" font-weight="700" fill="var(--murekkep)">10.00</text>
+            <text x="490" y="262" text-anchor="middle" font-size="19" fill="var(--murekkep-acik)">spam filtresi</text>
+          </g>
+          <g class="fragment">
+            <circle cx="680" cy="180" r="18" fill="var(--turkuaz)"/>
+            <text x="680" y="120" text-anchor="middle" font-size="46">💳</text>
+            <text x="680" y="232" text-anchor="middle" font-size="22" font-weight="700" fill="var(--murekkep)">13.00</text>
+            <text x="680" y="262" text-anchor="middle" font-size="19" fill="var(--murekkep-acik)">dolandırıcılık kontrolü</text>
+          </g>
+          <g class="fragment">
+            <circle cx="870" cy="180" r="18" fill="var(--altin)"/>
+            <text x="870" y="120" text-anchor="middle" font-size="46">🛒</text>
+            <text x="870" y="232" text-anchor="middle" font-size="22" font-weight="700" fill="var(--murekkep)">19.00</text>
+            <text x="870" y="262" text-anchor="middle" font-size="19" fill="var(--murekkep-acik)">kişisel vitrin</text>
+          </g>
+          <g class="fragment">
+            <circle cx="1050" cy="180" r="18" fill="var(--kiremit)"/>
+            <text x="1050" y="120" text-anchor="middle" font-size="46">🎬</text>
+            <text x="1050" y="232" text-anchor="middle" font-size="22" font-weight="700" fill="var(--murekkep)">22.00</text>
+            <text x="1050" y="262" text-anchor="middle" font-size="19" fill="var(--murekkep-acik)">dizi önerisi</text>
+          </g>
+          <text x="575" y="330" text-anchor="middle" font-size="24" fill="var(--murekkep)" class="fragment">Hiçbiri “Ben yapay zekâyım” demedi.</text>
+        </svg>
+        <aside class="notes">
+          Ne söyle: Sabah yedide telefonunuzun kilidini yüzünüzle açtınız; bu yüz tanıma. Sekiz buçukta navigasyon "42 dakikada varırsınız" dedi; bu, geçmiş ve canlı trafikten öğrenen bir tahmin. Onda sahte bir kampanya e-postası kendiliğinden spam kutusuna düştü. Öğlen kartla ödeme yaptınız; banka o birkaç saniyede işlemin gerçekten size ait olup olmadığını kontrol etti. Akşam alışveriş sitesi size özel bir vitrin gösterdi. Gece dizi platformu "bunu da seversiniz" dedi. Ve hiçbiri size "ben yapay zekâyım" demedi. Bir ilginç bilgi: TÜİK'e göre 2026'da Türkiye'de 16-74 yaş arasındaki her 100 kişiden yaklaşık 38'i üretken yapay zekâyı, yani sohbet asistanı gibi araçları bilerek kullandı. Geri kalanların çoğu da muhtemelen bu sabah, farkına varmadan, bu çizgideki yardımcılardan birine dokundu.
+          Süre: 2 dk.
+          Salona sor: "Şimdi tahmininizi değiştirmek isteyen var mı?"
+          Dikkat: Saatler temsilîdir. Her durakta "örnekten öğrenen" ölçütünü bir cümleyle hatırlat. TÜİK oranı yalnızca üretken yapay zekâ içindir; 4. haftada bu veriyle bir tahmin oyunu var, burada ayrıntıya girme.
+        </aside>
+      </section>
+
+      <!-- 4. RAKAMLAR -->
+      <section data-bolum="6">
+        <h2>Bildiğimiz rakamlar</h2>
+        <div class="kartlar">
+          <div class="kart fragment"><span class="simge" aria-hidden="true">📧</span><h3>%99,9</h3><p>Google'a göre Gmail'in spam ve oltalamayı yakalama doğruluğu</p></div>
+          <div class="kart fragment turkuaz"><span class="simge" aria-hidden="true">🎬</span><h3>~%80</h3><p>Netflix'e göre önerileri takip eden abone oranı (2017)</p></div>
+          <div class="kart fragment altin"><span class="simge" aria-hidden="true">💳</span><h3>%57</h3><p>Bir raporun küresel örneklerinde dolandırıcılıktaki düşüş</p></div>
+        </div>
+        <aside class="notes">
+          Ne söyle: Birkaç rakamla somutlaştıralım. Size gelen e-postaların yarısından fazlası spam olabiliyor. Google, Gmail'in makine öğrenmesiyle spam ve oltalama mesajlarını yüzde 99,9 doğrulukla yakaladığını açıklamıştı. Netflix'ten bir yönetici 2017'de, abonelerin yaklaşık yüzde 80'inin algoritmanın önerilerini izlediğini söylemişti. Mastercard'ın Türkiye'de de tanıtılan bir raporu, dünyadan örnekler arasında yapay zekâyla dolandırıcılıkta yüzde 57 azalma aktarıyor. Bu sistemleri bir bekçi köpeği gibi düşünün: Alışılmadık bir işleme havlar. Ama bazen postacıya da havlar; yani kendi alışverişiniz de "şüpheli" bulunup durdurulabilir.
+          Süre: 1,5 dk.
+          Salona sor: "Bankanız hiç kendi alışverişinizi şüpheli bulup durdurdu mu?"
+          Dikkat: Rakamlar şirketlerin kendi açıklamaları. Mastercard rakamı Türkiye'ye özel değil, kapsamı haberde belirtilmiyor; "bir raporun küresel örneklerine göre" de. Hiçbir bankayı övme ya da yerme.
+        </aside>
+      </section>
+
+      <!-- 5. SEKTÖRLER 1 -->
+      <section data-bolum="6">
+        <h2>Sektörlerde: sağlık, tarım, sanayi</h2>
+        <div class="kartlar">
+          <div class="kart fragment"><span class="simge" aria-hidden="true">🩺</span><h3>Sağlık</h3><p>Röntgen ve mamografide şüpheli görüntüleri öne çıkarıyor</p></div>
+          <div class="kart fragment turkuaz"><span class="simge" aria-hidden="true">🌾</span><h3>Tarım</h3><p>Kamerayla yabani otu tanıyıp lazerle temizleyen makineler</p></div>
+          <div class="kart fragment altin"><span class="simge" aria-hidden="true">🏭</span><h3>Sanayi</h3><p>Kalite kontrol ve lojistikte yapay zekâ ajanları</p></div>
+        </div>
+        <aside class="notes">
+          Ne söyle: Şimdi cebimizden çıkıp sektörlere bakalım. Sağlıkta: ABD'nin ilaç ve tıbbi cihaz kurumu FDA, yapay zekâ destekli tıbbi cihazların listesini yayımlıyor; bu listede açık ara en kalabalık alan görüntüleme, yani radyoloji. Tarımda: Bir makine 150 milyon etiketli bitki fotoğrafıyla eğitilmiş; dakikada on bine kadar yabani otu tanıyıp lazerle yok edebiliyor. Sanayide: Samsung, 2030'a kadar tüm fabrikalarında kalite kontrol, üretim ve lojistikte yapay zekâ ajanları kullanmayı hedeflediğini açıkladı.
+          Süre: 2 dk.
+          Dikkat: "Yapay zekâ teşhis koyuyor" deme; "öne çıkarıyor, hekime yardım ediyor" de. Sağlıktaki iş bölümünü birazdan bir çizimle göstereceksin.
+        </aside>
+      </section>
+
+      <!-- 6. SEKTÖRLER 2 -->
+      <section data-bolum="6">
+        <h2>Eğitim, kamu, ticaret</h2>
+        <div class="kartlar">
+          <div class="kart fragment"><span class="simge" aria-hidden="true">🎒</span><h3>Eğitim</h3><p>Öğrencinin eksik konusuna göre kişisel çalışma planı</p></div>
+          <div class="kart fragment turkuaz"><span class="simge" aria-hidden="true">🏛️</span><h3>Kamu</h3><p>Başvuruları sınıflandırma; e-Devlet'te okuryazarlık ölçümü planı</p></div>
+          <div class="kart fragment altin"><span class="simge" aria-hidden="true">🛍️</span><h3>Ticaret</h3><p>Her kullanıcıya farklı vitrin; satıcıya dijital asistan</p></div>
+        </div>
+        <aside class="notes">
+          Ne söyle: Eğitimde, öğrencinin hangi konuda zorlandığını fark edip ona özel çalışma planı öneren sistemler var; birazdan Türkiye'den bir örnek vereceğim. Kamuda da örnekler çoğalıyor. Örneğin Cumhurbaşkanlığı İletişim Başkanlığı, Haziran 2026'da CİMER'e gelen başvuruları yapay zekâyla sınıflandırdığını açıkladı. Türkiye'nin 2026-2030 Yapay Zekâ Eylem Planı kapsamında, herkesin yapay zekâ okuryazarlığını e-Devlet üzerinden ölçebileceği bir sistem ve ücretsiz bir eğitim programı da planlanıyor. Ticarette ise alışveriş siteleri her kullanıcıya farklı bir vitrin gösteriyor, satıcılara da yapay zekâ asistanları sunuyor.
+          Süre: 1,5 dk.
+          Dikkat: e-Devlet ölçümü bir plan. 28 Ağustos 2026 tarihli AA haberinde başlangıç tarihi yoktu ve bu çalışmada açıldığına dair kaynak bulunamadı; "açıldı" deme. CİMER bilgisi kurumun kendi açıklaması, sayı verilmemiş. Sahte videoları sadece an; ayrıntısı 4. haftada.
+        </aside>
+      </section>
+
+      <!-- 7. TÜRKİYE'DEN -->
+      <section data-bolum="6">
+        <span class="etiket kiremit">Türkiye'den örnekler</span>
+        <h2>Yakınımızda</h2>
+        <table>
+          <tr class="fragment"><td>🩺 Mamografi taraması</td><td>2 milyondan fazla sonuç analiz edildi · <strong>karar hekimde</strong></td></tr>
+          <tr class="fragment"><td>🎒 MEBİ</td><td>Kişisel çalışma planı · ~5,7 milyon kullanıcı</td></tr>
+          <tr class="fragment"><td>🛍️ E-ticaret</td><td>Herkese ayrı vitrin</td></tr>
+          <tr class="fragment"><td>🌾 Tarım araştırması</td><td>Zararlının geliş zamanını tahmin</td></tr>
+          <tr class="fragment"><td>🏦 Bankacılık</td><td>Olağandışı işleme uyarı · uygulamada asistan</td></tr>
+        </table>
+        <aside class="notes">
+          Ne söyle: Şimdi yakınımıza bakalım. Sağlık Bakanlığı'nın mamografi tarama sistemine 2024'te yapay zekâ eklendi; Bakanlığa göre o günden Nisan 2026'ya kadar iki milyondan fazla tarama sonucu bu sistemle analiz edildi. Bunu birazdan bir çizimle açacağım. MEB'in MEBİ platformu, öğrencinin zayıf konularını belirleyip kişisel çalışma planı öneriyor; MEB'e göre geçen öğretim yılında yaklaşık 5,7 milyon kişi giriş yaptı ve bunların dört milyondan fazlası öğrenciydi. Büyük bir e-ticaret şirketi, her gün sitesine giren milyonlarca kullanıcının her birine özel bir vitrin göstermeyi hedeflediğini anlatıyor. Ondokuz Mayıs Üniversitesi'nde zararlı böceklerin tarlaya ne zaman geleceği yapay sinir ağlarıyla tahmin edilmeye çalışılıyor. Bankalar da olağandışı işlemleri yakalamak için yapay zekâ kullandıklarını anlatıyor.
+          Süre: 1 dk 15 sn.
+          Dikkat: Sağlıkta kişisel soru gelirse hekime yönlendir. Şirket adını sorarlarsa söyleyebilirsin (anlatıcı notunda var), ama reklam havası yaratma.
+        </aside>
+      </section>
+
+      <!-- 8. SAĞLIKTA İŞ BÖLÜMÜ SVG -->
+      <section data-bolum="6">
+        <h2>Sağlıkta iş bölümü: makine sıralar, hekim karar verir</h2>
+        <svg role="img" aria-label="Mamografi taramasında iş bölümü: 1. Görüntü çekilir. 2. Yapay zekâ tüm görüntüleri tarar. 3. Şüpheli görünenler sıranın başına alınır. 4. Radyoloji uzmanı inceler. 5. Karar ve gerekirse öncelikli randevu hekimden gelir." viewBox="0 0 1150 380" width="1150" height="380">
+          <defs>
+            <marker id="ok" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+              <path d="M0,0 L10,5 L0,10 z" fill="var(--murekkep-acik)"/>
+            </marker>
+          </defs>
+          <g>
+            <rect x="20" y="90" width="190" height="150" rx="18" fill="var(--kagit-koyu)" stroke="var(--cizgi)" stroke-width="3"/>
+            <text x="115" y="150" text-anchor="middle" font-size="46">📷</text>
+            <text x="115" y="200" text-anchor="middle" font-size="22" font-weight="700" fill="var(--murekkep)">Görüntü</text>
+            <text x="115" y="226" text-anchor="middle" font-size="18" fill="var(--murekkep-acik)">çekilir</text>
+          </g>
+          <g class="fragment">
+            <line x1="215" y1="165" x2="250" y2="165" stroke="var(--murekkep-acik)" stroke-width="4" marker-end="url(#ok)"/>
+            <rect x="255" y="90" width="190" height="150" rx="18" fill="var(--turkuaz-acik)" stroke="var(--turkuaz)" stroke-width="3"/>
+            <text x="350" y="150" text-anchor="middle" font-size="46">🤖</text>
+            <text x="350" y="200" text-anchor="middle" font-size="22" font-weight="700" fill="var(--turkuaz)">Yapay zekâ</text>
+            <text x="350" y="226" text-anchor="middle" font-size="18" fill="var(--murekkep-acik)">hepsini tarar</text>
+          </g>
+          <g class="fragment">
+            <line x1="450" y1="165" x2="485" y2="165" stroke="var(--murekkep-acik)" stroke-width="4" marker-end="url(#ok)"/>
+            <rect x="490" y="90" width="190" height="150" rx="18" fill="var(--altin-acik)" stroke="var(--altin)" stroke-width="3"/>
+            <text x="585" y="150" text-anchor="middle" font-size="46">⬆️</text>
+            <text x="585" y="200" text-anchor="middle" font-size="22" font-weight="700" fill="var(--murekkep)">Şüpheliler</text>
+            <text x="585" y="226" text-anchor="middle" font-size="18" fill="var(--murekkep-acik)">sıranın başına</text>
+          </g>
+          <g class="fragment">
+            <line x1="685" y1="165" x2="720" y2="165" stroke="var(--murekkep-acik)" stroke-width="4" marker-end="url(#ok)"/>
+            <rect x="725" y="90" width="190" height="150" rx="18" fill="var(--kiremit-acik)" stroke="var(--kiremit)" stroke-width="3"/>
+            <text x="820" y="150" text-anchor="middle" font-size="46">🧑‍⚕️</text>
+            <text x="820" y="200" text-anchor="middle" font-size="22" font-weight="700" fill="var(--kiremit)">Radyolog</text>
+            <text x="820" y="226" text-anchor="middle" font-size="18" fill="var(--murekkep-acik)">inceler</text>
+          </g>
+          <g class="fragment">
+            <line x1="920" y1="165" x2="955" y2="165" stroke="var(--murekkep-acik)" stroke-width="4" marker-end="url(#ok)"/>
+            <rect x="960" y="90" width="170" height="150" rx="18" fill="var(--kiremit)" stroke="var(--kiremit)" stroke-width="3"/>
+            <text x="1045" y="150" text-anchor="middle" font-size="46">✅</text>
+            <text x="1045" y="200" text-anchor="middle" font-size="22" font-weight="700" fill="var(--kagit)">Karar</text>
+            <text x="1045" y="226" text-anchor="middle" font-size="18" fill="var(--kagit)">hekimden</text>
+          </g>
+          <g class="fragment">
+            <rect x="255" y="275" width="425" height="56" rx="14" fill="none" stroke="var(--turkuaz)" stroke-width="3" stroke-dasharray="8 6"/>
+            <text x="467" y="311" text-anchor="middle" font-size="20" fill="var(--turkuaz)">Makinenin işi: hızlı ve yorulmadan sıralamak</text>
+            <rect x="725" y="275" width="405" height="56" rx="14" fill="none" stroke="var(--kiremit)" stroke-width="3" stroke-dasharray="8 6"/>
+            <text x="927" y="311" text-anchor="middle" font-size="20" fill="var(--kiremit)">İnsanın işi: bakmak, karar vermek</text>
+          </g>
+        </svg>
+        <aside class="notes">
+          Ne söyle: Sağlıktaki bu örneği bir iş bölümü olarak düşünün. Önce mamografi görüntüsü çekiliyor. Sonra yapay zekâ, yorulmak bilmeyen bir asistan gibi bütün görüntüleri tarıyor. Şüpheli gördüklerini sıranın başına alıyor; Bakanlık buna "karar destek" diyor. Ardından radyoloji uzmanı görüntüyü inceliyor. Karar ve gerekirse öncelikli randevu hekimden geliyor. Yani makinenin işi hızlı sıralamak, insanın işi bakmak ve karar vermek. Bir KETEM hekiminin de vurguladığı gibi bu teknoloji hekimin yerine geçmiyor, şüpheliyi daha hızlı fark ettiriyor.
+          Süre: 1 dk.
+          Dikkat: Bakanlığın açıklamalarında başarı oranları için bağımsız bir doğrulama yok; "yüzde 90'a yakın" rakamını kullanacaksan "Bakanlığın açıklamasına göre" de. Kişisel sağlık sorularını hekime yönlendir.
+        </aside>
+      </section>
+
+      <!-- 9. DOĞRU MU YANLIŞ MI -->
+      <section data-bolum="6">
+        <span class="etiket altin">Doğru mu, yanlış mı?</span>
+        <h2>El kaldırarak</h2>
+        <ol>
+          <li>Hastanede mamografiyi yapay zekâ tek başına okuyup teşhis koyuyor. <span class="fragment"><strong>⛔ Yanlış</strong></span></li>
+          <li>Bazı tarım makineleri yabani otu tanıyıp lazerle yok ediyor. <span class="fragment"><strong>✅ Doğru</strong></span></li>
+          <li>Spam filtresi insanların tek tek yazdığı kurallarla çalışıyor. <span class="fragment"><strong>⛔ Yanlış</strong></span></li>
+        </ol>
+        <aside class="notes">
+          Ne söyle: Şimdi küçük bir sınav. Üç cümle okuyacağım; doğru diyenler bir elini, yanlış diyenler iki elini kaldırsın. Birincisi: Hastanede mamografiyi yapay zekâ tek başına okuyup teşhis koyuyor. ... Yanlış! Az önce gördük: Makine sıralıyor, hekim karar veriyor. İkincisi: Bazı tarım makineleri yabani otu tanıyıp lazerle yok ediyor. ... Doğru! Kulağa bilimkurgu gibi geliyor ama tarlada çalışıyor. Üçüncüsü: Spam filtresi insanların tek tek yazdığı kurallarla çalışıyor. ... Yanlış! Bu haftanın başında konuştuk: Örneklerden öğreniyor.
+          Süre: 1 dk 15 sn.
+          Dikkat: Birinci cümleye hâlâ "doğru" diyen olursa bu bir öğrenme anı; kimseyi mahcup etmeden "yapay zekâ destekli çoğu zaman insana yardımcı demek" cümlesini tekrarla.
+        </aside>
+      </section>
+
+      <!-- 10. VURGU -->
+      <section data-bolum="6" class="vurgu">
+        <p class="buyuk">Yapay zekâ çoğu zaman görünmez bir yardımcı. Son sözü hâlâ insan söylüyor.</p>
+        <aside class="notes">
+          Ne söyle: Bu bölümden aklınızda tek bir cümle kalsın: Yapay zekâ çoğu zaman görünmez bir yardımcı. Arka planda öneriyor, sıralıyor, uyarıyor. Ama önemli işlerde, sağlıkta, parada, kamuda, son sözü hâlâ insan söylüyor. Söylemeli de.
+          Süre: 30 sn.
+          Dikkat: Kısa bir sessizlik bırak. Bu cümle 4. haftadaki sorumlu kullanım konusuna da köprü.
+        </aside>
+      </section>
+
+      <!-- 11. HAFTALIK GÖREV -->
+      <section data-bolum="6">
+        <div class="uygulama-kutu">
+          <span class="sure">📅 1 hafta</span>
+          <h2>Haftalık görev: Yapay zekâ avı 🔍</h2>
+          <ol class="adimlar">
+            <li>Karşılaştığın <strong>10 yapay zekâ</strong> kullanımını not et</li>
+            <li>Her biri için: Nerede? Ne yaptı?</li>
+            <li>Kuralı insan mı yazdı, örnekten mi öğrendi?</li>
+            <li>Yanıldığını gördün mü?</li>
+          </ol>
+        </div>
+        <aside class="notes">
+          Ne söyle: Bu haftanın görevi bir av: Yapay zekâ avı. Bir hafta boyunca karşılaştığınız on yapay zekâ kullanımını not edin. Her biri için dört şey yazın: Nerede gördünüz, ne yaptı, sizce kuralı bir insan mı yazdı yoksa sistem örnekten mi öğrendi, ve hiç yanıldığını gördünüz mü? Telefonunuzun galerisine, bankanızın uygulamasına, alışveriş sitelerine, sosyal medyaya, arabanıza, iş yerinizdeki programlara bakın. "Emin değilim" demek serbest. Gelecek hafta en ilginç avları birlikte paylaşacağız.
+          Süre: 1,5 dk.
+          Dikkat: Kişisel bilgi yazmamalarını hatırlat (ör. banka adı yerine "banka uygulamam"). Görev tablosunu kâğıtta ya da katılımcı sayfasında paylaş.
+        </aside>
+      </section>
+
+      <!-- 12. HAFTANIN ÖZETİ VE KAPANIŞ -->
+      <section data-bolum="6">
+        <h2>1. haftada ne öğrendik?</h2>
+        <ul class="zaman">
+          <li class="fragment"><span class="yil">👀</span> Gözümüz artık yetmiyor: kaynağa bakıyoruz</li>
+          <li class="fragment"><span class="yil">🧑‍🎓</span> Yapay zekâ örnekten öğrenir; ne gösterirsek onu öğrenir</li>
+          <li class="fragment"><span class="yil">🏠</span> Görünmez ama her yerde; son söz insanda</li>
+        </ul>
+        <p class="vaat fragment">Görmeye başladığınız an, sorgulamaya da başlarsınız.</p>
+        <aside class="notes">
+          Ne söyle: Bu haftayı üç cümleyle toparlayalım. Bir: Yapay zekânın ürettiğini gözümüzle ayırt etmek artık zor, bu yüzden kaynağa bakmayı alışkanlık hâline getiriyoruz. İki: Yapay zekâ bir çırak gibi örnekten öğrenir; ona ne gösterirsek onu öğrenir, eksiğini de. Üç: Çoğu zaman görünmez ama her yerde; önemli işlerde son sözü insan söylüyor. Başta size bir söz vermiştim: Artık cebinizdeki görünmez yardımcıları sayabiliyorsunuz. Ve şunu unutmayın: Görmeye başladığınız an, sorgulamaya da başlarsınız. Gelecek hafta yapay zekânın görünür, sizinle konuşan yüzüyle tanışacağız: sohbet asistanları. Ona nasıl soru sorulur, ne zaman uydurur, nasıl yakalarız?
+          Süre: 40 sn.
+          Dikkat: Açılışta not aldığın beklenti kelimelerine dönüp "başta şunları istemiştiniz" diyebilirsin.
+        </aside>
+      </section>
+
+      <section data-bolum="kaynak" data-visibility="uncounted" class="vurgu">
+        <p class="buyuk">Ek: Kaynaklar</p>
+        <p class="kucuk">Her bölümün kaynakları ve ayrıntılı anlatıcı notları</p>
+        <aside class="notes">Sunum bir önceki slaytta bitiyor. Bu ek, soru gelirse diye.</aside>
+      </section>
+
+      <section data-bolum="kaynak" data-visibility="uncounted">
+        <span class="etiket">Ek · Kaynaklar</span>
+        <h3>Bölüm 1: Açılış: İnsan mı, yapay zekâ mı?</h3>
+        <ul class="kaynaklar">
+          <li><a href="https://www.theregister.com/2022/02/21/ai_created_faces_fool_humans/">Yapay yüzler ve güven (PNAS 2022 özeti)</a> — The Register, Şubat 2022</li>
+          <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11564748">Yapay zekâ şiiri araştırması</a> — Scientific Reports, Kasım 2024</li>
+          <li><a href="https://arxiv.org/abs/2503.23674v1">Büyük dil modelleri Turing testini geçiyor</a> — arXiv, Mart 2025</li>
+          <li><a href="https://reporter.anu.edu.au/all-stories/humans-trained-to-spot-ai-faces-in-the-battle-against-deepfake-fraud">Yapay yüzleri ayırt etme eğitimi (PNAS 2026)</a> — ANU, Haziran 2026</li>
+          <li><a href="https://www.cumhuriyet.com.tr/bilim-teknoloji/yapay-zekayla-olusturulmus-bir-yuzu-ayirt-etmeyi-ogrenebilir-misiniz-2523866">Yapay yüzü ayırt etmeyi öğrenebilir misiniz?</a> — Cumhuriyet, Temmuz 2026</li>
+          <li><a href="https://tr.euronews.com/next/2026/04/02/uluslararasi-dogrulama-gunu-yapay-zeka-dezenformasyonu-ayirt-etme-yollari">Yapay zekâ dezenformasyonunu ayırt etme yolları</a> — Euronews Türkçe, Nisan 2026</li>
+        </ul>
+        <p class="kucuk">Ayrıntılı araştırma notu: <a href="../not.html?id=h1-01">anlatıcı notu</a> · Son güncelleme: 30 Ekim 2026</p>
+        <aside class="notes">Ek slayt: sunumda gösterilmez, soru gelirse aç.</aside>
+      </section>
+
+      <section data-bolum="kaynak" data-visibility="uncounted">
+        <span class="etiket">Ek · Kaynaklar</span>
+        <h3>Bölüm 2: Yapay zekâ nedir?</h3>
+        <ul class="kaynaklar">
+          <li><a href="https://bilgem.tubitak.gov.tr/wp-content/uploads/sites/8/TR-UlusalYZStratejisi2021-2025.pdf">Ulusal Yapay Zekâ Stratejisi 2021-2025</a> — 2021</li>
+          <li><a href="https://www.ibm.com/think/topics/artificial-intelligence?">What is artificial intelligence?</a> — IBM, Ekim 2026'da erişildi</li>
+          <li><a href="https://www.matheson.com/insights/eu-commission-publishes-guidelines-on-definition-of-an-ai-system/">AB'nin yapay zekâ sistemi tanımı kılavuzu</a> — Matheson, Şubat 2025</li>
+          <li><a href="https://the-decoder.com/most-ai-researchers-are-skeptical-about-language-models-achieving-agi/">Araştırmacıların AGI'ya bakışı (AAAI 2025)</a> — The Decoder, Mart 2025</li>
+          <li><a href="https://www.foxbusiness.com/technology/nvidia-ceo-jensen-huang-declares-agi-has-arrived-after-openai-unveils-gpt-6-astra">“AGI geldi” açıklaması</a> — Fox Business, Eylül 2026</li>
+          <li><a href="https://www.livescience.com/technology/artificial-intelligence/openai-claims-weve-entered-the-agi-era-has-gpt-6-astra-really-demonstrated-general-intelligence">GPT-6 Astra gerçekten genel zekâ mı?</a> — Live Science, Ekim 2026</li>
+          <li><a href="https://deepmind.google/discover/blog/traffic-prediction-with-advanced-graph-neural-networks/">Google Maps'te varış süresi tahmini</a> — DeepMind, 2020</li>
+        </ul>
+        <p class="kucuk">Ayrıntılı araştırma notu: <a href="../not.html?id=h1-02">anlatıcı notu</a> · Son güncelleme: 30 Ekim 2026</p>
+        <aside class="notes">Ek slayt: sunumda gösterilmez, soru gelirse aç.</aside>
+      </section>
+
+      <section data-bolum="kaynak" data-visibility="uncounted">
+        <span class="etiket">Ek · Kaynaklar</span>
+        <h3>Bölüm 3: Makineler nasıl öğrenir?</h3>
+        <ul class="kaynaklar">
+          <li><a href="https://research.google/blog/providing-gender-specific-translations-in-google-translate/">Google Çeviri'de cinsiyete özgü çeviriler</a> — Google Research, Aralık 2018</li>
+          <li><a href="https://www.euronews.com/2018/10/10/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women">Amazon'un işe alım aracı</a> — Reuters / Euronews, Ekim 2018</li>
+          <li><a href="https://proceedings.mlr.press/v81/buolamwini18a.html">Gender Shades</a> — PMLR, 2018</li>
+          <li><a href="https://deepmind.google/discover/blog/alphago-zero-starting-from-scratch/">AlphaGo Zero</a> — DeepMind, Ekim 2017</li>
+          <li><a href="https://aws.amazon.com/tr/what-is/neural-network/">Sinir ağı nedir? (Türkçe)</a> — AWS</li>
+          <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8774502">Cilt kanseri modelinde kestirme öğrenme</a> — Diagnostics, 2021</li>
+          <li><a href="https://developers.google.com/machine-learning/intro-to-ml/what-is-ml?hl=tr">Makine Öğrenimi nedir? (Türkçe)</a> — Google for Developers</li>
+          <li><a href="https://www.washington.edu/news/2025/11/10/people-mirror-ai-systems-hiring-biases-study-finds/">İnsanlar yapay zekânın önyargısını taklit ediyor</a> — Washington Üniversitesi, Kasım 2025</li>
+          <li><a href="https://euperspectives.eu/2026/09/im-alone-with-insert-your-nationality/">“… biriyle yalnızım” testi ve Google'ın ayarı</a> — EU Perspectives, Eylül 2026</li>
+        </ul>
+        <p class="kucuk">Ayrıntılı araştırma notu: <a href="../not.html?id=h1-03">anlatıcı notu</a> · Son güncelleme: 30 Ekim 2026</p>
+        <aside class="notes">Ek slayt: sunumda gösterilmez, soru gelirse aç.</aside>
+      </section>
+
+      <section data-bolum="kaynak" data-visibility="uncounted">
+        <span class="etiket">Ek · Kaynaklar</span>
+        <h3>Bölüm 4: Uygulama: Kendi yapay zekânı eğit</h3>
+        <ul class="kaynaklar">
+          <li><a href="https://blog.google/technology/ai/teachable-machine">Teachable Machine 2.0</a> — Google, Kasım 2019</li>
+          <li><a href="https://workshops.hackclub.com/teachable_machine/">Teachable Machine atölye rehberi</a> — Hack Club</li>
+          <li><a href="https://codelabs.developers.google.com/codelabs/tensorflowjs-teachablemachine-codelab">Aktarım öğrenmesiyle Teachable Machine</a> — Google Codelabs</li>
+          <li><a href="https://support.google.com/chrome/answer/2693767?hl=en&amp;co=GENIE.Platform%3DDesktop">Chrome'da kamera izni</a> — Google Chrome Yardım</li>
+          <li><a href="https://quickdraw.withgoogle.com/">Quick, Draw!</a> — Google</li>
+          <li><a href="https://www.digitaltechnologieshub.edu.au/teachers/lesson-ideas/ai-lesson-plans/ai-image-recognition-exploring-limitations-and-bias">Görüntü tanıma ve önyargı etkinliği</a> — Digital Technologies Hub</li>
+          <li><a href="https://qz.com/994486/the-way-you-draw-circles-says-a-lot-about-you/">Daireyi nasıl çiziyoruz?</a> — Quartz, 2017</li>
+          <li><a href="https://pcworld.com/article/3257845/ever-wanted-to-train-your-own-ai-this-free-google-tool-lets-you-do-just-that.html">Ücretsiz Teachable Machine</a> — PCWorld, Ekim 2026</li>
+        </ul>
+        <p class="kucuk">Ayrıntılı araştırma notu: <a href="../not.html?id=h1-04">anlatıcı notu</a> · Son güncelleme: 30 Ekim 2026</p>
+        <aside class="notes">Ek slayt: sunumda gösterilmez, soru gelirse aç.</aside>
+      </section>
+
+      <section data-bolum="kaynak" data-visibility="uncounted">
+        <span class="etiket">Ek · Kaynaklar</span>
+        <h3>Bölüm 5: 75 yılda yapay zekâ</h3>
+        <ul class="kaynaklar">
+          <li><a href="https://cs.mcgill.ca/~dprecup/courses/AI/Materials/turing1950.pdf">Computing Machinery and Intelligence</a> — Turing, 1950</li>
+          <li><a href="https://datacamp.com/blog/ai-winter">Yapay zekâ kışları</a> — DataCamp</li>
+          <li><a href="https://britgo.org/node/5458">Lee Sedol – AlphaGo maç raporu</a> — İngiliz Go Derneği, 2016</li>
+          <li><a href="https://arxiv.org/abs/2503.23674">Large Language Models Pass the Turing Test</a> — Jones ve Bergen, Mart 2025</li>
+          <li><a href="https://aihub.org/2024/10/10/nobel-prizes-in-physics-and-chemistry-awarded-for-machine-learning-research">2024 Nobel ödülleri ve makine öğrenmesi</a> — AIhub, Ekim 2024</li>
+          <li><a href="https://blog.google/intl/es-es/productos/tecnologia/de-los-juegos-a-la-biologia-y-mas-alla-10-anos-del-impacto-de-alphago/">AlphaGo'nun 10 yılı</a> — Google, Mart 2026</li>
+          <li><a href="https://www.tbb.gov.tr/tr/mevzuat-duyurulari/turkiye-yapay-zeka-eylem-plani-2026-2030-ile-ilgili-20269-sayili-cumhurbaskanligi-genelgesi">Yapay Zekâ Eylem Planı 2026-2030 genelgesi</a> — Ağustos 2026</li>
+          <li><a href="https://www.haberler.com/ekonomi/tubitak-bilge-dil-modeli-henuz-genel-kullanima-acilmadi-19946186-haberi/">TÜBİTAK'ın BİLGE açıklaması</a> — Haziran 2026</li>
+        </ul>
+        <p class="kucuk">Ayrıntılı araştırma notu: <a href="../not.html?id=h1-05">anlatıcı notu</a> · Son güncelleme: 30 Ekim 2026</p>
+        <aside class="notes">Ek slayt: sunumda gösterilmez, soru gelirse aç.</aside>
+      </section>
+
+      <section data-bolum="kaynak" data-visibility="uncounted">
+        <span class="etiket">Ek · Kaynaklar</span>
+        <h3>Bölüm 6: Bugün yapay zekâ nerede?</h3>
+        <ul class="kaynaklar">
+          <li><a href="https://www.dha.com.tr/saglik-yasam/bakanlik-2-milyondan-fazla-mamografi-goruntusu-dijital-ortamda-analiz-edildi-2849134">2 milyondan fazla mamografi görüntüsü analiz edildi</a> — DHA, Nisan 2026</li>
+          <li><a href="https://www.turkiyegazetesi.com.tr/saglik/ketemlerde-yapay-zeka-destegi-1815409">KETEM'lerde yapay zekâ desteği</a> — Türkiye Gazetesi, Eylül 2026</li>
+          <li><a href="https://www.meb.gov.tr/mebi-2025-2026-egitim-ogretim-yilinda-6-milyona-yakin-kullaniciya-ulasti/haber/41439/tr">MEBİ 6 milyona yakın kullanıcıya ulaştı</a> — MEB, Temmuz 2026</li>
+          <li><a href="https://tr.euronews.com/next/2026/09/07/dijital-tarim-yapay-zeka-tarimi-donusturen-5-yontem">Yapay zekâ tarımı dönüştüren 5 yöntem</a> — Euronews Türkçe, Eylül 2026</li>
+          <li><a href="https://www.aa.com.tr/tr/bilim-teknoloji/yapay-zeka-okuryazarlik-seviyesi-e-devlet-uzerinden-olculecek/4039890">Yapay zekâ okuryazarlığı e-Devlet üzerinden ölçülecek</a> — AA, Ağustos 2026</li>
+          <li><a href="https://bloomberght.com/turkiye-de-yapay-zeka-kullanimi-yaklasik-iki-kat-artti-3790100">Türkiye'de yapay zekâ kullanımı yaklaşık iki kat arttı</a> — Bloomberg HT, Ekim 2026</li>
+          <li><a href="https://www.haberturk.com/yapay-zeka-dolandiriciligi-azaltti-3838078-ekonomi">Yapay zekâ dolandırıcılığı azalttı</a> — Habertürk, Kasım 2025</li>
+        </ul>
+        <p class="kucuk">Ayrıntılı araştırma notu: <a href="../not.html?id=h1-06">anlatıcı notu</a> · Katılımcı el notu: <a href="https://github.com/huseyinbuyukdere/yapay-zeka-atolyesi/blob/main/notlar/hafta-1-el-notu.md">1. Hafta el notu</a> · Son güncelleme: 31 Ekim 2026</p>
+        <aside class="notes">Ek slayt: sunumda gösterilmez, soru gelirse aç.</aside>
+      </section>
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/notes/notes.js"></script>
+  <script>
+    var BASLIK = {'1': 'Açılış: İnsan mı, yapay zekâ mı?', '2': 'Yapay zekâ nedir?', '3': 'Makineler nasıl öğrenir?', '4': 'Uygulama: Kendi yapay zekânı eğit', '5': '75 yılda yapay zekâ', '6': 'Bugün yapay zekâ nerede?', '0': 'Yapay zekâya merhaba', 'mola': 'Mola', 'kaynak': 'Kaynaklar'};
+    Reveal.initialize({
+      hash: true, slideNumber: 'c/t', progress: true, center: true, transition: 'slide',
+      width: 1280, height: 720, margin: 0.06, plugins: [RevealNotes]
+    });
+    function altbilgi(e) {
+      var b = e.currentSlide && e.currentSlide.getAttribute('data-bolum');
+      var t = BASLIK[b] || '';
+      var n = /^[1-6]$/.test(b) ? 'Bölüm ' + b + ' · ' : '';
+      document.getElementById('altbilgi').textContent = 'Yapay Zekâ Atölyesi · 1. Hafta' + (t ? ' · ' + n + t : '');
+    }
+    Reveal.on('ready', altbilgi);
+    Reveal.on('slidechanged', altbilgi);
+  </script>
+</body>
+</html>
