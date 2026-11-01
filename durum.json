@@ -197,12 +197,12 @@
         "Derin araştırma (Deep Research) özellikleri: hangi asistanda nasıl, ne zaman kullanılır",
         "Örnek belge önerileri (kişisel veri içermeyen, telif sorunu olmayan)"
       ],
-      "durum": "cilalandi",
+      "durum": "uretiliyor",
       "surum": 3,
       "son_guncelleme": "2026-10-31T01:18:05Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Aşama 3 (cila): 12 arama, 13 kaynak okundu. 'Belge elimde mi? Konu geniş mi?' karar ağacı SVG'si (2. SVG), kapak vaadi ve vaadi kapatan kapanış ('Satırını gösteremeyen cevap, henüz cevap değildir'), 'Telefonda ses' kartı (Eylül 2026 ses kaydedici ve sesli sohbet; 27 Ekim geniş açılış, 1 saat), @Gemini Notebook'un Türkiye'de varsayılan açık olduğu (23 Ekim duyurusu), Ultra katsayıları, Perplexity satırı güncellendi; 3 yeni SSS. Türkçe ses kaydının metne dökülmesi doğrulanamadı; Claude fiyat sayfası bu turda açılamadı (bağımsız kaynakla teyit)."
+      "sahip": "20261101T0309Z",
+      "sahip_zamani": "2026-11-01T03:09:09Z",
+      "not": "Önceki durum: cilalandi. Aşama 3 (cila): 12 arama, 13 kaynak okundu. 'Belge elimde mi? Konu geniş mi?' karar ağacı SVG'si (2. SVG), kapak vaadi ve vaadi kapatan kapanış ('Satırını gösteremeyen cevap, henüz cevap değildir'), 'Telefonda ses' kartı (Eylül 2026 ses kaydedici ve sesli sohbet; 27 Ekim geniş açılış, 1 saat), @Gemini Notebook'un Türkiye'de varsayılan açık olduğu (23 Ekim duyurusu), Ultra katsayıları, Perplexity satırı güncellendi; 3 yeni SSS. Türkçe ses kaydının metne dökülmesi doğrulanamadı; Claude fiyat sayfası bu turda açılamadı (bağımsız kaynakla teyit)."
     },
     {
       "id": "h2-05",
