@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-10-31T23:22:10Z",
-  "calisma_sayisi": 70,
+  "son_calisma": "2026-11-01T00:30:59Z",
+  "calisma_sayisi": 71,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -311,12 +311,12 @@
         "Gerçek kişileri ve markaları taklit etmemek; deepfake; etiketleme",
         "Haftalık görev: 'Kendi vitrinin' ve final projesi için fikir"
       ],
-      "durum": "uretiliyor",
-      "surum": 3,
-      "son_guncelleme": "2026-10-31T07:18:26Z",
-      "sahip": "20261101T0010Z",
-      "sahip_zamani": "2026-11-01T00:10:52Z",
-      "not": "ESKİ DURUM: cilalandi — Aşama 4 ekstra 5 (aşama 2 yeniden) sürüyor. Önceki not: Aşama 3 cila: 'üç kapı' SVG kapanışı, kapak vaadi, Suno Eylül 2026 koşulları (ücretli aboneye hak devri) düzeltmesi, ElevenLabs atıf kuralı, TR deepfake teklifi 2/3358, 3 yeni SSS, süre 5:00'a ayarlandı."
+      "durum": "cilalandi",
+      "surum": 4,
+      "son_guncelleme": "2026-11-01T00:30:59Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 4 ekstra 5 (en kısa notlu h2-4 konusu, aşama 2 yeniden): 14 arama, 15 sayfa okundu. Getty temyiz durumu (duruşma tarihi yok, 2027 tahmini), AB Omnibus Tüzük 2026/1744, TR Yapay Zekâ Eylem Planı (genelge 2026/9), Suno indirme sınırları ve koşul teyidi, Midjourney 1 milyon $ eşiği, Kling ücretsiz kısıtları, 4 yeni SSS, 7 yeni kaynak."
     },
     {
       "id": "h4-01",
@@ -415,10 +415,6 @@
     }
   ],
   "gunluk": [
-    {
-      "zaman": "2026-10-29T16:59:47Z",
-      "ozet": "h3-05: Telif, etiket ve etik taslağı yayımlandı (13 arama, 10 kaynak okundu)."
-    },
     {
       "zaman": "2026-10-29T17:04:34Z",
       "ozet": "h4-01: Ajanlar taslağı yayımlandı (12 arama, 8 kaynak okundu)."
@@ -654,6 +650,10 @@
     {
       "zaman": "2026-10-31T23:22:10Z",
       "ozet": "h4-02: Aşama 4 ekstra 5 ile yeniden gözden geçirildi (13 arama, 12 kaynak); Gemini 'Özelleştir › Beceriler' Türkçe menüsü, becerilerin sınırları, Opal kapanışı, ESET Türkiye uyarısı ve 5 yeni SSS eklendi."
+    },
+    {
+      "zaman": "2026-11-01T00:30:59Z",
+      "ozet": "h3-05: Aşama 4 ekstra 5 ile yeniden gözden geçirildi (14 arama, 15 sayfa); Getty temyizi, AB Omnibus tüzüğü, TR Eylem Planı, Suno/Midjourney/Kling koşulları güncellendi, 4 yeni SSS ve 7 yeni kaynak eklendi; Allen davasında karar bulunamadı."
     }
   ]
 }
