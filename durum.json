@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-11-01T01:22:24Z",
-  "calisma_sayisi": 72,
+  "son_calisma": "2026-11-01T02:12:29Z",
+  "calisma_sayisi": 73,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -292,12 +292,12 @@
         "Çıktı listesi: slogan ve tanıtım metni, afiş, 30 sn jingle, 5-8 sn video, 3 slaytlık sunum (Gamma veya Canva)",
         "Sunum ve salon oylaması için değerlendirme ölçütleri; sunucu için sorun giderme ipuçları"
       ],
-      "durum": "uretiliyor",
-      "surum": 4,
-      "son_guncelleme": "2026-10-31T18:19:26Z",
-      "sahip": "20261101T0209Z",
-      "sahip_zamani": "2026-11-01T02:09:02Z",
-      "not": "[önceki durum: cilalandi] Aşama 3 cila: 'Tek mesaj, beş çıktı' pusula SVG slaytı (2. SVG), kapak vaadi, Canva Free kotası 20 toplam kullanıma düzeltildi, Suno indirme kısıtı ve bağlantıdan çalma B planı, YouTube Create'in Türkiye'de sunulduğu teyidi, 2 yeni SSS."
+      "durum": "cilalandi",
+      "surum": 5,
+      "son_guncelleme": "2026-11-01T02:12:29Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 4 ekstra 5 (en kısa notlu ve en az kaynaklı konu, aşama 2 yeniden): 14 arama, 13 sayfa okundu. Suno indirme kuralı resmî duyuruyla düzeltildi (ücretsiz planda ömür boyu 7 deneme indirmesi, kişisel kullanım; 'yeni hesapta hiç indirme yok' iddiası doğrulanamadı); Adobe Express ücretsiz yedeği (5 sn video için ömür boyu 2, sunum için 5 hak) eklendi; Gamma ve Canva kotaları 1 Kasım'da yeniden teyit; Doshi & Hauser 2024 benzeşme bulgusu 4. benzetme ve 'ilk öneriyi değil ekipçe seçileni' kuralı olarak slayt 7'ye, P&G 'Cybernetic Teammate' deneyi nota ve kapanış notuna eklendi; Yarının Köyleri Eylül güncellemesi, YouTube Gemini düzenleme yardımcısı; 4 yeni SSS, 7 yeni kaynak (toplam 32). Gemini Canvas sunumunun ücretsiz TR hesaplarda açık olduğu, Adobe Express TR koşulları doğrulanamadı; Meta yardım sayfası açılamadı."
     },
     {
       "id": "h3-05",
@@ -415,10 +415,6 @@
     }
   ],
   "gunluk": [
-    {
-      "zaman": "2026-10-29T17:29:05Z",
-      "ozet": "h4-02: Kendi asistanını kur / kodsuz uygulama taslağı yayımlandı (16 arama, 11 kaynak okundu)."
-    },
     {
       "zaman": "2026-10-29T17:34:21Z",
       "ozet": "h4-03: Meslek istasyonları taslağı yayımlandı (13 arama, 12 kaynak okundu)."
@@ -654,6 +650,10 @@
     {
       "zaman": "2026-11-01T01:22:24Z",
       "ozet": "h3-03: Aşama 4 ekstra 5 ile yeniden gözden geçirildi (12 arama, 11 kaynak); Lyria 3.5, Runway Aleph 2.0, Eleven v4, Suno v6 lisansları, 3 saniyelik ses klonlama uyarısı ve 4 yeni SSS eklendi."
+    },
+    {
+      "zaman": "2026-11-01T02:12:29Z",
+      "ozet": "h3-04: Aşama 4 ekstra 5 ile yeniden gözden geçirildi (14 arama, 13 sayfa); Suno 7 indirme kuralı resmî kaynakla düzeltildi, Adobe Express yedeği, fikir benzeşmesi kuralı ve P&G ekip deneyi, 4 yeni SSS, 7 yeni kaynak."
     }
   ]
 }
