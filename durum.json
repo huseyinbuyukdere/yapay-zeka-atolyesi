@@ -368,12 +368,12 @@
         "Her meslek için 'yapay zekâya bırakılmayacaklar' satırı",
         "Mesleklere göre güncel ve kaynaklı kullanım örnekleri (Türkiye'den örnekler öncelikli)"
       ],
-      "durum": "cilalandi",
+      "durum": "uretiliyor",
       "surum": 3,
       "son_guncelleme": "2026-10-31T10:17:39Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Aşama 3 (cila): kapak vaadi ve kapanış, 13 dk zaman şeridi SVG'si (4. SVG), slayt 6 notu süreye göre kısaltıldı; Ege Üniv. tez yapay zekâ beyanı (RG 18.10.2026), UYAP AI karar destek, TÜRMOB etik webinarı, Gemini/ChatGPT ücretsiz sürüm koşulları; 3 yeni SSS; TÜİK rakamları yeniden teyit edildi."
+      "sahip": "20261101T0509Z",
+      "sahip_zamani": "2026-11-01T05:09:31Z",
+      "not": "ÖNCEKİ DURUM: cilalandi (aşama 4 ekstra 5 sürüyor). Aşama 3 (cila): kapak vaadi ve kapanış, 13 dk zaman şeridi SVG'si (4. SVG), slayt 6 notu süreye göre kısaltıldı; Ege Üniv. tez yapay zekâ beyanı (RG 18.10.2026), UYAP AI karar destek, TÜRMOB etik webinarı, Gemini/ChatGPT ücretsiz sürüm koşulları; 3 yeni SSS; TÜİK rakamları yeniden teyit edildi."
     },
     {
       "id": "h4-04",
