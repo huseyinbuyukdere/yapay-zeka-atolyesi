@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-11-01T00:30:59Z",
-  "calisma_sayisi": 71,
+  "son_calisma": "2026-11-01T01:22:24Z",
+  "calisma_sayisi": 72,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -273,12 +273,12 @@
         "Video: Kling, Runway, Google Veo, Hailuo, Pika — ücretsiz kotalar ve hangi iş için hangisi (Ekim 2026, doğrulanmış)",
         "Kısa video talimatı yazma formülü (sahne, hareket, kamera, süre)"
       ],
-      "durum": "uretiliyor",
-      "surum": 4,
-      "son_guncelleme": "2026-10-31T18:19:26Z",
-      "sahip": "20261101T0109Z",
-      "sahip_zamani": "2026-11-01T01:09:12Z",
-      "not": "ESKİ DURUM: cilalandi — aşama 4 ekstra 5 (yeniden gözden geçirme) sürüyor. Önceki not: Aşama 3: 12 arama, 12 kaynak okundu. 'Dur · Kapat · Sen ara' telefon kalkanı SVG slaytı eklendi (14 slayt); Suno'nun 3 Eylül 2026 ücretsiz indirme kısıtı, Gemini'de videonun abonelik istediği (yaz kampanyası bitti), Kling 4.0'ın önce üst abonelere açıldığı, Runway ücretsiz Gen-4 Turbo/filigran bilgisi, RTÜK kamu spotu eklendi; 3 yeni SSS. Ücretsiz Kling hesaplarının 4.0 erişimi, Runway Standard fiyatı ve Lyria 3 ticari koşulları doğrulanamadı."
+      "durum": "cilalandi",
+      "surum": 5,
+      "son_guncelleme": "2026-11-01T01:22:24Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 4 ekstra 5 (en kısa notlu konu, aşama 2 yeniden): 12 arama, 11 kaynak okundu. Gemini müziği Lyria 3.5'e (4 Eylül 2026, tüm kullanıcılar) güncellendi; Runway Aleph 2.0, Eleven v4, Suno v6 lisans bilgisi, Hailuo 4-15 sn düzeltmesi; Sözcü/TRT Haber'den '3 saniyelik kayıt yeter' ve INTERPOL verisi; 'Runway, Veo' → 'Runway, Gemini Omni' tutarlılık düzeltmesi; 4 yeni SSS. Doğrulanamayan: Lyria 3.5 süre/limit/ticari koşul/Türkçe desteği; Kling resmî 4.0 sayfası ve Google yardım sayfası bu turda açılamadı."
     },
     {
       "id": "h3-04",
@@ -415,10 +415,6 @@
     }
   ],
   "gunluk": [
-    {
-      "zaman": "2026-10-29T17:04:34Z",
-      "ozet": "h4-01: Ajanlar taslağı yayımlandı (12 arama, 8 kaynak okundu)."
-    },
     {
       "zaman": "2026-10-29T17:29:05Z",
       "ozet": "h4-02: Kendi asistanını kur / kodsuz uygulama taslağı yayımlandı (16 arama, 11 kaynak okundu)."
@@ -654,6 +650,10 @@
     {
       "zaman": "2026-11-01T00:30:59Z",
       "ozet": "h3-05: Aşama 4 ekstra 5 ile yeniden gözden geçirildi (14 arama, 15 sayfa); Getty temyizi, AB Omnibus tüzüğü, TR Eylem Planı, Suno/Midjourney/Kling koşulları güncellendi, 4 yeni SSS ve 7 yeni kaynak eklendi; Allen davasında karar bulunamadı."
+    },
+    {
+      "zaman": "2026-11-01T01:22:24Z",
+      "ozet": "h3-03: Aşama 4 ekstra 5 ile yeniden gözden geçirildi (12 arama, 11 kaynak); Lyria 3.5, Runway Aleph 2.0, Eleven v4, Suno v6 lisansları, 3 saniyelik ses klonlama uyarısı ve 4 yeni SSS eklendi."
     }
   ]
 }
