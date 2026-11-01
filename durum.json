@@ -140,12 +140,12 @@
         "Bilgi kesim tarihi, web araması, 'düşünerek cevap veren' (akıl yürüten) modeller",
         "Ekim 2026 itibarıyla güncel asistanlar ve model aileleri (doğrulanmış)"
       ],
-      "durum": "cilalandi",
+      "durum": "uretiliyor",
       "surum": 4,
       "son_guncelleme": "2026-10-31T17:12:11Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Aşama 3 (cila): iki yeni SVG (yetişme akışı, hızlı/düşünen mod yolları; toplam 4), GPT-6 Ekim sürümü OpenAI birincil kaynakla teyit, GPT-6.1 Sol/Terra ve Gemini AI Plus notu, uzun sohbet araştırması, 2 yeni SSS, 6 yeni kaynak."
+      "sahip": "20261101T0820Z",
+      "sahip_zamani": "2026-11-01T08:20:14Z",
+      "not": "ÖNCEKİ DURUM: cilalandi. Aşama 3 (cila): iki yeni SVG (yetişme akışı, hızlı/düşünen mod yolları; toplam 4), GPT-6 Ekim sürümü OpenAI birincil kaynakla teyit, GPT-6.1 Sol/Terra ve Gemini AI Plus notu, uzun sohbet araştırması, 2 yeni SSS, 6 yeni kaynak."
     },
     {
       "id": "h2-02",
