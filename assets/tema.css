@@ -34,6 +34,21 @@
 }
 
 .reveal-viewport { background: var(--kagit); }
+
+/* reveal.js çekirdeği tema değişkenlerini kendisi uygulamıyor; burada uygulanır */
+.reveal { font-family: var(--r-main-font); font-size: var(--r-main-font-size); font-weight: normal; }
+.reveal h1, .reveal h2, .reveal h3 {
+  font-family: var(--r-heading-font); font-weight: var(--r-heading-font-weight); color: var(--r-heading-color);
+  text-transform: var(--r-heading-text-transform); letter-spacing: var(--r-heading-letter-spacing); margin-top: 0;
+}
+.reveal h1 { font-size: var(--r-heading1-size); }
+.reveal h2 { font-size: var(--r-heading2-size); }
+.reveal h3 { font-size: var(--r-heading3-size); }
+.reveal p { margin: .5em 0; }
+.reveal ul, .reveal ol, .reveal table { margin-top: .4em; margin-bottom: .4em; }
+.reveal a { color: var(--r-link-color); text-decoration: none; }
+.reveal a:hover { color: var(--r-link-color-hover); }
+.reveal ::selection { background: var(--r-selection-background-color); }
 .reveal { color: var(--murekkep); }
 .reveal .slides { text-align: left; }
 .reveal .slides section { padding: 0 8px; }
