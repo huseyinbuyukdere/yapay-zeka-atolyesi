@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-11-01T06:21:33Z",
-  "calisma_sayisi": 77,
+  "son_calisma": "2026-11-01T07:12:28Z",
+  "calisma_sayisi": 78,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -387,12 +387,12 @@
         "AB Yapay Zekâ Yasası: 2 Ağustos 2026 şeffaflık kuralları, Dijital Omnibus ile ertelenen yüksek risk kuralları",
         "Türkiye: Yapay Zekâ Eylem Planı 2026-2030, TBMM'deki kanun teklifinin güncel durumu, KVKK — hukuki tavsiye vermeden"
       ],
-      "durum": "uretiliyor",
-      "surum": 3,
-      "son_guncelleme": "2026-10-31T11:32:43Z",
-      "sahip": "20261101T0709Z",
-      "sahip_zamani": "2026-11-01T07:09:25Z",
-      "not": "ONCEKI_DURUM=cilalandi | Aşama 3 (31.10.2026): AB zaman çizgisi SVG'si 'Bugün' işaretiyle (3. SVG), kapak vaadi (aile parolası), TBMM 2/3358 'Komisyonda' 31 Ekim'de yeniden teyit, Madde 50 ayrıntıları (bot bildirimi istisnası, geriye dönük filigran yok, AB etiket simgeleri), Queen Mary deneyinde <5 dk örnek ve %41 sentetik ses, Ticaret Bakanlığı sahte yatırım uyarısı, 'alo yeter mi' iddiası doğrulanamadı notu, 3 yeni SSS."
+      "durum": "cilalandi",
+      "surum": 4,
+      "son_guncelleme": "2026-11-01T07:12:28Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 4 ekstra 5 (01.11.2026): TBMM 2/3358 1 Kasım'da yine 'Komisyonda'; Heiding ve ark. 2026 (4.100 kişi, %36'ya varan uyma, ikna > ses gerçekçiliği), İtalya'da avukat sesiyle ~95 milyon avro banka vakası, Osmaniye merkezli 9 il operasyonu (Mayıs 2026), AB Uygulama Kılavuzu ~190 imzacı ve yeterlilik onayı, 2 Ağustos 2026 yaptırım yetkileri, 2027 deneme alanı tarihi, Ulusal Yapay Zekâ Kurulu ve Etik Kurulu, 4 yeni SSS, 7 yeni kaynak."
     },
     {
       "id": "h4-05",
@@ -415,10 +415,6 @@
     }
   ],
   "gunluk": [
-    {
-      "zaman": "2026-10-29T20:36:54Z",
-      "ozet": "h1-02: Gözden geçirildi (6 arama, 7 kaynak okundu); AGI tartışması tarihleri ve ARC Prize skor farkı eklendi, 4 yeni SSS."
-    },
     {
       "zaman": "2026-10-29T21:18:33Z",
       "ozet": "h1-03: Gözden geçirildi (13 arama, 9 kaynak okundu); husky deneyi 'bilerek kurulmuş tuzak' olarak düzeltildi, 2026 önyargı örneği ve 4 yeni SSS eklendi."
@@ -654,6 +650,10 @@
     {
       "zaman": "2026-11-01T06:21:33Z",
       "ozet": "h4-05: Aşama 4 ekstra 5 ile yeniden gözden geçirildi (15 arama, 9 sayfa okundu); YÖK rekor başvuru verisi ve tahmin sorusu, BTK Akademi güz yüz yüze eğitimleri (30 yaş altı) ve yeni dersler, Google öğrenci teklifinde ödeme yöntemi teyidi, kamu çalışanı eğitimi planı, Johns Hopkins fare çalışması, 4 yeni SSS, 6 yeni kaynak."
+    },
+    {
+      "zaman": "2026-11-01T07:12:28Z",
+      "ozet": "h4-04: Aşama 4 ekstra 5 ile yeniden gözden geçirildi (12 arama, 8 sayfa okundu); TBMM teklifi 1 Kasım'da yine 'Komisyonda', 2026 sesli dolandırıcılık deneyi (ikna > ses), İtalya banka vakası, Osmaniye 9 il operasyonu, AB kılavuzu 190 imzacı, Ulusal Yapay Zekâ Kurulu, 4 yeni SSS, 7 yeni kaynak."
     }
   ]
 }
