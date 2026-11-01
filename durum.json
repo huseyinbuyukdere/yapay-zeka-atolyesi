@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-11-01T05:17:38Z",
-  "calisma_sayisi": 76,
+  "son_calisma": "2026-11-01T06:21:33Z",
+  "calisma_sayisi": 77,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -406,19 +406,15 @@
         "Öğrenmeye devam: YÖK Dijital Üniversite, BTK Akademi, Elements of AI ve diğer ücretsiz Türkçe kaynaklar (güncel, doğrulanmış)",
         "'30 gün, 1 alışkanlık' görevi ve bir ay sonraki buluşma önerisi"
       ],
-      "durum": "uretiliyor",
-      "surum": 3,
-      "son_guncelleme": "2026-10-31T11:19:13Z",
-      "sahip": "20261101T0609Z",
-      "sahip_zamani": "2026-11-01T06:09:37Z",
-      "not": "Önceki durum: cilalandi (aşama 4 ekstra 5 yeniden gözden geçirme). Aşama 3 (31.10.2026): 'kime hangisi' kaynak haritası SVG'si (3. SVG), kapak vaadi, YÖK resmî duyurusuyla Dijital Üniversite takvimi (3 Kas 2026–4 Haz 2027, 42–72 saat, geçen yıl 135 bin başvuru/30 bin katılımcı, sonuç e-postayla), Singh vd. 2024 ortanca/ortalama ayrımı, AI Plus öğrenci fiyatı 199,99 TL teyidi, okuryazarlık programında önce eğitici yetiştirme, benzetme numaralandırması düzeltildi, 3 yeni SSS."
+      "durum": "cilalandi",
+      "surum": 4,
+      "son_guncelleme": "2026-11-01T06:21:33Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 4 ekstra 5 (01.11.2026): YÖK 28 Ekim verisi (233.229 başvuru, %72 artış, Yapay Zeka Okulu 138.739) ve tahmin fragment'ı, BTK Akademi Ağustos'ta eklenen 8 ders ve 28 ilde 30 yaş altına yönelik yüz yüze güz eğitimleri, Google sayfasında ödeme yöntemi şartı teyidi, kamu çalışanlarına planlanan zorunlu eğitim, Johns Hopkins fare çalışması (ani alışkanlık geçişi) uyarısı, 4 yeni SSS, 6 yeni kaynak."
     }
   ],
   "gunluk": [
-    {
-      "zaman": "2026-10-29T20:29:05Z",
-      "ozet": "h4-04: Kırmızı çizgi oyunu taslağı yayımlandı (15 arama, 15 kaynak okundu)."
-    },
     {
       "zaman": "2026-10-29T20:36:54Z",
       "ozet": "h1-02: Gözden geçirildi (6 arama, 7 kaynak okundu); AGI tartışması tarihleri ve ARC Prize skor farkı eklendi, 4 yeni SSS."
@@ -654,6 +650,10 @@
     {
       "zaman": "2026-11-01T05:17:38Z",
       "ozet": "h4-03: Aşama 4 ekstra 5 ile yeniden gözden geçirildi (12 arama, 7 kaynak); sahte yorum yönetmeliği ve Reklam Kurulu yaptırımları, MEBİ, Gallup 2026 öğretmen yönlendirmesi, TMMOB görüşü, 4 yeni SSS, 6 yeni kaynak."
+    },
+    {
+      "zaman": "2026-11-01T06:21:33Z",
+      "ozet": "h4-05: Aşama 4 ekstra 5 ile yeniden gözden geçirildi (15 arama, 9 sayfa okundu); YÖK rekor başvuru verisi ve tahmin sorusu, BTK Akademi güz yüz yüze eğitimleri (30 yaş altı) ve yeni dersler, Google öğrenci teklifinde ödeme yöntemi teyidi, kamu çalışanı eğitimi planı, Johns Hopkins fare çalışması, 4 yeni SSS, 6 yeni kaynak."
     }
   ]
 }
