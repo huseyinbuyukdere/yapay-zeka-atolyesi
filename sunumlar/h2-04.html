@@ -153,7 +153,35 @@
         </aside>
       </section>
 
-      <!-- 8. BELGE ÖNERİLERİ -->
+      <!-- 8. TAHMİN: BELGEYE BAĞLI ARAÇ DA YANILIR MI? -->
+      <section>
+        <span class="etiket altin">Tahmin</span>
+        <h2>Belgeye bağlı araç da yanılır mı?</h2>
+        <svg role="img" aria-label="Çubuk grafik: 300 belgelik bir dosyada yapılan 2025 araştırmasında cevapların en az bir hata içeren cevap oranı iki genel sohbet asistanında yüzde 40, belgeye bağlı not defterinde (NotebookLM) yüzde 13." viewBox="0 0 1000 300" width="900" height="270">
+          <g class="fragment">
+            <text x="20" y="70" font-size="28" font-weight="700" fill="var(--murekkep)">💬 Genel sohbet A</text>
+            <rect x="330" y="40" width="520" height="44" rx="10" fill="var(--kiremit)"/>
+            <text x="865" y="72" font-size="28" font-weight="700" fill="var(--kiremit)">%40</text>
+            <text x="20" y="160" font-size="28" font-weight="700" fill="var(--murekkep)">💬 Genel sohbet B</text>
+            <rect x="330" y="130" width="520" height="44" rx="10" fill="var(--kiremit)"/>
+            <text x="865" y="162" font-size="28" font-weight="700" fill="var(--kiremit)">%40</text>
+          </g>
+          <g class="fragment">
+            <text x="20" y="250" font-size="28" font-weight="700" fill="var(--murekkep)">📓 Not defteri</text>
+            <rect x="330" y="220" width="169" height="44" rx="10" fill="var(--turkuaz)"/>
+            <text x="515" y="252" font-size="28" font-weight="700" fill="var(--turkuaz)">%13</text>
+          </g>
+        </svg>
+        <p class="fragment kucuk">Hata üçte bire iner, sıfırlanmaz. En sık hata: birinin <strong>görüşünü</strong> kesin bilgi gibi sunmak. <em>(2025 araştırması, 300 belge)</em></p>
+        <aside class="notes">
+          Ne söyle: Küçük bir tahmin. Aynı belge yığınını hem genel sohbet asistanlarına hem not defterine verseniz, cevapların kaçta kaçında en az bir hata çıkar? (İki-üç tahmin al.) 2025'te gazetecilik araştırmacıları 300 belgelik bir dosyayla tam bunu denedi. Genel sohbet asistanlarının cevaplarının yaklaşık yüzde 40'ında en az bir hata vardı. Not defterinde bu oran yüzde 13'e indi. Yani belgeye bağlı kalmak hatayı üçte bire indiriyor ama sıfırlamıyor. İlginç olan hatanın türü: Çoğu uydurma isim ya da sayı değildi. Belgede "bir uzmana göre" diye geçen bir görüş, cevapta kesin bilgi gibi sunuluyordu. Kütüphanecimiz doğru sayfayı buluyor ama bazen yorumu abartıyor. Dipnota tıklamamızın sebebi bu.
+          Süre: 1 dk.
+          Salona sor: "Sizce not defterinin cevaplarında ne sıklıkla hata çıktı?"
+          Dikkat: Çalışma 2025 sonbaharında, o dönemin sürümleriyle ve tek bir konu dosyasıyla yapıldı (Hagar, Agustianto, Diakopoulos; arXiv 2509.25498). Sonucu "not defteri hep yüzde 13 yanılır" diye genelleme; ders "daha az ama sıfır değil". Grafikte genel asistanların adını vermiyoruz; marka yarışına çevirme.
+        </aside>
+      </section>
+
+      <!-- 9. BELGE ÖNERİLERİ -->
       <section>
         <h2>Hangi belgeyle denemeli?</h2>
         <div class="iki-sutun">
@@ -167,7 +195,7 @@
         </aside>
       </section>
 
-      <!-- 9. DERİN ARAŞTIRMA -->
+      <!-- 10. DERİN ARAŞTIRMA -->
       <section>
         <h2>Belge yoksa: derin araştırma</h2>
         <ul class="zaman">
@@ -183,27 +211,27 @@
         </aside>
       </section>
 
-      <!-- 10. HANGİ ASİSTANDA -->
+      <!-- 11. HANGİ ASİSTANDA -->
       <section>
         <h3>Derin araştırma hangi asistanda? (Ekim 2026)</h3>
         <table>
           <thead><tr><th>Asistan</th><th>Durum</th></tr></thead>
           <tbody>
             <tr class="fragment"><td>✨ Gemini</td><td>Ücretsizde var, günlük sınırlı; 18 yaş üstü</td></tr>
-            <tr class="fragment"><td>💬 ChatGPT</td><td>Ücretsizde sınırlı; haftalık kota içinde</td></tr>
+            <tr class="fragment"><td>💬 ChatGPT</td><td>Ücretsizde sınırlı; kalan hak ekranda görünür</td></tr>
             <tr class="fragment"><td>🧡 Claude</td><td>“Research” yalnızca ücretli planlarda</td></tr>
             <tr class="fragment"><td>🔎 Perplexity</td><td>Ücretsizde sınırlı; daha fazlası ücretli</td></tr>
           </tbody>
         </table>
         <p class="kucuk fragment">Şirketler kesin sayı yayımlamıyor; kalan kullanımınızı ayarlardan görün.</p>
         <aside class="notes">
-          Ne söyle: Derin araştırma bugün büyük asistanların çoğunda var. Gemini'de ücretsiz kullanıcılar da rapor oluşturabiliyor, ama günlük bir sınır var; ücretli planlar daha fazlasını ve daha kaliteli bir seçeneği alıyor. Google bu özellik için 18 yaş şartı koşuyor. ChatGPT'de ücretsiz hesaplarda sınırlı ve haftalık kota içinde. Claude'da "Research" adıyla yalnızca ücretli planlarda. Perplexity zaten kaynaklı aramaya odaklı bir araç; ücretsiz planda derin araştırma sınırlı, daha fazlası ücretli. Şirketler kesin sayı yayımlamıyor; kalan kullanımınızı ayarlardan görebilirsiniz.
-          Süre: 1,5 dk.
-          Dikkat: Gemini ve Claude satırları 30-31 Ekim 2026'da şirketlerin resmî sayfalarından doğrulandı (Google yardım sayfası; Anthropic fiyat tablosu, bağımsız fiyat sitesiyle 31 Ekim'de teyit). Perplexity artık kesin günlük sayı yayımlamıyor (Eylül 2026). Gemini'de günlük kesin sayı yayımlanmıyor; "sınırlı" kelimesini koru. Rapor Google Dokümanlar'a aktarılabiliyor.
+          Ne söyle: Derin araştırma bugün büyük asistanların çoğunda var. Gemini'de ücretsiz kullanıcılar da rapor oluşturabiliyor, ama günlük bir sınır var; ücretli planlar daha fazlasını ve daha kaliteli bir seçeneği alıyor. Google bu özellik için 18 yaş şartı koşuyor. ChatGPT'de ücretsiz hesaplarda sınırlı; kaç hakkınız kaldığını ekranda görürsünüz. Claude'da "Research" adıyla yalnızca ücretli planlarda. Perplexity zaten kaynaklı aramaya odaklı bir araç; ücretsiz planda derin araştırma sınırlı, daha fazlası ücretli. Şirketler kesin sayı yayımlamıyor; kalan kullanımınızı ayarlardan görebilirsiniz.
+          Süre: 1 dk.
+          Dikkat: Gemini ve Claude satırları 30-31 Ekim 2026'da şirketlerin resmî sayfalarından doğrulandı (Google yardım sayfası; Anthropic fiyat tablosu, bağımsız fiyat sitesiyle 31 Ekim'de teyit). Perplexity artık kesin günlük sayı yayımlamıyor (Eylül 2026). ChatGPT için Eylül-Ekim 2026 tarihli bağımsız rehberler, OpenAI'nin yardım sayfasına dayanarak ücretsiz ve Go planında hakkın "sınırlı" olduğunu ve aylık hakkın takvim başında değil ilk kullanımdan 30 gün sonra yenilendiğini yazıyor; resmî sayfa bu çalışmada açılamadı, sayı verme. Gemini'de günlük kesin sayı yayımlanmıyor; "sınırlı" kelimesini koru. Rapor Google Dokümanlar'a aktarılabiliyor.
         </aside>
       </section>
 
-      <!-- 11. NE ZAMAN HANGİSİ -->
+      <!-- 12. NE ZAMAN HANGİSİ -->
       <section>
         <h2>Ne zaman hangisi?</h2>
         <svg role="img" aria-label="Karar ağacı: Belge elinizde mi? Evet ise not defteri (hızlı, dipnotlu). Hayır ise konu geniş mi? Evet ise derin araştırma (yavaş, kapsamlı); hayır ise normal sohbet yeter." viewBox="0 0 1100 420" width="1000" height="382">
@@ -245,7 +273,7 @@
         </aside>
       </section>
 
-      <!-- 12. OYUN -->
+      <!-- 13. OYUN -->
       <section>
         <span class="etiket altin">Oyun</span>
         <h2>Hangi araç?</h2>
@@ -254,13 +282,13 @@
         <p class="senaryo">3. Bu e-postayı daha kibar yaz. <span class="fragment">→ 💬 <strong>Normal sohbet yeter</strong></span></p>
         <aside class="notes">
           Ne söyle: Küçük bir oyun. Her senaryo için hangi aracı seçerdiniz? Not defteri, derin araştırma, yoksa normal sohbet mi? Bir: Apartman yönetim planında evcil hayvanla ilgili ne yazıyor? Belge elimizde, cevap ondan gelmeli: not defteri. İki: Kafe açmadan önce sektörde neler oluyor? Belge yok, konu geniş: derin araştırma. Üç: Bu e-postayı daha kibar yaz. Hiçbirine gerek yok; normal sohbet yeter. Her işe en büyük aracı kullanmak gerekmiyor; kotanızı da korursunuz.
-          Süre: 1,5 dk.
+          Süre: 1 dk.
           Salona sor: Her senaryo için el kaldırarak oylama.
           Dikkat: Derin araştırma raporu bir iş planı veya yatırım tavsiyesi değildir; başlangıç noktasıdır.
         </aside>
       </section>
 
-      <!-- 13. UYARI -->
+      <!-- 14. UYARI -->
       <section>
         <span class="etiket kiremit">Dikkat</span>
         <h2>Çok kaynak ≠ doğru rapor</h2>
@@ -278,7 +306,7 @@
         </aside>
       </section>
 
-      <!-- 14. VURGU -->
+      <!-- 15. VURGU -->
       <section class="vurgu">
         <p class="buyuk">Belgeniz sizin kanıtınız; dipnot onun anahtarı.</p>
         <p class="fragment">Satırını gösteremeyen cevap, henüz cevap değildir.</p>
@@ -289,7 +317,7 @@
         </aside>
       </section>
 
-      <!-- 15. KAYNAKLAR -->
+      <!-- 16. KAYNAKLAR -->
       <section>
         <h3>Kaynaklar</h3>
         <ul class="kaynaklar">
@@ -301,8 +329,9 @@
           <li><a href="https://arxiv.org/pdf/2509.04499">DeepTRACE: derin araştırma denetimi</a> — arXiv, Eylül 2025</li>
           <li><a href="https://workspaceupdates.googleblog.com/2026/09/new-back-to-school-features-and-learning-tools-available-in-Gemini-Notebook.html">Mobilde ses kaydı ve sesli sohbet</a> — Google, Eylül 2026</li>
           <li><a href="https://arxiv.org/abs/2604.03173">Uydurma bağlantılar üzerine çalışma</a> — arXiv, Nisan 2026</li>
+          <li><a href="https://arxiv.org/abs/2509.25498v1">Belgeye dayalı sorularda aşırı özgüven</a> — arXiv, Eylül 2025</li>
         </ul>
-        <p class="kucuk">Ayrıntılı araştırma notu: <a href="../not.html?id=h2-04">anlatıcı notu</a> · Son güncelleme: 31 Ekim 2026</p>
+        <p class="kucuk">Ayrıntılı araştırma notu: <a href="../not.html?id=h2-04">anlatıcı notu</a> · Son güncelleme: 1 Kasım 2026</p>
         <aside class="notes">
           Ne söyle: Kaynaklar burada. Anlatıcı notunda örnek belge önerileri ve derin araştırma demosu için hazır soru var.
           Süre: 15 sn.

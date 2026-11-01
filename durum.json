@@ -1,8 +1,8 @@
 {
   "proje": "Yapay Zekâ Atölyesi — 4 haftalık, haftada 2 saatlik, teknik olmayan katılımcılar için",
   "site": "https://huseyinbuyukdere.github.io/yapay-zeka-atolyesi/",
-  "son_calisma": "2026-11-01T02:12:29Z",
-  "calisma_sayisi": 73,
+  "son_calisma": "2026-11-01T03:31:37Z",
+  "calisma_sayisi": 74,
   "durum_anlamlari": {
     "bekliyor": "Henüz başlanmadı",
     "uretiliyor": "Bir bulut çalışması şu an üzerinde çalışıyor (sahip ve sahip_zamani dolu)",
@@ -197,12 +197,12 @@
         "Derin araştırma (Deep Research) özellikleri: hangi asistanda nasıl, ne zaman kullanılır",
         "Örnek belge önerileri (kişisel veri içermeyen, telif sorunu olmayan)"
       ],
-      "durum": "uretiliyor",
-      "surum": 3,
-      "son_guncelleme": "2026-10-31T01:18:05Z",
-      "sahip": "20261101T0309Z",
-      "sahip_zamani": "2026-11-01T03:09:09Z",
-      "not": "Önceki durum: cilalandi. Aşama 3 (cila): 12 arama, 13 kaynak okundu. 'Belge elimde mi? Konu geniş mi?' karar ağacı SVG'si (2. SVG), kapak vaadi ve vaadi kapatan kapanış ('Satırını gösteremeyen cevap, henüz cevap değildir'), 'Telefonda ses' kartı (Eylül 2026 ses kaydedici ve sesli sohbet; 27 Ekim geniş açılış, 1 saat), @Gemini Notebook'un Türkiye'de varsayılan açık olduğu (23 Ekim duyurusu), Ultra katsayıları, Perplexity satırı güncellendi; 3 yeni SSS. Türkçe ses kaydının metne dökülmesi doğrulanamadı; Claude fiyat sayfası bu turda açılamadı (bağımsız kaynakla teyit)."
+      "durum": "cilalandi",
+      "surum": 4,
+      "son_guncelleme": "2026-11-01T03:31:37Z",
+      "sahip": null,
+      "sahip_zamani": null,
+      "not": "Aşama 4 ekstra 5 (en kısa notlu ve en az kaynaklı konu, aşama 2 yeniden): 13 arama, 12 sayfa okundu. Yeni 8. slayt: 'Belgeye bağlı araç da yanılır mı?' tahmin oyunu ve çubuk grafik SVG'si (Hagar ve ark. 2025: genel asistanlar %40, NotebookLM %13, en sık hata yorum abartısı); ChatGPT derin araştırma satırı düzeltildi (30 günlük yenilenme, resmî sayfa açılamadı); Ekim 2026 yönlendirmeli slayt yayılımı ve Classroom öğretmen özetleri; KVKK 15 soruluk rehber; 4 yeni SSS, 7 yeni kaynak; akış süreleri yeniden dağıtıldı."
     },
     {
       "id": "h2-05",
@@ -415,10 +415,6 @@
     }
   ],
   "gunluk": [
-    {
-      "zaman": "2026-10-29T17:34:21Z",
-      "ozet": "h4-03: Meslek istasyonları taslağı yayımlandı (13 arama, 12 kaynak okundu)."
-    },
     {
       "zaman": "2026-10-29T19:22:52Z",
       "ozet": "h4-05: Final sunumları ve öğrenmeye devam taslağı yayımlandı (14 arama, 15 kaynak okundu)."
@@ -654,6 +650,10 @@
     {
       "zaman": "2026-11-01T02:12:29Z",
       "ozet": "h3-04: Aşama 4 ekstra 5 ile yeniden gözden geçirildi (14 arama, 13 sayfa); Suno 7 indirme kuralı resmî kaynakla düzeltildi, Adobe Express yedeği, fikir benzeşmesi kuralı ve P&G ekip deneyi, 4 yeni SSS, 7 yeni kaynak."
+    },
+    {
+      "zaman": "2026-11-01T03:31:37Z",
+      "ozet": "h2-04: Aşama 4 ekstra 5 ile yeniden gözden geçirildi (13 arama, 12 sayfa); belgeye bağlı aracın da yanıldığını gösteren tahmin slaytı (%40'a karşı %13), ChatGPT derin araştırma yenilenme kuralı, Classroom ve KVKK rehberi, 4 yeni SSS, 7 yeni kaynak."
     }
   ]
 }
