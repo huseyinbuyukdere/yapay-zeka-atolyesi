@@ -178,12 +178,12 @@
         "Halüsinasyon avı: asistanın uydurma bilgi verdiği tipik durumlar ve kaynakla doğrulama",
         "Doğrulama alışkanlığı kontrol listesi"
       ],
-      "durum": "cilalandi",
+      "durum": "uretiliyor",
       "surum": 3,
       "son_guncelleme": "2026-10-31T00:21:43Z",
-      "sahip": null,
-      "sahip_zamani": null,
-      "not": "Aşama 3 cila: 'Neden uydurur?' sınav benzetmesi slaytı ve SVG'si (OpenAI 2025 makalesi), kapak vaadi, ChatGPT ücretsiz sınırsız metin sohbeti (Ağu 2026), Perplexity 3 Pro arama/gün, mahkeme vakaları Ekim 2026 (2.223 dünya, AI Vortex) güncellendi; 2 yeni SSS, 5 yeni kaynak."
+      "sahip": "20261101T0408Z",
+      "sahip_zamani": "2026-11-01T04:08:55Z",
+      "not": "Önceki durum: cilalandi. Aşama 4 ekstra 5 (aşama 2 yeniden) sürüyor. Aşama 3 cila: 'Neden uydurur?' sınav benzetmesi slaytı ve SVG'si (OpenAI 2025 makalesi), kapak vaadi, ChatGPT ücretsiz sınırsız metin sohbeti (Ağu 2026), Perplexity 3 Pro arama/gün, mahkeme vakaları Ekim 2026 (2.223 dünya, AI Vortex) güncellendi; 2 yeni SSS, 5 yeni kaynak."
     },
     {
       "id": "h2-04",
